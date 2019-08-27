@@ -24,6 +24,7 @@
 @left = [ @c_left @sv_left @v_left ];
 @right = [ @c_right @sv_right @v_right ];
 
+@c_nl = [ @consonant @c_left ];
 @v_cl = [ @v_left @v_center ];
 
 languagesystem DFLT dflt;
@@ -53,6 +54,7 @@ lookup diphthongs {
 
 lookup Cleft {
   lookupflag 0;
+  ignore sub @consonant @vowel @consonant @consonant';
   sub py ly' by ly.left;
   sub py ry' by ry.left;
   sub fy ly' by ly.left;
@@ -113,7 +115,9 @@ lookup Cleft {
 
 lookup Vcenter {
   lookupflag 0;
+  ignore sub @c_left @vowel';
   ignore sub @consonant @vowel' @consonant @consonant;
+  ignore sub @consonant @vowel' @consonant;
   sub @consonant abu' by abu.center;
   sub @consonant ebu' by ebu.center;
   sub @consonant ibu' by ibu.center;
@@ -128,17 +132,35 @@ lookup Vcenter {
 
 lookup Vleft {
   lookupflag 0;
-  sub @consonant abu' @consonant @consonant by abu.left;
-  sub @consonant ebu' @consonant @consonant by ebu.left;
-  sub @consonant ibu' @consonant @consonant by ibu.left;
-  sub @consonant obu' @consonant @consonant by obu.left;
-  sub @consonant ubu' @consonant @consonant by ubu.left;
-  sub @consonant ybu' @consonant @consonant by ybu.left;
-  sub @consonant aibu' @consonant @consonant by aibu.left;
-  sub @consonant eibu' @consonant @consonant by eibu.left;
-  sub @consonant oibu' @consonant @consonant by oibu.left;
-  sub @consonant aubu' @consonant @consonant by aubu.left;
+  ignore sub @consonant @vowel' @consonant @vowel;
+  ignore sub @consonant @vowel' @consonant @v_center;
+  ignore sub @vowel @consonant @vowel';
+  ignore sub @v_center @consonant @vowel';
+  sub @consonant abu' by abu.left;
+  sub @consonant ebu' by ebu.left;
+  sub @consonant ibu' by ibu.left;
+  sub @consonant obu' by obu.left;
+  sub @consonant ubu' by ubu.left;
+  sub @consonant ybu' by ybu.left;
+  sub @consonant aibu' by aibu.left;
+  sub @consonant eibu' by eibu.left;
+  sub @consonant oibu' by oibu.left;
+  sub @consonant aubu' by aubu.left;
 } Vleft;
+
+lookup Vcenter2 {
+  lookupflag 0;
+  sub @consonant abu' by abu.center;
+  sub @consonant ebu' by ebu.center;
+  sub @consonant ibu' by ibu.center;
+  sub @consonant obu' by obu.center;
+  sub @consonant ubu' by ubu.center;
+  sub @consonant ybu' by ybu.center;
+  sub @consonant aibu' by aibu.center;
+  sub @consonant eibu' by eibu.center;
+  sub @consonant oibu' by oibu.center;
+  sub @consonant aubu' by aubu.center;
+} Vcenter2;
 
 lookup Vright {
   lookupflag 0;
@@ -156,29 +178,27 @@ lookup Vright {
 
 lookup Cright {
   lookupflag 0;
-  sub @consonant @v_left my' @consonant by my.right;
-  sub @consonant @v_left py' @consonant by py.right;
-  sub @consonant @v_left \by' @consonant by \by.right;
-  sub @consonant @v_left fy' @consonant by fy.right;
-  sub @consonant @v_left vy' @consonant by vy.right;
-  sub @consonant @v_left ky' @consonant by ky.right;
-  sub @consonant @v_left cy' @consonant by cy.right;
-  sub @consonant @v_left xy' @consonant by xy.right;
-  sub @consonant @v_left iy' @consonant by iy.right;
-  sub @consonant @v_left ry' @consonant by ry.right;
-  sub @consonant @v_left ny' @consonant by ny.right;
-  sub @consonant @v_left ty' @consonant by ty.right;
-  sub @consonant @v_left dy' @consonant by dy.right;
-  sub @consonant @v_left sy' @consonant by sy.right;
-  sub @consonant @v_left zy' @consonant by zy.right;
-  sub @consonant @v_left gy' @consonant by gy.right;
-  sub @consonant @v_left jy' @consonant by jy.right;
-  sub @consonant @v_left yhy' @consonant by yhy.right;
-  sub @consonant @v_left uy' @consonant by uy.right;
-  sub @consonant @v_left ly' @consonant by ly.right;
+  sub @consonant @v_left my' by my.right;
+  sub @consonant @v_left py' by py.right;
+  sub @consonant @v_left \by' by \by.right;
+  sub @consonant @v_left fy' by fy.right;
+  sub @consonant @v_left vy' by vy.right;
+  sub @consonant @v_left ky' by ky.right;
+  sub @consonant @v_left cy' by cy.right;
+  sub @consonant @v_left xy' by xy.right;
+  sub @consonant @v_left iy' by iy.right;
+  sub @consonant @v_left ry' by ry.right;
+  sub @consonant @v_left ny' by ny.right;
+  sub @consonant @v_left ty' by ty.right;
+  sub @consonant @v_left dy' by dy.right;
+  sub @consonant @v_left sy' by sy.right;
+  sub @consonant @v_left zy' by zy.right;
+  sub @consonant @v_left gy' by gy.right;
+  sub @consonant @v_left jy' by jy.right;
+  sub @consonant @v_left yhy' by yhy.right;
+  sub @consonant @v_left uy' by uy.right;
+  sub @consonant @v_left ly' by ly.right;
 } Cright;
-
-# sub 2 .centers for left/right
 
 feature liga {
   script DFLT;
@@ -188,6 +208,7 @@ feature liga {
     lookup Cleft;
     lookup Vcenter;
     lookup Vleft;
+    lookup Vcenter2;
     lookup Vright;
     lookup Cright;
   script latn;
@@ -197,6 +218,7 @@ feature liga {
     lookup Cleft;
     lookup Vcenter;
     lookup Vleft;
+    lookup Vcenter2;
     lookup Vright;
     lookup Cright;
 } liga;

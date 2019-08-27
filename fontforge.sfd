@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1566577596
-ModificationTime: 1566929501
+ModificationTime: 1566934417
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -40,7 +40,7 @@ Lookup: 6 0 0 "semivowels" { "semivowels contextual 0"  "semivowels contextual 1
 Lookup: 1 0 0 "Single Substitution lookup 1" { "Single Substitution lookup 1 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 2" { "Single Substitution lookup 2 subtable"  } []
 Lookup: 4 0 1 "diphthongs" { "diphthongs subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "Cleft" { "Cleft contextual 0"  "Cleft contextual 1"  "Cleft contextual 2"  "Cleft contextual 3"  "Cleft contextual 4"  "Cleft contextual 5"  "Cleft contextual 6"  "Cleft contextual 7"  "Cleft contextual 8"  "Cleft contextual 9"  "Cleft contextual 10"  "Cleft contextual 11"  "Cleft contextual 12"  "Cleft contextual 13"  "Cleft contextual 14"  "Cleft contextual 15"  "Cleft contextual 16"  "Cleft contextual 17"  "Cleft contextual 18"  "Cleft contextual 19"  "Cleft contextual 20"  "Cleft contextual 21"  "Cleft contextual 22"  "Cleft contextual 23"  "Cleft contextual 24"  "Cleft contextual 25"  "Cleft contextual 26"  "Cleft contextual 27"  "Cleft contextual 28"  "Cleft contextual 29"  "Cleft contextual 30"  "Cleft contextual 31"  "Cleft contextual 32"  "Cleft contextual 33"  "Cleft contextual 34"  "Cleft contextual 35"  "Cleft contextual 36"  "Cleft contextual 37"  "Cleft contextual 38"  "Cleft contextual 39"  "Cleft contextual 40"  "Cleft contextual 41"  "Cleft contextual 42"  "Cleft contextual 43"  "Cleft contextual 44"  "Cleft contextual 45"  "Cleft contextual 46"  "Cleft contextual 47"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "Cleft" { "Cleft contextual 0"  "Cleft contextual 1"  "Cleft contextual 2"  "Cleft contextual 3"  "Cleft contextual 4"  "Cleft contextual 5"  "Cleft contextual 6"  "Cleft contextual 7"  "Cleft contextual 8"  "Cleft contextual 9"  "Cleft contextual 10"  "Cleft contextual 11"  "Cleft contextual 12"  "Cleft contextual 13"  "Cleft contextual 14"  "Cleft contextual 15"  "Cleft contextual 16"  "Cleft contextual 17"  "Cleft contextual 18"  "Cleft contextual 19"  "Cleft contextual 20"  "Cleft contextual 21"  "Cleft contextual 22"  "Cleft contextual 23"  "Cleft contextual 24"  "Cleft contextual 25"  "Cleft contextual 26"  "Cleft contextual 27"  "Cleft contextual 28"  "Cleft contextual 29"  "Cleft contextual 30"  "Cleft contextual 31"  "Cleft contextual 32"  "Cleft contextual 33"  "Cleft contextual 34"  "Cleft contextual 35"  "Cleft contextual 36"  "Cleft contextual 37"  "Cleft contextual 38"  "Cleft contextual 39"  "Cleft contextual 40"  "Cleft contextual 41"  "Cleft contextual 42"  "Cleft contextual 43"  "Cleft contextual 44"  "Cleft contextual 45"  "Cleft contextual 46"  "Cleft contextual 47"  "Cleft contextual 48"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7 subtable"  } []
@@ -89,7 +89,7 @@ Lookup: 1 0 0 "Single Substitution lookup 49" { "Single Substitution lookup 49 s
 Lookup: 1 0 0 "Single Substitution lookup 50" { "Single Substitution lookup 50 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 51" { "Single Substitution lookup 51 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 52" { "Single Substitution lookup 52 subtable"  } []
-Lookup: 6 0 0 "Vcenter" { "Vcenter contextual 0"  "Vcenter contextual 1"  "Vcenter contextual 2"  "Vcenter contextual 3"  "Vcenter contextual 4"  "Vcenter contextual 5"  "Vcenter contextual 6"  "Vcenter contextual 7"  "Vcenter contextual 8"  "Vcenter contextual 9"  "Vcenter contextual 10"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "Vcenter" { "Vcenter contextual 0"  "Vcenter contextual 1"  "Vcenter contextual 2"  "Vcenter contextual 3"  "Vcenter contextual 4"  "Vcenter contextual 5"  "Vcenter contextual 6"  "Vcenter contextual 7"  "Vcenter contextual 8"  "Vcenter contextual 9"  "Vcenter contextual 10"  "Vcenter contextual 11"  "Vcenter contextual 12"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 54" { "Single Substitution lookup 54 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 55" { "Single Substitution lookup 55 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 56" { "Single Substitution lookup 56 subtable"  } []
@@ -100,7 +100,7 @@ Lookup: 1 0 0 "Single Substitution lookup 60" { "Single Substitution lookup 60 s
 Lookup: 1 0 0 "Single Substitution lookup 61" { "Single Substitution lookup 61 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 62" { "Single Substitution lookup 62 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 63" { "Single Substitution lookup 63 subtable"  } []
-Lookup: 6 0 0 "Vleft" { "Vleft contextual 0"  "Vleft contextual 1"  "Vleft contextual 2"  "Vleft contextual 3"  "Vleft contextual 4"  "Vleft contextual 5"  "Vleft contextual 6"  "Vleft contextual 7"  "Vleft contextual 8"  "Vleft contextual 9"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "Vleft" { "Vleft contextual 0"  "Vleft contextual 1"  "Vleft contextual 2"  "Vleft contextual 3"  "Vleft contextual 4"  "Vleft contextual 5"  "Vleft contextual 6"  "Vleft contextual 7"  "Vleft contextual 8"  "Vleft contextual 9"  "Vleft contextual 10"  "Vleft contextual 11"  "Vleft contextual 12"  "Vleft contextual 13"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 65" { "Single Substitution lookup 65 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 66" { "Single Substitution lookup 66 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 67" { "Single Substitution lookup 67 subtable"  } []
@@ -111,7 +111,7 @@ Lookup: 1 0 0 "Single Substitution lookup 71" { "Single Substitution lookup 71 s
 Lookup: 1 0 0 "Single Substitution lookup 72" { "Single Substitution lookup 72 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 73" { "Single Substitution lookup 73 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 74" { "Single Substitution lookup 74 subtable"  } []
-Lookup: 6 0 0 "Vright" { "Vright contextual 0"  "Vright contextual 1"  "Vright contextual 2"  "Vright contextual 3"  "Vright contextual 4"  "Vright contextual 5"  "Vright contextual 6"  "Vright contextual 7"  "Vright contextual 8"  "Vright contextual 9"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "Vcenter2" { "Vcenter2 contextual 0"  "Vcenter2 contextual 1"  "Vcenter2 contextual 2"  "Vcenter2 contextual 3"  "Vcenter2 contextual 4"  "Vcenter2 contextual 5"  "Vcenter2 contextual 6"  "Vcenter2 contextual 7"  "Vcenter2 contextual 8"  "Vcenter2 contextual 9"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 76" { "Single Substitution lookup 76 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 77" { "Single Substitution lookup 77 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 78" { "Single Substitution lookup 78 subtable"  } []
@@ -122,7 +122,7 @@ Lookup: 1 0 0 "Single Substitution lookup 82" { "Single Substitution lookup 82 s
 Lookup: 1 0 0 "Single Substitution lookup 83" { "Single Substitution lookup 83 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 84" { "Single Substitution lookup 84 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 85" { "Single Substitution lookup 85 subtable"  } []
-Lookup: 6 0 0 "Cright" { "Cright contextual 0"  "Cright contextual 1"  "Cright contextual 2"  "Cright contextual 3"  "Cright contextual 4"  "Cright contextual 5"  "Cright contextual 6"  "Cright contextual 7"  "Cright contextual 8"  "Cright contextual 9"  "Cright contextual 10"  "Cright contextual 11"  "Cright contextual 12"  "Cright contextual 13"  "Cright contextual 14"  "Cright contextual 15"  "Cright contextual 16"  "Cright contextual 17"  "Cright contextual 18"  "Cright contextual 19"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "Vright" { "Vright contextual 0"  "Vright contextual 1"  "Vright contextual 2"  "Vright contextual 3"  "Vright contextual 4"  "Vright contextual 5"  "Vright contextual 6"  "Vright contextual 7"  "Vright contextual 8"  "Vright contextual 9"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 87" { "Single Substitution lookup 87 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 88" { "Single Substitution lookup 88 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 89" { "Single Substitution lookup 89 subtable"  } []
@@ -133,7 +133,7 @@ Lookup: 1 0 0 "Single Substitution lookup 93" { "Single Substitution lookup 93 s
 Lookup: 1 0 0 "Single Substitution lookup 94" { "Single Substitution lookup 94 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 95" { "Single Substitution lookup 95 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 96" { "Single Substitution lookup 96 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 97" { "Single Substitution lookup 97 subtable"  } []
+Lookup: 6 0 0 "Cright" { "Cright contextual 0"  "Cright contextual 1"  "Cright contextual 2"  "Cright contextual 3"  "Cright contextual 4"  "Cright contextual 5"  "Cright contextual 6"  "Cright contextual 7"  "Cright contextual 8"  "Cright contextual 9"  "Cright contextual 10"  "Cright contextual 11"  "Cright contextual 12"  "Cright contextual 13"  "Cright contextual 14"  "Cright contextual 15"  "Cright contextual 16"  "Cright contextual 17"  "Cright contextual 18"  "Cright contextual 19"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 98" { "Single Substitution lookup 98 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 99" { "Single Substitution lookup 99 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 100" { "Single Substitution lookup 100 subtable"  } []
@@ -143,420 +143,498 @@ Lookup: 1 0 0 "Single Substitution lookup 103" { "Single Substitution lookup 103
 Lookup: 1 0 0 "Single Substitution lookup 104" { "Single Substitution lookup 104 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 105" { "Single Substitution lookup 105 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 106" { "Single Substitution lookup 106 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 107" { "Single Substitution lookup 107 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 108" { "Single Substitution lookup 108 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 109" { "Single Substitution lookup 109 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 110" { "Single Substitution lookup 110 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 111" { "Single Substitution lookup 111 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 112" { "Single Substitution lookup 112 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 113" { "Single Substitution lookup 113 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 114" { "Single Substitution lookup 114 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 115" { "Single Substitution lookup 115 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 116" { "Single Substitution lookup 116 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 117" { "Single Substitution lookup 117 subtable"  } []
 Lookup: 260 0 0 "Above" { "Above-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'ROM ' 'TRK ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "Cright contextual 19" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 ly
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 106"
+  SeqLookup: 0 "Single Substitution lookup 117"
 EndFPST
 ChainSub2: coverage "Cright contextual 18" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 uy
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 105"
+  SeqLookup: 0 "Single Substitution lookup 116"
 EndFPST
 ChainSub2: coverage "Cright contextual 17" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 3 yhy
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 104"
+  SeqLookup: 0 "Single Substitution lookup 115"
 EndFPST
 ChainSub2: coverage "Cright contextual 16" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 jy
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 103"
+  SeqLookup: 0 "Single Substitution lookup 114"
 EndFPST
 ChainSub2: coverage "Cright contextual 15" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 gy
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 102"
+  SeqLookup: 0 "Single Substitution lookup 113"
 EndFPST
 ChainSub2: coverage "Cright contextual 14" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 zy
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 101"
+  SeqLookup: 0 "Single Substitution lookup 112"
 EndFPST
 ChainSub2: coverage "Cright contextual 13" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 sy
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 100"
+  SeqLookup: 0 "Single Substitution lookup 111"
 EndFPST
 ChainSub2: coverage "Cright contextual 12" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 dy
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 99"
+  SeqLookup: 0 "Single Substitution lookup 110"
 EndFPST
 ChainSub2: coverage "Cright contextual 11" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 ty
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 98"
+  SeqLookup: 0 "Single Substitution lookup 109"
 EndFPST
 ChainSub2: coverage "Cright contextual 10" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 ny
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 97"
+  SeqLookup: 0 "Single Substitution lookup 108"
 EndFPST
 ChainSub2: coverage "Cright contextual 9" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 ry
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 96"
+  SeqLookup: 0 "Single Substitution lookup 107"
 EndFPST
 ChainSub2: coverage "Cright contextual 8" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 iy
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 95"
+  SeqLookup: 0 "Single Substitution lookup 106"
 EndFPST
 ChainSub2: coverage "Cright contextual 7" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 xy
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 94"
+  SeqLookup: 0 "Single Substitution lookup 105"
 EndFPST
 ChainSub2: coverage "Cright contextual 6" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 cy
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 93"
+  SeqLookup: 0 "Single Substitution lookup 104"
 EndFPST
 ChainSub2: coverage "Cright contextual 5" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 ky
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 92"
+  SeqLookup: 0 "Single Substitution lookup 103"
 EndFPST
 ChainSub2: coverage "Cright contextual 4" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 vy
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 91"
+  SeqLookup: 0 "Single Substitution lookup 102"
 EndFPST
 ChainSub2: coverage "Cright contextual 3" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 fy
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 90"
+  SeqLookup: 0 "Single Substitution lookup 101"
 EndFPST
 ChainSub2: coverage "Cright contextual 2" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 by
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 89"
+  SeqLookup: 0 "Single Substitution lookup 100"
 EndFPST
 ChainSub2: coverage "Cright contextual 1" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 py
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 88"
+  SeqLookup: 0 "Single Substitution lookup 99"
 EndFPST
 ChainSub2: coverage "Cright contextual 0" 0 0 0 1
- 1 2 1
+ 1 2 0
   Coverage: 2 my
   BCoverage: 93 abu.left ebu.left ibu.left obu.left ubu.left ybu.left aibu.left eibu.left oibu.left aubu.left
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 87"
+  SeqLookup: 0 "Single Substitution lookup 98"
 EndFPST
 ChainSub2: coverage "Vright contextual 9" 0 0 0 1
  1 1 0
   Coverage: 4 aubu
   BCoverage: 160 py.left ty.left ky.left fy.left ly.left sy.left cy.left my.left xy.left by.left dy.left gy.left vy.left ry.left zy.left jy.left ny.left yhy.left iy.left uy.left
  1
-  SeqLookup: 0 "Single Substitution lookup 85"
+  SeqLookup: 0 "Single Substitution lookup 96"
 EndFPST
 ChainSub2: coverage "Vright contextual 8" 0 0 0 1
  1 1 0
   Coverage: 4 oibu
   BCoverage: 160 py.left ty.left ky.left fy.left ly.left sy.left cy.left my.left xy.left by.left dy.left gy.left vy.left ry.left zy.left jy.left ny.left yhy.left iy.left uy.left
  1
-  SeqLookup: 0 "Single Substitution lookup 84"
+  SeqLookup: 0 "Single Substitution lookup 95"
 EndFPST
 ChainSub2: coverage "Vright contextual 7" 0 0 0 1
  1 1 0
   Coverage: 4 eibu
   BCoverage: 160 py.left ty.left ky.left fy.left ly.left sy.left cy.left my.left xy.left by.left dy.left gy.left vy.left ry.left zy.left jy.left ny.left yhy.left iy.left uy.left
  1
-  SeqLookup: 0 "Single Substitution lookup 83"
+  SeqLookup: 0 "Single Substitution lookup 94"
 EndFPST
 ChainSub2: coverage "Vright contextual 6" 0 0 0 1
  1 1 0
   Coverage: 4 aibu
   BCoverage: 160 py.left ty.left ky.left fy.left ly.left sy.left cy.left my.left xy.left by.left dy.left gy.left vy.left ry.left zy.left jy.left ny.left yhy.left iy.left uy.left
  1
-  SeqLookup: 0 "Single Substitution lookup 82"
+  SeqLookup: 0 "Single Substitution lookup 93"
 EndFPST
 ChainSub2: coverage "Vright contextual 5" 0 0 0 1
  1 1 0
   Coverage: 3 ybu
   BCoverage: 160 py.left ty.left ky.left fy.left ly.left sy.left cy.left my.left xy.left by.left dy.left gy.left vy.left ry.left zy.left jy.left ny.left yhy.left iy.left uy.left
  1
-  SeqLookup: 0 "Single Substitution lookup 81"
+  SeqLookup: 0 "Single Substitution lookup 92"
 EndFPST
 ChainSub2: coverage "Vright contextual 4" 0 0 0 1
  1 1 0
   Coverage: 3 ubu
   BCoverage: 160 py.left ty.left ky.left fy.left ly.left sy.left cy.left my.left xy.left by.left dy.left gy.left vy.left ry.left zy.left jy.left ny.left yhy.left iy.left uy.left
  1
-  SeqLookup: 0 "Single Substitution lookup 80"
+  SeqLookup: 0 "Single Substitution lookup 91"
 EndFPST
 ChainSub2: coverage "Vright contextual 3" 0 0 0 1
  1 1 0
   Coverage: 3 obu
   BCoverage: 160 py.left ty.left ky.left fy.left ly.left sy.left cy.left my.left xy.left by.left dy.left gy.left vy.left ry.left zy.left jy.left ny.left yhy.left iy.left uy.left
  1
-  SeqLookup: 0 "Single Substitution lookup 79"
+  SeqLookup: 0 "Single Substitution lookup 90"
 EndFPST
 ChainSub2: coverage "Vright contextual 2" 0 0 0 1
  1 1 0
   Coverage: 3 ibu
   BCoverage: 160 py.left ty.left ky.left fy.left ly.left sy.left cy.left my.left xy.left by.left dy.left gy.left vy.left ry.left zy.left jy.left ny.left yhy.left iy.left uy.left
  1
-  SeqLookup: 0 "Single Substitution lookup 78"
+  SeqLookup: 0 "Single Substitution lookup 89"
 EndFPST
 ChainSub2: coverage "Vright contextual 1" 0 0 0 1
  1 1 0
   Coverage: 3 ebu
   BCoverage: 160 py.left ty.left ky.left fy.left ly.left sy.left cy.left my.left xy.left by.left dy.left gy.left vy.left ry.left zy.left jy.left ny.left yhy.left iy.left uy.left
  1
-  SeqLookup: 0 "Single Substitution lookup 77"
+  SeqLookup: 0 "Single Substitution lookup 88"
 EndFPST
 ChainSub2: coverage "Vright contextual 0" 0 0 0 1
  1 1 0
   Coverage: 3 abu
   BCoverage: 160 py.left ty.left ky.left fy.left ly.left sy.left cy.left my.left xy.left by.left dy.left gy.left vy.left ry.left zy.left jy.left ny.left yhy.left iy.left uy.left
  1
-  SeqLookup: 0 "Single Substitution lookup 76"
+  SeqLookup: 0 "Single Substitution lookup 87"
 EndFPST
-ChainSub2: coverage "Vleft contextual 9" 0 0 0 1
- 1 1 2
+ChainSub2: coverage "Vcenter2 contextual 9" 0 0 0 1
+ 1 1 0
   Coverage: 4 aubu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+ 1
+  SeqLookup: 0 "Single Substitution lookup 85"
+EndFPST
+ChainSub2: coverage "Vcenter2 contextual 8" 0 0 0 1
+ 1 1 0
+  Coverage: 4 oibu
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+ 1
+  SeqLookup: 0 "Single Substitution lookup 84"
+EndFPST
+ChainSub2: coverage "Vcenter2 contextual 7" 0 0 0 1
+ 1 1 0
+  Coverage: 4 eibu
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+ 1
+  SeqLookup: 0 "Single Substitution lookup 83"
+EndFPST
+ChainSub2: coverage "Vcenter2 contextual 6" 0 0 0 1
+ 1 1 0
+  Coverage: 4 aibu
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+ 1
+  SeqLookup: 0 "Single Substitution lookup 82"
+EndFPST
+ChainSub2: coverage "Vcenter2 contextual 5" 0 0 0 1
+ 1 1 0
+  Coverage: 3 ybu
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+ 1
+  SeqLookup: 0 "Single Substitution lookup 81"
+EndFPST
+ChainSub2: coverage "Vcenter2 contextual 4" 0 0 0 1
+ 1 1 0
+  Coverage: 3 ubu
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+ 1
+  SeqLookup: 0 "Single Substitution lookup 80"
+EndFPST
+ChainSub2: coverage "Vcenter2 contextual 3" 0 0 0 1
+ 1 1 0
+  Coverage: 3 obu
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+ 1
+  SeqLookup: 0 "Single Substitution lookup 79"
+EndFPST
+ChainSub2: coverage "Vcenter2 contextual 2" 0 0 0 1
+ 1 1 0
+  Coverage: 3 ibu
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+ 1
+  SeqLookup: 0 "Single Substitution lookup 78"
+EndFPST
+ChainSub2: coverage "Vcenter2 contextual 1" 0 0 0 1
+ 1 1 0
+  Coverage: 3 ebu
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+ 1
+  SeqLookup: 0 "Single Substitution lookup 77"
+EndFPST
+ChainSub2: coverage "Vcenter2 contextual 0" 0 0 0 1
+ 1 1 0
+  Coverage: 3 abu
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+ 1
+  SeqLookup: 0 "Single Substitution lookup 76"
+EndFPST
+ChainSub2: coverage "Vleft contextual 13" 0 0 0 1
+ 1 1 0
+  Coverage: 4 aubu
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 74"
 EndFPST
-ChainSub2: coverage "Vleft contextual 8" 0 0 0 1
- 1 1 2
+ChainSub2: coverage "Vleft contextual 12" 0 0 0 1
+ 1 1 0
   Coverage: 4 oibu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 73"
 EndFPST
-ChainSub2: coverage "Vleft contextual 7" 0 0 0 1
- 1 1 2
+ChainSub2: coverage "Vleft contextual 11" 0 0 0 1
+ 1 1 0
   Coverage: 4 eibu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 72"
 EndFPST
-ChainSub2: coverage "Vleft contextual 6" 0 0 0 1
- 1 1 2
+ChainSub2: coverage "Vleft contextual 10" 0 0 0 1
+ 1 1 0
   Coverage: 4 aibu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 71"
 EndFPST
-ChainSub2: coverage "Vleft contextual 5" 0 0 0 1
- 1 1 2
+ChainSub2: coverage "Vleft contextual 9" 0 0 0 1
+ 1 1 0
   Coverage: 3 ybu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 70"
 EndFPST
-ChainSub2: coverage "Vleft contextual 4" 0 0 0 1
- 1 1 2
+ChainSub2: coverage "Vleft contextual 8" 0 0 0 1
+ 1 1 0
   Coverage: 3 ubu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 69"
 EndFPST
-ChainSub2: coverage "Vleft contextual 3" 0 0 0 1
- 1 1 2
+ChainSub2: coverage "Vleft contextual 7" 0 0 0 1
+ 1 1 0
   Coverage: 3 obu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 68"
 EndFPST
-ChainSub2: coverage "Vleft contextual 2" 0 0 0 1
- 1 1 2
+ChainSub2: coverage "Vleft contextual 6" 0 0 0 1
+ 1 1 0
   Coverage: 3 ibu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 67"
 EndFPST
-ChainSub2: coverage "Vleft contextual 1" 0 0 0 1
- 1 1 2
+ChainSub2: coverage "Vleft contextual 5" 0 0 0 1
+ 1 1 0
   Coverage: 3 ebu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 66"
 EndFPST
-ChainSub2: coverage "Vleft contextual 0" 0 0 0 1
- 1 1 2
+ChainSub2: coverage "Vleft contextual 4" 0 0 0 1
+ 1 1 0
   Coverage: 3 abu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 65"
 EndFPST
-ChainSub2: coverage "Vcenter contextual 10" 0 0 0 1
+ChainSub2: coverage "Vleft contextual 3" 0 0 0 1
+ 1 2 0
+  Coverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+  BCoverage: 113 abu.center ebu.center ibu.center obu.center ubu.center ybu.center aibu.center eibu.center oibu.center aubu.center
+ 0
+EndFPST
+ChainSub2: coverage "Vleft contextual 2" 0 0 0 1
+ 1 2 0
+  Coverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+  BCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+ 0
+EndFPST
+ChainSub2: coverage "Vleft contextual 1" 0 0 0 1
+ 1 1 2
+  Coverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+  FCoverage: 113 abu.center ebu.center ibu.center obu.center ubu.center ybu.center aibu.center eibu.center oibu.center aubu.center
+ 0
+EndFPST
+ChainSub2: coverage "Vleft contextual 0" 0 0 0 1
+ 1 1 2
+  Coverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+ 0
+EndFPST
+ChainSub2: coverage "Vcenter contextual 12" 0 0 0 1
  1 1 0
   Coverage: 4 aubu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 63"
 EndFPST
-ChainSub2: coverage "Vcenter contextual 9" 0 0 0 1
+ChainSub2: coverage "Vcenter contextual 11" 0 0 0 1
  1 1 0
   Coverage: 4 oibu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 62"
 EndFPST
-ChainSub2: coverage "Vcenter contextual 8" 0 0 0 1
+ChainSub2: coverage "Vcenter contextual 10" 0 0 0 1
  1 1 0
   Coverage: 4 eibu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 61"
 EndFPST
-ChainSub2: coverage "Vcenter contextual 7" 0 0 0 1
+ChainSub2: coverage "Vcenter contextual 9" 0 0 0 1
  1 1 0
   Coverage: 4 aibu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 60"
 EndFPST
-ChainSub2: coverage "Vcenter contextual 6" 0 0 0 1
+ChainSub2: coverage "Vcenter contextual 8" 0 0 0 1
  1 1 0
   Coverage: 3 ybu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 59"
 EndFPST
-ChainSub2: coverage "Vcenter contextual 5" 0 0 0 1
+ChainSub2: coverage "Vcenter contextual 7" 0 0 0 1
  1 1 0
   Coverage: 3 ubu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 58"
 EndFPST
-ChainSub2: coverage "Vcenter contextual 4" 0 0 0 1
+ChainSub2: coverage "Vcenter contextual 6" 0 0 0 1
  1 1 0
   Coverage: 3 obu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 57"
 EndFPST
-ChainSub2: coverage "Vcenter contextual 3" 0 0 0 1
+ChainSub2: coverage "Vcenter contextual 5" 0 0 0 1
  1 1 0
   Coverage: 3 ibu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 56"
 EndFPST
-ChainSub2: coverage "Vcenter contextual 2" 0 0 0 1
+ChainSub2: coverage "Vcenter contextual 4" 0 0 0 1
  1 1 0
   Coverage: 3 ebu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 55"
 EndFPST
-ChainSub2: coverage "Vcenter contextual 1" 0 0 0 1
+ChainSub2: coverage "Vcenter contextual 3" 0 0 0 1
  1 1 0
   Coverage: 3 abu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 54"
 EndFPST
-ChainSub2: coverage "Vcenter contextual 0" 0 0 0 1
+ChainSub2: coverage "Vcenter contextual 2" 0 0 0 1
+ 1 1 1
+  Coverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+ 0
+EndFPST
+ChainSub2: coverage "Vcenter contextual 1" 0 0 0 1
  1 1 2
   Coverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
@@ -564,341 +642,355 @@ ChainSub2: coverage "Vcenter contextual 0" 0 0 0 1
   FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  0
 EndFPST
-ChainSub2: glyph "Cleft contextual 47" 0 0 0 1
+ChainSub2: coverage "Vcenter contextual 0" 0 0 0 1
+ 1 1 0
+  Coverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  BCoverage: 160 py.left ty.left ky.left fy.left ly.left sy.left cy.left my.left xy.left by.left dy.left gy.left vy.left ry.left zy.left jy.left ny.left yhy.left iy.left uy.left
+ 0
+EndFPST
+ChainSub2: glyph "Cleft contextual 48" 0 0 0 1
  String: 2 ry
  BString: 2 xy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 52"
 EndFPST
-ChainSub2: glyph "Cleft contextual 46" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 47" 0 0 0 1
  String: 2 ly
  BString: 2 xy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 51"
 EndFPST
-ChainSub2: glyph "Cleft contextual 45" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 46" 0 0 0 1
  String: 2 ry
  BString: 2 my
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 50"
 EndFPST
-ChainSub2: glyph "Cleft contextual 44" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 45" 0 0 0 1
  String: 2 ly
  BString: 2 my
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 49"
 EndFPST
-ChainSub2: glyph "Cleft contextual 43" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 44" 0 0 0 1
  String: 2 ry
  BString: 2 gy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 48"
 EndFPST
-ChainSub2: glyph "Cleft contextual 42" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 43" 0 0 0 1
  String: 2 ly
  BString: 2 gy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 47"
 EndFPST
-ChainSub2: glyph "Cleft contextual 41" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 42" 0 0 0 1
  String: 2 zy
  BString: 2 dy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 46"
 EndFPST
-ChainSub2: glyph "Cleft contextual 40" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 41" 0 0 0 1
  String: 2 ry
  BString: 2 dy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 45"
 EndFPST
-ChainSub2: glyph "Cleft contextual 39" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 40" 0 0 0 1
  String: 2 jy
  BString: 2 dy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 44"
 EndFPST
-ChainSub2: glyph "Cleft contextual 38" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 39" 0 0 0 1
  String: 2 ry
  BString: 2 ky
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 43"
 EndFPST
-ChainSub2: glyph "Cleft contextual 37" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 38" 0 0 0 1
  String: 2 ly
  BString: 2 ky
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 42"
 EndFPST
-ChainSub2: glyph "Cleft contextual 36" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 37" 0 0 0 1
  String: 2 sy
  BString: 2 ty
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 41"
 EndFPST
-ChainSub2: glyph "Cleft contextual 35" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 36" 0 0 0 1
  String: 2 ry
  BString: 2 ty
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 40"
 EndFPST
-ChainSub2: glyph "Cleft contextual 34" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 35" 0 0 0 1
  String: 2 cy
  BString: 2 ty
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 39"
 EndFPST
-ChainSub2: glyph "Cleft contextual 33" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 34" 0 0 0 1
  String: 2 my
  BString: 2 zy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 38"
 EndFPST
-ChainSub2: glyph "Cleft contextual 32" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 33" 0 0 0 1
  String: 2 gy
  BString: 2 zy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 37"
 EndFPST
-ChainSub2: glyph "Cleft contextual 31" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 32" 0 0 0 1
  String: 2 dy
  BString: 2 zy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 36"
 EndFPST
-ChainSub2: glyph "Cleft contextual 30" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 31" 0 0 0 1
  String: 2 vy
  BString: 2 zy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 35"
 EndFPST
-ChainSub2: glyph "Cleft contextual 29" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 30" 0 0 0 1
  String: 2 by
  BString: 2 zy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 34"
 EndFPST
-ChainSub2: glyph "Cleft contextual 28" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 29" 0 0 0 1
  String: 2 ry
  BString: 2 sy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 33"
 EndFPST
-ChainSub2: glyph "Cleft contextual 27" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 28" 0 0 0 1
  String: 2 ly
  BString: 2 sy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 32"
 EndFPST
-ChainSub2: glyph "Cleft contextual 26" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 27" 0 0 0 1
  String: 2 ny
  BString: 2 sy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 31"
 EndFPST
-ChainSub2: glyph "Cleft contextual 25" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 26" 0 0 0 1
  String: 2 my
  BString: 2 sy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 30"
 EndFPST
-ChainSub2: glyph "Cleft contextual 24" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 25" 0 0 0 1
  String: 2 ky
  BString: 2 sy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 29"
 EndFPST
-ChainSub2: glyph "Cleft contextual 23" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 24" 0 0 0 1
  String: 2 ty
  BString: 2 sy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 28"
 EndFPST
-ChainSub2: glyph "Cleft contextual 22" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 23" 0 0 0 1
  String: 2 fy
  BString: 2 sy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 27"
 EndFPST
-ChainSub2: glyph "Cleft contextual 21" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 22" 0 0 0 1
  String: 2 py
  BString: 2 sy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 26"
 EndFPST
-ChainSub2: glyph "Cleft contextual 20" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 21" 0 0 0 1
  String: 2 my
  BString: 2 jy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 25"
 EndFPST
-ChainSub2: glyph "Cleft contextual 19" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 20" 0 0 0 1
  String: 2 gy
  BString: 2 jy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 24"
 EndFPST
-ChainSub2: glyph "Cleft contextual 18" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 19" 0 0 0 1
  String: 2 dy
  BString: 2 jy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 23"
 EndFPST
-ChainSub2: glyph "Cleft contextual 17" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 18" 0 0 0 1
  String: 2 vy
  BString: 2 jy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 22"
 EndFPST
-ChainSub2: glyph "Cleft contextual 16" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 17" 0 0 0 1
  String: 2 by
  BString: 2 jy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 21"
 EndFPST
-ChainSub2: glyph "Cleft contextual 15" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 16" 0 0 0 1
  String: 2 ry
  BString: 2 cy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 20"
 EndFPST
-ChainSub2: glyph "Cleft contextual 14" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 15" 0 0 0 1
  String: 2 ly
  BString: 2 cy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 19"
 EndFPST
-ChainSub2: glyph "Cleft contextual 13" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 14" 0 0 0 1
  String: 2 ny
  BString: 2 cy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 18"
 EndFPST
-ChainSub2: glyph "Cleft contextual 12" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 13" 0 0 0 1
  String: 2 my
  BString: 2 cy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 17"
 EndFPST
-ChainSub2: glyph "Cleft contextual 11" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 12" 0 0 0 1
  String: 2 ky
  BString: 2 cy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 16"
 EndFPST
-ChainSub2: glyph "Cleft contextual 10" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 11" 0 0 0 1
  String: 2 ty
  BString: 2 cy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
-ChainSub2: glyph "Cleft contextual 9" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 10" 0 0 0 1
  String: 2 fy
  BString: 2 cy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 14"
 EndFPST
-ChainSub2: glyph "Cleft contextual 8" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 9" 0 0 0 1
  String: 2 py
  BString: 2 cy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 13"
 EndFPST
-ChainSub2: glyph "Cleft contextual 7" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 8" 0 0 0 1
  String: 2 ry
  BString: 2 vy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 12"
 EndFPST
-ChainSub2: glyph "Cleft contextual 6" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 7" 0 0 0 1
  String: 2 ly
  BString: 2 vy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 11"
 EndFPST
-ChainSub2: glyph "Cleft contextual 5" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 6" 0 0 0 1
  String: 2 ry
  BString: 2 by
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 10"
 EndFPST
-ChainSub2: glyph "Cleft contextual 4" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 5" 0 0 0 1
  String: 2 ly
  BString: 2 by
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 9"
 EndFPST
-ChainSub2: glyph "Cleft contextual 3" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 4" 0 0 0 1
  String: 2 ry
  BString: 2 fy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 8"
 EndFPST
-ChainSub2: glyph "Cleft contextual 2" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 3" 0 0 0 1
  String: 2 ly
  BString: 2 fy
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 7"
 EndFPST
-ChainSub2: glyph "Cleft contextual 1" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 2" 0 0 0 1
  String: 2 ry
  BString: 2 py
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 6"
 EndFPST
-ChainSub2: glyph "Cleft contextual 0" 0 0 0 1
+ChainSub2: glyph "Cleft contextual 1" 0 0 0 1
  String: 2 ly
  BString: 2 py
  FString: 0 
  1
   SeqLookup: 0 "Single Substitution lookup 5"
+EndFPST
+ChainSub2: coverage "Cleft contextual 0" 0 0 0 1
+ 1 3 0
+  Coverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+  BCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+ 0
 EndFPST
 ChainSub2: coverage "semivowels contextual 1" 0 0 0 1
  1 0 1
@@ -949,7 +1041,7 @@ EndSplineSet
 AnchorClass2: "Above" "Above-1"
 BeginChars: 259 129
 
-StartChar: glyph70
+StartChar: space
 Encoding: 204 32 0
 Width: 600
 VWidth: 0
@@ -985,11 +1077,11 @@ SplineSet
  399.130285471 875.456054688 307.19093306 755.223130978 285.274882232 584 c 1
  909.788077057 584 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 17 subtable" my.left
-Substitution2: "Single Substitution lookup 25 subtable" my.left
-Substitution2: "Single Substitution lookup 30 subtable" my.left
+Substitution2: "Single Substitution lookup 98 subtable" my.right
 Substitution2: "Single Substitution lookup 38 subtable" my.left
-Substitution2: "Single Substitution lookup 87 subtable" my.right
+Substitution2: "Single Substitution lookup 30 subtable" my.left
+Substitution2: "Single Substitution lookup 25 subtable" my.left
+Substitution2: "Single Substitution lookup 17 subtable" my.left
 EndChar
 
 StartChar: py
@@ -1022,7 +1114,7 @@ SplineSet
  1032.97949219 224 1047.28710938 218.333007812 1057.38769531 207 c 2
  1120.51269531 142 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 88 subtable" py.right
+Substitution2: "Single Substitution lookup 99 subtable" py.right
 Substitution2: "Single Substitution lookup 26 subtable" py.left
 Substitution2: "Single Substitution lookup 13 subtable" py.left
 EndChar
@@ -1058,7 +1150,7 @@ SplineSet
  171.533203125 774 157.225585938 779.666992188 147.125 791 c 2
  84 856 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 89 subtable" by.right
+Substitution2: "Single Substitution lookup 100 subtable" by.right
 Substitution2: "Single Substitution lookup 34 subtable" by.left
 Substitution2: "Single Substitution lookup 21 subtable" by.left
 EndChar
@@ -1093,7 +1185,7 @@ SplineSet
  854.69140625 921.083984375 860.16796875 935.25 871.120117188 945.25 c 2
  956.8671875 1013.75 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 90 subtable" fy.right
+Substitution2: "Single Substitution lookup 101 subtable" fy.right
 Substitution2: "Single Substitution lookup 27 subtable" fy.left
 Substitution2: "Single Substitution lookup 14 subtable" fy.left
 EndChar
@@ -1128,7 +1220,7 @@ SplineSet
  340.860351562 82.166015625 335.383789062 68 324.431640625 58 c 2
  238.684570312 -10.5 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 91 subtable" vy.right
+Substitution2: "Single Substitution lookup 102 subtable" vy.right
 Substitution2: "Single Substitution lookup 35 subtable" vy.left
 Substitution2: "Single Substitution lookup 22 subtable" vy.left
 EndChar
@@ -1158,7 +1250,7 @@ SplineSet
  1095.5 176.166992188 1099 165.166992188 1099 152.5 c 2
  1099 13.5 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 92 subtable" ky.right
+Substitution2: "Single Substitution lookup 103 subtable" ky.right
 Substitution2: "Single Substitution lookup 29 subtable" ky.left
 Substitution2: "Single Substitution lookup 16 subtable" ky.left
 EndChar
@@ -1186,7 +1278,7 @@ SplineSet
  21.6396484375 1000 l 1
  1175.25976562 1000 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 93 subtable" cy.right
+Substitution2: "Single Substitution lookup 104 subtable" cy.right
 Substitution2: "Single Substitution lookup 39 subtable" cy.left
 EndChar
 
@@ -1216,7 +1308,7 @@ SplineSet
  982.118164062 996.5 994.93359375 1000 1009.69042969 1000 c 2
  1171.625 1000 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 94 subtable" xy.right
+Substitution2: "Single Substitution lookup 105 subtable" xy.right
 EndChar
 
 StartChar: iy
@@ -1240,7 +1332,7 @@ SplineSet
  100 -0.1796875 l 1
  918.540039062 -0.1796875 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 95 subtable" iy.right
+Substitution2: "Single Substitution lookup 106 subtable" iy.right
 EndChar
 
 StartChar: ry
@@ -1277,7 +1369,7 @@ SplineSet
  736.780273438 526 l 1
  1166.33007812 0 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 96 subtable" ry.right
+Substitution2: "Single Substitution lookup 107 subtable" ry.right
 Substitution2: "Single Substitution lookup 52 subtable" ry.left
 Substitution2: "Single Substitution lookup 50 subtable" ry.left
 Substitution2: "Single Substitution lookup 48 subtable" ry.left
@@ -1308,7 +1400,8 @@ SplineSet
  100 446 l 1
  100 626 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 77 subtable" ebu.right
+Substitution2: "Single Substitution lookup 88 subtable" ebu.right
+Substitution2: "Single Substitution lookup 77 subtable" ebu.center
 Substitution2: "Single Substitution lookup 66 subtable" ebu.left
 Substitution2: "Single Substitution lookup 55 subtable" ebu.center
 EndChar
@@ -1330,7 +1423,8 @@ SplineSet
  510 1000 l 1
  700 1000 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 79 subtable" obu.right
+Substitution2: "Single Substitution lookup 90 subtable" obu.right
+Substitution2: "Single Substitution lookup 79 subtable" obu.center
 Substitution2: "Single Substitution lookup 68 subtable" obu.left
 Substitution2: "Single Substitution lookup 57 subtable" obu.center
 EndChar
@@ -1356,7 +1450,8 @@ SplineSet
  100 606 l 1
  100 776 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 78 subtable" ibu.right
+Substitution2: "Single Substitution lookup 89 subtable" ibu.right
+Substitution2: "Single Substitution lookup 78 subtable" ibu.center
 Substitution2: "Single Substitution lookup 67 subtable" ibu.left
 Substitution2: "Single Substitution lookup 56 subtable" ibu.center
 Substitution2: "Single Substitution lookup 1 subtable" iy
@@ -1384,7 +1479,8 @@ SplineSet
  690 999.5 l 1
  870 999.5 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 80 subtable" ubu.right
+Substitution2: "Single Substitution lookup 91 subtable" ubu.right
+Substitution2: "Single Substitution lookup 80 subtable" ubu.center
 Substitution2: "Single Substitution lookup 69 subtable" ubu.left
 Substitution2: "Single Substitution lookup 58 subtable" ubu.center
 Substitution2: "Single Substitution lookup 2 subtable" uy
@@ -1407,7 +1503,8 @@ SplineSet
  787.6796875 407.959960938 704.879882812 330.6796875 604.139648438 330.6796875 c 0
  503.400390625 330.6796875 420.599609375 407.959960938 420.599609375 504.559570312 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 76 subtable" abu.right
+Substitution2: "Single Substitution lookup 87 subtable" abu.right
+Substitution2: "Single Substitution lookup 76 subtable" abu.center
 Substitution2: "Single Substitution lookup 65 subtable" abu.left
 Substitution2: "Single Substitution lookup 54 subtable" abu.center
 EndChar
@@ -1437,7 +1534,8 @@ SplineSet
  100 605 l 1
  513.5 605 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 81 subtable" ybu.right
+Substitution2: "Single Substitution lookup 92 subtable" ybu.right
+Substitution2: "Single Substitution lookup 81 subtable" ybu.center
 Substitution2: "Single Substitution lookup 70 subtable" ybu.left
 Substitution2: "Single Substitution lookup 59 subtable" ybu.center
 EndChar
@@ -1467,7 +1565,7 @@ SplineSet
  84.1279296875 737.561523438 197.551757812 905.125 385.446289062 975.931640625 c 0
  449.298828125 999.994140625 521.178710938 1012.02441406 601.083984375 1012.02441406 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 97 subtable" ny.right
+Substitution2: "Single Substitution lookup 108 subtable" ny.right
 Substitution2: "Single Substitution lookup 31 subtable" ny.left
 Substitution2: "Single Substitution lookup 18 subtable" ny.left
 EndChar
@@ -1500,7 +1598,7 @@ SplineSet
  1032.97949219 224 1047.28710938 218.333007812 1057.38769531 207 c 2
  1120.51269531 142 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 98 subtable" ty.right
+Substitution2: "Single Substitution lookup 109 subtable" ty.right
 Substitution2: "Single Substitution lookup 28 subtable" ty.left
 Substitution2: "Single Substitution lookup 15 subtable" ty.left
 EndChar
@@ -1533,7 +1631,7 @@ SplineSet
  171.533203125 773 157.225585938 778.666992188 147.125 790 c 2
  84 855 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 99 subtable" dy.right
+Substitution2: "Single Substitution lookup 110 subtable" dy.right
 Substitution2: "Single Substitution lookup 36 subtable" dy.left
 Substitution2: "Single Substitution lookup 23 subtable" dy.left
 EndChar
@@ -1566,7 +1664,7 @@ SplineSet
  854.69140625 921.083984375 860.16796875 935.25 871.120117188 945.25 c 2
  956.8671875 1013.75 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 100 subtable" sy.right
+Substitution2: "Single Substitution lookup 111 subtable" sy.right
 Substitution2: "Single Substitution lookup 41 subtable" sy.left
 EndChar
 
@@ -1598,7 +1696,7 @@ SplineSet
  340.860351562 82.166015625 335.383789062 68 324.431640625 58 c 2
  238.684570312 -10.5 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 101 subtable" zy.right
+Substitution2: "Single Substitution lookup 112 subtable" zy.right
 Substitution2: "Single Substitution lookup 46 subtable" zy.left
 EndChar
 
@@ -1627,7 +1725,7 @@ SplineSet
  103.5 836.833007812 100 860.5 100 860.5 c 1
  100 999.5 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 102 subtable" gy.right
+Substitution2: "Single Substitution lookup 113 subtable" gy.right
 Substitution2: "Single Substitution lookup 37 subtable" gy.left
 Substitution2: "Single Substitution lookup 24 subtable" gy.left
 EndChar
@@ -1659,7 +1757,7 @@ SplineSet
  307.512497603 145 l 1
  889.586854151 145 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 103 subtable" jy.right
+Substitution2: "Single Substitution lookup 114 subtable" jy.right
 Substitution2: "Single Substitution lookup 44 subtable" jy.left
 EndChar
 
@@ -1688,7 +1786,7 @@ SplineSet
  1098.71972656 999.48046875 l 1
  1021.91992188 999.48046875 l 2
 EndSplineSet
-Substitution2: "Single Substitution lookup 104 subtable" yhy.right
+Substitution2: "Single Substitution lookup 115 subtable" yhy.right
 EndChar
 
 StartChar: uy
@@ -1714,7 +1812,7 @@ SplineSet
  99.41015625 0.41015625 l 1
  99.41015625 828.950195312 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 105 subtable" uy.right
+Substitution2: "Single Substitution lookup 116 subtable" uy.right
 EndChar
 
 StartChar: ly
@@ -1751,7 +1849,7 @@ SplineSet
  227.047851562 195.685546875 246.024414062 191.123046875 266 182 c 0
  350.4609375 143.418945312 407.750976562 114.639648438 559.150390625 114.639648438 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 106 subtable" ly.right
+Substitution2: "Single Substitution lookup 117 subtable" ly.right
 Substitution2: "Single Substitution lookup 51 subtable" ly.left
 Substitution2: "Single Substitution lookup 49 subtable" ly.left
 Substitution2: "Single Substitution lookup 47 subtable" ly.left
@@ -1786,7 +1884,8 @@ SplineSet
  787.6796875 567.51953125 704.879882812 490.239257812 604.139648438 490.239257812 c 0
  503.400390625 490.239257812 420.599609375 567.51953125 420.599609375 664.119140625 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 82 subtable" aibu.right
+Substitution2: "Single Substitution lookup 93 subtable" aibu.right
+Substitution2: "Single Substitution lookup 82 subtable" aibu.center
 Substitution2: "Single Substitution lookup 71 subtable" aibu.left
 Substitution2: "Single Substitution lookup 60 subtable" aibu.center
 Ligature2: "diphthongs subtable" abu ibu
@@ -1818,7 +1917,8 @@ SplineSet
  100 756 l 1
  100 936 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 83 subtable" eibu.right
+Substitution2: "Single Substitution lookup 94 subtable" eibu.right
+Substitution2: "Single Substitution lookup 83 subtable" eibu.center
 Substitution2: "Single Substitution lookup 72 subtable" eibu.left
 Substitution2: "Single Substitution lookup 61 subtable" eibu.center
 Ligature2: "diphthongs subtable" ebu ibu
@@ -1857,7 +1957,8 @@ SplineSet
  100 796 l 1
  507 796 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 84 subtable" oibu.right
+Substitution2: "Single Substitution lookup 95 subtable" oibu.right
+Substitution2: "Single Substitution lookup 84 subtable" oibu.center
 Substitution2: "Single Substitution lookup 73 subtable" oibu.left
 Substitution2: "Single Substitution lookup 62 subtable" oibu.center
 Ligature2: "diphthongs subtable" obu ibu
@@ -1885,7 +1986,8 @@ SplineSet
  781 1000 l 1
  961 1000 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 85 subtable" aubu.right
+Substitution2: "Single Substitution lookup 96 subtable" aubu.right
+Substitution2: "Single Substitution lookup 85 subtable" aubu.center
 Substitution2: "Single Substitution lookup 74 subtable" aubu.left
 Substitution2: "Single Substitution lookup 63 subtable" aubu.center
 Ligature2: "diphthongs subtable" abu ubu
@@ -1956,13 +2058,13 @@ EndChar
 
 StartChar: vy.center
 Encoding: 36 -1 37
-Width: 1200
-Flags: W
-VStem: 401.57 63.3184<1208.21 1383.26> 573.6 61.6<1194 1462.61> 747.051 65.6<1207.17 1377.17>
+Width: 0
+Flags: WO
+VStem: 341.962 79.1479<1210.26 1429.07> 557 77<1192.5 1528.26> 773.814 82<1208.97 1421.46>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
-Refer: 5 60228 N 0.4 0 0 0.4 368 1120 2
+Refer: 5 60228 N 0.5 0 0 0.5 300 1100 2
 EndChar
 
 StartChar: ky.center
@@ -2336,7 +2438,7 @@ EndChar
 
 StartChar: vy.left
 Encoding: 68 -1 69
-Width: 1200
+Width: 0
 Flags: W
 VStem: 141.962 79.1479<1210.26 1429.07> 357 77<1192.5 1528.26> 573.814 82<1208.97 1421.46>
 AnchorPoint: "Above" 600 0 mark 0
@@ -2419,9 +2521,9 @@ StartChar: obu.left
 Encoding: 75 -1 76
 Width: 0
 VWidth: 0
-Flags: HW
-HStem: 1100.5 10.5G<355 450>
-VStem: 355 95<1100.5 1600>
+Flags: W
+HStem: 1100.5 10.5G<255 350>
+VStem: 255 95<1100.5 1600>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -2444,9 +2546,9 @@ StartChar: ubu.left
 Encoding: 77 -1 78
 Width: 0
 VWidth: 0
-Flags: HWO
-HStem: 1100.25 10.5G<265 355 445 535>
-VStem: 265 90<1100.25 1599.75> 445 90<1100.25 1599.75>
+Flags: W
+HStem: 1100.25 10.5G<165 255 345 435>
+VStem: 165 90<1100.25 1599.75> 345 90<1100.25 1599.75>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -2716,13 +2818,13 @@ EndChar
 
 StartChar: vy.right
 Encoding: 100 -1 101
-Width: 1200
+Width: 0
 Flags: W
-VStem: 401.57 63.3184<1208.21 1383.26> 573.6 61.6<1194 1462.61> 747.051 65.6<1207.17 1377.17>
+VStem: 641.962 79.1479<1210.26 1429.07> 857 77<1192.5 1528.26> 1073.81 82<1208.97 1421.46>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
-Refer: 5 60228 N 0.4 0 0 0.4 368 1120 2
+Refer: 5 60228 S 0.5 0 0 0.5 600 1100 2
 EndChar
 
 StartChar: ky.right
