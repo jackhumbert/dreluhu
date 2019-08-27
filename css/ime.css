@@ -1,0 +1,96 @@
+
+body { 
+	font-family: "Lato", "font", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top: 50px;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+#textarea {
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 300px;
+	font-size: 36px;
+	background: transparent;
+	font-family: "font";
+}
+
+#font-selector {
+	position: absolute;
+	right: 0px;
+	top: 15px;
+}
+
+
+code, .zlm {
+    padding: 0rem .5rem;
+    margin: 0 .2rem;
+    font-size: 90%;
+    white-space: nowrap;
+    background: #F1F1F1;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+	font-size: 110%;
+	line-height: 100%;
+}
+
+.back-button {
+	position: absolute;
+	top: 15px;
+}
+
+.characters {
+	width: 100%;
+}
+
+.characters td {
+	border: none;
+	width: 10%;
+}
+
+.characters thead tr th {
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+    height: 60px;
+}
+.characters tbody tr th {
+	border-bottom: 0px;
+	border-right: 1px solid #ccc;
+	width: 5%;
+}
+.characters thead tr th:empty {
+	border-right: 1px solid #ccc;
+}
+
+.character-legend {
+	border: 1px solid #eee;
+	background: #eee;
+	text-align: center;
+	width: 100%;
+}
+
+.character {
+	font-size: 48px;
+	line-height: 28px;
+	border: 1px solid #eee;
+	background: white;
+	padding-bottom: 14px;
+	width: 100%;
+	text-align: center;
+}
+
+td[rowspan="2"] .character {
+	line-height: 122px;
+}
+
+th:first-child, td:first-child {
+	padding-left: 15px;
+}
+
+th:last-child, td:last-child {
+    padding-right: 15px;
+}

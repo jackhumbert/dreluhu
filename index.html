@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>IME</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"-->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/ime.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--link rel="icon" type="image/png" href="images/favicon.png"-->
+
+  <style>
+    @font-face { font-family: "font"; font-weight: normal; src: url('font.otf'); }
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="column">
+
+        <h1>IME</h1>
+        <a href="https://github.com/jackhumbert/dreluhu" class="button u-pull-left back-button">View on Github</a>
+
+        <textarea id="textarea" class="reference"></textarea>
+      </div>
+    </div>
+
+
+  <div class="row">
+    <div class="columns seven">
+    <table class="characters">
+      <thead>
+        <th></th>
+        <th>Labial</th>
+        <th>Alveolar</th>
+        <th>Post&shy;alveolar</th>
+        <th>Velar</th>
+        <th>Glottal</th>
+      </thead>
+    <tbody>
+    <tr>
+      <th>Nasal</th>
+      <td><div class="character-legend">my</div><div class="character">&#xeb40;</div></td>
+      <td><div class="character-legend">ny</div><div class="character">&#xeb50;</div></td>
+    </tr>
+    <tr>
+      <th>Plosive</th>
+      <td><div class="character-legend">py</div><div class="character">&#xeb41;</div></td>
+      <td><div class="character-legend">ty</div><div class="character">&#xeb51;</div></td>
+      <td></td>
+      <td><div class="character-legend">ky</div><div class="character">&#xeb45;</div></td>
+    </tr>
+    <tr>
+      <th>Plosive (voiced)</th>
+      <td><div class="character-legend">by</div><div class="character">&#xeb42;</div></td>
+      <td><div class="character-legend">dy</div><div class="character">&#xeb52;</div></td>
+      <td></td>
+      <td><div class="character-legend">gy</div><div class="character">&#xeb55;</div></td>
+    </tr>
+    <tr>
+      <th>Fricative</th>
+      <td><div class="character-legend">fy</div><div class="character">&#xeb43;</div></td>
+      <td><div class="character-legend">sy</div><div class="character">&#xeb53;</div></td>
+      <td><div class="character-legend">cy</div><div class="character">&#xeb46;</div></td>
+      <td><div class="character-legend">xy</div><div class="character">&#xeb47;</div></td>
+      <td rowspan="2"><div class="character-legend">yhy</div><div class="character">&#xeb57;</div></td>
+    </tr>
+    <tr>
+      <th>Fricative (voiced)</th>
+      <td><div class="character-legend">vy</div><div class="character">&#xeb44;</div></td>
+      <td><div class="character-legend">zy</div><div class="character">&#xeb54;</div></td>
+      <td><div class="character-legend">jy</div><div class="character">&#xeb56;</div></td>
+    </tr>
+    <tr>
+      <th>Approxi&shy;mant</th>
+      <td></td>
+      <td><div class="character-legend">ly</div><div class="character">&#xeb59;</div></td>
+    </tr>
+    <tr>
+      <th>Rhotic</th>
+      <td></td>
+      <td colspan="3"><div class="character-legend">ry</div><div class="character">&#xeb49;</div></td>
+    </tr>
+    </tbody>
+    </table>
+    </div>
+
+    <div class="columns five">
+    <table class="characters">
+      <thead>
+        <th></th>
+        <th>Front</th>
+        <th>Central</th>
+        <th>Back</th>
+      </thead>
+    <tbody>
+    <tr>
+      <th>Semi&shy;vowels</th>
+      <td><div class="character-legend">iy</div><div class="character">&#xeb48;</div></td>
+      <td></td>
+      <td><div class="character-legend">uy</div><div class="character">&#xeb58;</div></td>
+    </tr>
+    <tr>
+      <th>Close</th>
+      <td><div class="character-legend">ibu</div><div class="character">&#xeb4c;</div></td>
+      <td></td>
+      <td><div class="character-legend">ubu</div><div class="character">&#xeb4d;</div></td>
+    </tr>
+    <tr>
+      <th>Mid</th>
+      <td><div class="character-legend">ebu</div><div class="character">&#xeb4a;</div></td>
+      <td><div class="character-legend">ybu</div><div class="character">&#xeb4f;</div></td>
+      <td><div class="character-legend">obu</div><div class="character">&#xeb4b;</div></td>
+    </tr>
+    <tr>
+      <th>Open</th>
+      <td colspan="3"><div class="character-legend">abu</div><div class="character">&#xeb4e;</div></td>
+    </tr>
+    </tbody>
+    </table>
+
+    <table class="characters">      
+      <thead>
+        <th colspan="4">Diphthongs</th>
+      </thead>
+    <tbody>
+    <tr>
+      <td><div class="character-legend">aibu</div><div class="character">&#xeb5a;</div></td>
+      <td><div class="character-legend">eibu</div><div class="character">&#xeb5b;</div></td>
+      <td><div class="character-legend">oibu</div><div class="character">&#xeb5c;</div></td>
+      <td><div class="character-legend">aubu</div><div class="character">&#xeb5d;</div></td>
+    </tr>
+    </tbody>
+    </table>
+  </div>
+  </div>
+
+  </div>
+<script>
+
+HTMLTextAreaElement.prototype.insertAtCaret = function (text) {
+  if (this.selectionStart || this.selectionStart === 0) {
+    var startPos = this.selectionStart,
+        endPos   = this.selectionEnd,
+        before   = this.value.substring(0, startPos),
+        after    = this.value.substring(endPos, this.value.length);
+    this.value = before + text + after;
+    this.selectionStart = startPos + text.length;
+    this.selectionEnd   = startPos + text.length;
+  } else {
+    this.value += text;
+  }
+};
+
+// Global Helpers
+
+var log = console.log.bind(console);
+
+function id (x) {
+  return x;
+}
+
+function trim (str) {
+  return str.trim();
+}
+
+function toArray (list) {
+  return Array.prototype.slice.apply(list);
+}
+
+function Q (sel, parent) {
+  return toArray((parent || document).querySelectorAll(sel));
+};
+
+function comp (a, b) {
+  return function (x) { return a(b(x)); }
+}
+
+function defer (λ) {
+  return setTimeout(λ, 0);
+}
+
+function deferOf (λ) {
+  return function () { defer(λ); };
+}
+
+var ta = document.getElementById("textarea");
+
+const UNICODE_START = 0xEB40;
+const lerfu_index = "mpbfvkcx reoiuayntdszgj' l    ,";
+
+function latinConvert(c) {
+  if (c.codePointAt(0) >= 0xEB40) {
+    return c;
+  }
+  if (c == " ")
+    return " ";
+  if (c == "h" || c == "H")
+    c = "'";
+  if (lerfu_index.indexOf(c.toLowerCase()) >= 0)
+    return String.fromCodePoint(UNICODE_START + lerfu_index.indexOf(c.toLowerCase()));
+  if (c == "\n")
+    return "\n";
+  if (c == "\t")
+    return "\t";
+  return "";
+}
+
+ta.onkeydown = function(event) {
+  var kc = event.keyCode;
+  var k = event.key;
+
+  if (kc == 8) // backspace
+    return true;
+  if (kc >= 37 && kc <= 40) // arrow keys
+    return true;
+  if (event.ctrlKey) // ignore anything with ctrl
+    return true;
+  if (kc == 13)
+    k = "\n";
+  if (kc == 9)
+    k = "\t";
+
+  ta.insertAtCaret(latinConvert(k));
+  return false;
+};
+
+ta.onpaste = function(event) {
+  var text = undefined;
+  if (window.clipboardData && window.clipboardData.getData) { // IE
+    text = window.clipboardData.getData('Text');
+  } else if (event.clipboardData && event.clipboardData.getData) {
+    text = event.clipboardData.getData('text/plain');
+  }
+  for (var i = 0; i < [...text].length; i++) {
+    ta.insertAtCaret(latinConvert([...text][i]));
+  }
+  return false;
+}; 
+
+ta.focus();
+
+</script>
+</body>
+</html>

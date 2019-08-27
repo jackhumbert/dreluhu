@@ -1,0 +1,203 @@
+# This file is designed in conjunction with the build.pe script to replace
+# the lookup tables so that they aren't appended and get out of control.
+# You can manually merge this with your .sfd file in Fontforge to be able
+# to take advantage of the built-in tools for previewing ligatures.
+
+#
+# ZLM OpenType Feature Table Definitions
+#
+
+@consonant = [ py ty ky fy ly sy cy my xy \by dy gy vy ry zy jy ny yhy iy uy ];
+@c_center = [ py.center ty.center ky.center fy.center ly.center sy.center cy.center my.center xy.center \by.center dy.center gy.center vy.center ry.center zy.center jy.center ny.center yhy.center iy.center uy.center ];
+@c_left = [ py.left ty.left ky.left fy.left ly.left sy.left cy.left my.left xy.left \by.left dy.left gy.left vy.left ry.left zy.left jy.left ny.left yhy.left iy.left uy.left ];
+@c_right = [ py.right ty.right ky.right fy.right ly.right sy.right cy.right my.right xy.right \by.right dy.right gy.right vy.right ry.right zy.right jy.right ny.right yhy.right iy.right uy.right ];
+@singlevowel = [ abu ebu ibu obu ubu ybu ];
+@sv_center = [ abu.center ebu.center ibu.center obu.center ubu.center ybu.center ];
+@sv_left = [ abu.left ebu.left ibu.left obu.left ubu.left ybu.left ];
+@sv_right = [ abu.right ebu.right ibu.right obu.right ubu.right ybu.right ];
+@vowel = [ @singlevowel aibu eibu oibu aubu ];
+@v_center = [ @sv_center aibu.center eibu.center oibu.center aubu.center ];
+@v_left = [ @sv_left aibu.left eibu.left oibu.left aubu.left ];
+@v_right = [ @sv_right aibu.right eibu.right oibu.right aubu.right ];
+@anything = [ @consonant @vowel ];
+@center = [ @c_center @sv_center @v_center ];
+@left = [ @c_left @sv_left @v_left ];
+@right = [ @c_right @sv_right @v_right ];
+
+@v_cl = [ @v_left @v_center ];
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn DEU;
+languagesystem cyrl dflt;
+languagesystem cyrl SRB;
+languagesystem grek dflt;
+
+# sub diphthongs
+
+lookup semivowels {
+  lookupflag 0;
+  sub ibu' @singlevowel by iy;
+  sub ubu' @singlevowel by uy;
+} semivowels;
+
+lookup diphthongs {
+  lookupflag 0;
+  sub abu ibu by aibu;
+  sub ebu ibu by eibu;
+  sub obu ibu by oibu;
+  sub abu ubu by aubu;
+} diphthongs;
+
+# sub non-inits for .center
+
+lookup Cleft {
+  lookupflag 0;
+  sub py ly' by ly.left;
+  sub py ry' by ry.left;
+  sub fy ly' by ly.left;
+  sub fy ry' by ry.left;
+
+  sub \by ly' by ly.left;
+  sub \by ry' by ry.left;
+  sub vy ly' by ly.left;
+  sub vy ry' by ry.left;
+
+  sub cy py' by py.left;
+  sub cy fy' by fy.left;
+  sub cy ty' by ty.left;
+  sub cy ky' by ky.left;
+  sub cy my' by my.left;
+  sub cy ny' by ny.left;
+  sub cy ly' by ly.left;
+  sub cy ry' by ry.left;
+
+  sub jy \by' by \by.left;
+  sub jy vy' by vy.left;
+  sub jy dy' by dy.left;
+  sub jy gy' by gy.left;
+  sub jy my' by my.left;
+
+  sub sy py' by py.left;
+  sub sy fy' by fy.left;
+  sub sy ty' by ty.left;
+  sub sy ky' by ky.left;
+  sub sy my' by my.left;
+  sub sy ny' by ny.left;
+  sub sy ly' by ly.left;
+  sub sy ry' by ry.left;
+
+  sub zy \by' by \by.left;
+  sub zy vy' by vy.left;
+  sub zy dy' by dy.left;
+  sub zy gy' by gy.left;
+  sub zy my' by my.left;
+
+  sub ty cy' by cy.left;
+  sub ty ry' by ry.left;
+  sub ty sy' by sy.left;
+  sub ky ly' by ly.left;
+  sub ky ry' by ry.left;
+
+  sub dy jy' by jy.left;
+  sub dy ry' by ry.left;
+  sub dy zy' by zy.left;
+  sub gy ly' by ly.left;
+  sub gy ry' by ry.left;
+
+  sub my ly' by ly.left;
+  sub my ry' by ry.left;
+  sub xy ly' by ly.left;
+  sub xy ry' by ry.left;
+} Cleft;
+
+lookup Vcenter {
+  lookupflag 0;
+  ignore sub @consonant @vowel' @consonant @consonant;
+  sub @consonant abu' by abu.center;
+  sub @consonant ebu' by ebu.center;
+  sub @consonant ibu' by ibu.center;
+  sub @consonant obu' by obu.center;
+  sub @consonant ubu' by ubu.center;
+  sub @consonant ybu' by ybu.center;
+  sub @consonant aibu' by aibu.center;
+  sub @consonant eibu' by eibu.center;
+  sub @consonant oibu' by oibu.center;
+  sub @consonant aubu' by aubu.center;
+} Vcenter;
+
+lookup Vleft {
+  lookupflag 0;
+  sub @consonant abu' @consonant @consonant by abu.left;
+  sub @consonant ebu' @consonant @consonant by ebu.left;
+  sub @consonant ibu' @consonant @consonant by ibu.left;
+  sub @consonant obu' @consonant @consonant by obu.left;
+  sub @consonant ubu' @consonant @consonant by ubu.left;
+  sub @consonant ybu' @consonant @consonant by ybu.left;
+  sub @consonant aibu' @consonant @consonant by aibu.left;
+  sub @consonant eibu' @consonant @consonant by eibu.left;
+  sub @consonant oibu' @consonant @consonant by oibu.left;
+  sub @consonant aubu' @consonant @consonant by aubu.left;
+} Vleft;
+
+lookup Vright {
+  lookupflag 0;
+  sub @c_left abu' by abu.right;
+  sub @c_left ebu' by ebu.right;
+  sub @c_left ibu' by ibu.right;
+  sub @c_left obu' by obu.right;
+  sub @c_left ubu' by ubu.right;
+  sub @c_left ybu' by ybu.right;
+  sub @c_left aibu' by aibu.right;
+  sub @c_left eibu' by eibu.right;
+  sub @c_left oibu' by oibu.right;
+  sub @c_left aubu' by aubu.right;
+} Vright;
+
+lookup Cright {
+  lookupflag 0;
+  sub @consonant @v_left my' @consonant by my.right;
+  sub @consonant @v_left py' @consonant by py.right;
+  sub @consonant @v_left \by' @consonant by \by.right;
+  sub @consonant @v_left fy' @consonant by fy.right;
+  sub @consonant @v_left vy' @consonant by vy.right;
+  sub @consonant @v_left ky' @consonant by ky.right;
+  sub @consonant @v_left cy' @consonant by cy.right;
+  sub @consonant @v_left xy' @consonant by xy.right;
+  sub @consonant @v_left iy' @consonant by iy.right;
+  sub @consonant @v_left ry' @consonant by ry.right;
+  sub @consonant @v_left ny' @consonant by ny.right;
+  sub @consonant @v_left ty' @consonant by ty.right;
+  sub @consonant @v_left dy' @consonant by dy.right;
+  sub @consonant @v_left sy' @consonant by sy.right;
+  sub @consonant @v_left zy' @consonant by zy.right;
+  sub @consonant @v_left gy' @consonant by gy.right;
+  sub @consonant @v_left jy' @consonant by jy.right;
+  sub @consonant @v_left yhy' @consonant by yhy.right;
+  sub @consonant @v_left uy' @consonant by uy.right;
+  sub @consonant @v_left ly' @consonant by ly.right;
+} Cright;
+
+# sub 2 .centers for left/right
+
+feature liga {
+  script DFLT;
+    language dflt;
+    lookup semivowels;
+    lookup diphthongs;
+    lookup Cleft;
+    lookup Vcenter;
+    lookup Vleft;
+    lookup Vright;
+    lookup Cright;
+  script latn;
+    language dflt;
+    lookup semivowels;
+    lookup diphthongs;
+    lookup Cleft;
+    lookup Vcenter;
+    lookup Vleft;
+    lookup Vright;
+    lookup Cright;
+} liga;
+
