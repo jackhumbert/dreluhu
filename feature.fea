@@ -9,12 +9,15 @@
 
 @consonant = [ py ty ky fy ly sy cy my xy \by dy gy vy ry zy jy ny yhy iy uy ];
 @c_ce = [ py.ce.1 ty.ce.1 ky.ce.1 fy.ce.1 ly.ce.1 sy.ce.1 cy.ce.1 my.ce.1 xy.ce.1 \by.ce.1 dy.ce.1 gy.ce.1 vy.ce.1 ry.ce.1 zy.ce.1 jy.ce.1 ny.ce.1 yhy.ce.1 iy.ce.1 uy.ce.1 ];
+@c_cec1 = [ py.cec.1 ty.cec.1 ky.cec.1 fy.cec.1 ly.cec.1 sy.cec.1 cy.cec.1 my.cec.1 xy.cec.1 \by.cec.1 dy.cec.1 gy.cec.1 vy.cec.1 ry.cec.1 zy.cec.1 jy.cec.1 ny.cec.1 yhy.cec.1 iy.cec.1 uy.cec.1 ];
+@c_cec3 = [ py.cec.3 ty.cec.3 ky.cec.3 fy.cec.3 ly.cec.3 sy.cec.3 cy.cec.3 my.cec.3 xy.cec.3 \by.cec.3 dy.cec.3 gy.cec.3 vy.cec.3 ry.cec.3 zy.cec.3 jy.cec.3 ny.cec.3 yhy.cec.3 iy.cec.3 uy.cec.3 ];
 @singlevowel = [ abu ebu ibu obu ubu ybu ];
 @vowel = [ @singlevowel aibu eibu oibu aubu ];
 @vi = [ ibu ubu abu aibu aubu ];
 @ve = [ ebu obu ybu eibu oibu ];
 @vi_ci = [ ibu.ci.2 ubu.ci.2 abu.ci.2 aibu.ci.2 aubu.ci.2 ];
 @ve_ce = [ ebu.ce.2 obu.ce.2 ybu.ce.2 eibu.ce.2 oibu.ce.2 ];
+@ve_cec = [ ebu.cec.2 obu.cec.2 ybu.cec.2 eibu.cec.2 oibu.cec.2 ];
 
 languagesystem DFLT dflt;
 languagesystem latn dflt;
@@ -39,6 +42,21 @@ lookup diphthongs {
   sub abu ubu by aubu;
 } diphthongs;
 
+lookup cec_c1 {
+  lookupflag 0;
+  sub @consonant' @ve @consonant by @c_cec1;
+} cec_c1;
+
+lookup cec_e {
+  lookupflag 0;
+  sub @c_cec1 @ve' @consonant by @ve_cec;
+} cec_e;
+
+lookup cec_c3 {
+  lookupflag 0;
+  sub @c_cec1 @ve_cec @consonant' by @c_cec3;
+} cec_c3;
+
 lookup ce_c {
   lookupflag 0;
   sub @consonant' @ve by @c_ce;
@@ -59,6 +77,9 @@ feature liga {
     language dflt;
     lookup semivowels;
     lookup diphthongs;
+    lookup cec_c1;
+    lookup cec_e;
+    lookup cec_c3;
     lookup ce_c;
     lookup ce_e;
     lookup ci_i;
@@ -66,6 +87,9 @@ feature liga {
     language dflt;
     lookup semivowels;
     lookup diphthongs;
+    lookup cec_c1;
+    lookup cec_e;
+    lookup cec_c3;
     lookup ce_c;
     lookup ce_e;
     lookup ci_i;
