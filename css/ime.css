@@ -74,11 +74,10 @@ code, .zlm {
 }
 
 .character {
-	font-size: 48px;
-	line-height: 28px;
+	font-size: 36px;
 	border: 1px solid #eee;
 	background: white;
-	padding-bottom: 14px;
+	padding-top: 8px;
 	width: 100%;
 	text-align: center;
 }

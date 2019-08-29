@@ -9,8 +9,8 @@ Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -1020
 UnderlineWidth: 178
-Ascent: 1610
-Descent: 390
+Ascent: 1000
+Descent: 0
 InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
@@ -22,12 +22,12 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1566577596
-ModificationTime: 1567078227
+ModificationTime: 1567093704
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
 OS2TypoDOffset: 1
-OS2TypoLinegap: 180
+OS2TypoLinegap: 90
 OS2WinAscent: 0
 OS2WinAOffset: 1
 OS2WinDescent: 0
@@ -85,6 +85,7 @@ EndChar
 StartChar: my
 Encoding: 0 60256 1
 Width: 1200
+VWidth: 2000
 Flags: W
 HStem: 0 100<200 999> 450 100<200 999> 900 100<200 999>
 VStem: 100 100<100 450 550 900> 999 100<100 450 550 900>
@@ -128,6 +129,7 @@ EndChar
 StartChar: py
 Encoding: 1 60257 2
 Width: 1200
+VWidth: 2000
 Flags: W
 HStem: 0 100<200 1099> 450 100<200 1099> 900 100<200 1099>
 VStem: 100 100<100 450 550 900>
@@ -169,6 +171,7 @@ EndChar
 StartChar: by
 Encoding: 2 60258 3
 Width: 1200
+VWidth: 2000
 Flags: W
 HStem: 0 100<100 999> 450 100<100 999> 900 100<100 999>
 VStem: 999 100<100 450 550 900>
@@ -210,6 +213,7 @@ EndChar
 StartChar: fy
 Encoding: 3 60259 4
 Width: 1200
+VWidth: 2000
 Flags: W
 HStem: 0.5 100<199.5 999.5> 450 100<199.5 999.5>
 VStem: 99.5 100<100.5 450 550 999.5> 999.5 100<100.5 450 550 999.5>
@@ -250,6 +254,7 @@ EndChar
 StartChar: vy
 Encoding: 4 60260 5
 Width: 1200
+VWidth: 2000
 Flags: W
 HStem: 0 21G<100 200 999 1099> 450 100<200 999> 900 100<200 999>
 VStem: 100 100<0 450 550 900> 999 100<0 450 550 900>
@@ -290,6 +295,7 @@ EndChar
 StartChar: ky
 Encoding: 5 60261 6
 Width: 1200
+VWidth: 2000
 Flags: W
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
@@ -318,6 +324,7 @@ EndChar
 StartChar: cy
 Encoding: 6 60262 7
 Width: 1200
+VWidth: 2000
 Flags: W
 HStem: 0 21G<550 650> 450 100<100 478.047 715.526 1099> 951.443 95.1132<1039.66 1088.21>
 VStem: 550 100<0 448.098>
@@ -367,6 +374,7 @@ EndChar
 StartChar: xy
 Encoding: 7 60263 8
 Width: 1200
+VWidth: 2000
 Flags: W
 HStem: 0 21G<550 650> 951.443 95.1132<1038.77 1088.21>
 VStem: 550 100<0 492.781>
@@ -433,6 +441,7 @@ EndChar
 StartChar: ry
 Encoding: 9 60265 10
 Width: 1200
+VWidth: 2000
 Flags: W
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
@@ -705,6 +714,7 @@ EndChar
 StartChar: ny
 Encoding: 16 60272 17
 Width: 1200
+VWidth: 2000
 Flags: W
 HStem: 0 100<200 999> 900 100<200 999>
 VStem: 100 100<100 900> 999 100<100 900>
@@ -740,6 +750,7 @@ EndChar
 StartChar: ty
 Encoding: 17 60273 18
 Width: 1200
+VWidth: 2000
 Flags: W
 HStem: 0 100<200 1099> 900 100<200 1099>
 VStem: 100 100<100 900>
@@ -773,6 +784,7 @@ EndChar
 StartChar: dy
 Encoding: 18 60274 19
 Width: 1200
+VWidth: 2000
 Flags: W
 HStem: 0 100<100 999> 900 100<100 999>
 VStem: 999 100<100 900>
@@ -806,6 +818,7 @@ EndChar
 StartChar: sy
 Encoding: 19 60275 20
 Width: 1200
+VWidth: 2000
 Flags: W
 HStem: 0.5 100<199.5 999.5>
 VStem: 99.5 100<100.5 999.5> 999.5 100<100.5 999.5>
@@ -839,6 +852,7 @@ EndChar
 StartChar: zy
 Encoding: 20 60276 21
 Width: 1200
+VWidth: 2000
 Flags: W
 HStem: 0.5 21G<99.5 199.5 999.5 1099.5> 899.5 100<199.5 999.5>
 VStem: 99.5 100<0.5 899.5> 999.5 100<0.5 899.5>
@@ -872,6 +886,7 @@ EndChar
 StartChar: gy
 Encoding: 21 60277 22
 Width: 1200
+VWidth: 2000
 Flags: W
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
@@ -900,6 +915,7 @@ EndChar
 StartChar: jy
 Encoding: 22 60278 23
 Width: 1200
+VWidth: 2000
 Flags: W
 HStem: -45.5566 95.1132<1039.66 1088.21> 451 100<100 478.046 715.526 1099>
 VStem: 550 100<552.902 1001>
@@ -1015,6 +1031,7 @@ EndChar
 StartChar: ly
 Encoding: 25 60281 26
 Width: 1200
+VWidth: 2000
 Flags: W
 HStem: 0 100<100 999> 450 100<200 999> 898 100<200 1099>
 VStem: 100 100<550 898> 999 100<100 450>
@@ -1364,7 +1381,7 @@ StartChar: my.ce.1
 Encoding: 32 -1 36
 Width: 1200
 VWidth: 0
-Flags: W
+Flags: WO
 HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
 VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
 CounterMasks: 1 e0
@@ -6505,7 +6522,7 @@ StartChar: NameMe.353
 Encoding: 353 -1 194
 Width: 1200
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 0.5 100<99.5 700> 288 100<254.112 385.888> 912 100<254.112 385.888>
 VStem: 88 100<464.785 835.215> 452 100<464.785 835.215> 700 100<100.5 999.5>
 AnchorPoint: "Above" 600 0 basechar 0
