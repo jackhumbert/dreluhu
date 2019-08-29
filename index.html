@@ -207,11 +207,11 @@ function deferOf (λ) {
 
 var ta = document.getElementById("textarea");
 
-const UNICODE_START = 0xEB40;
+const UNICODE_START = 0xEB60;
 const lerfu_index = "mpbfvkcx reoiuayntdszgj' l    ,";
 
 function latinConvert(c) {
-  if (c.codePointAt(0) >= 0xEB40) {
+  if (c.codePointAt(0) >= UNICODE_START) {
     return c;
   }
   if (c == " ")

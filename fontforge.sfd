@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1566577596
-ModificationTime: 1567048823
+ModificationTime: 1567078227
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,7 +36,6 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-OS2Vendor: 'PfEd'
 Lookup: 260 0 0 "Above" { "Above-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'ROM ' 'TRK ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -79,14 +78,14 @@ StartChar: space
 Encoding: 204 32 0
 Width: 500
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: my
-Encoding: 0 60224 1
+Encoding: 0 60256 1
 Width: 1200
-Flags: HW
+Flags: W
 HStem: 0 100<200 999> 450 100<200 999> 900 100<200 999>
 VStem: 100 100<100 450 550 900> 999 100<100 450 550 900>
 CounterMasks: 1 e0
@@ -127,9 +126,9 @@ EndSplineSet
 EndChar
 
 StartChar: py
-Encoding: 1 60225 2
+Encoding: 1 60257 2
 Width: 1200
-Flags: HW
+Flags: W
 HStem: 0 100<200 1099> 450 100<200 1099> 900 100<200 1099>
 VStem: 100 100<100 450 550 900>
 CounterMasks: 1 e0
@@ -168,9 +167,9 @@ EndSplineSet
 EndChar
 
 StartChar: by
-Encoding: 2 60226 3
+Encoding: 2 60258 3
 Width: 1200
-Flags: HW
+Flags: W
 HStem: 0 100<100 999> 450 100<100 999> 900 100<100 999>
 VStem: 999 100<100 450 550 900>
 CounterMasks: 1 e0
@@ -209,9 +208,9 @@ EndSplineSet
 EndChar
 
 StartChar: fy
-Encoding: 3 60227 4
+Encoding: 3 60259 4
 Width: 1200
-Flags: HW
+Flags: W
 HStem: 0.5 100<199.5 999.5> 450 100<199.5 999.5>
 VStem: 99.5 100<100.5 450 550 999.5> 999.5 100<100.5 450 550 999.5>
 AnchorPoint: "Above" 600 0 basechar 0
@@ -249,9 +248,9 @@ EndSplineSet
 EndChar
 
 StartChar: vy
-Encoding: 4 60228 5
+Encoding: 4 60260 5
 Width: 1200
-Flags: HW
+Flags: W
 HStem: 0 21G<100 200 999 1099> 450 100<200 999> 900 100<200 999>
 VStem: 100 100<0 450 550 900> 999 100<0 450 550 900>
 AnchorPoint: "Above" 600 0 basechar 0
@@ -289,9 +288,9 @@ EndSplineSet
 EndChar
 
 StartChar: ky
-Encoding: 5 60229 6
+Encoding: 5 60261 6
 Width: 1200
-Flags: HW
+Flags: W
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -317,9 +316,9 @@ EndSplineSet
 EndChar
 
 StartChar: cy
-Encoding: 6 60230 7
+Encoding: 6 60262 7
 Width: 1200
-Flags: HW
+Flags: W
 HStem: 0 21G<550 650> 450 100<100 478.047 715.526 1099> 951.443 95.1132<1039.66 1088.21>
 VStem: 550 100<0 448.098>
 LayerCount: 2
@@ -366,9 +365,9 @@ EndSplineSet
 EndChar
 
 StartChar: xy
-Encoding: 7 60231 8
+Encoding: 7 60263 8
 Width: 1200
-Flags: HW
+Flags: W
 HStem: 0 21G<550 650> 951.443 95.1132<1038.77 1088.21>
 VStem: 550 100<0 492.781>
 LayerCount: 2
@@ -402,10 +401,10 @@ EndSplineSet
 EndChar
 
 StartChar: iy
-Encoding: 8 60232 9
+Encoding: 8 60264 9
 Width: 1200
 VWidth: 4000
-Flags: HW
+Flags: W
 HStem: 0.5 100<199.5 1099.5>
 VStem: 99.5 100<100.5 999.5>
 AnchorPoint: "Above" 599 0 basechar 0
@@ -432,9 +431,9 @@ EndSplineSet
 EndChar
 
 StartChar: ry
-Encoding: 9 60233 10
+Encoding: 9 60265 10
 Width: 1200
-Flags: HW
+Flags: W
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -467,10 +466,10 @@ EndSplineSet
 EndChar
 
 StartChar: ebu
-Encoding: 10 60234 11
+Encoding: 10 60266 11
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -12 100<337.097 562.903> 450 100<877 999> 912 100<337.097 562.903>
 VStem: 88 100<276.625 723.375> 712 100<276.625 723.375> 877 222<450 550> 999 100<0 450 550 1000>
 CounterMasks: 1 e0
@@ -489,18 +488,18 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-1049 1000 m 1
+1049 1000 m 1xfa
  1099 1000 l 1
  1099 0 l 1
  1049 0 l 1
  999 0 l 1
- 999 450 l 1
+ 999 450 l 1xfa
  877 450 l 1
  877 500 l 1
- 877 550 l 1
+ 877 550 l 1xfc
  999 550 l 1
  999 1000 l 1
- 1049 1000 l 1
+ 1049 1000 l 1xfa
 88 500 m 0
  88 766.01638937 233.784752393 1012 450 1012 c 0
  666.214904364 1012 812 766.015740879 812 500 c 0
@@ -515,10 +514,10 @@ EndSplineSet
 EndChar
 
 StartChar: obu
-Encoding: 11 60235 12
+Encoding: 11 60267 12
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -12 100<337.097 562.903> 450 100<977 1099> 912 100<337.097 562.903>
 VStem: 88 100<276.625 723.375> 712 100<276.625 723.375> 877 222<450 550> 877 100<0 450 550 1000>
 CounterMasks: 1 e0
@@ -537,11 +536,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-88 500 m 0
+88 500 m 0xf8
  88 766.01638937 233.784752393 1012 450 1012 c 0
  666.214904364 1012 812 766.015740879 812 500 c 0
  812 233.98361063 666.215247607 -12 450 -12 c 0
- 233.785095636 -12 88 233.984259121 88 500 c 0
+ 233.785095636 -12 88 233.984259121 88 500 c 0xf8
 188 500 m 0
  188 255.793518657 321.574904364 88 450 88 c 0
  578.424752393 88 712 255.794167148 712 500 c 0
@@ -549,24 +548,24 @@ SplineSet
  321.575247607 912 188 744.205832852 188 500 c 0
 927 1000 m 1
  977 1000 l 1
- 977 550 l 1
+ 977 550 l 1xfa
  1099 550 l 1
  1099 500 l 1
- 1099 450 l 1
+ 1099 450 l 1xfc
  977 450 l 1
  977 0 l 1
  927 0 l 1
  877 0 l 1
- 877 1000 l 1
+ 877 1000 l 1xfa
  927 1000 l 1
 EndSplineSet
 EndChar
 
 StartChar: ibu
-Encoding: 12 60236 13
+Encoding: 12 60268 13
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 100<200 1099> 288 100<384.535 815.465> 912 100<384.535 815.465>
 VStem: 100 100<100 250 522.959 777.041> 1012 100<536.852 763.148>
 LayerCount: 2
@@ -607,25 +606,25 @@ EndSplineSet
 EndChar
 
 StartChar: ubu
-Encoding: 13 60237 14
+Encoding: 13 60269 14
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 100<100 999> 288 100<383.535 814.465> 912 100<383.535 814.465>
 VStem: 87 100<536.852 763.148> 999 100<100 250 522.959 777.041>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
-Refer: 13 60236 N -1 0 0 1 1199 0 2
+Refer: 13 60268 N -1 0 0 1 1199 0 2
 Fore
-Refer: 13 60236 N -1 0 0 1 1199 0 2
+Refer: 13 60268 N -1 0 0 1 1199 0 2
 EndChar
 
 StartChar: abu
-Encoding: 14 60238 15
+Encoding: 14 60270 15
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 100<100 1099> 288 100<384.535 815.465> 912 100<384.535 815.465>
 VStem: 88 100<536.852 763.148> 1012 100<536.852 763.148>
 AnchorPoint: "Above" 600 0 basechar 0
@@ -663,10 +662,10 @@ EndSplineSet
 EndChar
 
 StartChar: ybu
-Encoding: 15 60239 16
+Encoding: 15 60271 16
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -12 100<337.097 562.903> 912 100<337.097 562.903>
 VStem: 88 100<276.625 723.375> 712 100<276.625 723.375> 999 100<0 1000>
 AnchorPoint: "Above" 600 0 basechar 0
@@ -704,9 +703,9 @@ EndSplineSet
 EndChar
 
 StartChar: ny
-Encoding: 16 60240 17
+Encoding: 16 60272 17
 Width: 1200
-Flags: HW
+Flags: W
 HStem: 0 100<200 999> 900 100<200 999>
 VStem: 100 100<100 900> 999 100<100 900>
 AnchorPoint: "Above" 600 0 basechar 0
@@ -739,9 +738,9 @@ EndSplineSet
 EndChar
 
 StartChar: ty
-Encoding: 17 60241 18
+Encoding: 17 60273 18
 Width: 1200
-Flags: HW
+Flags: W
 HStem: 0 100<200 1099> 900 100<200 1099>
 VStem: 100 100<100 900>
 AnchorPoint: "Above" 600 0 basechar 0
@@ -772,9 +771,9 @@ EndSplineSet
 EndChar
 
 StartChar: dy
-Encoding: 18 60242 19
+Encoding: 18 60274 19
 Width: 1200
-Flags: HW
+Flags: W
 HStem: 0 100<100 999> 900 100<100 999>
 VStem: 999 100<100 900>
 AnchorPoint: "Above" 600 0 basechar 0
@@ -805,9 +804,9 @@ EndSplineSet
 EndChar
 
 StartChar: sy
-Encoding: 19 60243 20
+Encoding: 19 60275 20
 Width: 1200
-Flags: HW
+Flags: W
 HStem: 0.5 100<199.5 999.5>
 VStem: 99.5 100<100.5 999.5> 999.5 100<100.5 999.5>
 AnchorPoint: "Above" 600 0 basechar 0
@@ -838,9 +837,9 @@ EndSplineSet
 EndChar
 
 StartChar: zy
-Encoding: 20 60244 21
+Encoding: 20 60276 21
 Width: 1200
-Flags: HW
+Flags: W
 HStem: 0.5 21G<99.5 199.5 999.5 1099.5> 899.5 100<199.5 999.5>
 VStem: 99.5 100<0.5 899.5> 999.5 100<0.5 899.5>
 AnchorPoint: "Above" 600 0 basechar 0
@@ -871,9 +870,9 @@ EndSplineSet
 EndChar
 
 StartChar: gy
-Encoding: 21 60245 22
+Encoding: 21 60277 22
 Width: 1200
-Flags: HW
+Flags: W
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -899,9 +898,9 @@ EndSplineSet
 EndChar
 
 StartChar: jy
-Encoding: 22 60246 23
+Encoding: 22 60278 23
 Width: 1200
-Flags: HW
+Flags: W
 HStem: -45.5566 95.1132<1039.66 1088.21> 451 100<100 478.046 715.526 1099>
 VStem: 550 100<552.902 1001>
 LayerCount: 2
@@ -948,10 +947,10 @@ EndSplineSet
 EndChar
 
 StartChar: yhy
-Encoding: 23 60247 24
+Encoding: 23 60279 24
 Width: 1200
 VWidth: 4000
-Flags: HW
+Flags: W
 HStem: 0 21G<999 1099>
 VStem: 100 100<170.806 1000> 999 100<0 829.194>
 AnchorPoint: "Above" 600 0 basechar 0
@@ -984,10 +983,10 @@ EndSplineSet
 EndChar
 
 StartChar: uy
-Encoding: 24 60248 25
+Encoding: 24 60280 25
 Width: 1200
 VWidth: 4000
-Flags: HW
+Flags: W
 HStem: 0.5 100<99.5 999.5>
 VStem: 999.5 100<100.5 999.5>
 AnchorPoint: "Above" 600 0 basechar 0
@@ -1014,9 +1013,9 @@ EndSplineSet
 EndChar
 
 StartChar: ly
-Encoding: 25 60249 26
+Encoding: 25 60281 26
 Width: 1200
-Flags: HW
+Flags: W
 HStem: 0 100<100 999> 450 100<200 999> 898 100<200 1099>
 VStem: 100 100<550 898> 999 100<100 450>
 AnchorPoint: "Above" 600 0 basechar 0
@@ -1055,10 +1054,10 @@ EndSplineSet
 EndChar
 
 StartChar: eibu
-Encoding: 26 60251 27
+Encoding: 26 60283 27
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -12 100<337.097 562.903> 350 100<877 999> 550 100<877 999> 912 100<337.097 562.903>
 VStem: 88 100<276.625 723.375> 712 100<276.625 723.375> 877 222<350 450 550 650> 999 100<0 350 450 550 650 1000>
 LayerCount: 2
@@ -1078,23 +1077,23 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-1049 1000 m 1
+1049 1000 m 1xfd
  1099 1000 l 1
  1099 0 l 1
  1049 0 l 1
  999 0 l 1
- 999 350 l 1
+ 999 350 l 1xfd
  877 350 l 1
  877 400 l 1
- 877 450 l 1
+ 877 450 l 1xfe
  999 450 l 1
- 999 550 l 1
+ 999 550 l 1xfd
  877 550 l 1
  877 600 l 1
- 877 650 l 1
+ 877 650 l 1xfe
  999 650 l 1
  999 1000 l 1
- 1049 1000 l 1
+ 1049 1000 l 1xfd
 88 500 m 0
  88 766.016576167 233.784460713 1012 450 1012 c 0
  666.215196036 1012 812 766.015927678 812 500 c 0
@@ -1106,14 +1105,13 @@ SplineSet
  712 744.206728572 578.425428964 912 450 912 c 0
  321.574914287 912 188 744.206080083 188 500 c 0
 EndSplineSet
-LCarets2: 1 0
 EndChar
 
 StartChar: oibu
-Encoding: 27 60252 28
+Encoding: 27 60284 28
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -12 100<337.097 562.903> 350 100<977 1099> 550 100<977 1099> 912 100<337.097 562.903>
 VStem: 88 100<276.625 723.375> 712 100<276.625 723.375> 877 222<350 450 550 650> 877 100<0 350 450 550 650 1000>
 LayerCount: 2
@@ -1133,11 +1131,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-88 500 m 0
+88 500 m 0xfc
  88 766.016576167 233.784460713 1012 450 1012 c 0
  666.215196036 1012 812 766.015927678 812 500 c 0
  812 233.983423833 666.215539287 -12 450 -12 c 0
- 233.784803964 -12 88 233.984072322 88 500 c 0
+ 233.784803964 -12 88 233.984072322 88 500 c 0xfc
 188 500 m 0
  188 255.793271428 321.574571036 88 450 88 c 0
  578.425085713 88 712 255.793919917 712 500 c 0
@@ -1145,31 +1143,30 @@ SplineSet
  321.574914287 912 188 744.206080083 188 500 c 0
 927 1000 m 1
  977 1000 l 1
- 977 650 l 1
+ 977 650 l 1xfd
  1099 650 l 1
  1099 600 l 1
- 1099 550 l 1
+ 1099 550 l 1xfe
  977 550 l 1
- 977 450 l 1
+ 977 450 l 1xfd
  1099 450 l 1
  1099 400 l 1
- 1099 350 l 1
+ 1099 350 l 1xfe
  977 350 l 1
  977 0 l 1
  927 0 l 1
  877 0 l 1
- 877 1000 l 1
+ 877 1000 l 1xfd
  927 1000 l 1
 EndSplineSet
-LCarets2: 1 0
 EndChar
 
 StartChar: aibu
-Encoding: 28 60250 29
+Encoding: 28 60282 29
 Width: 1200
 VWidth: 0
-Flags: HW
-HStem: 0 200<100.513 200 550 650> 0 100<200 550 650 1099> 288 100<384.535 815.465> 912 100<384.535 815.465>
+Flags: W
+HStem: 0 200<130.934 200 550 650> 0 100<200 550 650 1099> 288 100<384.535 815.465> 912 100<384.535 815.465>
 VStem: 100 100<100 200 522.959 777.041> 550 100<100 200> 1012 100<536.852 763.148>
 LayerCount: 2
 Back
@@ -1187,22 +1184,22 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-130.627341571 3.23020176657 m 0
+130.627341571 3.23020176657 m 0xbe
  117.537390027 11.2517222868 103.517988075 29.4286990966 100 44.0820686403 c 2
  100 200 l 1
  150 200 l 1
- 200 200 l 1
+ 200 200 l 1xbe
  200 100 l 1
- 550 100 l 1
+ 550 100 l 1x7e
  550 200 l 1
  600 200 l 1
- 650 200 l 1
+ 650 200 l 1xbe
  650 100 l 1
  1099 100 l 1
  1099 50 l 1
- 1099 0 l 1
+ 1099 0 l 1x7e
  150.000000001 0 l 2
- 146.110203472 0 137.126541191 1.66988396703 130.627341571 3.23020176657 c 0
+ 146.110203472 0 137.126541191 1.66988396703 130.627341571 3.23020176657 c 0xbe
 88 650 m 0
  88 921.217867057 425.278483533 1012 600 1012 c 0
  774.722877853 1012 1112 921.218525268 1112 650 c 0
@@ -1214,37 +1211,35 @@ SplineSet
  1012 818.531388406 769.917747147 912 600 912 c 0
  430.080891467 912 188 818.532046617 188 650 c 0
 EndSplineSet
-LCarets2: 1 0
 EndChar
 
 StartChar: aubu
-Encoding: 29 60253 30
+Encoding: 29 60285 30
 Width: 1200
 VWidth: 0
-Flags: HW
-HStem: 0 100<101 550 650 1000> 0 200<550 650 1000 1099.49> 288 100<384.535 815.465> 912 100<384.535 815.465>
+Flags: W
+HStem: 0 100<101 550 650 1000> 0 200<550 650 1000 1069.07> 288 100<384.535 815.465> 912 100<384.535 815.465>
 VStem: 88 100<536.852 763.148> 550 100<100 200> 1000 100<100 200 522.959 777.041>
 LayerCount: 2
 Back
-Refer: 29 60250 N -1 0 0 1 1200 0 2
+Refer: 29 60282 N -1 0 0 1 1200 0 2
 Fore
-Refer: 29 60250 N -1 0 0 1 1200 0 2
-LCarets2: 1 0
+Refer: 29 60282 N -1 0 0 1 1200 0 2
 EndChar
 
 StartChar: slakabu
-Encoding: 30 60254 31
+Encoding: 30 60286 31
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: denpabu
-Encoding: 31 60255 32
+Encoding: 31 60287 32
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -12 100<422.665 777.335> 912 100<422.665 777.335>
 VStem: 88 100<322.688 677.312> 1012 100<322.688 677.312>
 LayerCount: 2
@@ -1275,9 +1270,9 @@ StartChar: ebu.ce.2
 Encoding: 42 -1 33
 Width: 0
 VWidth: 0
-Flags: HW
-HStem: 0 21G<999 1099> 450 100<877 999>
-VStem: 877 222<450 550> 999 100<0 450 550 1000>
+Flags: W
+HStem: 0 21G<1000 1100> 450 100<875 1000>
+VStem: 875 225<450 550> 1000 100<0 450 550 1000>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Back
@@ -1289,18 +1284,18 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-1050 1000 m 1
+1050 1000 m 1xd0
  1100 1000 l 1
  1100 0 l 1
  1050 0 l 1
  1000 0 l 1
- 1000 450 l 1
+ 1000 450 l 1xd0
  875 450 l 1
  875 500 l 1
- 875 550 l 1
+ 875 550 l 1xe0
  1000 550 l 1
  1000 1000 l 1
- 1050 1000 l 1
+ 1050 1000 l 1xd0
 EndSplineSet
 EndChar
 
@@ -1308,9 +1303,9 @@ StartChar: obu.ce.2
 Encoding: 43 -1 34
 Width: 0
 VWidth: 0
-Flags: HW
-HStem: 0 21G<552 652> 450 100<652 774>
-VStem: 552 222<450 550> 552 100<0 450 550 1000>
+Flags: W
+HStem: 0 21G<877 977> 450 100<977 1099>
+VStem: 877 222<450 550> 877 100<0 450 550 1000>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Back
@@ -1322,18 +1317,18 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-927 1000 m 1
+927 1000 m 1xd0
  977 1000 l 1
- 977 550 l 1
+ 977 550 l 1xd0
  1099 550 l 1
  1099 500 l 1
- 1099 450 l 1
+ 1099 450 l 1xe0
  977 450 l 1
  977 0 l 1
  927 0 l 1
  877 0 l 1
  877 1000 l 1
- 927 1000 l 1
+ 927 1000 l 1xd0
 EndSplineSet
 EndChar
 
@@ -1341,7 +1336,6 @@ StartChar: NameMe.44
 Encoding: 44 -1 35
 Width: 2000
 VWidth: 0
-Flags: H
 HStem: 0 100<200 1099>
 VStem: 100 100<100 250>
 LayerCount: 2
@@ -1370,7 +1364,7 @@ StartChar: my.ce.1
 Encoding: 32 -1 36
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
 VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
 CounterMasks: 1 e0
@@ -1414,9 +1408,9 @@ StartChar: my.ci.1
 Encoding: 64 -1 37
 Width: 1200
 VWidth: 0
-Flags: HW
-HStem: 300 100<200 999> 600 100<200 999> 900 100<200 999>
-VStem: 100 100<400 600 700 900> 999 100<400 600 700 900>
+Flags: W
+HStem: 300 100<200 1000> 600 100<200 1000> 900 100<200 1000>
+VStem: 100 100<400 600 700 900> 1000 100<400 600 700 900>
 CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
@@ -1458,9 +1452,9 @@ StartChar: my.cec.1
 Encoding: 96 -1 38
 Width: 1200
 VWidth: 0
-Flags: HW
-HStem: 550 100<200 699> 725 100<200 699> 900 100<200 699>
-VStem: 100 100<650 725 825 900> 699 100<650 725 825 900>
+Flags: W
+HStem: 550 100<200 700> 725 100<200 700> 900 100<200 700>
+VStem: 100 100<650 725 825 900> 700 100<650 725 825 900>
 CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
@@ -1502,7 +1496,7 @@ StartChar: my.cec.3
 Encoding: 128 -1 39
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 100<200 999> 175 100<200 999> 350 100<200 999>
 VStem: 100 100<100 175 275 350> 999 100<100 175 275 350>
 CounterMasks: 1 e0
@@ -1546,7 +1540,7 @@ StartChar: ebu.cec.2
 Encoding: 106 -1 40
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 725 100<877 999>
 VStem: 877 222<725 825> 999 100<550 725 825 1000>
 AnchorPoint: "Above" 600 0 mark 0
@@ -1560,18 +1554,18 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-1049 1000 m 1
+1049 1000 m 1xa0
  1099 1000 l 1
  1099 550 l 1
  1049 550 l 1
  999 550 l 1
- 999 725 l 1
+ 999 725 l 1xa0
  877 725 l 1
  877 775 l 1
- 877 825 l 1
+ 877 825 l 1xc0
  999 825 l 1
  999 1000 l 1
- 1049 1000 l 1
+ 1049 1000 l 1xa0
 EndSplineSet
 EndChar
 
@@ -1579,7 +1573,7 @@ StartChar: ly.cec.3
 Encoding: 137 -1 41
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 100<100 999> 175 100<200 999> 350 100<200 1099>
 VStem: 100 100<275 350> 999 100<100 175>
 CounterMasks: 1 e0
@@ -1622,9 +1616,9 @@ StartChar: by.ci.1
 Encoding: 66 -1 42
 Width: 1200
 VWidth: 0
-Flags: HW
-HStem: 300 100<100 999> 600 100<100 999> 900 100<100 999>
-VStem: 999 100<400 600 700 900>
+Flags: W
+HStem: 300 100<100 1000> 600 100<100 1000> 900 100<100 1000>
+VStem: 1000 100<400 600 700 900>
 CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
@@ -1664,7 +1658,7 @@ StartChar: ibu.ci.2
 Encoding: 76 -1 43
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 200<100.513 200>
 VStem: 100 100<100 200>
 AnchorPoint: "Above" 600 0 mark 0
@@ -1694,7 +1688,10 @@ StartChar: my.cic.1
 Encoding: 160 -1 44
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -1735,7 +1732,10 @@ StartChar: my.cic.3
 Encoding: 192 -1 45
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 450 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 450 550 900> 1000 100<100 450 550 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Back
@@ -1776,7 +1776,10 @@ StartChar: my.cce.1
 Encoding: 224 -1 46
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 550 100<200 700> 725 100<200 700> 900 100<200 700>
+VStem: 100 100<650 725 825 900> 700 100<650 725 825 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -1789,7 +1792,10 @@ StartChar: my.cce.2
 Encoding: 256 -1 47
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<200 700> 175 100<200 700> 350 100<200 700>
+VStem: 100 100<100 175 275 350> 700 100<100 175 275 350>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Back
@@ -1830,7 +1836,9 @@ StartChar: ibu.cic2
 Encoding: 172 -1 48
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 200<100.513 200>
+VStem: 100 100<100 200>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Back
@@ -1858,7 +1866,9 @@ StartChar: ebu.cce.3
 Encoding: 234 -1 49
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 21G<1000 1100> 450 100<875 1000>
+VStem: 875 225<450 550> 1000 100<0 450 550 1000>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Back
@@ -1871,7 +1881,10 @@ StartChar: my.cci.1
 Encoding: 288 -1 50
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -1912,7 +1925,10 @@ StartChar: my.cci.2
 Encoding: 320 -1 51
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Back
@@ -1953,7 +1969,9 @@ StartChar: ibu.cci.3
 Encoding: 300 -1 52
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 200<100.513 200>
+VStem: 100 100<100 200>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Back
@@ -1966,7 +1984,10 @@ StartChar: NameMe.289
 Encoding: 289 -1 53
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -1997,7 +2018,10 @@ StartChar: NameMe.290
 Encoding: 290 -1 54
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -2028,7 +2052,10 @@ StartChar: NameMe.291
 Encoding: 291 -1 55
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -2059,7 +2086,10 @@ StartChar: NameMe.292
 Encoding: 292 -1 56
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -2090,7 +2120,10 @@ StartChar: NameMe.293
 Encoding: 293 -1 57
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -2121,7 +2154,10 @@ StartChar: NameMe.294
 Encoding: 294 -1 58
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -2152,7 +2188,10 @@ StartChar: NameMe.295
 Encoding: 295 -1 59
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -2183,7 +2222,10 @@ StartChar: NameMe.296
 Encoding: 296 -1 60
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -2214,7 +2256,10 @@ StartChar: NameMe.297
 Encoding: 297 -1 61
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -2245,7 +2290,10 @@ StartChar: NameMe.304
 Encoding: 304 -1 62
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -2276,7 +2324,10 @@ StartChar: NameMe.305
 Encoding: 305 -1 63
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -2307,7 +2358,10 @@ StartChar: NameMe.306
 Encoding: 306 -1 64
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -2338,7 +2392,10 @@ StartChar: NameMe.307
 Encoding: 307 -1 65
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -2369,7 +2426,10 @@ StartChar: NameMe.308
 Encoding: 308 -1 66
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -2400,7 +2460,7 @@ StartChar: gy.cci.1
 Encoding: 309 -1 67
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -2428,7 +2488,9 @@ StartChar: jy.cci.1
 Encoding: 310 -1 68
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 600 100<100 549.551>
+VStem: 275 100<707.623 1000>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -2476,7 +2538,8 @@ StartChar: yhy.cci.1
 Encoding: 311 -1 69
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+VStem: 100 100<534.946 1000> 450 100<300 765.054>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -2510,7 +2573,10 @@ StartChar: NameMe.312
 Encoding: 312 -1 70
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -2541,7 +2607,10 @@ StartChar: NameMe.313
 Encoding: 313 -1 71
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<100 450> 600 100<200 450> 900 100<200 550>
+VStem: 100 100<700 900> 450 100<400 600>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -2581,7 +2650,8 @@ StartChar: abu.ci.2
 Encoding: 78 -1 72
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 200
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Back
@@ -2611,7 +2681,8 @@ StartChar: abu.cci.3
 Encoding: 302 -1 73
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 200
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Back
@@ -2624,7 +2695,10 @@ StartChar: NameMe.321
 Encoding: 321 -1 74
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -2655,7 +2729,10 @@ StartChar: NameMe.322
 Encoding: 322 -1 75
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -2686,7 +2763,10 @@ StartChar: NameMe.323
 Encoding: 323 -1 76
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -2717,7 +2797,10 @@ StartChar: NameMe.324
 Encoding: 324 -1 77
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -2748,7 +2831,10 @@ StartChar: NameMe.325
 Encoding: 325 -1 78
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -2779,7 +2865,10 @@ StartChar: NameMe.326
 Encoding: 326 -1 79
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -2810,7 +2899,10 @@ StartChar: NameMe.327
 Encoding: 327 -1 80
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -2841,7 +2933,10 @@ StartChar: NameMe.328
 Encoding: 328 -1 81
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -2872,7 +2967,10 @@ StartChar: NameMe.329
 Encoding: 329 -1 82
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -2903,7 +3001,10 @@ StartChar: NameMe.336
 Encoding: 336 -1 83
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -2934,7 +3035,10 @@ StartChar: NameMe.337
 Encoding: 337 -1 84
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -2965,7 +3069,10 @@ StartChar: NameMe.338
 Encoding: 338 -1 85
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -2996,7 +3103,10 @@ StartChar: NameMe.339
 Encoding: 339 -1 86
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -3027,7 +3137,10 @@ StartChar: NameMe.340
 Encoding: 340 -1 87
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -3058,7 +3171,10 @@ StartChar: NameMe.341
 Encoding: 341 -1 88
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -3089,7 +3205,10 @@ StartChar: NameMe.342
 Encoding: 342 -1 89
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -3120,7 +3239,10 @@ StartChar: NameMe.343
 Encoding: 343 -1 90
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -3151,7 +3273,10 @@ StartChar: NameMe.344
 Encoding: 344 -1 91
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<750 999> 600 100<750 999> 900 100<750 999>
+VStem: 650 100<400 600 700 900> 999 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -3182,7 +3307,10 @@ StartChar: NameMe.345
 Encoding: 345 -1 92
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<649 999> 600 100<749 999> 900 100<749 1099>
+VStem: 649 100<700 900> 999 100<400 600>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Back
@@ -3222,9 +3350,10 @@ StartChar: NameMe.33
 Encoding: 33 -1 93
 Width: 1200
 VWidth: 0
-Flags: HW
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
+Flags: W
+HStem: 0 100<200 800> 450 100<150 800> 900 100<200 800>
+VStem: 150 50<450 550>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -3463,9 +3592,9 @@ StartChar: NameMe.40
 Encoding: 40 -1 100
 Width: 1200
 VWidth: 0
-Flags: HW
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
+Flags: W
+HStem: 0.5 100<199.5 800>
+VStem: 99.5 100<100.5 999.5>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -3526,9 +3655,9 @@ StartChar: NameMe.48
 Encoding: 48 -1 102
 Width: 1200
 VWidth: 0
-Flags: HW
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
+Flags: W
+HStem: 0 100<200 700> 900 100<200 700>
+VStem: 100 100<100 900> 700 100<100 900>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -3562,9 +3691,9 @@ StartChar: NameMe.49
 Encoding: 49 -1 103
 Width: 1200
 VWidth: 0
-Flags: HW
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
+Flags: W
+HStem: 0 100<200 800> 900 100<200 800>
+VStem: 100 100<100 900>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -3761,9 +3890,9 @@ StartChar: NameMe.55
 Encoding: 55 -1 109
 Width: 1200
 VWidth: 0
-Flags: HW
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
+Flags: W
+HStem: 0 21G<700 800>
+VStem: 100 100<215.139 1000> 700 100<0 784.861>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -3797,9 +3926,9 @@ StartChar: NameMe.56
 Encoding: 56 -1 110
 Width: 1200
 VWidth: 0
-Flags: HW
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
+Flags: W
+HStem: 0.5 100<99.5 700>
+VStem: 700 100<100.5 999.5>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -4058,9 +4187,9 @@ StartChar: NameMe.72
 Encoding: 72 -1 118
 Width: 1200
 VWidth: 0
-Flags: HW
-HStem: 300 100<200 999> 600 100<200 999> 900 100<200 999>
-VStem: 100 100<400 600 700 900> 999 100<400 600 700 900>
+Flags: W
+HStem: 300 100.026<200 1100.47>
+VStem: 100 100<400.026 1000>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -4121,9 +4250,9 @@ StartChar: NameMe.80
 Encoding: 80 -1 120
 Width: 1200
 VWidth: 0
-Flags: HW
-HStem: 300 100<200 999> 600 100<200 999> 900 100<200 999>
-VStem: 100 100<400 600 700 900> 999 100<400 600 700 900>
+Flags: W
+HStem: 300 100<200 1000> 900 100<200 1000>
+VStem: 100 100<400 900> 1000 100<400 900>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -4157,9 +4286,9 @@ StartChar: NameMe.81
 Encoding: 81 -1 121
 Width: 1200
 VWidth: 0
-Flags: HW
-HStem: 300 100<200 999> 600 100<200 999> 900 100<200 999>
-VStem: 100 100<400 600 700 900> 999 100<400 600 700 900>
+Flags: W
+HStem: 300 100<200 1100> 900 100<200 1100>
+VStem: 100 100<400 900>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -4356,9 +4485,8 @@ StartChar: NameMe.87
 Encoding: 87 -1 127
 Width: 1200
 VWidth: 0
-Flags: HW
-HStem: 300 100<200 999> 600 100<200 999> 900 100<200 999>
-VStem: 100 100<400 600 700 900> 999 100<400 600 700 900>
+Flags: W
+VStem: 100 100<443.426 1000> 1000 100<300 856.574>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -4392,9 +4520,9 @@ StartChar: NameMe.88
 Encoding: 88 -1 128
 Width: 1200
 VWidth: 0
-Flags: HW
-HStem: 300 100<200 999> 600 100<200 999> 900 100<200 999>
-VStem: 100 100<400 600 700 900> 999 100<400 600 700 900>
+Flags: W
+HStem: 300 100<99.5 1000.5>
+VStem: 1000.5 100<400 999.5>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -4422,9 +4550,9 @@ StartChar: NameMe.89
 Encoding: 89 -1 129
 Width: 1200
 VWidth: 0
-Flags: HW
-HStem: 300 100<200 999> 600 100<200 999> 900 100<200 999>
-VStem: 100 100<400 600 700 900> 999 100<400 600 700 900>
+Flags: W
+HStem: 300 100<100 1000> 600 100<200 1000> 898 100<200 1099>
+VStem: 100 100<700 898> 1000 100<400 600>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -4464,7 +4592,9 @@ StartChar: ubu.ci.2
 Encoding: 77 -1 130
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 200<999 1098.49>
+VStem: 999 100<100 200>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Back
@@ -4774,9 +4904,9 @@ StartChar: NameMe.112
 Encoding: 112 -1 140
 Width: 1200
 VWidth: 0
-Flags: HW
-HStem: 550 100<200 699> 725 100<200 699> 900 100<200 699>
-VStem: 100 100<650 725 825 900> 699 100<650 725 825 900>
+Flags: W
+HStem: 550 100<200 700> 900 100<200 700>
+VStem: 100 100<650 900> 700 100<650 900>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
@@ -5062,7 +5192,10 @@ StartChar: NameMe.161
 Encoding: 161 -1 150
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5093,7 +5226,10 @@ StartChar: NameMe.162
 Encoding: 162 -1 151
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5124,7 +5260,10 @@ StartChar: NameMe.163
 Encoding: 163 -1 152
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5155,7 +5294,10 @@ StartChar: NameMe.164
 Encoding: 164 -1 153
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5186,7 +5328,10 @@ StartChar: NameMe.165
 Encoding: 165 -1 154
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5217,7 +5362,10 @@ StartChar: NameMe.166
 Encoding: 166 -1 155
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5248,7 +5396,10 @@ StartChar: NameMe.167
 Encoding: 167 -1 156
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5279,7 +5430,10 @@ StartChar: NameMe.168
 Encoding: 168 -1 157
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5310,7 +5464,10 @@ StartChar: NameMe.169
 Encoding: 169 -1 158
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5341,7 +5498,7 @@ StartChar: NameMe.170
 Encoding: 170 -1 159
 Width: 2000
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
@@ -5349,7 +5506,7 @@ StartChar: NameMe.171
 Encoding: 171 -1 160
 Width: 2000
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
@@ -5357,7 +5514,7 @@ StartChar: NameMe.173
 Encoding: 173 -1 161
 Width: 2000
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
@@ -5365,7 +5522,7 @@ StartChar: NameMe.174
 Encoding: 174 -1 162
 Width: 2000
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
@@ -5373,7 +5530,7 @@ StartChar: NameMe.175
 Encoding: 175 -1 163
 Width: 2000
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 EndChar
 
@@ -5381,7 +5538,10 @@ StartChar: NameMe.176
 Encoding: 176 -1 164
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5412,7 +5572,10 @@ StartChar: NameMe.177
 Encoding: 177 -1 165
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5443,7 +5606,10 @@ StartChar: NameMe.178
 Encoding: 178 -1 166
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5474,7 +5640,10 @@ StartChar: NameMe.179
 Encoding: 179 -1 167
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5505,7 +5674,10 @@ StartChar: NameMe.180
 Encoding: 180 -1 168
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5536,7 +5708,7 @@ StartChar: NameMe.181
 Encoding: 181 -1 169
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5558,7 +5730,9 @@ StartChar: NameMe.182
 Encoding: 182 -1 170
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 600 100<100 549.551>
+VStem: 275 100<707.623 1000>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5596,7 +5770,8 @@ StartChar: NameMe.183
 Encoding: 183 -1 171
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+VStem: 100 100<534.946 1000> 450 100<300 765.054>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5623,7 +5798,10 @@ StartChar: NameMe.184
 Encoding: 184 -1 172
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<200 450> 600 100<200 450> 900 100<200 450>
+VStem: 100 100<400 600 700 900> 450 100<400 600 700 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5654,7 +5832,10 @@ StartChar: NameMe.185
 Encoding: 185 -1 173
 Width: 1200
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 300 100<100 450> 600 100<200 450> 900 100<200 550>
+VStem: 100 100<700 900> 450 100<400 600>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Fore
@@ -5685,7 +5866,10 @@ StartChar: NameMe.193
 Encoding: 193 -1 174
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 450 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 450 550 900> 1000 100<100 450 550 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -5716,7 +5900,10 @@ StartChar: NameMe.194
 Encoding: 194 -1 175
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 450 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 450 550 900> 1000 100<100 450 550 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -5747,7 +5934,10 @@ StartChar: NameMe.195
 Encoding: 195 -1 176
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 450 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 450 550 900> 1000 100<100 450 550 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -5778,7 +5968,10 @@ StartChar: NameMe.196
 Encoding: 196 -1 177
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 450 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 450 550 900> 1000 100<100 450 550 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -5809,7 +6002,10 @@ StartChar: NameMe.197
 Encoding: 197 -1 178
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 450 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 450 550 900> 1000 100<100 450 550 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -5840,7 +6036,10 @@ StartChar: NameMe.198
 Encoding: 198 -1 179
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 450 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 450 550 900> 1000 100<100 450 550 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -5871,7 +6070,10 @@ StartChar: NameMe.199
 Encoding: 199 -1 180
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 450 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 450 550 900> 1000 100<100 450 550 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -5902,7 +6104,10 @@ StartChar: NameMe.200
 Encoding: 200 -1 181
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 450 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 450 550 900> 1000 100<100 450 550 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -5933,7 +6138,10 @@ StartChar: NameMe.201
 Encoding: 201 -1 182
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 450 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 450 550 900> 1000 100<100 450 550 900>
+CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -5964,7 +6172,9 @@ StartChar: NameMe.208
 Encoding: 208 -1 183
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 900> 1000 100<100 900>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Back
@@ -5998,7 +6208,9 @@ StartChar: NameMe.209
 Encoding: 209 -1 184
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 900> 1000 100<100 900>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -6024,7 +6236,9 @@ StartChar: NameMe.210
 Encoding: 210 -1 185
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 900> 1000 100<100 900>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -6050,7 +6264,9 @@ StartChar: NameMe.211
 Encoding: 211 -1 186
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 900> 1000 100<100 900>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -6076,7 +6292,9 @@ StartChar: NameMe.212
 Encoding: 212 -1 187
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 900> 1000 100<100 900>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -6102,7 +6320,9 @@ StartChar: NameMe.213
 Encoding: 213 -1 188
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 900> 1000 100<100 900>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -6128,7 +6348,9 @@ StartChar: NameMe.214
 Encoding: 214 -1 189
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 900> 1000 100<100 900>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -6154,7 +6376,9 @@ StartChar: NameMe.215
 Encoding: 215 -1 190
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 900> 1000 100<100 900>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -6180,7 +6404,9 @@ StartChar: NameMe.216
 Encoding: 216 -1 191
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 900> 1000 100<100 900>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -6206,7 +6432,9 @@ StartChar: NameMe.217
 Encoding: 217 -1 192
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 100<750 1000> 900 100<750 1000>
+VStem: 650 100<100 900> 1000 100<100 900>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Fore
@@ -6232,34 +6460,34 @@ StartChar: NameMe.352
 Encoding: 352 -1 193
 Width: 1200
 VWidth: 0
-Flags: HWO
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
+Flags: W
+HStem: 0.5 100<199.5 800> 288 100<514.112 645.888> 912 100<514.112 645.888>
+VStem: 99.5 100<100.5 999.5> 348 100<464.785 835.215> 712 100<464.785 835.215>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
-398 660 m 0
- 398 827 480 962 580 962 c 0
- 680 962 762 827 762 660 c 0
- 762 493 680 358 580 358 c 0
- 480 358 398 493 398 660 c 0
+398 650 m 4
+ 398 822.529801325 480 962 580 962 c 4
+ 680 962 762 822.529801325 762 650 c 4
+ 762 477.470198675 680 338 580 338 c 4
+ 480 338 398 477.470198675 398 650 c 4
 149.5 999.5 m 25
  149.5 50.5 l 1
  800 50.5 l 1049
 EndSplineSet
 Fore
 SplineSet
-448 660 m 0
- 448 499.310574768 528.272883348 408 580 408 c 0
- 631.72175141 408 712 499.334389497 712 660 c 0
- 712 820.689425232 631.727116652 912 580 912 c 0
- 528.27824859 912 448 820.665610503 448 660 c 0
-348 660 m 0
- 348 833.334389497 431.72175141 1012 580 1012 c 0
- 728.272883348 1012 812 833.310574768 812 660 c 0
- 812 486.665610503 728.27824859 308 580 308 c 0
- 431.727116652 308 348 486.689425232 348 660 c 0
+448 650 m 0
+ 448 482.48414369 529.49999374 388 580 388 c 0
+ 630.499087973 388 712 482.487773808 712 650 c 0
+ 712 817.51585631 630.50000626 912 580 912 c 0
+ 529.500912027 912 448 817.512226192 448 650 c 0
+348 650 m 0
+ 348 827.547376457 430.499087973 1012 580 1012 c 0
+ 729.49999374 1012 812 827.543746339 812 650 c 0
+ 812 472.452623543 729.500912027 288 580 288 c 0
+ 430.50000626 288 348 472.456253661 348 650 c 0
 149.5 999.5 m 1
  199.5 999.5 l 1
  199.5 100.5 l 1
@@ -6277,13 +6505,44 @@ StartChar: NameMe.353
 Encoding: 353 -1 194
 Width: 1200
 VWidth: 0
-Flags: W
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
+Flags: WO
+HStem: 0.5 100<99.5 700> 288 100<254.112 385.888> 912 100<254.112 385.888>
+VStem: 88 100<464.785 835.215> 452 100<464.785 835.215> 700 100<100.5 999.5>
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
+Back
+SplineSet
+99.5 50.5 m 5
+ 750 50.5 l 29
+ 750 999.5 l 1053
+138 650 m 4
+ 138 822.529801325 220 962 320 962 c 4
+ 420 962 502 822.529801325 502 650 c 4
+ 502 477.470198675 420 338 320 338 c 4
+ 220 338 138 477.470198675 138 650 c 4
+EndSplineSet
 Fore
 SplineSet
+99.5 50.5 m 1
+ 99.5 100.5 l 1
+ 700 100.5 l 1
+ 700 999.5 l 1
+ 750 999.5 l 1
+ 800 999.5 l 1
+ 800 50.5 l 2
+ 800 29.0401913347 780.265075711 0.5 750 0.5 c 2
+ 99.5 0.5 l 1
+ 99.5 50.5 l 1
+188 650 m 0
+ 188 482.48414369 269.49999374 388 320 388 c 0
+ 370.499087973 388 452 482.487773808 452 650 c 0
+ 452 817.51585631 370.50000626 912 320 912 c 0
+ 269.500912027 912 188 817.512226192 188 650 c 0
+88 650 m 0
+ 88 827.547376457 170.499087973 1012 320 1012 c 0
+ 469.49999374 1012 552 827.543746339 552 650 c 0
+ 552 472.452623543 469.500912027 288 320 288 c 0
+ 170.50000626 288 88 472.456253661 88 650 c 0
 99.5 50.5 m 1
  99.5 100.5 l 1
  700 100.5 l 1
