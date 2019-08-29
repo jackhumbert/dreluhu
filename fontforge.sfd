@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1566577596
-ModificationTime: 1567104264
+ModificationTime: 1567108831
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,9 +36,54 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+Lookup: 6 0 0 "semivowels" { "semivowels contextual 0"  "semivowels contextual 1"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 1" { "Single Substitution lookup 1 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 2" { "Single Substitution lookup 2 subtable"  } []
+Lookup: 4 0 1 "diphthongs" { "diphthongs subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "ce_c" { "ce_c subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5 subtable"  } []
+Lookup: 6 0 0 "ce_e" { "ce_e subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7 subtable"  } []
+Lookup: 6 0 0 "ci_i" { "ci_i subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 9" { "Single Substitution lookup 9 subtable"  } []
 Lookup: 260 0 0 "Above" { "Above-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'ROM ' 'TRK ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "ci_i subtable" 0 0 0 1
+ 1 1 0
+  Coverage: 21 ibu ubu abu aibu aubu
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+ 1
+  SeqLookup: 0 "Single Substitution lookup 9"
+EndFPST
+ChainSub2: coverage "ce_e subtable" 0 0 0 1
+ 1 1 0
+  Coverage: 21 ebu obu ybu eibu oibu
+  BCoverage: 160 py.ce.1 ty.ce.1 ky.ce.1 fy.ce.1 ly.ce.1 sy.ce.1 cy.ce.1 my.ce.1 xy.ce.1 by.ce.1 dy.ce.1 gy.ce.1 vy.ce.1 ry.ce.1 zy.ce.1 jy.ce.1 ny.ce.1 yhy.ce.1 iy.ce.1 uy.ce.1
+ 1
+  SeqLookup: 0 "Single Substitution lookup 7"
+EndFPST
+ChainSub2: coverage "ce_c subtable" 0 0 0 1
+ 1 0 1
+  Coverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+  FCoverage: 21 ebu obu ybu eibu oibu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 5"
+EndFPST
+ChainSub2: coverage "semivowels contextual 1" 0 0 0 1
+ 1 0 1
+  Coverage: 3 ubu
+  FCoverage: 23 abu ebu ibu obu ubu ybu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 2"
+EndFPST
+ChainSub2: coverage "semivowels contextual 0" 0 0 0 1
+ 1 0 1
+  Coverage: 3 ibu
+  FCoverage: 23 abu ebu ibu obu ubu ybu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 1"
+EndFPST
 Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
@@ -87,7 +132,7 @@ Grid
   Named: "c-bot"
 EndSplineSet
 AnchorClass2: "Above" "Above-1"
-BeginChars: 387 202
+BeginChars: 387 204
 
 StartChar: space
 Encoding: 204 32 0
@@ -145,6 +190,7 @@ SplineSet
  794 75 l 1
  794 365 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" my.ce.1
 EndChar
 
 StartChar: py
@@ -152,18 +198,18 @@ Encoding: 1 60257 2
 Width: 940
 VWidth: 2000
 Flags: W
-HStem: 25 50<175 845> 365 50<175 845> 705 50<175 845>
-VStem: 125 50<75 365 415 705>
+HStem: 25 50<145 845> 365 50<145 845> 705 50<145 845>
+VStem: 95 50<75 365 415 705>
 CounterMasks: 1 e0
-AnchorPoint: "Above" 600 0 basechar 0
+AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
-150 390 m 5
+120 390 m 5
  820 390 l 1029
 820 730 m 5
- 150 730 l 5
- 150 50 l 5
+ 120 730 l 5
+ 120 50 l 5
  820 50 l 1029
 EndSplineSet
 Fore
@@ -171,31 +217,32 @@ SplineSet
 845 730 m 1
  845 705 l 1
  820 705 l 1
- 175 705 l 1
- 175 415 l 1
+ 145 705 l 1
+ 145 415 l 1
  820 415 l 1
  845 415 l 1
  845 390 l 1
  845 365 l 1
  820 365 l 1
- 175 365 l 1
- 175 75 l 1
+ 145 365 l 1
+ 145 75 l 1
  820 75 l 1
  845 75 l 1
  845 50 l 1
  845 25 l 1
  820 25 l 1
- 150 25 l 2
- 139.270095667 25 125 34.8674621445 125 50 c 2
- 125 365 l 1
- 125 390 l 1
- 125 415 l 1
- 125 730 l 2
- 125 740.729904333 134.867462144 755 150 755 c 2
+ 120 25 l 2
+ 109.270095667 25 95 34.8674621445 95 50 c 2
+ 95 365 l 1
+ 95 390 l 1
+ 95 415 l 1
+ 95 730 l 2
+ 95 740.729904333 104.867462144 755 120 755 c 2
  820 755 l 1
  845 755 l 1
  845 730 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" py.ce.1
 EndChar
 
 StartChar: by
@@ -206,7 +253,7 @@ Flags: W
 HStem: 25 50<95 795> 365 50<95 795> 705 50<95 795>
 VStem: 795 50<75 365 415 705>
 CounterMasks: 1 e0
-AnchorPoint: "Above" 600 0 basechar 0
+AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -247,6 +294,7 @@ SplineSet
  95 365 l 1
  95 390 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" by.ce.1
 EndChar
 
 StartChar: fy
@@ -256,7 +304,7 @@ VWidth: 2000
 Flags: W
 HStem: 25.5 50<174.5 795> 365 50<174.5 795>
 VStem: 124.5 50<75.5 365 415 755> 795 50<75.5 365 415 755>
-AnchorPoint: "Above" 600 0 basechar 0
+AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -292,6 +340,7 @@ SplineSet
  795 365 l 1
  174.5 365 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" fy.ce.1
 EndChar
 
 StartChar: vy
@@ -301,7 +350,7 @@ VWidth: 2000
 Flags: W
 HStem: 365 50<175 795> 705 50<175 795>
 VStem: 125 50<25 365 415 705> 795 50<25 365 415 705>
-AnchorPoint: "Above" 600 0 basechar 0
+AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -343,6 +392,7 @@ SplineSet
  175 415 l 1
  795 415 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" vy.ce.1
 EndChar
 
 StartChar: ky
@@ -377,6 +427,7 @@ SplineSet
  831.507678094 763.430126307 l 1
  842.4689022 740.961224106 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" ky.ce.1
 EndChar
 
 StartChar: cy
@@ -386,6 +437,7 @@ VWidth: 2000
 Flags: W
 HStem: 365 50<95 407.399 528.908 845>
 VStem: 445 50<26 363.815>
+AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -435,6 +487,7 @@ SplineSet
  87.1593743673 718.904454648 l 1
  97.0319145079 741.872540141 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" cy.ce.1
 EndChar
 
 StartChar: xy
@@ -444,6 +497,7 @@ VWidth: 2000
 Flags: W
 HStem: 705.907 48.186<783.326 837.546>
 VStem: 445 50<25 406.252>
+AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -476,6 +530,7 @@ SplineSet
  67.8807501746 717.223200933 l 1
  76.551975554 740.671225379 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" xy.ce.1
 EndChar
 
 StartChar: iy
@@ -510,6 +565,7 @@ SplineSet
  95 755 l 1
  120 755 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" iy.ce.1
 EndChar
 
 StartChar: ry
@@ -556,6 +612,7 @@ SplineSet
  84.6483733719 729.487657585 l 1
  102.068015479 747.419642107 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" ry.ce.1
 EndChar
 
 StartChar: ebu
@@ -563,7 +620,7 @@ Encoding: 10 60266 11
 Width: 940
 VWidth: 0
 Flags: W
-HStem: 5 50<287.737 452.263> 365 50<715 795> 725 50<287.737 452.263>
+HStem: 5 50<287.686 452.314> 365 50<715 795> 725 50<287.686 452.314>
 VStem: 75 50<254.113 525.887> 615 50<254.113 525.887> 795 50<35 365 415 745>
 CounterMasks: 1 e0
 LayerCount: 2
@@ -573,6 +630,7 @@ Refer: 196 -1 S 1 0 0 1 0 0 2
 Fore
 Refer: 33 -1 N 1 0 0 1 0 0 2
 Refer: 196 -1 N 1 0 0 1 0 0 2
+Substitution2: "Single Substitution lookup 7 subtable" ebu.ce.2
 EndChar
 
 StartChar: obu
@@ -580,7 +638,7 @@ Encoding: 11 60267 12
 Width: 940
 VWidth: 0
 Flags: W
-HStem: 5 50<287.737 452.263> 365 50<765 845> 725 50<287.737 452.263>
+HStem: 5 50<287.686 452.314> 365 50<765 845> 725 50<287.686 452.314>
 VStem: 75 50<254.113 525.887> 615 50<254.113 525.887> 715 50<25 365 415 755>
 CounterMasks: 1 e0
 LayerCount: 2
@@ -590,6 +648,7 @@ Refer: 196 -1 N 1 0 0 1 0 0 2
 Fore
 Refer: 34 -1 N 1 0 0 1 0 0 2
 Refer: 196 -1 N 1 0 0 1 0 0 2
+Substitution2: "Single Substitution lookup 7 subtable" obu.ce.2
 EndChar
 
 StartChar: ibu
@@ -601,11 +660,13 @@ HStem: -155 50<145 845> -155 110<95.2564 145> 5 50<352.083 587.917> 725 50<352.0
 VStem: 75 50<275.105 504.895> 95 50<-105 -45> 815 50<275.105 504.895>
 LayerCount: 2
 Back
-Refer: 42 -1 N 1 0 0 1 0 0 2
+Refer: 35 -1 N 1 0 0 1 0 0 2
 Refer: 32 60287 N 1 0 0 1 0 0 2
 Fore
-Refer: 42 -1 N 1 0 0 1 0 0 2
+Refer: 35 -1 S 1 0 0 1 0 0 2
 Refer: 32 60287 N 1 0 0 1 0 0 2
+Substitution2: "Single Substitution lookup 9 subtable" ibu.ci.2
+Substitution2: "Single Substitution lookup 1 subtable" iy
 EndChar
 
 StartChar: ubu
@@ -613,14 +674,17 @@ Encoding: 13 60269 14
 Width: 1200
 VWidth: 0
 Flags: W
-HStem: -155 50<96 796> -155 110<796 845.744> 5 50<352.083 587.917> 725 50<352.083 587.917>
-VStem: 75 50<275.105 504.895> 796 50<-105 -45> 815 50<275.105 504.895>
+HStem: -155 110<821 845.744> 5 50<352.083 587.917> 725 50<352.083 587.917>
+VStem: 75 50<275.105 504.895> 815 50<275.105 504.895>
 LayerCount: 2
 Back
-Refer: 32 60287 S 1 0 0 1 0 0 2
-Fore
-Refer: 129 -1 N 1 0 0 1 0 0 2
+Refer: 202 -1 S 1 0 0 1 0 0 2
 Refer: 32 60287 N 1 0 0 1 0 0 2
+Fore
+Refer: 202 -1 N 1 0 0 1 0 0 2
+Refer: 32 60287 N 1 0 0 1 0 0 2
+Substitution2: "Single Substitution lookup 9 subtable" ubu.ci.2
+Substitution2: "Single Substitution lookup 2 subtable" uy
 EndChar
 
 StartChar: abu
@@ -633,11 +697,12 @@ VStem: 75 50<275.105 504.895> 445 50<-155 -67> 815 50<275.105 504.895>
 CounterMasks: 1 1c
 LayerCount: 2
 Back
+Refer: 203 -1 S 1 0 0 1 0 0 2
 Refer: 32 60287 N 1 0 0 1 0 0 2
-Refer: 71 -1 N 1 0 0 1 0 0 2
 Fore
+Refer: 203 -1 N 1 0 0 1 0 0 2
 Refer: 32 60287 N 1 0 0 1 0 0 2
-Refer: 71 -1 N 1 0 0 1 0 0 2
+Substitution2: "Single Substitution lookup 9 subtable" abu.ci.2
 EndChar
 
 StartChar: ybu
@@ -645,7 +710,7 @@ Encoding: 15 60271 16
 Width: 940
 VWidth: 0
 Flags: W
-HStem: 5 50<287.737 452.263> 725 50<287.737 452.263>
+HStem: 5 50<287.686 452.314> 725 50<287.686 452.314>
 VStem: 75 50<254.113 525.887> 615 50<254.113 525.887> 795 50<35 745>
 LayerCount: 2
 Back
@@ -654,6 +719,7 @@ Refer: 196 -1 N 1 0 0 1 0 0 2
 Fore
 Refer: 197 -1 N 1 0 0 1 0 0 2
 Refer: 196 -1 N 1 0 0 1 0 0 2
+Substitution2: "Single Substitution lookup 7 subtable" ybu.ce.2
 EndChar
 
 StartChar: ny
@@ -690,6 +756,7 @@ SplineSet
  795 705 l 1
  145 705 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" ny.ce.1
 EndChar
 
 StartChar: ty
@@ -728,6 +795,7 @@ SplineSet
  845 755 l 1
  845 730 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" ty.ce.1
 EndChar
 
 StartChar: dy
@@ -766,6 +834,7 @@ SplineSet
  95 25 l 1
  95 50 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" dy.ce.1
 EndChar
 
 StartChar: sy
@@ -804,6 +873,7 @@ SplineSet
  95 755 l 1
  120 755 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" sy.ce.1
 EndChar
 
 StartChar: zy
@@ -842,6 +912,7 @@ SplineSet
  845 25.5 l 1
  820 25.5 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" zy.ce.1
 EndChar
 
 StartChar: gy
@@ -876,6 +947,7 @@ SplineSet
  86.5896969672 718.434895104 l 1
  97.5122960356 740.922599068 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" gy.ce.1
 EndChar
 
 StartChar: jy
@@ -936,6 +1008,7 @@ SplineSet
  107.119819579 17.0743116651 l 1
  97.0970656222 39.9772460429 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" jy.ce.1
 EndChar
 
 StartChar: yhy
@@ -975,6 +1048,7 @@ SplineSet
  95 755 l 1
  120 755 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" yhy.ce.1
 EndChar
 
 StartChar: uy
@@ -1009,6 +1083,7 @@ SplineSet
  95 25.5 l 1
  95 50.5 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" uy.ce.1
 EndChar
 
 StartChar: ly
@@ -1016,46 +1091,47 @@ Encoding: 25 60281 26
 Width: 940
 VWidth: 2000
 Flags: W
-HStem: 25 50<125 795> 365 50<155 795> 705 50<155 845>
-VStem: 105 50<415 705> 795 50<75 365>
+HStem: 25 50<95 795> 365 50<145 795> 705 50<145 845>
+VStem: 95 50<415 705> 795 50<75 365>
 CounterMasks: 1 e0
 AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
 820 730 m 5
- 130 730 l 5
- 130 390 l 5
+ 120 730 l 5
+ 120 390 l 5
  820 390 l 5
  820 50 l 5
- 150 50 l 1029
+ 120 50 l 1029
 EndSplineSet
 Fore
 SplineSet
 845 730 m 1
  845 705 l 1
  820 705 l 1
- 155 705 l 1
- 155 415 l 1
+ 145 705 l 1
+ 145 415 l 1
  820 415 l 2
  835.132537856 415 845 400.729904333 845 390 c 2
  845 50 l 2
  845 34.8674621445 830.729904333 25 820 25 c 2
- 150 25 l 1
- 125 25 l 1
- 125 50 l 1
- 125 75 l 1
- 150 75 l 1
+ 120 25 l 1
+ 95 25 l 1
+ 95 50 l 1
+ 95 75 l 1
+ 120 75 l 1
  795 75 l 1
  795 365 l 1
- 130 365 l 2
- 119.270095667 365 105 374.867462144 105 390 c 2
- 105 730 l 2
- 105 740.729904333 114.867462144 755 130 755 c 2
+ 120 365 l 2
+ 109.270095667 365 95 374.867462144 95 390 c 2
+ 95 730 l 2
+ 95 740.729904333 104.867462144 755 120 755 c 2
  820 755 l 1
  845 755 l 1
  845 730 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 5 subtable" ly.ce.1
 EndChar
 
 StartChar: eibu
@@ -1063,7 +1139,7 @@ Encoding: 26 60283 27
 Width: 940
 VWidth: 0
 Flags: W
-HStem: 5 50<287.737 452.263> 275 50<715 795> 465 50<715 795> 725 50<287.737 452.263>
+HStem: 5 50<287.686 452.314> 275 50<715 795> 465 50<715 795> 725 50<287.686 452.314>
 VStem: 75 50<254.113 525.887> 615 50<254.113 525.887> 715 130<275 325 465 515> 795 50<35 275 325 465 515 745>
 LayerCount: 2
 Back
@@ -1072,6 +1148,8 @@ Refer: 196 -1 N 1 0 0 1 0 0 2
 Fore
 Refer: 198 -1 S 1 0 0 1 0 0 2
 Refer: 196 -1 S 1 0 0 1 0 0 2
+Substitution2: "Single Substitution lookup 7 subtable" eibu.ce.2
+Ligature2: "diphthongs subtable" ebu ibu
 EndChar
 
 StartChar: oibu
@@ -1079,7 +1157,7 @@ Encoding: 27 60284 28
 Width: 940
 VWidth: 0
 Flags: W
-HStem: 5 50<287.737 452.263> 265 50<765 845> 465 50<765 845> 725 50<287.737 452.263>
+HStem: 5 50<287.686 452.314> 265 50<765 845> 465 50<765 845> 725 50<287.686 452.314>
 VStem: 75 50<254.113 525.887> 615 50<254.113 525.887> 715 50<25 265 315 465 515 755> 715 130<265 315 465 515>
 LayerCount: 2
 Back
@@ -1088,6 +1166,8 @@ Refer: 196 -1 N 1 0 0 1 0 0 2
 Fore
 Refer: 199 -1 S 1 0 0 1 0 0 2
 Refer: 196 -1 S 1 0 0 1 0 0 2
+Substitution2: "Single Substitution lookup 7 subtable" oibu.ce.2
+Ligature2: "diphthongs subtable" obu ibu
 EndChar
 
 StartChar: aibu
@@ -1104,6 +1184,8 @@ Refer: 32 60287 N 1 0 0 1 0 0 2
 Fore
 Refer: 200 -1 S 1 0 0 1 0 0 2
 Refer: 32 60287 S 1 0 0 1 0 0 2
+Substitution2: "Single Substitution lookup 9 subtable" aibu.ci.2
+Ligature2: "diphthongs subtable" abu ibu
 EndChar
 
 StartChar: aubu
@@ -1118,6 +1200,8 @@ Back
 Refer: 29 60282 N -1 0 0 1 1200 0 2
 Fore
 Refer: 29 60282 N -1 0 0 1 1200 0 2
+Substitution2: "Single Substitution lookup 9 subtable" aubu.ci.2
+Ligature2: "diphthongs subtable" abu ubu
 EndChar
 
 StartChar: slakabu
@@ -1247,8 +1331,42 @@ SplineSet
 EndSplineSet
 EndChar
 
+StartChar: ibu.ci.2
+Encoding: 44 -1 35
+Width: 0
+VWidth: 0
+Flags: W
+HStem: -155 110<95.2564 145> -155 50<145 845>
+VStem: 95 50<-105 -45>
+AnchorPoint: "Above" 470 0 mark 0
+LayerCount: 2
+Back
+SplineSet
+820 -130 m 1
+ 120 -130 l 1
+ 120 -70 l 1025
+EndSplineSet
+Fore
+SplineSet
+845 -130 m 1x60
+ 845 -155 l 1
+ 820 -155 l 1x60
+ 120 -155 l 2
+ 104.867462144 -155 95 -140.729904333 95 -130 c 2
+ 95 -70 l 1
+ 95 -45 l 1
+ 120 -45 l 1
+ 145 -45 l 1xa0
+ 145 -70 l 1
+ 145 -105 l 1
+ 820 -105 l 1
+ 845 -105 l 1
+ 845 -130 l 1x60
+EndSplineSet
+EndChar
+
 StartChar: my.ce.1
-Encoding: 32 -1 35
+Encoding: 32 -1 36
 Width: 940
 VWidth: 0
 Flags: W
@@ -1269,36 +1387,36 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-120 755 m 2
- 620 755 l 2
- 635.132537856 755 645 740.729904333 645 730 c 2
- 645 415 l 1
- 645 390 l 1
- 645 365 l 1
- 645 50 l 2
- 645 34.8674621445 630.729904333 25 620 25 c 2
- 120 25 l 2
- 104.867462144 25 95 39.2700956673 95 50 c 2
- 95 365 l 1
- 95 390 l 1
- 95 415 l 1
- 95 730 l 2
- 95 745.132537856 109.270095667 755 120 755 c 2
-145 365 m 1
- 145 75 l 1
- 595 75 l 1
- 595 365 l 1
- 145 365 l 1
-145 415 m 1
- 595 415 l 1
- 595 705 l 1
- 145 705 l 1
- 145 415 l 1
+120 755 m 6
+ 620 755 l 6
+ 635.132537856 755 645 740.729904333 645 730 c 6
+ 645 415 l 5
+ 645 390 l 5
+ 645 365 l 5
+ 645 50 l 6
+ 645 34.8674621445 630.729904333 25 620 25 c 6
+ 120 25 l 6
+ 104.867462144 25 95 39.2700956673 95 50 c 6
+ 95 365 l 5
+ 95 390 l 5
+ 95 415 l 5
+ 95 730 l 6
+ 95 745.132537856 109.270095667 755 120 755 c 6
+145 365 m 5
+ 145 75 l 5
+ 595 75 l 5
+ 595 365 l 5
+ 145 365 l 5
+145 415 m 5
+ 595 415 l 5
+ 595 705 l 5
+ 145 705 l 5
+ 145 415 l 5
 EndSplineSet
 EndChar
 
 StartChar: my.ci.1
-Encoding: 64 -1 36
+Encoding: 64 -1 37
 Width: 1200
 VWidth: 0
 Flags: W
@@ -1342,7 +1460,7 @@ EndSplineSet
 EndChar
 
 StartChar: my.cec.1
-Encoding: 96 -1 37
+Encoding: 96 -1 38
 Width: 940
 VWidth: 0
 Flags: W
@@ -1392,7 +1510,7 @@ EndSplineSet
 EndChar
 
 StartChar: my.cec.3
-Encoding: 128 -1 38
+Encoding: 128 -1 39
 Width: 0
 VWidth: 0
 Flags: W
@@ -1441,7 +1559,7 @@ EndSplineSet
 EndChar
 
 StartChar: ebu.cec.2
-Encoding: 106 -1 39
+Encoding: 106 -1 40
 Width: 0
 VWidth: 0
 Flags: W
@@ -1483,7 +1601,7 @@ EndSplineSet
 EndChar
 
 StartChar: ly.cec.3
-Encoding: 137 -1 40
+Encoding: 137 -1 41
 Width: 0
 VWidth: 0
 Flags: W
@@ -1526,7 +1644,7 @@ EndSplineSet
 EndChar
 
 StartChar: by.ci.1
-Encoding: 66 -1 41
+Encoding: 66 -1 42
 Width: 1200
 VWidth: 0
 Flags: W
@@ -1564,40 +1682,6 @@ SplineSet
  1000 600 l 1
  100 600 l 1
  100 650 l 1
-EndSplineSet
-EndChar
-
-StartChar: ibu.ci.2
-Encoding: 76 -1 42
-Width: 0
-VWidth: 0
-Flags: W
-HStem: -155 110<95.2564 145> -155 50<145 845>
-VStem: 95 50<-105 -45>
-AnchorPoint: "Above" 470 0 mark 0
-LayerCount: 2
-Back
-SplineSet
-820 -130 m 5
- 120 -130 l 5
- 120 -70 l 1029
-EndSplineSet
-Fore
-SplineSet
-845 -130 m 1x60
- 845 -155 l 1
- 820 -155 l 1x60
- 120 -155 l 2
- 104.867462144 -155 95 -140.729904333 95 -130 c 2
- 95 -70 l 1
- 95 -45 l 1
- 120 -45 l 1
- 145 -45 l 1xa0
- 145 -70 l 1
- 145 -105 l 1
- 820 -105 l 1
- 845 -105 l 1
- 845 -130 l 1x60
 EndSplineSet
 EndChar
 
@@ -1700,9 +1784,9 @@ CounterMasks: 1 e0
 AnchorPoint: "Above" 600 0 basechar 0
 LayerCount: 2
 Back
-Refer: 37 -1 N 1 0 0 1 0 0 2
+Refer: 38 -1 N 1 0 0 1 0 0 2
 Fore
-Refer: 37 -1 N 1 0 0 1 0 0 2
+Refer: 38 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: my.cce.2
@@ -1892,9 +1976,24 @@ VStem: 95 50<-105 -45>
 AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Back
-Refer: 42 -1 N 1 0 0 1 0 0 2
+Refer: -1 -1 N 1 0 0 1 0 0 2
 Fore
-Refer: 42 -1 N 1 0 0 1 0 0 2
+SplineSet
+845 -130 m 1xa0
+ 845 -155 l 1
+ 820 -155 l 1xa0
+ 120 -155 l 2
+ 104.8671875 -155 95 -140.729492188 95 -130 c 2
+ 95 -70 l 1
+ 95 -45 l 1
+ 120 -45 l 1
+ 145 -45 l 1x60
+ 145 -70 l 1
+ 145 -105 l 1
+ 820 -105 l 1
+ 845 -105 l 1
+ 845 -130 l 1xa0
+EndSplineSet
 EndChar
 
 StartChar: NameMe.289
@@ -2563,14 +2662,10 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: abu.ci.2
+StartChar: .notdef
 Encoding: 78 -1 71
 Width: 0
 VWidth: 0
-Flags: W
-HStem: -67 50<95 445 495 845>
-VStem: 445 50<-155 -67>
-AnchorPoint: "Above" 470 0 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -2579,6 +2674,19 @@ SplineSet
 820 -42 m 5
  120 -42 l 1029
 EndSplineSet
+EndChar
+
+StartChar: abu.cci.3
+Encoding: 302 -1 72
+Width: 0
+VWidth: 0
+Flags: W
+HStem: -67 50<95 445 495 845>
+VStem: 445 50<-155 -67>
+AnchorPoint: "Above" 600 0 mark 0
+LayerCount: 2
+Back
+Refer: 71 -1 N 1 0 0 1 0 0 2
 Fore
 SplineSet
 845 -42 m 1
@@ -2603,21 +2711,6 @@ SplineSet
  845 -17 l 1
  845 -42 l 1
 EndSplineSet
-EndChar
-
-StartChar: abu.cci.3
-Encoding: 302 -1 72
-Width: 0
-VWidth: 0
-Flags: W
-HStem: -67 50<95 445 495 845>
-VStem: 445 50<-155 -67>
-AnchorPoint: "Above" 600 0 mark 0
-LayerCount: 2
-Back
-Refer: 71 -1 N 1 0 0 1 0 0 2
-Fore
-Refer: 71 -1 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.321
@@ -3275,312 +3368,423 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: NameMe.33
+StartChar: py.ce.1
 Encoding: 33 -1 92
-Width: 1200
+Width: 940
 VWidth: 0
 Flags: W
-HStem: 0 100<200 800> 450 100<150 800> 900 100<200 800>
-VStem: 150 50<450 550>
+HStem: 25 50<145 645> 365 50<145 645> 705 50<145 645>
+VStem: 95 50<75 365 415 705>
 CounterMasks: 1 e0
-AnchorPoint: "Above" 600 0 basechar 0
+AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
-150 500 m 29
- 800 500 l 1053
-800 50 m 13
- 150 50 l 29
- 150 950 l 29
- 800 950 l 1045
+120 390 m 5
+ 620 390 l 1029
+620 50 m 5
+ 120 50 l 5
+ 120 730 l 5
+ 620 730 l 1029
 EndSplineSet
 Fore
 SplineSet
-150 500 m 1
- 150 550 l 1
- 800 550 l 1
- 800 500 l 1
- 800 450 l 1
- 150 450 l 1
- 150 500 l 1
-800 50 m 1
- 800 0 l 1
- 150 0 l 2
- 119.734924289 0 100 28.5401913347 100 50 c 2
- 100 950 l 2
- 100 980.265075711 128.540191335 1000 150 1000 c 2
- 800 1000 l 1
- 800 950 l 1
- 800 900 l 1
- 200 900 l 1
- 200 100 l 1
- 800 100 l 1
- 800 50 l 1
+645 50 m 1
+ 645 25 l 1
+ 620 25 l 1
+ 120 25 l 2
+ 104.867462144 25 95 39.2700956673 95 50 c 2
+ 95 365 l 1
+ 95 390 l 1
+ 95 415 l 1
+ 95 730 l 2
+ 95 745.132537856 109.270095667 755 120 755 c 2
+ 620 755 l 1
+ 645 755 l 1
+ 645 730 l 1
+ 645 705 l 1
+ 620 705 l 1
+ 145 705 l 1
+ 145 415 l 1
+ 620 415 l 1
+ 645 415 l 1
+ 645 390 l 1
+ 645 365 l 1
+ 620 365 l 1
+ 145 365 l 1
+ 145 75 l 1
+ 620 75 l 1
+ 645 75 l 1
+ 645 50 l 1
 EndSplineSet
 EndChar
 
-StartChar: NameMe.34
+StartChar: by.ce.1
 Encoding: 34 -1 93
-Width: 1200
+Width: 940
 VWidth: 0
 Flags: W
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
-AnchorPoint: "Above" 600 0 basechar 0
-LayerCount: 2
-Fore
-SplineSet
-150 1000 m 2
- 750 1000 l 2
- 780.265075711 1000 800 971.459808665 800 950 c 2
- 800 50 l 2
- 800 19.7349242889 771.459808665 0 750 0 c 2
- 150 0 l 2
- 119.734924289 0 100 28.5401913347 100 50 c 2
- 100 950 l 2
- 100 980.265075711 128.540191335 1000 150 1000 c 2
-200 450 m 1
- 200 100 l 1
- 700 100 l 1
- 700 450 l 1
- 200 450 l 1
-200 550 m 1
- 700 550 l 1
- 700 900 l 1
- 200 900 l 1
- 200 550 l 1
-EndSplineSet
-EndChar
-
-StartChar: NameMe.35
-Encoding: 35 -1 94
-Width: 1200
-VWidth: 0
-Flags: W
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
-AnchorPoint: "Above" 600 0 basechar 0
-LayerCount: 2
-Fore
-SplineSet
-150 1000 m 2
- 750 1000 l 2
- 780.265075711 1000 800 971.459808665 800 950 c 2
- 800 50 l 2
- 800 19.7349242889 771.459808665 0 750 0 c 2
- 150 0 l 2
- 119.734924289 0 100 28.5401913347 100 50 c 2
- 100 950 l 2
- 100 980.265075711 128.540191335 1000 150 1000 c 2
-200 450 m 1
- 200 100 l 1
- 700 100 l 1
- 700 450 l 1
- 200 450 l 1
-200 550 m 1
- 700 550 l 1
- 700 900 l 1
- 200 900 l 1
- 200 550 l 1
-EndSplineSet
-EndChar
-
-StartChar: NameMe.36
-Encoding: 36 -1 95
-Width: 1200
-VWidth: 0
-Flags: W
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
-AnchorPoint: "Above" 600 0 basechar 0
-LayerCount: 2
-Fore
-SplineSet
-150 1000 m 2
- 750 1000 l 2
- 780.265075711 1000 800 971.459808665 800 950 c 2
- 800 50 l 2
- 800 19.7349242889 771.459808665 0 750 0 c 2
- 150 0 l 2
- 119.734924289 0 100 28.5401913347 100 50 c 2
- 100 950 l 2
- 100 980.265075711 128.540191335 1000 150 1000 c 2
-200 450 m 1
- 200 100 l 1
- 700 100 l 1
- 700 450 l 1
- 200 450 l 1
-200 550 m 1
- 700 550 l 1
- 700 900 l 1
- 200 900 l 1
- 200 550 l 1
-EndSplineSet
-EndChar
-
-StartChar: NameMe.37
-Encoding: 37 -1 96
-Width: 1200
-VWidth: 0
-Flags: W
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
-AnchorPoint: "Above" 600 0 basechar 0
-LayerCount: 2
-Fore
-SplineSet
-150 1000 m 2
- 750 1000 l 2
- 780.265075711 1000 800 971.459808665 800 950 c 2
- 800 50 l 2
- 800 19.7349242889 771.459808665 0 750 0 c 2
- 150 0 l 2
- 119.734924289 0 100 28.5401913347 100 50 c 2
- 100 950 l 2
- 100 980.265075711 128.540191335 1000 150 1000 c 2
-200 450 m 1
- 200 100 l 1
- 700 100 l 1
- 700 450 l 1
- 200 450 l 1
-200 550 m 1
- 700 550 l 1
- 700 900 l 1
- 200 900 l 1
- 200 550 l 1
-EndSplineSet
-EndChar
-
-StartChar: NameMe.38
-Encoding: 38 -1 97
-Width: 1200
-VWidth: 0
-Flags: W
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
-AnchorPoint: "Above" 600 0 basechar 0
-LayerCount: 2
-Fore
-SplineSet
-150 1000 m 2
- 750 1000 l 2
- 780.265075711 1000 800 971.459808665 800 950 c 2
- 800 50 l 2
- 800 19.7349242889 771.459808665 0 750 0 c 2
- 150 0 l 2
- 119.734924289 0 100 28.5401913347 100 50 c 2
- 100 950 l 2
- 100 980.265075711 128.540191335 1000 150 1000 c 2
-200 450 m 1
- 200 100 l 1
- 700 100 l 1
- 700 450 l 1
- 200 450 l 1
-200 550 m 1
- 700 550 l 1
- 700 900 l 1
- 200 900 l 1
- 200 550 l 1
-EndSplineSet
-EndChar
-
-StartChar: NameMe.39
-Encoding: 39 -1 98
-Width: 1200
-VWidth: 0
-Flags: W
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
-AnchorPoint: "Above" 600 0 basechar 0
-LayerCount: 2
-Fore
-SplineSet
-150 1000 m 2
- 750 1000 l 2
- 780.265075711 1000 800 971.459808665 800 950 c 2
- 800 50 l 2
- 800 19.7349242889 771.459808665 0 750 0 c 2
- 150 0 l 2
- 119.734924289 0 100 28.5401913347 100 50 c 2
- 100 950 l 2
- 100 980.265075711 128.540191335 1000 150 1000 c 2
-200 450 m 1
- 200 100 l 1
- 700 100 l 1
- 700 450 l 1
- 200 450 l 1
-200 550 m 1
- 700 550 l 1
- 700 900 l 1
- 200 900 l 1
- 200 550 l 1
-EndSplineSet
-EndChar
-
-StartChar: NameMe.40
-Encoding: 40 -1 99
-Width: 1200
-VWidth: 0
-Flags: W
-HStem: 0.5 100<199.5 800>
-VStem: 99.5 100<100.5 999.5>
-AnchorPoint: "Above" 600 0 basechar 0
+HStem: 25 50<95 595> 365 50<95 595> 705 50<95 595>
+VStem: 595 50<75 365 415 705>
+CounterMasks: 1 e0
+AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
-149.5 999.5 m 29
- 149.5 50.5 l 5
- 800 50.5 l 1053
+120 390 m 5
+ 620 390 l 1029
+120 730 m 5
+ 620 730 l 5
+ 620 50 l 5
+ 120 50 l 1029
 EndSplineSet
 Fore
 SplineSet
-149.5 999.5 m 1
- 199.5 999.5 l 1
- 199.5 100.5 l 1
- 800 100.5 l 1
- 800 50.5 l 1
- 800 0.5 l 1
- 149.5 0.5 l 2
- 128.040191335 0.5 99.5 20.2349242889 99.5 50.5 c 2
- 99.5 999.5 l 1
- 149.5 999.5 l 1
+95 730 m 1
+ 95 755 l 1
+ 120 755 l 1
+ 620 755 l 2
+ 635.132537856 755 645 740.729904333 645 730 c 2
+ 645 415 l 1
+ 645 390 l 1
+ 645 365 l 1
+ 645 50 l 2
+ 645 34.8674621445 630.729904333 25 620 25 c 2
+ 120 25 l 1
+ 95 25 l 1
+ 95 50 l 1
+ 95 75 l 1
+ 120 75 l 1
+ 595 75 l 1
+ 595 365 l 1
+ 120 365 l 1
+ 95 365 l 1
+ 95 390 l 1
+ 95 415 l 1
+ 120 415 l 1
+ 595 415 l 1
+ 595 705 l 1
+ 120 705 l 1
+ 95 705 l 1
+ 95 730 l 1
 EndSplineSet
 EndChar
 
-StartChar: NameMe.41
-Encoding: 41 -1 100
-Width: 1200
+StartChar: fy.ce.1
+Encoding: 35 -1 94
+Width: 940
 VWidth: 0
 Flags: W
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
-AnchorPoint: "Above" 600 0 basechar 0
+HStem: 25 50<145 595> 365 50<145 595>
+VStem: 95 50<75 365 415 755> 595 50<75 365 415 755>
+AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
+Back
+SplineSet
+120 390 m 5
+ 620 390 l 1029
+620 730 m 5
+ 620 50 l 5
+ 120 50 l 5
+ 120 730 l 1029
+EndSplineSet
 Fore
 SplineSet
-150 1000 m 2
- 750 1000 l 2
- 780.265075711 1000 800 971.459808665 800 950 c 2
- 800 50 l 2
- 800 19.7349242889 771.459808665 0 750 0 c 2
- 150 0 l 2
- 119.734924289 0 100 28.5401913347 100 50 c 2
- 100 950 l 2
- 100 980.265075711 128.540191335 1000 150 1000 c 2
-200 450 m 1
- 200 100 l 1
- 700 100 l 1
- 700 450 l 1
- 200 450 l 1
-200 550 m 1
- 700 550 l 1
- 700 900 l 1
- 200 900 l 1
- 200 550 l 1
+620 755 m 1
+ 645 755 l 1
+ 645 730 l 1
+ 645 415 l 1
+ 645 390 l 1
+ 645 365 l 1
+ 645 50 l 2
+ 645 34.8674621445 630.729904333 25 620 25 c 2
+ 120 25 l 2
+ 104.867462144 25 95 39.2700956673 95 50 c 2
+ 95 365 l 1
+ 95 390 l 1
+ 95 415 l 1
+ 95 730 l 1
+ 95 755 l 1
+ 120 755 l 1
+ 145 755 l 1
+ 145 730 l 1
+ 145 415 l 1
+ 595 415 l 1
+ 595 730 l 1
+ 595 755 l 1
+ 620 755 l 1
+145 365 m 1
+ 145 75 l 1
+ 595 75 l 1
+ 595 365 l 1
+ 145 365 l 1
 EndSplineSet
 EndChar
 
-StartChar: NameMe.48
+StartChar: vy.ce.1
+Encoding: 36 -1 95
+Width: 940
+VWidth: 0
+Flags: W
+HStem: 365 50<145 595> 705 50<145 595>
+VStem: 95 50<25 365 415 705> 595 50<25 365 415 705>
+AnchorPoint: "Above" 470 0 basechar 0
+LayerCount: 2
+Back
+SplineSet
+120 390 m 5
+ 620 390 l 1029
+120 50 m 5
+ 120 730 l 5
+ 620 730 l 5
+ 620 50 l 1029
+EndSplineSet
+Fore
+SplineSet
+120 25 m 1
+ 95 25 l 1
+ 95 50 l 1
+ 95 365 l 1
+ 95 390 l 1
+ 95 415 l 1
+ 95 730 l 2
+ 95 745.132537856 109.270095667 755 120 755 c 2
+ 620 755 l 2
+ 635.132537856 755 645 740.729904333 645 730 c 2
+ 645 415 l 1
+ 645 390 l 1
+ 645 365 l 1
+ 645 50 l 1
+ 645 25 l 1
+ 620 25 l 1
+ 595 25 l 1
+ 595 50 l 1
+ 595 365 l 1
+ 145 365 l 1
+ 145 50 l 1
+ 145 25 l 1
+ 120 25 l 1
+595 415 m 1
+ 595 705 l 1
+ 145 705 l 1
+ 145 415 l 1
+ 595 415 l 1
+EndSplineSet
+EndChar
+
+StartChar: ky.ce.1
+Encoding: 37 -1 96
+Width: 940
+VWidth: 0
+Flags: W
+AnchorPoint: "Above" 470 0 basechar 0
+LayerCount: 2
+Back
+SplineSet
+620 730 m 29
+ 120 390 l 29
+ 620 50 l 1053
+EndSplineSet
+Fore
+SplineSet
+640.673162552 744.057750535 m 1
+ 654.730913087 723.384587983 l 1
+ 634.057750535 709.326837448 l 1
+ 164.45946017 390 l 1
+ 634.057750535 70.6731625517 l 1
+ 654.730913087 56.6154120166 l 1
+ 640.673162552 35.9422494648 l 1
+ 626.615412017 15.2690869131 l 1
+ 605.942249465 29.3268374483 l 1
+ 605.115322963 29.8891474697 605.942249465 28.3268374483 605.942249465 29.3268374483 c 1
+ 105.942249465 369.326837448 l 2
+ 104.902755564 370.033693301 101.994367442 372.491272761 100.493492773 374.363626513 c 0
+ 91.5054526912 385.57628199 94.0589816599 402.592540444 105.942249465 410.673162552 c 2
+ 605.942249465 750.673162552 l 1
+ 626.615412017 764.730913087 l 1
+ 640.673162552 744.057750535 l 1
+EndSplineSet
+EndChar
+
+StartChar: cy.ce.1
+Encoding: 38 -1 97
+Width: 940
+VWidth: 0
+Flags: W
+HStem: 365 50<95 329.544 423.611 645>
+VStem: 355 50<26 363.822>
+AnchorPoint: "Above" 470 0 basechar 0
+LayerCount: 2
+Back
+SplineSet
+120 390 m 5
+ 620 390 l 1029
+380 290 m 5
+ 380 51 l 1029
+120 732 m 5
+ 192.553033804 700.813998938 376.170898438 488.842773438 380 290 c 5
+ 376.561523438 481.125 528.807617188 702.217773438 620 730 c 1029
+EndSplineSet
+Fore
+SplineSet
+97.0319145079 741.872540141 m 1
+ 106.904454648 764.840625633 l 1
+ 129.872540141 754.968085492 l 2
+ 197.503703608 725.897687948 319.778415014 589.738681373 376.513528415 433.671584778 c 1
+ 422.445556538 586.682023634 527.631054543 727.993772589 612.714233966 753.914799044 c 2
+ 636.62903301 761.200565077 l 1
+ 643.914799044 737.285766034 l 1
+ 651.200565077 713.37096699 l 1
+ 627.285766034 706.085200956 l 2
+ 569.909661241 688.605276718 465.925353017 557.672138434 423.610683158 415 c 1
+ 620 415 l 1
+ 645 415 l 1
+ 645 390 l 1
+ 645 365 l 1
+ 620 365 l 1
+ 411.537221389 365 l 1
+ 407.670073715 344.012477104 405.379321062 323.026399902 405 302.356495589 c 2
+ 405 290 l 1
+ 405 51 l 1
+ 405 26 l 1
+ 380 26 l 1
+ 355 26 l 1
+ 355 51 l 1
+ 355 289.754433602 l 2
+ 354.500994858 314.638130603 350.858316313 339.87863809 344.775478895 365 c 1
+ 120 365 l 1
+ 95 365 l 1
+ 95 390 l 1
+ 95 415 l 1
+ 120 415 l 1
+ 329.543864105 415 l 1
+ 276.915187198 559.301774485 157.300700206 688.755095657 110.127459859 709.031914508 c 2
+ 87.1593743673 718.904454648 l 1
+ 97.0319145079 741.872540141 l 1
+EndSplineSet
+EndChar
+
+StartChar: xy.ce.1
+Encoding: 39 -1 98
+Width: 940
+VWidth: 0
+Flags: W
+HStem: 705.907 48.186<589.092 637.545>
+VStem: 355 50<25 432.686>
+AnchorPoint: "Above" 470 0 basechar 0
+LayerCount: 2
+Back
+SplineSet
+380 330 m 5
+ 380 50 l 1029
+118 732 m 5
+ 194.69921875 703.63671875 375.952148438 510.848632812 380 330 c 5
+ 376.561523438 503.75 528.807617188 704.743164062 620 730 c 1029
+EndSplineSet
+Fore
+SplineSet
+94.5519191425 740.671072835 m 1
+ 103.222991977 764.119153692 l 1
+ 126.671072835 755.448080857 l 2
+ 197.500786307 729.255335784 320.734221658 603.441863083 376.609992555 461.585866155 c 1
+ 423.097057997 602.355871854 528.931802224 730.718694112 613.327149198 754.093008575 c 2
+ 637.420157772 760.765859377 l 1
+ 644.093008575 736.672850802 l 1
+ 650.765859377 712.579842228 l 1
+ 626.672850802 705.906991425 l 2
+ 553.379758437 685.607580969 408.264870838 501.657442281 405 341.170667233 c 2
+ 405 330 l 1
+ 405 50 l 1
+ 405 25 l 1
+ 380 25 l 1
+ 355 25 l 1
+ 355 50 l 1
+ 355 329.713436153 l 2
+ 351.063157598 497.233536233 174.267689549 684.537640881 109.328927165 708.551919143 c 2
+ 85.880846308 717.222991977 l 1
+ 94.5519191425 740.671072835 l 1
+EndSplineSet
+EndChar
+
+StartChar: iy.ce.1
+Encoding: 40 -1 99
+Width: 940
+VWidth: 0
+Flags: W
+HStem: 25 50<145 645>
+VStem: 95 50<75 755>
+AnchorPoint: "Above" 470 0 basechar 0
+LayerCount: 2
+Back
+SplineSet
+620 50 m 5
+ 120 50 l 5
+ 120 730 l 1029
+EndSplineSet
+Fore
+SplineSet
+645 50 m 1
+ 645 25 l 1
+ 620 25 l 1
+ 120 25 l 2
+ 104.867462144 25 95 39.2700956673 95 50 c 2
+ 95 730 l 1
+ 95 755 l 1
+ 120 755 l 1
+ 145 755 l 1
+ 145 730 l 1
+ 145 75 l 1
+ 620 75 l 1
+ 645 75 l 1
+ 645 50 l 1
+EndSplineSet
+EndChar
+
+StartChar: ry.ce.1
+Encoding: 41 -1 100
+Width: 940
+VWidth: 0
+Flags: W
+AnchorPoint: "Above" 470 0 basechar 0
+LayerCount: 2
+Back
+SplineSet
+120 50 m 29
+ 620 730 l 1053
+120 730 m 29
+ 620 50 l 1053
+EndSplineSet
+Fore
+SplineSet
+105.190238738 750.141275316 m 1
+ 125.331514054 764.951036578 l 1
+ 140.141275316 744.809761262 l 1
+ 370 432.201895692 l 1
+ 599.858724684 744.809761262 l 1
+ 614.668485946 764.951036578 l 1
+ 634.809761262 750.141275316 l 1
+ 654.951036578 735.331514054 l 1
+ 640.141275316 715.190238738 l 1
+ 401.030805656 390 l 1
+ 640.141275316 64.8097612619 l 1
+ 654.951036578 44.6684859457 l 1
+ 634.809761262 29.8587246838 l 1
+ 614.668485946 15.0489634218 l 1
+ 599.858724684 35.1902387381 l 1
+ 370 347.798104308 l 1
+ 140.141275316 35.1902387381 l 1
+ 125.331514054 15.0489634218 l 1
+ 105.190238738 29.8587246838 l 1
+ 85.0489634218 44.6684859457 l 1
+ 99.8587246838 64.8097612619 l 1
+ 338.969194344 390 l 1
+ 99.8587246838 715.190238738 l 1
+ 85.0489634218 735.331514054 l 1
+ 105.190238738 750.141275316 l 1
+EndSplineSet
+EndChar
+
+StartChar: ny.ce.1
 Encoding: 48 -1 101
 Width: 940
 VWidth: 0
@@ -3616,301 +3820,368 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: NameMe.49
+StartChar: ty.ce.1
 Encoding: 49 -1 102
-Width: 1200
+Width: 940
 VWidth: 0
 Flags: W
-HStem: 0 100<200 800> 900 100<200 800>
-VStem: 100 100<100 900>
-AnchorPoint: "Above" 600 0 basechar 0
+HStem: 25 50<145 645> 705 50<145 645>
+VStem: 95 50<75 705>
+AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
-800 50 m 13
- 150 50 l 29
- 150 950 l 29
- 800 950 l 1045
+620 50 m 5
+ 120 50 l 5
+ 120 730 l 5
+ 620 730 l 1029
 EndSplineSet
 Fore
 SplineSet
-800 50 m 1
- 800 0 l 1
- 150 0 l 2
- 119.734924289 0 100 28.5401913347 100 50 c 2
- 100 950 l 2
- 100 980.265075711 128.540191335 1000 150 1000 c 2
- 800 1000 l 1
- 800 950 l 1
- 800 900 l 1
- 200 900 l 1
- 200 100 l 1
- 800 100 l 1
- 800 50 l 1
+645 50 m 1
+ 645 25 l 1
+ 620 25 l 1
+ 120 25 l 2
+ 104.867462144 25 95 39.2700956673 95 50 c 2
+ 95 730 l 2
+ 95 745.132537856 109.270095667 755 120 755 c 2
+ 620 755 l 1
+ 645 755 l 1
+ 645 730 l 1
+ 645 705 l 1
+ 620 705 l 1
+ 145 705 l 1
+ 145 75 l 1
+ 620 75 l 1
+ 645 75 l 1
+ 645 50 l 1
 EndSplineSet
 EndChar
 
-StartChar: NameMe.50
+StartChar: dy.ce.1
 Encoding: 50 -1 103
-Width: 1200
+Width: 940
 VWidth: 0
 Flags: W
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
-AnchorPoint: "Above" 600 0 basechar 0
+HStem: 25 50<95 595> 705 50<95 595>
+VStem: 595 50<75 705>
+AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
+Back
+SplineSet
+120 730 m 5
+ 620 730 l 5
+ 620 50 l 5
+ 120 50 l 1029
+EndSplineSet
 Fore
 SplineSet
-150 1000 m 2
- 750 1000 l 2
- 780.265075711 1000 800 971.459808665 800 950 c 2
- 800 50 l 2
- 800 19.7349242889 771.459808665 0 750 0 c 2
- 150 0 l 2
- 119.734924289 0 100 28.5401913347 100 50 c 2
- 100 950 l 2
- 100 980.265075711 128.540191335 1000 150 1000 c 2
-200 450 m 1
- 200 100 l 1
- 700 100 l 1
- 700 450 l 1
- 200 450 l 1
-200 550 m 1
- 700 550 l 1
- 700 900 l 1
- 200 900 l 1
- 200 550 l 1
+95 730 m 1
+ 95 755 l 1
+ 120 755 l 1
+ 620 755 l 2
+ 635.132537856 755 645 740.729904333 645 730 c 2
+ 645 50 l 2
+ 645 34.8674621445 630.729904333 25 620 25 c 2
+ 120 25 l 1
+ 95 25 l 1
+ 95 50 l 1
+ 95 75 l 1
+ 120 75 l 1
+ 595 75 l 1
+ 595 705 l 1
+ 120 705 l 1
+ 95 705 l 1
+ 95 730 l 1
 EndSplineSet
 EndChar
 
-StartChar: NameMe.51
+StartChar: sy.ce.1
 Encoding: 51 -1 104
-Width: 1200
+Width: 940
 VWidth: 0
 Flags: W
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
-AnchorPoint: "Above" 600 0 basechar 0
+HStem: 25 50<145 595>
+VStem: 95 50<75 755> 595 50<75 755>
+AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
+Back
+SplineSet
+620 730 m 5
+ 620 50 l 5
+ 120 50 l 5
+ 120 730 l 1029
+EndSplineSet
 Fore
 SplineSet
-150 1000 m 2
- 750 1000 l 2
- 780.265075711 1000 800 971.459808665 800 950 c 2
- 800 50 l 2
- 800 19.7349242889 771.459808665 0 750 0 c 2
- 150 0 l 2
- 119.734924289 0 100 28.5401913347 100 50 c 2
- 100 950 l 2
- 100 980.265075711 128.540191335 1000 150 1000 c 2
-200 450 m 1
- 200 100 l 1
- 700 100 l 1
- 700 450 l 1
- 200 450 l 1
-200 550 m 1
- 700 550 l 1
- 700 900 l 1
- 200 900 l 1
- 200 550 l 1
+620 755 m 1
+ 645 755 l 1
+ 645 730 l 1
+ 645 50 l 2
+ 645 34.8674621445 630.729904333 25 620 25 c 2
+ 120 25 l 2
+ 104.867462144 25 95 39.2700956673 95 50 c 2
+ 95 730 l 1
+ 95 755 l 1
+ 120 755 l 1
+ 145 755 l 1
+ 145 730 l 1
+ 145 75 l 1
+ 595 75 l 1
+ 595 730 l 1
+ 595 755 l 1
+ 620 755 l 1
 EndSplineSet
 EndChar
 
-StartChar: NameMe.52
+StartChar: zy.ce.1
 Encoding: 52 -1 105
-Width: 1200
+Width: 940
 VWidth: 0
 Flags: W
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
-AnchorPoint: "Above" 600 0 basechar 0
+HStem: 705 50<145 595>
+VStem: 95 50<25 705> 595 50<25 705>
+AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
+Back
+SplineSet
+120 50 m 5
+ 120 730 l 5
+ 620 730 l 5
+ 620 50 l 1029
+EndSplineSet
 Fore
 SplineSet
-150 1000 m 2
- 750 1000 l 2
- 780.265075711 1000 800 971.459808665 800 950 c 2
- 800 50 l 2
- 800 19.7349242889 771.459808665 0 750 0 c 2
- 150 0 l 2
- 119.734924289 0 100 28.5401913347 100 50 c 2
- 100 950 l 2
- 100 980.265075711 128.540191335 1000 150 1000 c 2
-200 450 m 1
- 200 100 l 1
- 700 100 l 1
- 700 450 l 1
- 200 450 l 1
-200 550 m 1
- 700 550 l 1
- 700 900 l 1
- 200 900 l 1
- 200 550 l 1
+120 25 m 1
+ 95 25 l 1
+ 95 50 l 1
+ 95 730 l 2
+ 95 745.132537856 109.270095667 755 120 755 c 2
+ 620 755 l 2
+ 635.132537856 755 645 740.729904333 645 730 c 2
+ 645 50 l 1
+ 645 25 l 1
+ 620 25 l 1
+ 595 25 l 1
+ 595 50 l 1
+ 595 705 l 1
+ 145 705 l 1
+ 145 50 l 1
+ 145 25 l 1
+ 120 25 l 1
 EndSplineSet
 EndChar
 
-StartChar: NameMe.53
+StartChar: gy.ce.1
 Encoding: 53 -1 106
-Width: 1200
+Width: 940
 VWidth: 0
 Flags: W
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
-AnchorPoint: "Above" 600 0 basechar 0
+AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
+Back
+SplineSet
+120 730 m 29
+ 620 390 l 29
+ 120 50 l 1053
+EndSplineSet
 Fore
 SplineSet
-150 1000 m 2
- 750 1000 l 2
- 780.265075711 1000 800 971.459808665 800 950 c 2
- 800 50 l 2
- 800 19.7349242889 771.459808665 0 750 0 c 2
- 150 0 l 2
- 119.734924289 0 100 28.5401913347 100 50 c 2
- 100 950 l 2
- 100 980.265075711 128.540191335 1000 150 1000 c 2
-200 450 m 1
- 200 100 l 1
- 700 100 l 1
- 700 450 l 1
- 200 450 l 1
-200 550 m 1
- 700 550 l 1
- 700 900 l 1
- 200 900 l 1
- 200 550 l 1
+99.3268374483 744.057750535 m 1
+ 113.384587983 764.730913087 l 1
+ 134.057750535 750.673162552 l 1
+ 634.057750535 410.673162552 l 2
+ 645.94101834 402.592540444 648.494547309 385.57628199 639.506507227 374.363626513 c 0
+ 637.951930275 372.424278712 635.580799736 370.362510905 634.057750535 369.326837448 c 2
+ 134.057750535 29.3268374483 l 1
+ 134.057750535 28.3268374483 134.884677037 29.8891474697 134.057750535 29.3268374483 c 1
+ 113.384587983 15.2690869131 l 1
+ 99.3268374483 35.9422494648 l 1
+ 85.2690869131 56.6154120166 l 1
+ 105.942249465 70.6731625517 l 1
+ 575.54053983 390 l 1
+ 105.942249465 709.326837448 l 1
+ 85.2690869131 723.384587983 l 1
+ 99.3268374483 744.057750535 l 1
 EndSplineSet
 EndChar
 
-StartChar: NameMe.54
+StartChar: jy.ce.1
 Encoding: 54 -1 107
-Width: 1200
+Width: 940
 VWidth: 0
-Flags: W
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
-AnchorPoint: "Above" 600 0 basechar 0
+Flags: WO
+HStem: 365 50<95 324.709 430.495 649>
+VStem: 355 50<416.335 755>
+AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
+Back
+SplineSet
+120 390 m 5
+ 624 390 l 1029
+380 500 m 5
+ 380 730 l 1029
+120 50 m 5
+ 173.896679688 81.7506520119 377.155234375 297.558157135 380 500 c 5
+ 377.602861974 304.531381376 560.426180486 78.4133705858 624 50 c 1029
+EndSplineSet
 Fore
 SplineSet
-150 1000 m 2
- 750 1000 l 2
- 780.265075711 1000 800 971.459808665 800 950 c 2
- 800 50 l 2
- 800 19.7349242889 771.459808665 0 750 0 c 2
- 150 0 l 2
- 119.734924289 0 100 28.5401913347 100 50 c 2
- 100 950 l 2
- 100 980.265075711 128.540191335 1000 150 1000 c 2
-200 450 m 1
- 200 100 l 1
- 700 100 l 1
- 700 450 l 1
- 200 450 l 1
-200 550 m 1
- 700 550 l 1
- 700 900 l 1
- 200 900 l 1
- 200 550 l 1
+98.459809564 37.3106266514 m 1
+ 85.7704362154 58.8508170875 l 1
+ 107.310626651 71.540190436 l 2
+ 142.726959093 92.4040294223 266.724200374 221.376735866 324.708759588 365 c 1
+ 120 365 l 1
+ 95 365 l 1
+ 95 390 l 1
+ 95 415 l 1
+ 120 415 l 1
+ 341.862295986 415 l 1
+ 349.824215685 443.476598084 354.587728241 472.102077658 355 500.179502426 c 2
+ 355 730 l 1
+ 355 755 l 1
+ 380 755 l 1
+ 405 755 l 1
+ 405 730 l 1
+ 405 500 l 1
+ 405 492.727298755 l 2
+ 405.321965749 467.275815881 409.064152286 441.158768218 415.400120609 415 c 1
+ 624 415 l 1
+ 649 415 l 1
+ 649 390 l 1
+ 649 365 l 1
+ 624 365 l 1
+ 430.495380091 365 l 1
+ 481.739500852 222.147156215 595.556787713 90.0955556739 634.200909731 72.8241416193 c 2
+ 657.02505135 62.6232318881 l 1
+ 646.824141619 39.7990902688 l 1
+ 636.623231888 16.9749486495 l 1
+ 613.799090269 27.1758583807 l 2
+ 551.554260429 54.9952568504 430.135697508 201.102059297 377.890754383 362.48888237 c 1
+ 318.251798541 198.941782718 183.25764224 58.2496874879 132.689373349 28.459809564 c 1
+ 132.689373349 27.459809564 131.827765731 27.95223463 132.689373349 28.459809564 c 1
+ 111.149182913 15.7704362154 l 1
+ 98.459809564 37.3106266514 l 1
 EndSplineSet
 EndChar
 
-StartChar: NameMe.55
+StartChar: yhy.ce.1
 Encoding: 55 -1 108
-Width: 1200
+Width: 940
 VWidth: 0
 Flags: W
-HStem: 0 21G<700 800>
-VStem: 100 100<215.139 1000> 700 100<0 784.861>
-AnchorPoint: "Above" 600 0 basechar 0
+VStem: 95 50<126.202 755> 595 50<25 653.798>
+AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
-150 1000 m 29
- 150 50 l 5
- 750 950 l 29
- 750 0 l 1053
+620 50 m 5
+ 620 730 l 5
+ 120 50 l 5
+ 120 730 l 1029
 EndSplineSet
 Fore
 SplineSet
-150 1000 m 1
- 200 1000 l 1
- 200 215.138781887 l 1
- 708.397485283 977.735009811 l 2
- 724.340016975 1001.64880735 758.324249978 1007.06786216 780.913528472 989.298266596 c 0
- 793.383832772 979.488645448 800 962.388315379 800 950 c 2
- 800 0 l 1
- 750 0 l 1
- 700 0 l 1
- 700 784.861218113 l 1
- 191.602514717 22.2649901887 l 2
- 183.626206873 10.3005284235 169.273091264 1.36218410873 153.922854272 0.154125402803 c 0
- 125.270640305 -2.10079460563 100 21.2591922616 100 50 c 2
- 100 1000 l 1
- 150 1000 l 1
+620 25 m 1
+ 595 25 l 1
+ 595 50 l 1
+ 595 653.798104308 l 1
+ 140.141275316 35.1902387381 l 2
+ 131.628385295 23.6127083087 114.529610247 21.6877527682 103.655664188 31.0827410319 c 0
+ 98.1670356902 35.824865008 95 43.0030939186 95 50 c 2
+ 95 730 l 1
+ 95 755 l 1
+ 120 755 l 1
+ 145 755 l 1
+ 145 730 l 1
+ 145 126.201895692 l 1
+ 599.858724684 744.809761262 l 2
+ 604.109424819 750.590713446 610.846493755 754.35692299 618.038572864 754.922937299 c 0
+ 632.364679847 756.050397303 645 744.370403869 645 730 c 2
+ 645 50 l 1
+ 645 25 l 1
+ 620 25 l 1
 EndSplineSet
 EndChar
 
-StartChar: NameMe.56
+StartChar: uy.ce.1
 Encoding: 56 -1 109
-Width: 1200
+Width: 940
 VWidth: 0
 Flags: W
-HStem: 0.5 100<99.5 700>
-VStem: 700 100<100.5 999.5>
-AnchorPoint: "Above" 600 0 basechar 0
+HStem: 25 50<95 595>
+VStem: 595 50<75 755>
+AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
-99.5 50.5 m 5
- 750 50.5 l 29
- 750 999.5 l 1053
+620 730 m 5
+ 620 50 l 5
+ 120 50 l 1029
 EndSplineSet
 Fore
 SplineSet
-99.5 50.5 m 1
- 99.5 100.5 l 1
- 700 100.5 l 1
- 700 999.5 l 1
- 750 999.5 l 1
- 800 999.5 l 1
- 800 50.5 l 2
- 800 29.0401913347 780.265075711 0.5 750 0.5 c 2
- 99.5 0.5 l 1
- 99.5 50.5 l 1
+620 755 m 1
+ 645 755 l 1
+ 645 730 l 1
+ 645 50 l 2
+ 645 34.8674621445 630.729904333 25 620 25 c 2
+ 120 25 l 1
+ 95 25 l 1
+ 95 50 l 1
+ 95 75 l 1
+ 120 75 l 1
+ 595 75 l 1
+ 595 730 l 1
+ 595 755 l 1
+ 620 755 l 1
 EndSplineSet
 EndChar
 
-StartChar: NameMe.57
+StartChar: ly.ce.1
 Encoding: 57 -1 110
-Width: 1200
+Width: 940
 VWidth: 0
 Flags: W
-HStem: 0 100<200 700> 450 100<200 700> 900 100<200 700>
-VStem: 100 100<100 450 550 900> 700 100<100 450 550 900>
-AnchorPoint: "Above" 600 0 basechar 0
+HStem: 25 50<95 595> 365 50<145 595> 705 50<145 645>
+VStem: 95 50<415 705> 595 50<75 365>
+CounterMasks: 1 e0
+AnchorPoint: "Above" 470 0 basechar 0
 LayerCount: 2
+Back
+SplineSet
+620 730 m 5
+ 120 730 l 5
+ 120 390 l 5
+ 620 390 l 5
+ 620 50 l 5
+ 120 50 l 1029
+EndSplineSet
 Fore
 SplineSet
-150 1000 m 2
- 750 1000 l 2
- 780.265075711 1000 800 971.459808665 800 950 c 2
- 800 50 l 2
- 800 19.7349242889 771.459808665 0 750 0 c 2
- 150 0 l 2
- 119.734924289 0 100 28.5401913347 100 50 c 2
- 100 950 l 2
- 100 980.265075711 128.540191335 1000 150 1000 c 2
-200 450 m 1
- 200 100 l 1
- 700 100 l 1
- 700 450 l 1
- 200 450 l 1
-200 550 m 1
- 700 550 l 1
- 700 900 l 1
- 200 900 l 1
- 200 550 l 1
+645 730 m 1
+ 645 705 l 1
+ 620 705 l 1
+ 145 705 l 1
+ 145 415 l 1
+ 620 415 l 2
+ 635.132537856 415 645 400.729904333 645 390 c 2
+ 645 50 l 2
+ 645 34.8674621445 630.729904333 25 620 25 c 2
+ 120 25 l 1
+ 95 25 l 1
+ 95 50 l 1
+ 95 75 l 1
+ 120 75 l 1
+ 595 75 l 1
+ 595 365 l 1
+ 120 365 l 2
+ 109.270095667 365 95 374.867462144 95 390 c 2
+ 95 730 l 2
+ 95 740.729904333 104.867462144 755 120 755 c 2
+ 620 755 l 1
+ 645 755 l 1
+ 645 730 l 1
 EndSplineSet
 EndChar
 
@@ -4517,19 +4788,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ubu.ci.2
+StartChar: .notdef
 Encoding: 77 -1 129
 Width: 0
 VWidth: 0
-Flags: W
-HStem: -155 50<96 796> -155 110<796 845.744>
-VStem: 796 50<-105 -45>
-AnchorPoint: "Above" 600 0 mark 0
 LayerCount: 2
 Back
-Refer: 42 -1 N -1 0 0 1 1199 0 2
-Fore
-Refer: 42 -1 N -1 0 0 1 941 0 2
+Refer: -1 -1 N -1 0 0 1 1199 0 2
 EndChar
 
 StartChar: NameMe.97
@@ -6533,34 +6798,34 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: NameMe.63
+StartChar: denpabu.ce.1
 Encoding: 63 -1 196
 Width: 940
 VWidth: 0
 Flags: W
-HStem: 5 50<287.737 452.263> 725 50<287.737 452.263>
+HStem: 5 50<287.686 452.314> 725 50<287.686 452.314>
 VStem: 75 50<254.113 525.887> 615 50<254.113 525.887>
 LayerCount: 2
 Back
 SplineSet
-100 390 m 4
- 100 589 221.135135135 750 370 750 c 4
- 518.864864865 750 640 589 640 390 c 4
- 640 191 518.864864865 30 370 30 c 4
- 221.135135135 30 100 191 100 390 c 4
+100 390 m 0
+ 100 589 221 750 370 750 c 0
+ 519 750 640 589 640 390 c 0
+ 640 191 519 30 370 30 c 0
+ 221 30 100 191 100 390 c 0
 EndSplineSet
 Fore
 SplineSet
 125 390 m 0
- 125 198.678657001 240.959824004 55 370 55 c 0
- 499.040055303 55 615 198.678793173 615 390 c 0
- 615 581.321342999 499.040175996 725 370 725 c 0
- 240.959944697 725 125 581.321206827 125 390 c 0
+ 125 198.668772665 240.825480657 55 370 55 c 0
+ 499.174397674 55 615 198.668908819 615 390 c 0
+ 615 581.331227335 499.174519343 725 370 725 c 0
+ 240.825602326 725 125 581.331091181 125 390 c 0
 75 390 m 0
- 75 596.678793173 201.310325573 775 370 775 c 0
- 538.689553733 775 665 596.678657001 665 390 c 0
- 665 183.321206827 538.689674427 5 370 5 c 0
- 201.310446267 5 75 183.321342999 75 390 c 0
+ 75 596.668908819 201.174397674 775 370 775 c 0
+ 538.825480657 775 665 596.668772665 665 390 c 0
+ 665 183.331091181 538.825602326 5 370 5 c 0
+ 201.174519343 5 75 183.331227335 75 390 c 0
 EndSplineSet
 EndChar
 
@@ -6701,7 +6966,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: aibu.ce.2
+StartChar: aibu.ci.2
 Encoding: 60 -1 200
 Width: 0
 VWidth: 0
@@ -6747,7 +7012,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: aubu.ce.2
+StartChar: aubu.ci.2
 Encoding: 61 -1 201
 Width: 0
 VWidth: 0
@@ -6757,7 +7022,82 @@ VStem: 445 50<-105 -35> 795 50<-105 -35>
 AnchorPoint: "Above" 470 0 mark 0
 LayerCount: 2
 Fore
-Refer: 200 -1 N -1 0 0 1 940 0 2
+Refer: 200 -1 S -1 0 0 1 940 0 2
+EndChar
+
+StartChar: ubu.ci.2
+Encoding: 45 -1 202
+Width: 0
+VWidth: 0
+Flags: W
+HStem: -155 110<821 845.744>
+AnchorPoint: "Above" 470 0 mark 0
+LayerCount: 2
+Back
+SplineSet
+120 -130 m 1
+ 820 -130 l 1
+ 820 -70 l 1049
+EndSplineSet
+Fore
+SplineSet
+96 -130 m 1
+ 96 -155 l 1
+ 121 -155 l 1
+ 821 -155 l 2
+ 836.1328125 -155 846 -140.729492188 846 -130 c 2
+ 846 -70 l 1
+ 846 -45 l 1
+ 821 -45 l 1
+ 796 -45 l 1
+ 796 -70 l 1
+ 796 -105 l 1
+ 121 -105 l 1
+ 96 -105 l 1
+ 96 -130 l 1
+EndSplineSet
+EndChar
+
+StartChar: abu.ci.2
+Encoding: 46 -1 203
+Width: 0
+VWidth: 0
+Flags: W
+HStem: -67 50<95 445 495 845>
+VStem: 445 50<-155 -67>
+AnchorPoint: "Above" 470 0 mark 0
+LayerCount: 2
+Back
+SplineSet
+470 -42 m 1
+ 470 -130 l 1025
+820 -42 m 1
+ 120 -42 l 1025
+EndSplineSet
+Fore
+SplineSet
+845 -42 m 1
+ 845 -67 l 1
+ 820 -67 l 1
+ 495 -67 l 1
+ 495 -130 l 1
+ 495 -155 l 1
+ 470 -155 l 1
+ 445 -155 l 1
+ 445 -130 l 1
+ 445 -67 l 1
+ 120 -67 l 1
+ 95 -67 l 1
+ 95 -42 l 1
+ 95 -17 l 1
+ 120 -17 l 1
+ 445 -17 l 1
+ 470 -17 l 1
+ 495 -17 l 1
+ 820 -17 l 1
+ 845 -17 l 1
+ 845 -42 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
