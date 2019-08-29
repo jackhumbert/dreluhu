@@ -981,7 +981,7 @@ StartChar: uy
 Encoding: 24 60280 25
 Width: 940
 VWidth: 4000
-Flags: WO
+Flags: W
 HStem: 25.5 50<95 795>
 VStem: 795 50<75.5 755>
 AnchorPoint: "Above" 470 0 basechar 0
