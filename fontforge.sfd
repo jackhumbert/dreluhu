@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1566577596
-ModificationTime: 1567266749
+ModificationTime: 1567267041
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -112,7 +112,7 @@ Lookup: 6 0 0 "cvd_v" { "cvd_v subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'d
 Lookup: 1 0 0 "Single Substitution lookup 73" { "Single Substitution lookup 73 subtable"  } []
 Lookup: 6 0 0 "cvd_d" { "cvd_d subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 75" { "Single Substitution lookup 75 subtable"  } []
-Lookup: 6 0 0 "dvc_d" { "dvc_d subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "dvc_d" { "dvc_d contextual 0"  "dvc_d contextual 1"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 77" { "Single Substitution lookup 77 subtable"  } []
 Lookup: 6 0 0 "dvc_v" { "dvc_v subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 79" { "Single Substitution lookup 79 subtable"  } []
@@ -138,13 +138,21 @@ ChainSub2: coverage "dvc_v subtable" 0 0 0 1
  1
   SeqLookup: 0 "Single Substitution lookup 79"
 EndFPST
-ChainSub2: coverage "dvc_d subtable" 0 0 0 1
+ChainSub2: coverage "dvc_d contextual 1" 0 0 0 1
  1 0 2
   Coverage: 7 denpabu
   FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
   FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
   SeqLookup: 0 "Single Substitution lookup 77"
+EndFPST
+ChainSub2: coverage "dvc_d contextual 0" 0 0 0 1
+ 1 0 3
+  Coverage: 7 denpabu
+  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
+  FCoverage: 73 abu.cv ebu.cv ibu.cv obu.cv ubu.cv ybu.cv aibu.cv eibu.cv oibu.cv aubu.cv
+ 0
 EndFPST
 ChainSub2: coverage "cvd_d subtable" 0 0 0 1
  1 2 0
@@ -723,7 +731,7 @@ Grid
   Named: "c-bot"
 EndSplineSet
 AnchorClass2: "Above" "Above-1"
-BeginChars: 489 145
+BeginChars: 490 145
 
 StartChar: my
 Encoding: 0 60256 0

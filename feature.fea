@@ -177,6 +177,7 @@ lookup cvd_d {
 
 lookup dvc_d {
   lookupflag 0;
+  ignore sub denpabu' @vowel @consonant @v_cv;
   sub denpabu' @vowel @consonant by denpabu.cvc.1;
 } dvc_d;
 
