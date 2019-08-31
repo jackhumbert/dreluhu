@@ -179,16 +179,18 @@ lookup dvc_d {
   lookupflag 0;
   ignore sub denpabu' @vowel @consonant @v_cv;
   sub denpabu' @vowel @consonant by denpabu.cvc.1;
+  sub slakabu' @vowel @consonant by denpabu.cvc.1;
 } dvc_d;
 
 lookup dvc_v {
   lookupflag 0;
-  sub denpabu.cvc.1 @vowel' @consonant by @v_cvc;
+  ignore sub @vowel' @consonant @v_cv;
+  sub @vowel' @consonant by @v_cvc;
 } dvc_v;
 
 lookup dvc_c {
   lookupflag 0;
-  sub denpabu.cvc.1 @v_cvc @consonant' by @c_cvc3;
+  sub @v_cvc @consonant' by @c_cvc3;
 } dvc_c;
 
 lookup Vdenpabu {

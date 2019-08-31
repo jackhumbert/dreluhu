@@ -48,7 +48,7 @@
 
 
   <div class="row">
-    <div class="columns seven">
+    <div class="column">
     <table class="characters">
       <thead>
         <th></th>
@@ -61,42 +61,28 @@
     <tbody>
     <tr>
       <th>Nasal</th>
-      <td><div class="character-legend">my</div><div class="character">&#xeb60;</div></td>
-      <td><div class="character-legend">ny</div><div class="character">&#xeb70;</div></td>
+      <td><div class="character-legend">my</div><div class="character">&#xeb70;</div></td>
+      <td colspan="2"><div class="character-legend">ny</div><div class="character">&#xeb60;</div></td>
     </tr>
     <tr>
       <th>Plosive</th>
-      <td><div class="character-legend">py</div><div class="character">&#xeb62;</div></td>
-      <td><div class="character-legend">ty</div><div class="character">&#xeb72;</div></td>
-      <td></td>
-      <td><div class="character-legend">ky</div><div class="character">&#xeb75;</div></td>
-      <td rowspan="2"><div class="character-legend">denpa</div><div class="character">&#xeb7f;</div></td>
-    </tr>
-    <tr>
-      <th>Plosive (voiced)</th>
-      <td><div class="character-legend">by</div><div class="character">&#xeb61;</div></td>
-      <td><div class="character-legend">dy</div><div class="character">&#xeb71;</div></td>
-      <td></td>
-      <td><div class="character-legend">gy</div><div class="character">&#xeb65;</div></td>
+      <td><div class="character-legend">py / by</div><div class="character">&#xeb72; &#xeb71;</div></td>
+      <td colspan="2"><div class="character-legend">ty / dy</div><div class="character">&#xeb62; &#xeb61;</div></td>
+      <td><div class="character-legend">ky / gy</div><div class="character">&#xeb75; &#xeb65;</div></td>
+      <td><div class="character-legend">denpa bu</div><div class="character">&#xeb7f;</div></td>
     </tr>
     <tr>
       <th>Fricative</th>
-      <td><div class="character-legend">fy</div><div class="character">&#xeb64;</div></td>
-      <td><div class="character-legend">sy</div><div class="character">&#xeb74;</div></td>
-      <td><div class="character-legend">cy</div><div class="character">&#xeb76;</div></td>
+      <td><div class="character-legend">fy / vy</div><div class="character">&#xeb74; &#xeb73;</div></td>
+      <td><div class="character-legend">sy / zy</div><div class="character">&#xeb64; &#xeb63;</div></td>
+      <td><div class="character-legend">cy / jy</div><div class="character">&#xeb76; &#xeb66;</div></td>
       <td><div class="character-legend">xy</div><div class="character">&#xeb67;</div></td>
-      <td rowspan="2"><div class="character-legend">yhy</div><div class="character">&#xeb77;</div></td>
-    </tr>
-    <tr>
-      <th>Fricative (voiced)</th>
-      <td><div class="character-legend">vy</div><div class="character">&#xeb63;</div></td>
-      <td><div class="character-legend">zy</div><div class="character">&#xeb73;</div></td>
-      <td><div class="character-legend">jy</div><div class="character">&#xeb66;</div></td>
+      <td><div class="character-legend">yhy</div><div class="character">&#xeb77;</div></td>
     </tr>
     <tr>
       <th>Approxi&shy;mant</th>
       <td></td>
-      <td><div class="character-legend">ly</div><div class="character">&#xeb79;</div></td>
+      <td colspan="2"><div class="character-legend">ly</div><div class="character">&#xeb79;</div></td>
     </tr>
     <tr>
       <th>Rhotic</th>
@@ -106,8 +92,9 @@
     </tbody>
     </table>
     </div>
-
-    <div class="columns five">
+  </div>
+<div class="row">
+    <div class="column">
     <table class="characters">
       <thead>
         <th></th>
@@ -143,7 +130,7 @@
 
     <table class="characters">      
       <thead>
-        <th colspan="4">Diphthongs</th>
+        <th colspan="4">Falling Diphthongs</th>
       </thead>
     <tbody>
     <tr>
@@ -209,7 +196,7 @@ function deferOf (λ) {
 var ta = document.getElementById("textarea");
 
 const UNICODE_START = 0xEB60;
-const lerfu_index = "mbpvfgjx reoiuayndtzskc' l    ,.";
+const lerfu_index = "ndtzsgjx reoiuaymbpvfkc' l    ,.";
 
 function latinConvert(c) {
   if (c.codePointAt(0) >= UNICODE_START) {
