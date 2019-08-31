@@ -160,20 +160,6 @@ lookup ccv_v {
 } ccv_v;
 
 
-lookup Vdenpabu {
-  lookupflag 0;
-  sub denpabu abu by abu;
-  sub denpabu ebu by ebu;
-  sub denpabu ibu by ibu;
-  sub denpabu obu by obu;
-  sub denpabu ubu by ubu;
-  sub denpabu ybu by ybu;
-  sub denpabu aibu by aibu;
-  sub denpabu eibu by eibu;
-  sub denpabu oibu by oibu;
-  sub denpabu aubu by aubu;
-} Vdenpabu;
-
 lookup cvd_c {
   lookupflag 0;
   sub @consonant' @v_cv denpabu by @c_cvc1;
@@ -189,6 +175,35 @@ lookup cvd_d {
   sub @c_cvc1 @v_cvc denpabu' by denpabu.cvc.3;
 } cvd_d;
 
+lookup dvc_d {
+  lookupflag 0;
+  sub denpabu' @vowel @consonant by denpabu.cvc.1;
+} dvc_d;
+
+lookup dvc_v {
+  lookupflag 0;
+  sub denpabu.cvc.1 @vowel' @consonant by @v_cvc;
+} dvc_v;
+
+lookup dvc_c {
+  lookupflag 0;
+  sub denpabu.cvc.1 @v_cvc @consonant' by @c_cvc3;
+} dvc_c;
+
+lookup Vdenpabu {
+  lookupflag 0;
+  sub denpabu abu by abu;
+  sub denpabu ebu by ebu;
+  sub denpabu ibu by ibu;
+  sub denpabu obu by obu;
+  sub denpabu ubu by ubu;
+  sub denpabu ybu by ybu;
+  sub denpabu aibu by aibu;
+  sub denpabu eibu by eibu;
+  sub denpabu oibu by oibu;
+  sub denpabu aubu by aubu;
+} Vdenpabu;
+
 feature liga {
   script DFLT;
     language dflt;
@@ -203,10 +218,13 @@ feature liga {
     lookup denpabuCV;
     lookup denpabuC;
     lookup ccv_v;
-    lookup Vdenpabu;
     lookup cvd_c;
     lookup cvd_v;
     lookup cvd_d;
+    lookup dvc_d;
+    lookup dvc_v;
+    lookup dvc_c;
+    lookup Vdenpabu;
   script latn;
     language dflt;
     lookup semivowels;
@@ -220,9 +238,12 @@ feature liga {
     lookup denpabuCV;
     lookup denpabuC;
     lookup ccv_v;
-    lookup Vdenpabu;
     lookup cvd_c;
     lookup cvd_v;
     lookup cvd_d;
+    lookup dvc_d;
+    lookup dvc_v;
+    lookup dvc_c;
+    lookup Vdenpabu;
 } liga;
 
