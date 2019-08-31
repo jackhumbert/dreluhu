@@ -103,15 +103,11 @@ lookup ccv_c2 {
   sub xy ry' @vowel by ry.ccv.2;
 } ccv_c2;
 
+
 lookup ccv_c1 {
   lookupflag 0;
   sub @consonant' @c_ccv2 by @c_ccv1;
 } ccv_c1;
-
-lookup ccv_v {
-  lookupflag 0;
-  sub @c_ccv1 @c_ccv2 @vowel' by @v_ccv;
-} ccv_v;
 
 
 
@@ -145,6 +141,25 @@ lookup cv_v {
 
 
 
+
+
+lookup denpabuCV {
+  lookupflag 0;
+  sub denpabu @consonant' @v_cv by @c_ccv2; 
+} denpabuCV;
+
+lookup denpabuC {
+  lookupflag 0;
+  sub denpabu' @c_ccv2 by denpabu.ccv.1;
+} denpabuC;
+
+lookup ccv_v {
+  lookupflag 0;
+  sub @c_ccv2 @vowel' by @v_ccv;
+  sub @c_ccv2 @v_cv' by @v_ccv;
+} ccv_v;
+
+
 lookup Vdenpabu {
   lookupflag 0;
   sub denpabu abu by abu;
@@ -159,6 +174,21 @@ lookup Vdenpabu {
   sub denpabu aubu by aubu;
 } Vdenpabu;
 
+lookup cvd_c {
+  lookupflag 0;
+  sub @consonant' @v_cv denpabu by @c_cvc1;
+} cvd_c;
+
+lookup cvd_v {
+  lookupflag 0;
+  sub @c_cvc1 @v_cv' denpabu by @v_cvc;
+} cvd_v;
+
+lookup cvd_d {
+  lookupflag 0;
+  sub @c_cvc1 @v_cvc denpabu' by denpabu.cvc.3;
+} cvd_d;
+
 feature liga {
   script DFLT;
     language dflt;
@@ -166,23 +196,33 @@ feature liga {
     lookup diphthongs;
     lookup ccv_c1;
     lookup ccv_c2;
-    lookup ccv_v;
     lookup cvc_c1;
     lookup cvc_v;
     lookup cvc_c3;
     lookup cv_v;
+    lookup denpabuCV;
+    lookup denpabuC;
+    lookup ccv_v;
     lookup Vdenpabu;
+    lookup cvd_c;
+    lookup cvd_v;
+    lookup cvd_d;
   script latn;
     language dflt;
     lookup semivowels;
     lookup diphthongs;
     lookup ccv_c1;
     lookup ccv_c2;
-    lookup ccv_v;
     lookup cvc_c1;
     lookup cvc_v;
     lookup cvc_c3;
     lookup cv_v;
+    lookup denpabuCV;
+    lookup denpabuC;
+    lookup ccv_v;
     lookup Vdenpabu;
+    lookup cvd_c;
+    lookup cvd_v;
+    lookup cvd_d;
 } liga;
 
