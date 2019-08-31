@@ -9,8 +9,8 @@ Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 32
-Ascent: 618
-Descent: 382
+Ascent: 573
+Descent: 337
 InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
@@ -22,12 +22,12 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1566577596
-ModificationTime: 1567209838
+ModificationTime: 1567210326
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
 OS2TypoDOffset: 1
-OS2TypoLinegap: 90
+OS2TypoLinegap: 82
 OS2WinAscent: 0
 OS2WinAOffset: 1
 OS2WinDescent: 0
@@ -1618,12 +1618,12 @@ ChainSub2: coverage "semivowels contextual 0" 0 0 0 1
   SeqLookup: 0 "Single Substitution lookup 1"
 EndFPST
 Encoding: Custom
-UnicodeInterp: none
+UnicodeInterp: korean
 NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 16 10
+WinInfo: 0 16 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -7085,7 +7085,7 @@ StartChar: eibu.cvc
 Encoding: 90 -1 114
 Width: 0
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 93 50<75 344 394 663>
 VStem: 25 50<-134 93> 344 50<-22 93 143 259> 663 50<27 93 143 203>
 AnchorPoint: "Above" 369 0 mark 0
@@ -7265,7 +7265,7 @@ StartChar: my.cvc.3
 Encoding: 64 -1 118
 Width: 0
 VWidth: 0
-Flags: W
+Flags: WO
 HStem: -337 50<175 563> -178 50<175 563> -19 50<175 563>
 VStem: 125 50<-287 -178 -128 -19> 563 50<-287 -178 -128 -19>
 CounterMasks: 1 e0
@@ -7301,7 +7301,7 @@ SplineSet
  613 -178 l 1
  613 -312 l 2
  613 -327.132537856 598.729904333 -337 588 -337 c 2
- 150 -337 l 2
+ 150 -337 l 6
  134.867462144 -337 125 -322.729904333 125 -312 c 2
  125 -178 l 1
  125 -153 l 1
