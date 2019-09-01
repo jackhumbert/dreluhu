@@ -20,10 +20,6 @@
 
 languagesystem DFLT dflt;
 languagesystem latn dflt;
-languagesystem latn DEU;
-languagesystem cyrl dflt;
-languagesystem cyrl SRB;
-languagesystem grek dflt;
 
 # sub diphthongs
 
