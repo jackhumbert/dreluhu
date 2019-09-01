@@ -197,9 +197,10 @@ var ta = document.getElementById("textarea");
 
 const UNICODE_START = 0xEB60;
 const lerfu_index = "ndtzsgjx reoiuaymbpvfkc' l    ,.";
+const allowable = "():;\"?!<>[]{}«»";
 
 function latinConvert(c) {
-  if (c.codePointAt(0) >= UNICODE_START) {
+  if (c.codePointAt(0) >= UNICODE_START || (allowable.indexOf(c) >= 0)) {
     return c;
   }
   if (c == " ")

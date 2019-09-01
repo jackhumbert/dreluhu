@@ -145,6 +145,8 @@ lookup cv_v {
 
 lookup denpabuCV {
   lookupflag 0;
+  ignore sub denpabu iy';
+  ignore sub denpabu uy';
   sub denpabu @consonant' @v_cv by @c_ccv2; 
 } denpabuCV;
 
@@ -205,6 +207,8 @@ lookup Vdenpabu {
   sub denpabu eibu by eibu;
   sub denpabu oibu by oibu;
   sub denpabu aubu by aubu;
+  sub denpabu iy by denpabu_iy;
+  sub denpabu uy by denpabu_uy;
 } Vdenpabu;
 
 feature liga {
