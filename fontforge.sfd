@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1566577596
-ModificationTime: 1567453309
+ModificationTime: 1567454438
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -699,7 +699,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 16 6
+WinInfo: 0 8 2
 BeginPrivate: 9
 StdHW 4 [60]
 StdVW 4 [60]
@@ -1301,7 +1301,6 @@ Substitution2: "Single Substitution lookup 80 subtable" ebu.cvc
 Substitution2: "Single Substitution lookup 68 subtable" ebu.ccv
 Substitution2: "Single Substitution lookup 62 subtable" ebu.cv
 Substitution2: "Single Substitution lookup 58 subtable" ebu.cvc
-LCarets2: 1 -30
 EndChar
 
 StartChar: obu
@@ -1323,7 +1322,6 @@ Substitution2: "Single Substitution lookup 80 subtable" obu.cvc
 Substitution2: "Single Substitution lookup 68 subtable" obu.ccv
 Substitution2: "Single Substitution lookup 62 subtable" obu.cv
 Substitution2: "Single Substitution lookup 58 subtable" obu.cvc
-LCarets2: 1 -30
 EndChar
 
 StartChar: ibu
@@ -1361,7 +1359,7 @@ Back
 Refer: 84 -1 S 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
 Fore
-Refer: 84 -1 S 1 0 0 1 0 0 2
+Refer: 84 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
 Ligature2: "Vdenpabu subtable" denpabu ubu
 Substitution2: "Single Substitution lookup 80 subtable" ubu.cvc
@@ -1369,7 +1367,6 @@ Substitution2: "Single Substitution lookup 68 subtable" ubu.ccv
 Substitution2: "Single Substitution lookup 62 subtable" ubu.cv
 Substitution2: "Single Substitution lookup 58 subtable" ubu.cvc
 Substitution2: "Single Substitution lookup 2 subtable" uy
-LCarets2: 1 -30
 EndChar
 
 StartChar: abu
@@ -1945,7 +1942,6 @@ Substitution2: "Single Substitution lookup 68 subtable" aibu.ccv
 Substitution2: "Single Substitution lookup 62 subtable" aibu.cv
 Substitution2: "Single Substitution lookup 58 subtable" aibu.cvc
 Ligature2: "diphthongs subtable" abu ibu
-LCarets2: 1 -30
 EndChar
 
 StartChar: aubu
@@ -1968,7 +1964,6 @@ Substitution2: "Single Substitution lookup 68 subtable" aubu.ccv
 Substitution2: "Single Substitution lookup 62 subtable" aubu.cv
 Substitution2: "Single Substitution lookup 58 subtable" aubu.cvc
 Ligature2: "diphthongs subtable" abu ubu
-LCarets2: 1 -30
 EndChar
 
 StartChar: slakabu
@@ -5493,7 +5488,6 @@ SplineSet
  289 556 270 603 270 658 c 0
 EndSplineSet
 Ligature2: "Vdenpabu subtable" denpabu iy
-LCarets2: 1 0
 EndChar
 
 StartChar: denpabu_uy
@@ -5547,7 +5541,6 @@ SplineSet
  164 554 145 602 145 657 c 0
 EndSplineSet
 Ligature2: "Vdenpabu subtable" denpabu uy
-LCarets2: 1 0
 EndChar
 
 StartChar: colon
