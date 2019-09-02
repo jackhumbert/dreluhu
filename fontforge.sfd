@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1566577596
-ModificationTime: 1567441206
+ModificationTime: 1567441515
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -699,7 +699,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 64 16 7
+WinInfo: 16 16 7
 BeginPrivate: 9
 StdHW 4 [60]
 StdVW 4 [60]
@@ -1973,7 +1973,7 @@ EndChar
 
 StartChar: slakabu
 Encoding: 30 60286 30
-Width: -39
+Width: 0
 VWidth: 230
 Flags: W
 LayerCount: 2
@@ -2027,7 +2027,7 @@ StartChar: ebu.cv
 Encoding: 42 -1 32
 Width: 0
 VWidth: 230
-Flags: WO
+Flags: W
 HStem: -143 21G<72 132> 106 60<132 679>
 VStem: 72 60<-143 106>
 AnchorPoint: "Above" 375 230 mark 0
