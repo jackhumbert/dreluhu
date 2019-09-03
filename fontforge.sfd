@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1566577596
-ModificationTime: 1567454438
+ModificationTime: 1567478199
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -126,6 +126,7 @@ Lookup: 1 0 0 "Single Substitution lookup 80" { "Single Substitution lookup 80 s
 Lookup: 6 0 0 "dvc_c" { "dvc_c subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 82" { "Single Substitution lookup 82 subtable"  } []
 Lookup: 4 0 1 "Vdenpabu" { "Vdenpabu subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 1 "dreluhu-subs" { "dreluhu-subs-1"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "Above" { "Above-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -693,13 +694,13 @@ ChainSub2: coverage "semivowels contextual 0" 0 0 0 1
 EndFPST
 LangName: 1033
 GaspTable: 1 65535 13 1
-Encoding: Custom
+Encoding: dreluhu
 UnicodeInterp: korean
-NameList: AGL For New Fonts
+NameList: dreluhu
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 8 2
+WinInfo: 0 17 5
 BeginPrivate: 9
 StdHW 4 [60]
 StdVW 4 [60]
@@ -782,7 +783,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 209715 104857 69905 0 1048576 69905 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Above" "Above-1"
-BeginChars: 204 161
+BeginChars: 257 162
 
 StartChar: ny
 Encoding: 0 60256 0
@@ -830,14 +831,14 @@ SplineSet
  72 841 76 848 82 854 c 0
  88 860 95 862 102 862 c 2
 EndSplineSet
-Substitution2: "Single Substitution lookup 82 subtable" ny.cvc.3
-Substitution2: "Single Substitution lookup 71 subtable" ny.cvc.1
-Substitution2: "Single Substitution lookup 64 subtable" ny.ccv.2
-Substitution2: "Single Substitution lookup 60 subtable" ny.cvc.3
-Substitution2: "Single Substitution lookup 56 subtable" ny.cvc.1
-Substitution2: "Single Substitution lookup 54 subtable" ny.ccv.1
-Substitution2: "Single Substitution lookup 31 subtable" ny.ccv.2
 Substitution2: "Single Substitution lookup 18 subtable" ny.ccv.2
+Substitution2: "Single Substitution lookup 31 subtable" ny.ccv.2
+Substitution2: "Single Substitution lookup 54 subtable" ny.ccv.1
+Substitution2: "Single Substitution lookup 56 subtable" ny.cvc.1
+Substitution2: "Single Substitution lookup 60 subtable" ny.cvc.3
+Substitution2: "Single Substitution lookup 64 subtable" ny.ccv.2
+Substitution2: "Single Substitution lookup 71 subtable" ny.cvc.1
+Substitution2: "Single Substitution lookup 82 subtable" ny.cvc.3
 EndChar
 
 StartChar: dy
@@ -2045,8 +2046,8 @@ SplineSet
  86 162 93 166 102 166 c 2
  679 166 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 73 subtable" ebu.cvc
 Substitution2: "Single Substitution lookup 69 subtable" ebu.ccv
+Substitution2: "Single Substitution lookup 73 subtable" ebu.cvc
 EndChar
 
 StartChar: obu.cv
@@ -5830,6 +5831,19 @@ Width: 250
 VWidth: 0
 Flags: W
 LayerCount: 2
+EndChar
+
+StartChar: denpabu.ccv.2
+Encoding: 159 -1 161
+Width: 0
+VWidth: 230
+Flags: HW
+AnchorPoint: "Above" 405 230 mark 0
+LayerCount: 2
+Back
+Refer: 143 -1 N 1 0 0 1 388 0 2
+Fore
+Refer: 143 -1 S 1 0 0 1 388 0 2
 EndChar
 EndChars
 EndSplineFont

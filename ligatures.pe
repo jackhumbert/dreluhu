@@ -1,0 +1,88 @@
+#!/usr/local/bin/fontforge
+# usage: fontforge -lang=ff -script ligatures.pe
+
+c = ["ny", "dy", "ty", "zy", "sy", "gy", "jy", "xy", "iy", "ry", "my", "by", "py", "vy", "fy", "ky", "cy", "yhy", "uy", "ly", "denpabu"]
+v = ["abu", "ebu", "ibu", "obu", "ubu", "ybu", "aibu", "eibu", "oibu", "aubu"]
+
+Open("fontforge.sfd")
+
+LoadNamelist("dreluhu.nam")
+LoadEncodingFile("dreluhu_ligatures.ps")
+
+i = 0;
+while ( i < 21 )
+	j = 0;
+	while ( j < 10 )
+		Reencode("dreluhu_" + c[i] + "_" + v[j])
+		#RenameGlyphs("dreluhu")
+
+		# CV clusters
+		Select(c[i]) # consonant
+		#cAnchors = GetAnchorPoints()
+		CopyReference()
+		Select(c[i] + "_" + v[j]) 
+		Paste()
+
+		Select(v[j] + ".cv")
+		#vAnchors = GetAnchorPoints()
+		CopyReference()
+		Select(c[i] + "_" + v[j])
+		#PasteWithOffset(vAnchors[0]["x"] - cAnchors[0]["x"], vAnchors[0]["y"] - cAnchors[0]["y"])
+		PasteInto()
+
+		k = 0;
+		while ( k < 21 )
+			# CVC clusters
+			Select(c[i] + ".cvc.1") # consonant
+			CopyReference()
+			Select(c[i] + "_" + v[j] + "_" + c[k])
+			Paste()
+
+			Select(v[j] + ".cvc") # vowel
+			CopyReference()
+			Select(c[i] + "_" + v[j] + "_" + c[k])
+			PasteInto()
+
+			Select(c[k] + ".cvc.3") # consonant
+			CopyReference()
+			Select(c[i] + "_" + v[j] + "_" + c[k])
+			PasteInto()
+
+			# CCV clusters
+			Select(c[i] + ".ccv.1") # consonant
+			CopyReference()
+			Select(c[i] + "_" + c[k] + "_" + v[j])
+			Paste()
+
+			Select(c[k] + ".ccv.2") # consonant
+			CopyReference()
+			Select(c[i] + "_" + c[k] + "_" + v[j])
+			PasteInto()
+
+			Select(v[j] + ".ccv") # vowel
+			CopyReference()
+			Select(c[i] + "_" + c[k] + "_" + v[j])
+			PasteInto()
+
+			k++
+		endloop
+		j++
+	endloop
+	i++
+endloop
+
+SelectAll()
+UnlinkReference()
+RemoveOverlap()
+AutoHint()
+AutoCounter()
+
+LoadEncodingFile("dreluhu.ps")
+Reencode("dreluhu")
+#RenameGlyphs("dreluhu")
+
+MergeFeature("dreluhu_ligatures.fea")
+
+Generate("font.otf")
+
+Save("fontforge_ligatured.sfd")
