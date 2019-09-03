@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1566577596
-ModificationTime: 1567478199
+ModificationTime: 1567522886
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -700,7 +700,7 @@ NameList: dreluhu
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 17 5
+WinInfo: 0 16 5
 BeginPrivate: 9
 StdHW 4 [60]
 StdVW 4 [60]
@@ -2122,7 +2122,7 @@ StartChar: ny.cvc.1
 Encoding: 32 -1 35
 Width: 810
 VWidth: 230
-Flags: W
+Flags: HWO
 HStem: 477 50<220 591> 642 50<195 616> 807 50<220 591>
 VStem: 195 25<642 692> 591 25<642 692>
 CounterMasks: 1 e0
@@ -2140,27 +2140,31 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-220 807 m 1
- 220 527 l 1
- 591 527 l 1
- 591 807 l 1
- 220 807 l 1
-195 857 m 2
- 616 857 l 2
- 631.132537856 857 641 842.729904333 641 832 c 2
- 641 502 l 2
- 641 486.867462144 626.729904333 477 616 477 c 2
- 195 477 l 2
- 179.867462144 477 170 491.270095667 170 502 c 2
- 170 832 l 2
- 170 847.132537856 184.270095667 857 195 857 c 2
-195 667 m 1
- 195 692 l 1
- 616 692 l 1
- 616 667 l 1
- 616 642 l 1
- 195 642 l 1
- 195 667 l 1
+195 862 m 2
+ 616 862 l 2
+ 634.159045427 862 646 844.875885199 646 832 c 2
+ 646 697 l 1
+ 646 667 l 1
+ 646 637 l 1
+ 646 502 l 2
+ 646 483.840954573 628.875885199 472 616 472 c 2
+ 195 472 l 2
+ 176.840954573 472 165 489.124114801 165 502 c 2
+ 165 637 l 1
+ 165 667 l 1
+ 165 697 l 1
+ 165 832 l 2
+ 165 850.159045427 182.124114801 862 195 862 c 2
+586 697 m 1
+ 586 802 l 1
+ 225 802 l 1
+ 225 697 l 1
+ 586 697 l 1
+586 637 m 1
+ 225 637 l 1
+ 225 532 l 1
+ 586 532 l 1
+ 586 637 l 1
 EndSplineSet
 EndChar
 
@@ -4801,7 +4805,7 @@ StartChar: ny.cvc.3
 Encoding: 64 -1 118
 Width: 0
 VWidth: 230
-Flags: W
+Flags: HW
 HStem: -138 50<220 591> 27 50<195 616> 192 50<220 591>
 VStem: 195 25<27 77> 591 25<27 77>
 CounterMasks: 1 e0

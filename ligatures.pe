@@ -72,8 +72,8 @@ while ( i < 21 )
 endloop
 
 SelectAll()
-UnlinkReference()
-RemoveOverlap()
+#UnlinkReference()
+#RemoveOverlap()
 AutoHint()
 AutoCounter()
 
