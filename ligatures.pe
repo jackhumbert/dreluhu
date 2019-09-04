@@ -74,8 +74,8 @@ endloop
 SelectAll()
 #UnlinkReference()
 #RemoveOverlap()
-AutoHint()
-AutoCounter()
+#AutoHint()
+#AutoCounter()
 
 LoadEncodingFile("dreluhu.ps")
 Reencode("dreluhu")
