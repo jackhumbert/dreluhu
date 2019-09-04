@@ -4,7 +4,7 @@
 c = ["ny", "dy", "ty", "zy", "sy", "gy", "jy", "xy", "iy", "ry", "my", "by", "py", "vy", "fy", "ky", "cy", "yhy", "uy", "ly", "denpabu"]
 v = ["abu", "ebu", "ibu", "obu", "ubu", "ybu", "aibu", "eibu", "oibu", "aubu"]
 
-Open("fontforge.sfd")
+Open($1 + ".sfd")
 
 LoadNamelist("dreluhu.nam")
 LoadEncodingFile("dreluhu_ligatures.ps")
@@ -83,6 +83,6 @@ Reencode("dreluhu")
 
 MergeFeature("dreluhu_ligatures.fea")
 
-Generate("font.otf")
+Generate($1 + ".otf")
 
-Save("fontforge_ligatured.sfd")
+Save($1 + "_ligatured.sfd")
