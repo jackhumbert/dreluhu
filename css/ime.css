@@ -1,6 +1,6 @@
 
 body { 
-	font-family: "Lato", "font", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lato", "font", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Dreluhu", sans-serif;
 	padding-top: 50px;
 	font-feature-settings: 'mark';
 }
@@ -15,7 +15,7 @@ h1 {
 	min-width: 100%;
 	max-width: 100%;
 	min-height: 300px;
-	font-size: 36px;
+	font-size: 15px;
 	background: transparent;
 	font-family: "font";
 }
