@@ -1,8 +1,7 @@
 
 body { 
-	font-family: "Lato", "font", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Dreluhu", sans-serif;
+	font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif, "font";
 	padding-top: 50px;
-	font-feature-settings: 'mark';
 }
 
 h1 {
