@@ -27,7 +27,7 @@ while ( i < 21 )
 		#vAnchors = GetAnchorPoints()
 		CopyReference()
 		Select(c[i] + "_" + v[j])
-		#PasteWithOffset(vAnchors[0]["x"] - cAnchors[0]["x"], vAnchors[0]["y"] - cAnchors[0]["y"])
+		#PasteWithOffset(vAnchors[0][2] - cAnchors[0][2], vAnchors[0][3] - cAnchors[0][3])
 		PasteInto()
 
 		k = 0;
