@@ -2,6 +2,7 @@
 body { 
 	font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif, "font";
 	padding-top: 50px;
+    text-rendering: optimizeLegibility;
 }
 
 h1 {
