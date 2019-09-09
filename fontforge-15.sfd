@@ -25,7 +25,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1566577596
-ModificationTime: 1568070768
+ModificationTime: 1568071000
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2762,9 +2762,9 @@ EndChar
 
 StartChar: slakabu
 Encoding: 30 60286 30
-Width: 900
+Width: 0
 VWidth: 345
-Flags: W
+Flags: HW
 LayerCount: 2
 Substitution2: "Single Substitution lookup 78 subtable" denpabu.cvc.1
 EndChar
@@ -8715,7 +8715,7 @@ BDFChar: 28 28 7 1 6 0 9
 E/91#Li=IZpj`>E
 BDFChar: 29 29 7 1 6 0 9
 E/91#Li=IZp]pj"
-BDFChar: 30 30 7 0 0 0 0
+BDFChar: 30 30 0 0 0 0 0
 z
 BDFChar: 31 31 7 1 6 4 9
 E/91#Li<=o
@@ -9126,7 +9126,7 @@ BDFChar: 28 28 8 1 6 0 10
 E/]I'KT'jmr.':t
 BDFChar: 29 29 8 1 6 0 10
 E/]I'KT'jmqud-&
-BDFChar: 30 30 8 0 0 0 0
+BDFChar: 30 30 0 0 0 0 0
 z
 BDFChar: 31 31 8 1 6 4 10
 E/]I'KT'jM
@@ -9537,7 +9537,7 @@ BDFChar: 28 28 8 1 7 0 10
 Gf52cK#DmFr.':t
 BDFChar: 29 29 8 1 7 0 10
 Gf52cK#DmFqud-&
-BDFChar: 30 30 8 0 0 0 0
+BDFChar: 30 30 0 0 0 0 0
 z
 BDFChar: 31 31 8 1 7 4 10
 Gf52cK#Dm6
@@ -9983,7 +9983,7 @@ BDFChar: 28 28 9 1 7 0 11
 36$Q%K#Tb]&H731
 BDFChar: 29 29 9 1 7 0 11
 36$Q%K#Tb]&H2_4
-BDFChar: 30 30 9 0 0 0 0
+BDFChar: 30 30 0 0 0 0 0
 z
 BDFChar: 31 31 9 1 7 5 11
 36$Q%K#TbM
@@ -10394,7 +10394,7 @@ BDFChar: 28 28 10 1 8 0 12
 4@XsSJV$?R&.nklJ,fQL
 BDFChar: 29 29 10 1 8 0 12
 4@XsSJV$?R&.njD!rr<$
-BDFChar: 30 30 10 0 0 0 0
+BDFChar: 30 30 0 0 0 0 0
 z
 BDFChar: 31 31 10 1 8 5 12
 4@XsSJV$?R
@@ -10805,7 +10805,7 @@ BDFChar: 28 28 10 1 8 0 13
 4D)E\JUtXH49u5mJ:IV"
 BDFChar: 29 29 10 1 8 0 13
 4D)E\JUtXH49u5m!<E0#
-BDFChar: 30 30 10 0 0 0 0
+BDFChar: 30 30 0 0 0 0 0
 z
 BDFChar: 31 31 10 1 8 5 13
 4D)E\JUtXH49,?]
