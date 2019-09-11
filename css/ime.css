@@ -5,6 +5,10 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+.system {
+	font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif, "Dreluhu Future"
+}
+
 h1 {
 	text-align: center;
 }
