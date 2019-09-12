@@ -1,12 +1,23 @@
+@import url('../fonts.css');
+
+:root {
+	--red: rgba(255, 0, 0, .2);
+	--blue: rgba(0, 0, 255, .2);    
+	--green: rgba(41, 170, 34, 0.4);
+    --green-bg: rgba(41, 170, 34, 0.12);
+	--size: 100px;
+	--line-thickness: calc(var(--size)*0.02);
+	--selected-font: "Dreluhu Future";
+}
 
 body { 
-	font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif, "font";
+	font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif, "Dreluhu Future";
 	padding-top: 50px;
     text-rendering: optimizeLegibility;
 }
 
 .system {
-	font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif, "Dreluhu Future"
+	font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif, local("Dreluhu Future")
 }
 
 h1 {
@@ -21,15 +32,8 @@ h1 {
 	min-height: 300px;
 	font-size: 15px;
 	background: transparent;
-	font-family: "font";
+	font-family: var(--selected-font);
 }
-
-#font-selector {
-	position: absolute;
-	right: 0px;
-	top: 15px;
-}
-
 
 code, .zlm {
     padding: 0rem .5rem;
@@ -60,7 +64,6 @@ code, .zlm {
 .characters thead tr th {
 	border-bottom: 1px solid #ccc;
 	text-align: center;
-    height: 60px;
 }
 .characters tbody tr th {
 	border-bottom: 0px;
@@ -79,21 +82,148 @@ code, .zlm {
 }
 
 .character {
-	font-size: 56px;
+	font-size: 36px;
 	border: 1px solid #eee;
 	background: white;
 	width: 100%;
 	text-align: center;
+    line-height: 36px;
+    padding-top: 10px;
+	font-family: var(--selected-font);
 }
 
-td[rowspan="2"] .character {
-	line-height: 166px;
+.figure {
+	margin-top: -1rem;
+	text-align: center;
+    margin-bottom: 1.5rem;
 }
 
-th:first-child, td:first-child {
-	padding-left: 15px;
+.jbo {
+	font-weight: bold;
 }
 
-th:last-child, td:last-child {
-    padding-right: 15px;
+
+.eng {
+	font-style: italic;
+}
+
+.dlh {
+	font-family: var(--selected-font);
+	letter-spacing: 0px ! important;
+}
+
+.figure .dlh {
+	font-size: var(--size);
+	position: relative;
+	display: inline-block;
+	padding: 0px calc(var(--size)*0.15);
+	margin: calc(var(--size)*0.15) 0px calc(var(--size)*0.15);
+	line-height: calc(var(--size)*1.06);
+	pointer-events: none;
+}
+
+.figure .dlh.grid upper, .figure .dlh.grid lower {
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	height: calc(var(--size)*0.38);
+	border-bottom: var(--line-thickness) solid var(--red);
+	border-top: var(--line-thickness) solid var(--red);
+	z-index: -1;
+	top: calc(var(--size)*0.051);
+}
+
+.figure .dlh.grid lower {
+	top: calc(var(--size)*0.583);
+}
+
+.figure .dlh.grid upper:before, .figure .dlh.grid lower:before {
+	content: "";
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	border-top: var(--line-thickness) solid var(--blue);
+	z-index: -1;
+	top: 47.5%;
+}
+
+.figure .dlh.grid cv {    
+    position: absolute;
+    height: calc(var(--size)*0.381);
+    width: calc(var(--size)/2.62);
+    border-left: var(--line-thickness) solid var(--green);
+    border-right: var(--line-thickness) solid var(--green);
+    background: var(--green-bg);
+    z-index: -1;
+    margin-top: calc(var(--size)*0.071);
+    margin-left: calc(var(--size)*0.09);
+}
+
+.figure .dlh.grid cv:before {
+	content: "";    
+    position: absolute;
+    height: calc(var(--size)*0.381);
+    width: calc(var(--size)/2.62);
+    border-left: var(--line-thickness) solid var(--green);
+    border-right: var(--line-thickness) solid var(--green);
+    background: var(--green-bg);
+    z-index: -1;
+    margin-top: calc(var(--size)*0.531);
+    left: 0px;
+}
+
+.figure .dlh.grid ccv {    
+    position: absolute;
+    height: calc(var(--size)*0.38);
+    width: calc(var(--size)/4);
+    border-left: var(--line-thickness) solid var(--green);
+    border-right: var(--line-thickness) solid var(--green);
+    background: var(--green-bg);
+    z-index: -1;
+    margin-top: calc(var(--size)*0.07);
+    margin-left: calc(var(--size)*0.09);
+}
+
+.figure .dlh.grid ccv:before {   
+	content: ""; 
+    position: absolute;
+    height: calc(var(--size)*0.38);
+    width: calc(var(--size)/2.63);
+    border-left: var(--line-thickness) solid var(--green);
+    border-right: var(--line-thickness) solid var(--green);
+    background: var(--green-bg);
+    z-index: -1;
+    margin-top: calc(var(--size)*0.533);
+    margin-left: calc(var(--size)*0.113);
+    left: 0px;
+}
+.figure .dlh.grid ccv:after {       
+	content: "";
+    position: absolute;
+    height:calc(var(--size)*0.38);
+    width: calc(var(--size)/4);
+    border-left: var(--line-thickness) solid var(--green);
+    border-right: var(--line-thickness) solid var(--green);
+    background: var(--green-bg);
+    z-index: -1;
+    margin-top: 0;
+    margin-left: calc(var(--size)*0.378);
+    left: 0px;
+}
+
+.figure .dlh.grid cv.cv {
+    margin-left: calc(var(--size)*0.624);
+}
+
+.figure .dlh.grid cv.ccv {
+    margin-left: calc(var(--size)*0.89);
+}
+.figure .dlh.grid ccv.ccv {
+    margin-left: calc(var(--size)*0.89);
+}
+.figure .dlh.grid ccv.ccvccv {
+    margin-left: calc(var(--size)*1.694);
+}
+.figure .dlh.grid cv.ccvcv {
+    margin-left: calc(var(--size)*1.425);
 }

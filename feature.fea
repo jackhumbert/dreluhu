@@ -207,6 +207,21 @@ lookup Vdenpabu {
   sub denpabu uy by denpabu_uy;
 } Vdenpabu;
 
+
+lookup sv {
+  lookupflag 0;
+  sub slakabu abu by abu.iso;
+  sub slakabu ebu by ebu.iso;
+  sub slakabu ibu by ibu.iso;
+  sub slakabu obu by obu.iso;
+  sub slakabu ubu by ubu.iso;
+  sub slakabu ybu by ybu.iso;
+  sub slakabu aibu by aibu.iso;
+  sub slakabu eibu by eibu.iso;
+  sub slakabu oibu by oibu.iso;
+  sub slakabu aubu by aubu.iso;
+} sv;
+
 feature liga {
   script DFLT;
     language dflt;
@@ -228,6 +243,7 @@ feature liga {
     lookup dvc_v;
     lookup dvc_c;
     lookup Vdenpabu;
+    lookup sv;
   script latn;
     language dflt;
     lookup semivowels;
@@ -248,5 +264,6 @@ feature liga {
     lookup dvc_v;
     lookup dvc_c;
     lookup Vdenpabu;
+    lookup sv;
 } liga;
 

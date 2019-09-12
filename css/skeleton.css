@@ -129,6 +129,10 @@ body {
   color: #222; }
 
 
+.center {
+  text-align: center;
+}
+
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {

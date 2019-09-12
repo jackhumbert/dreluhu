@@ -3,334 +3,294 @@
 <head>
 
   <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>IME</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Drelu'u - An alphabetic syllabary orthography for Lojban</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
   <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!--link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"-->
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!--link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"-->
 
   <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/ime.css">
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/ime.css">
 
   <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!--link rel="icon" type="image/png" href="images/favicon.png"-->
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!--link rel="icon" type="image/png" href="images/favicon.png"-->
 
-  <style>
-    @font-face { font-family: "font"; font-weight: normal; src: url('future.otf'); }
-  </style>
 
-</head>
-<body>
+  </head>
+  <body>
 
-  <div class="container">
+    <div class="container">
 
-    <div class="row">
-      <div class="column">
+      <div class="row">
+        <div class="columns five">
 
-        <h1>IME</h1>
-        <a href="https://github.com/jackhumbert/dreluhu" class="button u-pull-left back-button">View on Github</a>
-
-        <textarea id="textarea" class="reference"></textarea>
-      </div>
-    </div>
-    <div class="row">
-      <div class="column one-half">
-        <p class="reference">Here's some text:        / 획«득한다»를 뜻한다? 日本語だ<br />
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br />
-    <br />
-   <br />
-    <br />
-    <br />
-        <br />
-  <br />
-        <br />
-          <br />
-  « »     <br />
-          <br />
-  «    ?»       <br />
-   ?<br />
-        ?<br />
-  ?<br />
-         <br />
-           <br />
-      «»<br />
-     <br />
-   <br />
-           <br />
-      «     ?» <br />
-      «       ?» <br />
-             <br />
-      «!»     <br />
-       <br />
-   <br />
-               <br />
-      «   ?   » <br />
-              <br />
-  <br />
-         <br />
+          <a href="https://github.com/jackhumbert/dreluhu" class="button">View Project on Github</a>
+        </div>
+        <div class="columns two">
+          <label>Example Size</label>
+          <input type="range" value="100" id="font-size" min="15" max="800" class="u-full-width" />
+        </div>
+        <div class="columns two">
+          <label for="show-grid">Show Grid</label>
+          <input type="checkbox" id="show-grid" />
+        </div>
+        <div class="columns three">
+          <label>Font</label>
+          <select id="font-selector" class="u-full-width"><option value="Dreluhu Serif">Dreluhu Serif</option><option value="Dreluhu Future" selected>Dreluhu Future</option></select>
+        </div>
       </div>
 
-      <div class="column one-half">
-        <p class="reference system">Here's some text:        / 획«득한다»를 뜻한다? 日本語だ<br />
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br />
-    <br />
-   <br />
-    <br />
-    <br />
-        <br />
-  <br />
-        <br />
-          <br />
-  « »     <br />
-          <br />
-  «    ?»       <br />
-   ?<br />
-        ?<br />
-  ?<br />
-         <br />
-           <br />
-      «»<br />
-     <br />
-   <br />
-           <br />
-      «     ?» <br />
-      «       ?» <br />
-             <br />
-      «!»     <br />
-       <br />
-   <br />
-               <br />
-      «   ?   » <br />
-              <br />
-  <br />
-         <br />
+      <h1>Drelu'u</h1>
+      <div class="figure"><div class="dlh"><upper></upper><lower></lower><ccv></ccv><cv class="ccv"></cv><cv class="ccvcv"></cv></div></div>
+
+      <p class="center">An alphabetic syllabary orthography for Lojban</p>
+
+      <h2>Alphabet</h2>
+
+      <p>Drelu'u (spelled <i>dreluhu</i> when an apostrophe is unavailable) has a full alphabet, with each letter representing a different sound. Hangul served as inspiration in how the alphabet shapes were assigned, keeping ㅁ as {my}, ㄹ as {ly}, ㅇ as a placeholder for vowels (denpa bu), and the rest were (like Hangul) determined based on the shapes associated with the sounds and how they're made. All letters are designed to be fit into a square (1:1), but each also has a skinnier (5:7 or 3:5) version - {iy}, {uy}, and {yhy} aren't used in this form, though.</p>
+
+      <h3>Consonants</h3>
+
+      <p>All of the <b>voiced consonants</b> open up or to the right, and their <b>unvoiced</b> pairs, down or to the left. The <b>labial</b> sounds have an empty space between two lines, indicating the involvement of the lips. The <b>alveolar/postalveolar</b> characters involve a horizontal line crossing through the shape to represent the tongue's role in the sound. The <b>velar</b> sounds have two lines coming to a point to indicate the contact the tongue makes with the soft palate.</p>
+
+      <p>The closed mouth of the <b>nasal</b> sounds is represented by the closed shape of the characters. If air is moving horizontally along the line of characters, the <b>plosive</b> sounds have some sort of vertical line to capture the air completely, and the <b>fricative</b> only obstruct the air in some way. The shape of the tongue during the <b>approximant</b> {ly} sound is then represented with ㄹ, like Hangul, and is unrotatable. The only <b>rhotic</b> sound is given an "x" shape due to relation to the vowel sounds, and the acceptable {ry} sounds' span over various places of articulation.</p>
+
+      <p>{cy}, {jy}, and {xy} are a bit stylized in the fonts on this page, but valid shapes include triangles, A-shapes, and the Hangul J: ∧, △, ▽, ∀, A, ㅈ, ㅊ. As long as the horizontal line exists in {cy} and {jy}, it can be anywhere vertically.</p>
+
+      <p>It should be noted that the {ly} and {yhy} characters are only given one orientation due to the ability to easily confuse the rotated/flipped versions. Lots of attention has been given to the design of the characters and the ability to distinguish them from each other at small font sizes. 11pt/px is the theoretical minimum size for Drelu'u fonts, when considering the spacing between the characters and character features, where the skinnier shapes are 3x5 pixels in size.</p>
+
+      <table class="characters">
+        <thead>
+          <th></th>
+          <th>Labial</th>
+          <th>Alveolar</th>
+          <th>Post&shy;alveolar</th>
+          <th>Velar</th>
+          <th>Glottal</th>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Nasal</th>
+            <td><div class="character-legend">my</div><div class="character">&#xeb70;</div></td>
+            <td colspan="3"><div class="character-legend">ny</div><div class="character">&#xeb60;</div></td>
+          </tr>
+          <tr>
+            <th>Plosive</th>
+            <td><div class="character-legend">py / by</div><div class="character">&#xeb72; &#xeb71;</div></td>
+            <td colspan="2"><div class="character-legend">ty / dy</div><div class="character">&#xeb62; &#xeb61;</div></td>
+            <td><div class="character-legend">ky / gy</div><div class="character">&#xeb75; &#xeb65;</div></td>
+            <td><div class="character-legend">denpa bu</div><div class="character">&#xeb7f;</div></td>
+          </tr>
+          <tr>
+            <th>Fricative</th>
+            <td><div class="character-legend">fy / vy</div><div class="character">&#xeb74; &#xeb73;</div></td>
+            <td><div class="character-legend">sy / zy</div><div class="character">&#xeb64; &#xeb63;</div></td>
+            <td><div class="character-legend">cy / jy</div><div class="character">&#xeb76; &#xeb66;</div></td>
+            <td><div class="character-legend">xy</div><div class="character">&#xeb67;</div></td>
+            <td><div class="character-legend">yhy</div><div class="character">&#xeb77;</div></td>
+          </tr>
+          <tr>
+            <th>Approxi&shy;mant</th>
+            <td></td>
+            <td colspan="2"><div class="character-legend">ly</div><div class="character">&#xeb79;</div></td>
+          </tr>
+          <tr>
+            <th>Rhotic</th>
+            <td></td>
+            <td colspan="3"><div class="character-legend">ry</div><div class="character">&#xeb69;</div></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Vowels</h3>
+
+      <div class="row">
+        <div class="columns ten">
+          <p>It's useful to imagine the standard IPA vowel diagram occupying the space of a square intersected by a centered cross - if that is split-up evenly into nine pieces, each vowel sound is then represented by the shape in its ninth. Not all are used, but this helps give each a defining characteristic, and allows for L and ⅃ to be valid shapes for {ebu} and {obu}, respectively.</p>
+
+          <p>If you can remember the table below, or the front-to-back, close-to-open nature of the IPA vowel chart, you should be able to easily identify any vowel (including the diphthongs). The vowel shapes are often shortened in CV and CCV shapes, to help distinguish them from consonants. Similarly, {abu}'s horizontal bar is often raise to the mid-point of the shape.</p>
+        </div>
+        <div class="columns two">
+          <img src="vowel-box.jpg" class="u-full-width" />
+        </div>
       </div>
+
+      <table class="characters">
+        <thead>
+          <th></th>
+          <th>Front</th>
+          <th>Central</th>
+          <th>Back</th>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Close</th>
+            <td><div class="character-legend">ibu</div><div class="character">&#xeb6c;</div></td>
+            <td></td>
+            <td><div class="character-legend">ubu</div><div class="character">&#xeb6d;</div></td>
+          </tr>
+          <tr>
+            <th>Mid</th>
+            <td><div class="character-legend">ebu</div><div class="character">&#xeb6a;</div></td>
+            <td><div class="character-legend">ybu</div><div class="character">&#xeb6f;</div></td>
+            <td><div class="character-legend">obu</div><div class="character">&#xeb6b;</div></td>
+          </tr>
+          <tr>
+            <th>Open</th>
+            <td colspan="3"><div class="character-legend">abu</div><div class="character">&#xeb6e;</div></td>
+          </tr>
+        </tbody>
+      </table>
+
+
+      <div class="row">
+        <div class="columns nine">
+          <h4>Diphthongs</h4>
+          <p>{aibu} and {aubu} are simply the combined shapes of {abu} and {ubu}/{ibu}. {eibu} and {oibu} take their initial vowel shape and add a horizontal line to represent the {ibu}. Valid shapes include the Hangul vowels ㅑ and ㅕ (albeit representing very different sounds), as if you were combining their closed counterpart to the bottom of the shape. This doesn't make complete sense for {oibu} (looking like an o-u diphthong), but is done to prevent overly-complicated shapes. {eibu} and {oibu} need an ascending or descending (show in the fonts here) line, or both (as in ㅑ and ㅕ).</p>
+        </div>
+        <div class="columns three">
+          <table class="characters">      
+            <tbody>
+              <tr>
+                <td><div class="character-legend">aibu</div><div class="character">&#xeb7a;</div></td>
+                <td><div class="character-legend">aubu</div><div class="character">&#xeb7d;</div></td>
+              </tr>
+              <tr>
+                <td><div class="character-legend">eibu</div><div class="character">&#xeb7b;</div></td>
+                <td><div class="character-legend">oibu</div><div class="character">&#xeb7c;</div></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="columns nine">
+          <h4>Semivowels</h4>
+          <p>Semivowels take the {ibu} and {ubu} shapes from the sounds that they're derived from and add a vertical or diagonal line to them to represent the palatal or labial on-glide. In all cases, they're treated as consonants. These shapes are different from their related vowels to show that they represent different sounds - something the latin orthography lacks.</p>
+        </div>
+        <div class="columns three">
+          <table class="characters">      
+            <tbody>
+              <tr>
+                <td><div class="character-legend">iy</div><div class="character">&#xeb68;</div></td>
+                <td><div class="character-legend">uy</div><div class="character">&#xeb78;</div></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <h2>Stacking</h2>
+
+      <p>The alphabet of Drelu'u is arranged into syllables of CV, CVC, or CCV letter stacks, similar to Hangul. Each stack type only has one arrangement, which aids in quickly identifying what it'll sound like, and all three can be seen in the example below. Both letters in a CV stack are full-sized. The skinnier version (5:7 in the fonts here) of each letter is used for the first two letters of CCV and CVC, and are placed side-by-side, while the bottom letter remains full-sized and centered under the two. It's also valid for a wide version of the bottom letter to exist/be used here, but the spacing on either side may help to identify the final letter more easily, and prevent confusion with another version of the letter - keeping the same proportions of the letter makes it more recognisable.</p>
+
+      <div class="figure">
+        <div class="dlh"><upper></upper><lower></lower><cv></cv> <ccv></ccv><cv class="ccv"></cv> <ccv></ccv><cv class="ccv"></cv></div>
+        <div class="jbo">lo sutra mlatu</div>
+        <div class="eng">a fast cat</div>
+      </div>
+
+      <p>CCV forms are only valid when the two consonants are a valid initial consonant pair in Lojban. Any words that contain a consonant triplet should be able to be separated into two syllables, like CVC-CCV. Below are some examples of CCV syllables and more complex syllable separation.</p>      
+
+      <div class="figure">
+        <div class="dlh"><upper></upper><lower></lower><ccv></ccv> <ccv></ccv> <ccv></ccv> <ccv></ccv><cv class="ccv"></cv> <ccv></ccv><ccv class="ccv"></ccv><ccv class="ccvccv"></ccv></div>
+        <div class="jbo">zva / cma / mla / xrusa / ternupcpe</div>
+      </div>
+
+      <p>The {denpa bu} is treated just like a consonant, and is required when writing words that start with a vowel, and can be combined into CVC shapes like in {la .alvin.}. The final {denpa bu} is preferred to be omited in the Drelu'u text, as it could be inferred as another syllable.</p>
+
+      <div class="figure">
+        <div class="dlh"><upper></upper><lower></lower><cv></cv> <cv></cv> <ccv></ccv><cv class="ccv"></cv> <cv></cv> <ccv></ccv><ccv class="ccv"></ccv></div>
+        <div class="jbo">.ai mi vitke la .alvin.</div>
+        <div class="eng">I'm going to visit Alvin</div>
+      </div>
+
+      <h3>Spacing</h3>
+
+      <p>Intial letters in the same word should all be spaced evenly, both horizontally with the previous/next syllables, and vertically with their lower counterparts. Because of this, standard Latin spaces can be used without causing confusion about where a word ends/begins. In general, no kerning or ligating is done between the initial letters of a CCV or CVC stack, but is acceptable provided all cases are accounted for. It may be possible to combine consonants so that they can be fitted to a square, but should be done with caution, especially with pairs {sy_ty} and {sy_ny}, as the vertical line of {sy} could be confused for the left side of {ny}.</p>
+
+      <p>You can enable the visual grid to display behind all of the examples via the checkbox at the top of this page, and below is an example of the spacing for a phase in the form of CVCV CV CVCCV - the lines of the characters should be drawn on these lines, not inside the boxes.</p>
+
+      <img src="alignment.jpg" class="u-full-width" />
+
+      <textarea id="textarea" class="reference"></textarea>
+
     </div>
+    <script>
 
+      function hasClass(ele, cls) {
+        return !!ele.className.match(new RegExp('(\\s|^)'+cls+'(\\s|$)'));
+      }
 
-  <div class="row">
-    <div class="column">
-    <table class="characters">
-      <thead>
-        <th></th>
-        <th>Labial</th>
-        <th>Alveolar</th>
-        <th>Post&shy;alveolar</th>
-        <th>Velar</th>
-        <th>Glottal</th>
-      </thead>
-    <tbody>
-    <tr>
-      <th>Nasal</th>
-      <td><div class="character-legend">my</div><div class="character">&#xeb70;</div></td>
-      <td colspan="3"><div class="character-legend">ny</div><div class="character">&#xeb60;</div></td>
-    </tr>
-    <tr>
-      <th>Plosive</th>
-      <td><div class="character-legend">py / by</div><div class="character">&#xeb72; &#xeb71;</div></td>
-      <td colspan="2"><div class="character-legend">ty / dy</div><div class="character">&#xeb62; &#xeb61;</div></td>
-      <td><div class="character-legend">ky / gy</div><div class="character">&#xeb75; &#xeb65;</div></td>
-      <td><div class="character-legend">denpa bu</div><div class="character">&#xeb7f;</div></td>
-    </tr>
-    <tr>
-      <th>Fricative</th>
-      <td><div class="character-legend">fy / vy</div><div class="character">&#xeb74; &#xeb73;</div></td>
-      <td><div class="character-legend">sy / zy</div><div class="character">&#xeb64; &#xeb63;</div></td>
-      <td><div class="character-legend">cy / jy</div><div class="character">&#xeb76; &#xeb66;</div></td>
-      <td><div class="character-legend">xy</div><div class="character">&#xeb67;</div></td>
-      <td><div class="character-legend">yhy</div><div class="character">&#xeb77;</div></td>
-    </tr>
-    <tr>
-      <th>Approxi&shy;mant</th>
-      <td></td>
-      <td colspan="2"><div class="character-legend">ly</div><div class="character">&#xeb79;</div></td>
-    </tr>
-    <tr>
-      <th>Rhotic</th>
-      <td></td>
-      <td colspan="3"><div class="character-legend">ry</div><div class="character">&#xeb69;</div></td>
-    </tr>
-    </tbody>
-    </table>
-    </div>
-  </div>
-<div class="row">
-    <div class="column">
-    <table class="characters">
-      <thead>
-        <th></th>
-        <th>Front</th>
-        <th>Central</th>
-        <th>Back</th>
-      </thead>
-    <tbody>
-    <tr>
-      <th>Semi&shy;vowels</th>
-      <td><div class="character-legend">iy</div><div class="character">&#xeb68;</div></td>
-      <td></td>
-      <td><div class="character-legend">uy</div><div class="character">&#xeb78;</div></td>
-    </tr>
-    <tr>
-      <th>Close</th>
-      <td><div class="character-legend">ibu</div><div class="character">&#xeb6c;</div></td>
-      <td></td>
-      <td><div class="character-legend">ubu</div><div class="character">&#xeb6d;</div></td>
-    </tr>
-    <tr>
-      <th>Mid</th>
-      <td><div class="character-legend">ebu</div><div class="character">&#xeb6a;</div></td>
-      <td><div class="character-legend">ybu</div><div class="character">&#xeb6f;</div></td>
-      <td><div class="character-legend">obu</div><div class="character">&#xeb6b;</div></td>
-    </tr>
-    <tr>
-      <th>Open</th>
-      <td colspan="3"><div class="character-legend">abu</div><div class="character">&#xeb6e;</div></td>
-    </tr>
-    </tbody>
-    </table>
+      function addClass(ele, cls) {
+        if (!hasClass(ele,cls)) ele.className += " "+cls;
+      }
 
-    <table class="characters">      
-      <thead>
-        <th colspan="4">Falling Diphthongs</th>
-      </thead>
-    <tbody>
-    <tr>
-      <td><div class="character-legend">aibu</div><div class="character">&#xeb7a;</div></td>
-      <td><div class="character-legend">eibu</div><div class="character">&#xeb7b;</div></td>
-      <td><div class="character-legend">oibu</div><div class="character">&#xeb7c;</div></td>
-      <td><div class="character-legend">aubu</div><div class="character">&#xeb7d;</div></td>
-    </tr>
-    </tbody>
-    </table>
-  </div>
-  </div>
+      function removeClass(ele, cls) {
+        if (hasClass(ele,cls)) {
+          var reg = new RegExp('(\\s|^)'+cls+'(\\s|$)');
+          ele.className=ele.className.replace(reg,' ');
+        }
+      }
 
-  </div>
-<script>
+      function toggleClass(ele, cls) {
+        if (hasClass(ele,cls))
+          removeClass(ele,cls);
+        else
+          addClass(ele,cls);
+      }
 
-HTMLTextAreaElement.prototype.insertAtCaret = function (text) {
-  if (this.selectionStart || this.selectionStart === 0) {
-    var startPos = this.selectionStart,
-        endPos   = this.selectionEnd,
-        before   = this.value.substring(0, startPos),
-        after    = this.value.substring(endPos, this.value.length);
-    this.value = before + text + after;
-    this.selectionStart = startPos + text.length;
-    this.selectionEnd   = startPos + text.length;
-  } else {
-    this.value += text;
-  }
-};
+      function updateSize(e) {
+       document.documentElement.style.setProperty('--size', this.value + "px");
+     }
+
+     function updateGrid(e) {
+      var items = [].slice.call(document.getElementsByClassName("dlh"));
+      if (show_grid.checked)
+        items.forEach(item => addClass(item, "grid"));
+      else
+        items.forEach(item => removeClass(item, "grid"));
+    }
+
+    function updateFont(e) {
+     document.documentElement.style.setProperty('--selected-font', this.value);
+   }
+
+   var font_size_input = document.getElementById('font-size');
+   font_size_input.addEventListener('change', updateSize);
+   font_size_input.addEventListener('mousemove', updateSize);
+
+   var show_grid = document.getElementById('show-grid');
+   show_grid.addEventListener('change', updateGrid);
+
+   var font_selector = document.getElementById('font-selector');
+   font_selector.addEventListener('change', updateFont);
+
+   HTMLTextAreaElement.prototype.insertAtCaret = function (text) {
+    if (this.selectionStart || this.selectionStart === 0) {
+      var startPos = this.selectionStart,
+      endPos   = this.selectionEnd,
+      before   = this.value.substring(0, startPos),
+      after    = this.value.substring(endPos, this.value.length);
+      this.value = before + text + after;
+      this.selectionStart = startPos + text.length;
+      this.selectionEnd   = startPos + text.length;
+    } else {
+      this.value += text;
+    }
+  };
 
 // Global Helpers
 

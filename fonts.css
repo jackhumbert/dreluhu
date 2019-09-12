@@ -1,0 +1,10 @@
+@font-face { 
+	font-family: 'Dreluhu Future';
+	src: local('Dreluhu Future'), url('future.otf');
+	font-weight: 400;
+}
+@font-face { 
+	font-family: 'Dreluhu Serif';
+	src: local('Dreluhu Script'), url('script.otf');
+	font-weight: 400;
+}

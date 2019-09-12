@@ -25,7 +25,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1566577596
-ModificationTime: 1568172209
+ModificationTime: 1568311640
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -131,7 +131,7 @@ Lookup: 1 0 0 "Single Substitution lookup 80" { "Single Substitution lookup 80 s
 Lookup: 6 0 0 "dvc_c" { "dvc_c subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 82" { "Single Substitution lookup 82 subtable"  } []
 Lookup: 4 0 1 "Vdenpabu" { "Vdenpabu subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 4 0 1 "dreluhu-subs" { "dreluhu-subs-1"  } ['rlig' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "sv" { "sv subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 258 8 0 "'kern' Horizontal Kerning lookup 1" { "'kern' Horizontal Kerning lookup 1-1" [225,0,2] } ['kern' ('DFLT' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "Above" { "Above-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -1417,10 +1417,10 @@ GaspTable: 4 7 10 17 5 59 15 65535 15 1
 Encoding: Custom
 UnicodeInterp: none
 NameList: dreluhu
-DisplaySize: -48
+DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 32 10
+WinInfo: 0 32 7
 BeginPrivate: 7
 StdHW 5 [100]
 StdVW 5 [100]
@@ -1432,54 +1432,52 @@ BlueFuzz 2 10
 EndPrivate
 GridOrder2: 1
 Grid
-450 850 m 1,0,-1
- 450 650 l 0,0,0
- 450 350 l 1025,0,0
-450 150 m 9,1,-1
+450 1150 m 1,0,-1
+ 450 550 l 1025,0,0
+450 150 m 1,1,-1
  450 -250 l 1025,16,-1
-750 650 m 25,17,-1
- 150 650 l 1049
-750 350 m 25,19,-1
- 750 950 l 25,20,-1
- 150 950 l 25,21,-1
- 150 349 l 1048
-550 550 m 25,23,-1
- 550 1150 l 25,0,-1
- 150 1150 l 25,1,-1
- 150 550 l 25,2,-1
- 550 550 l 25,23,-1
-650 350 m 25,0,-1
- 650 -250 l 1049
-350 1150 m 25,2,-1
- 350 550 l 1049
-950 1150 m 25,0,-1
- 950 550 l 1049
-1150.5 850 m 1,2,-1
- 750 850 l 25,2,-1
- 150 850 l 1025,24,-1
-750 1150 m 25,4,-1
+750 850 m 1,17,-1
+ 150 850 l 1,18,-1
+ 750 850 l 1,2,-1
+ 1150.5 850 l 1025,2,-1
+750 550 m 1,19,-1
+ 750 1150 l 1,20,-1
+ 150 1150 l 1,21,-1
+ 150 549 l 1024
+550 550 m 1,23,-1
+ 550 1150 l 1,0,-1
+ 150 1150 l 1,1,-1
+ 150 550 l 1,2,-1
+ 550 550 l 1,23,-1
+650 350 m 1,0,-1
+ 650 -250 l 1025
+350 1150 m 1,2,-1
+ 350 550 l 1025
+950 1150 m 1,0,-1
+ 950 550 l 1025
+750 1150 m 1,4,-1
  1150.5 1150 l 1,5,-1
  1150.5 550 l 1,6,-1
- 750 550 l 25,7,-1
- 750 1150 l 25,4,-1
-950 50 m 25,8,-1
- 350 50 l 1049
-950 -250 m 25,10,-1
- 950 350 l 25,11,-1
- 350 350 l 25,12,-1
- 350 -250 l 25,13,-1
- 950 -250 l 25,10,-1
-750 -50 m 25,18,-1
- 150 -50 l 1049
-750 150 m 25,20,-1
- 150 150 l 25,21,-1
- 150 -250 l 25,22,-1
- 750 -250 l 25,23,-1
- 750 150 l 25,20,-1
+ 750 550 l 1,7,-1
+ 750 1150 l 1,4,-1
+950 50 m 1,8,-1
+ 350 50 l 1025
+950 -250 m 1,10,-1
+ 950 350 l 1,11,-1
+ 350 350 l 1,12,-1
+ 350 -250 l 1,13,-1
+ 950 -250 l 1,10,-1
+750 -50 m 1,18,-1
+ 150 -50 l 1025
+750 150 m 1,20,-1
+ 150 150 l 1,21,-1
+ 150 -250 l 1,22,-1
+ 750 -250 l 1,23,-1
+ 750 150 l 1,20,-1
 EndSplineSet
 TeXData: 1 0 0 209715 104857 69905 0 1048576 69905 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Above" "Above-1"
-BeginChars: 466 214
+BeginChars: 472 224
 
 StartChar: ny
 Encoding: 0 60256 0
@@ -1943,6 +1941,8 @@ AnchorPoint: "Above" 0 500 basechar 0
 LayerCount: 2
 Back
 SplineSet
+750 550 m 4
+ 516 550 450 954 450 1150 c 1029
 150 550 m 29
  150 1150 l 29
  750 1150 l 1053
@@ -1954,11 +1954,21 @@ SplineSet
  100 550 l 1
  100 1150 l 2
  100 1180.26507571 128.540191335 1200 150 1200 c 2
+ 400 1200 l 1
+ 450 1200 l 1
+ 500 1200 l 1
  750 1200 l 1
  800 1200 l 1
  800 1150 l 1
  800 1100 l 1
  750 1100 l 1
+ 501.391544993 1100 l 1
+ 512.584354624 891.612949551 591.617069888 600 750 600 c 2
+ 800 600 l 1
+ 800 550 l 1
+ 800 500 l 1
+ 750 500 l 2
+ 477.606575713 500 410.29320646 893.347428523 401.159727844 1100 c 1
  200 1100 l 1
  200 550 l 1
  200 500 l 1
@@ -2048,12 +2058,12 @@ Refer: 31 60287 N 1 0 0 1 0 0 2
 Fore
 Refer: 32 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
-LCarets2: 1 0
 Ligature2: "Vdenpabu subtable" denpabu ebu
 Substitution2: "Single Substitution lookup 80 subtable" ebu.cvc
 Substitution2: "Single Substitution lookup 68 subtable" ebu.ccv
 Substitution2: "Single Substitution lookup 62 subtable" ebu.cv
 Substitution2: "Single Substitution lookup 58 subtable" ebu.cvc
+LCarets2: 1 0
 EndChar
 
 StartChar: obu
@@ -2070,12 +2080,12 @@ Refer: 31 60287 N 1 0 0 1 0 0 2
 Fore
 Refer: 33 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
-LCarets2: 1 0
 Ligature2: "Vdenpabu subtable" denpabu obu
 Substitution2: "Single Substitution lookup 80 subtable" obu.cvc
 Substitution2: "Single Substitution lookup 68 subtable" obu.ccv
 Substitution2: "Single Substitution lookup 62 subtable" obu.cv
 Substitution2: "Single Substitution lookup 58 subtable" obu.cvc
+LCarets2: 1 0
 EndChar
 
 StartChar: ibu
@@ -2092,13 +2102,13 @@ Refer: 31 60287 N 1 0 0 1 0 0 2
 Fore
 Refer: 34 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
-LCarets2: 1 0
 Ligature2: "Vdenpabu subtable" denpabu ibu
 Substitution2: "Single Substitution lookup 80 subtable" ibu.cvc
 Substitution2: "Single Substitution lookup 68 subtable" ibu.ccv
 Substitution2: "Single Substitution lookup 62 subtable" ibu.cv
 Substitution2: "Single Substitution lookup 58 subtable" ibu.cvc
 Substitution2: "Single Substitution lookup 1 subtable" iy
+LCarets2: 1 0
 EndChar
 
 StartChar: ubu
@@ -2115,13 +2125,13 @@ Refer: 31 60287 N 1 0 0 1 0 0 2
 Fore
 Refer: 84 -1 S 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
-LCarets2: 1 0
 Ligature2: "Vdenpabu subtable" denpabu ubu
 Substitution2: "Single Substitution lookup 80 subtable" ubu.cvc
 Substitution2: "Single Substitution lookup 68 subtable" ubu.ccv
 Substitution2: "Single Substitution lookup 62 subtable" ubu.cv
 Substitution2: "Single Substitution lookup 58 subtable" ubu.cvc
 Substitution2: "Single Substitution lookup 2 subtable" uy
+LCarets2: 1 0
 EndChar
 
 StartChar: abu
@@ -2139,12 +2149,12 @@ Refer: 31 60287 N 1 0 0 1 0 0 2
 Fore
 Refer: 85 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
-LCarets2: 1 0
 Ligature2: "Vdenpabu subtable" denpabu abu
 Substitution2: "Single Substitution lookup 80 subtable" abu.cvc
 Substitution2: "Single Substitution lookup 68 subtable" abu.ccv
 Substitution2: "Single Substitution lookup 62 subtable" abu.cv
 Substitution2: "Single Substitution lookup 58 subtable" abu.cvc
+LCarets2: 1 0
 EndChar
 
 StartChar: ybu
@@ -2162,12 +2172,12 @@ Refer: 31 60287 N 1 0 0 1 0 0 2
 Fore
 Refer: 79 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
-LCarets2: 1 0
 Ligature2: "Vdenpabu subtable" denpabu ybu
 Substitution2: "Single Substitution lookup 80 subtable" ybu.cvc
 Substitution2: "Single Substitution lookup 68 subtable" ybu.ccv
 Substitution2: "Single Substitution lookup 62 subtable" ybu.cv
 Substitution2: "Single Substitution lookup 58 subtable" ybu.cvc
+LCarets2: 1 0
 EndChar
 
 StartChar: my
@@ -2568,9 +2578,11 @@ AnchorPoint: "Above" 0 500 basechar 0
 LayerCount: 2
 Back
 SplineSet
-750 550 m 1
- 750 1150 l 1
- 150 1150 l 1025
+150 549 m 5
+ 352.719482808 550 451.550542181 800.930277871 450 1150 c 1037
+750 550 m 5
+ 750 1150 l 5
+ 150 1150 l 1029
 EndSplineSet
 Fore
 SplineSet
@@ -2578,11 +2590,21 @@ SplineSet
  700 500 l 1
  700 550 l 1
  700 1100 l 1
+ 499.522918394 1100 l 1
+ 491.824478737 776.006204888 393.5010466 500.200564055 150.246643248 499.000608333 c 2
+ 100.247251581 498.753965085 l 1
+ 100.000608333 548.753356752 l 1
+ 99.7539650846 598.752748419 l 1
+ 149.753356752 598.999391667 l 2
+ 292.265687749 599.702394304 391.648699461 778.347148029 399.514969218 1100 c 1
  150 1100 l 1
  100 1100 l 1
  100 1150 l 1
  100 1200 l 1
  150 1200 l 1
+ 449.888952376 1200 l 1
+ 499.777412587 1200.22160089 l 2
+ 499.777412587 1200.14773393 499.778396922 1200.07386696 499.778396922 1200 c 2
  750 1200 l 2
  771.459808665 1200 800 1180.26507571 800 1150 c 2
  800 550 l 1
@@ -2674,13 +2696,13 @@ Refer: 31 60287 N 1 0 0 1 0 0 2
 Fore
 Refer: 80 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
-LCarets2: 1 0
 Ligature2: "Vdenpabu subtable" denpabu eibu
 Substitution2: "Single Substitution lookup 80 subtable" eibu.cvc
 Substitution2: "Single Substitution lookup 68 subtable" eibu.ccv
 Substitution2: "Single Substitution lookup 62 subtable" eibu.cv
 Substitution2: "Single Substitution lookup 58 subtable" eibu.cvc
 Ligature2: "diphthongs subtable" ebu ibu
+LCarets2: 1 0
 EndChar
 
 StartChar: oibu
@@ -2697,13 +2719,13 @@ Refer: 31 60287 N 1 0 0 1 0 0 2
 Fore
 Refer: 81 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
-LCarets2: 1 0
 Ligature2: "Vdenpabu subtable" denpabu oibu
 Substitution2: "Single Substitution lookup 80 subtable" oibu.cvc
 Substitution2: "Single Substitution lookup 68 subtable" oibu.ccv
 Substitution2: "Single Substitution lookup 62 subtable" oibu.cv
 Substitution2: "Single Substitution lookup 58 subtable" oibu.cvc
 Ligature2: "diphthongs subtable" obu ibu
+LCarets2: 1 0
 EndChar
 
 StartChar: aibu
@@ -2720,13 +2742,13 @@ Refer: 31 60287 N 1 0 0 1 0 0 2
 Fore
 Refer: 82 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
-LCarets2: 1 0
 Ligature2: "Vdenpabu subtable" denpabu aibu
 Substitution2: "Single Substitution lookup 80 subtable" aibu.cvc
 Substitution2: "Single Substitution lookup 68 subtable" aibu.ccv
 Substitution2: "Single Substitution lookup 62 subtable" aibu.cv
 Substitution2: "Single Substitution lookup 58 subtable" aibu.cvc
 Ligature2: "diphthongs subtable" abu ibu
+LCarets2: 1 0
 EndChar
 
 StartChar: aubu
@@ -2743,13 +2765,13 @@ Refer: 31 60287 N 1 0 0 1 0 0 2
 Fore
 Refer: 83 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
-LCarets2: 1 0
 Ligature2: "Vdenpabu subtable" denpabu aubu
 Substitution2: "Single Substitution lookup 80 subtable" aubu.cvc
 Substitution2: "Single Substitution lookup 68 subtable" aubu.ccv
 Substitution2: "Single Substitution lookup 62 subtable" aubu.cv
 Substitution2: "Single Substitution lookup 58 subtable" aubu.cvc
 Ligature2: "diphthongs subtable" abu ubu
+LCarets2: 1 0
 EndChar
 
 StartChar: slakabu
@@ -2836,8 +2858,8 @@ SplineSet
  800 100 l 1
  800 50 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 69 subtable" ebu.ccv
 Substitution2: "Single Substitution lookup 73 subtable" ebu.cvc
+Substitution2: "Single Substitution lookup 69 subtable" ebu.ccv
 EndChar
 
 StartChar: obu.cv
@@ -3035,8 +3057,6 @@ SplineSet
  300 400 l 1
  350 400 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 69 subtable" ebu.ccv
-Substitution2: "Single Substitution lookup 73 subtable" ebu.cvc
 EndChar
 
 StartChar: ry.ccv.2
@@ -3203,7 +3223,7 @@ StartChar: sy.cvc.1
 Encoding: 36 -1 43
 Width: 1300
 VWidth: 345
-Flags: HWO
+Flags: HW
 HStem: 500 21G<100 200 500.5 600.5> 800 100<200 500.5> 1100 100<200 500.5>
 VStem: 100 100<500 800 900 1100> 500.5 100<500 800 900 1100>
 AnchorPoint: "Above" 0 500 basechar 0
@@ -3528,7 +3548,7 @@ StartChar: py.cvc.1
 Encoding: 50 -1 51
 Width: 1300
 VWidth: 345
-Flags: HW
+Flags: W
 HStem: 500 100<100 500> 1100 100<100 500>
 VStem: 500 100<600 1100>
 AnchorPoint: "Above" 0 500 basechar 0
@@ -4666,15 +4686,15 @@ StartChar: py.ccv.2
 Encoding: 146 -1 96
 Width: 0
 VWidth: 345
-Flags: W
-HStem: 498.5 100<898 1298> 1098.5 100<898 1298>
-VStem: 1298 100<598.5 1098.5>
+Flags: WO
+HStem: 501 100<700 1100> 1101 100<700 1100>
+VStem: 1100 100<601 1101>
 AnchorPoint: "Above" 0 500 mark 0
 LayerCount: 2
 Back
-Refer: 51 -1 S 1 0 0 1 798 -1.5 2
+Refer: 51 -1 S 1 0 0 1 600 1 2
 Fore
-Refer: 51 -1 S 1 0 0 1 798 -1.5 2
+Refer: 51 -1 N 1 0 0 1 600 1 2
 EndChar
 
 StartChar: vy.ccv.2
@@ -4866,8 +4886,6 @@ SplineSet
  300 0 l 1
  300 50 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 73 subtable" obu.cvc
-Substitution2: "Single Substitution lookup 69 subtable" obu.ccv
 EndChar
 
 StartChar: oibu.ccv
@@ -4960,8 +4978,6 @@ SplineSet
  600 400 l 1
  650 400 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 73 subtable" ybu.cvc
-Substitution2: "Single Substitution lookup 69 subtable" ybu.ccv
 EndChar
 
 StartChar: ebu.cvc
@@ -5438,8 +5454,6 @@ SplineSet
  400 -200 l 1
  350 -200 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 73 subtable" ibu.cvc
-Substitution2: "Single Substitution lookup 69 subtable" ibu.ccv
 EndChar
 
 StartChar: ubu.ccv
@@ -5474,8 +5488,6 @@ SplineSet
  300 300 l 1
  300 350 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 73 subtable" ubu.cvc
-Substitution2: "Single Substitution lookup 69 subtable" ubu.ccv
 EndChar
 
 StartChar: abu.ccv
@@ -5518,8 +5530,6 @@ SplineSet
  600 400 l 1
  650 400 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 73 subtable" abu.cvc
-Substitution2: "Single Substitution lookup 69 subtable" abu.ccv
 EndChar
 
 StartChar: aibu.ccv
@@ -8842,8 +8852,404 @@ SplineSet
  143.5 709 98.5 618 49.5 553 c 1024
 EndSplineSet
 EndChar
+
+StartChar: ebu.iso
+Encoding: 202 -1 214
+Width: 900
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+SplineSet
+750 850 m 29
+ 159 850 l 1053
+150 1150 m 29
+ 150 550 l 1053
+EndSplineSet
+Fore
+SplineSet
+150 1200 m 1
+ 200 1200 l 1
+ 200 1150 l 1
+ 200 900 l 1
+ 750 900 l 1
+ 800 900 l 1
+ 800 850 l 1
+ 800 800 l 1
+ 750 800 l 1
+ 200 800 l 1
+ 200 550 l 1
+ 200 500 l 1
+ 150 500 l 1
+ 100 500 l 1
+ 100 550 l 1
+ 100 1150 l 1
+ 100 1200 l 1
+ 150 1200 l 1
+EndSplineSet
+Ligature2: "sv subtable" slakabu ebu
+EndChar
+
+StartChar: obu.iso
+Encoding: 203 -1 215
+Width: 900
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+SplineSet
+750 1150 m 29
+ 750 550 l 1053
+150 850 m 29
+ 748 850 l 1053
+EndSplineSet
+Fore
+SplineSet
+100 850 m 1
+ 100 900 l 1
+ 150 900 l 1
+ 700 900 l 1
+ 700 1150 l 1
+ 700 1200 l 1
+ 750 1200 l 1
+ 800 1200 l 1
+ 800 1150 l 1
+ 800 550 l 1
+ 800 500 l 1
+ 750 500 l 1
+ 700 500 l 1
+ 700 550 l 1
+ 700 800 l 1
+ 150 800 l 1
+ 100 800 l 1
+ 100 850 l 1
+EndSplineSet
+Ligature2: "sv subtable" slakabu obu
+EndChar
+
+StartChar: ibu.iso
+Encoding: 204 -1 216
+Width: 900
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+SplineSet
+150 550 m 25
+ 150 1150 l 25
+ 750 1150 l 1049
+EndSplineSet
+Fore
+SplineSet
+150 500 m 1
+ 100 500 l 1
+ 100 550 l 1
+ 100 1150 l 2
+ 100 1180.26507571 128.540191335 1200 150 1200 c 2
+ 750 1200 l 1
+ 800 1200 l 1
+ 800 1150 l 1
+ 800 1100 l 1
+ 750 1100 l 1
+ 200 1100 l 1
+ 200 550 l 1
+ 200 500 l 1
+ 150 500 l 1
+EndSplineSet
+Ligature2: "sv subtable" slakabu ibu
+EndChar
+
+StartChar: ubu.iso
+Encoding: 205 -1 217
+Width: 900
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+SplineSet
+150 1150 m 29
+ 750 1150 l 29
+ 750 550 l 1053
+EndSplineSet
+Fore
+SplineSet
+100 1150 m 1
+ 100 1200 l 1
+ 150 1200 l 1
+ 750 1200 l 2
+ 780.265075711 1200 800 1171.45980867 800 1150 c 2
+ 800 550 l 1
+ 800 500 l 1
+ 750 500 l 1
+ 700 500 l 1
+ 700 550 l 1
+ 700 1100 l 1
+ 150 1100 l 1
+ 100 1100 l 1
+ 100 1150 l 1
+EndSplineSet
+Ligature2: "sv subtable" slakabu ubu
+EndChar
+
+StartChar: abu.iso
+Encoding: 206 -1 218
+Width: 900
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+SplineSet
+150 549 m 29
+ 750 550 l 1053
+450 1150 m 29
+ 450 550 l 1053
+EndSplineSet
+Fore
+SplineSet
+450 1200 m 1
+ 500 1200 l 1
+ 500 1150 l 1
+ 500 599.583402778 l 1
+ 749.916666782 599.999930556 l 1
+ 799.916597338 600.083263773 l 1
+ 799.999930556 550.083333218 l 1
+ 800.083263773 500.083402662 l 1
+ 750.083333218 500.000069444 l 1
+ 150.083333218 499.000069444 l 1
+ 100.083402662 498.916736227 l 1
+ 100.000069444 548.916666782 l 1
+ 99.9167362267 598.916597338 l 1
+ 149.916666782 598.999930556 l 1
+ 400 599.416736111 l 1
+ 400 1150 l 1
+ 400 1200 l 1
+ 450 1200 l 1
+EndSplineSet
+Ligature2: "sv subtable" slakabu abu
+EndChar
+
+StartChar: ybu.iso
+Encoding: 207 -1 219
+Width: 900
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+SplineSet
+150 850 m 29
+ 750 850 l 1053
+450 1150 m 29
+ 450 550 l 1053
+EndSplineSet
+Fore
+SplineSet
+450 1200 m 1
+ 500 1200 l 1
+ 500 1150 l 1
+ 500 900 l 1
+ 750 900 l 1
+ 800 900 l 1
+ 800 850 l 1
+ 800 800 l 1
+ 750 800 l 1
+ 500 800 l 1
+ 500 550 l 1
+ 500 500 l 1
+ 450 500 l 1
+ 400 500 l 1
+ 400 550 l 1
+ 400 800 l 1
+ 150 800 l 1
+ 100 800 l 1
+ 100 850 l 1
+ 100 900 l 1
+ 150 900 l 1
+ 400 900 l 1
+ 400 1150 l 1
+ 400 1200 l 1
+ 450 1200 l 1
+EndSplineSet
+Ligature2: "sv subtable" slakabu ybu
+EndChar
+
+StartChar: eibu.iso
+Encoding: 218 -1 220
+Width: 900
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+SplineSet
+150 549 m 29
+ 150 1150 l 29
+ 750 1150 l 1053
+750 850 m 29
+ 150 850 l 1053
+EndSplineSet
+Fore
+SplineSet
+800 850 m 1
+ 800 800 l 1
+ 750 800 l 1
+ 200 800 l 1
+ 200 549 l 1
+ 200 499 l 1
+ 150 499 l 1
+ 100 499 l 1
+ 100 549 l 1
+ 100 800 l 1
+ 100 850 l 1
+ 100 900 l 1
+ 100 1150 l 2
+ 100 1180.26507571 128.540191335 1200 150 1200 c 2
+ 750 1200 l 1
+ 800 1200 l 1
+ 800 1150 l 1
+ 800 1100 l 1
+ 750 1100 l 1
+ 200 1100 l 1
+ 200 900 l 1
+ 750 900 l 1
+ 800 900 l 1
+ 800 850 l 1
+EndSplineSet
+Ligature2: "sv subtable" slakabu eibu
+EndChar
+
+StartChar: oibu.iso
+Encoding: 219 -1 221
+Width: 900
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+SplineSet
+150 1150 m 29
+ 750 1150 l 29
+ 750 550 l 1053
+150 850 m 29
+ 750 850 l 1053
+EndSplineSet
+Fore
+SplineSet
+100 850 m 1
+ 100 900 l 1
+ 150 900 l 1
+ 700 900 l 1
+ 700 1100 l 1
+ 150 1100 l 1
+ 100 1100 l 1
+ 100 1150 l 1
+ 100 1200 l 1
+ 150 1200 l 1
+ 750 1200 l 2
+ 780.265075711 1200 800 1171.45980867 800 1150 c 2
+ 800 900 l 1
+ 800 850 l 1
+ 800 800 l 1
+ 800 550 l 1
+ 800 500 l 1
+ 750 500 l 1
+ 700 500 l 1
+ 700 550 l 1
+ 700 800 l 1
+ 150 800 l 1
+ 100 800 l 1
+ 100 850 l 1
+EndSplineSet
+Ligature2: "sv subtable" slakabu oibu
+EndChar
+
+StartChar: aibu.iso
+Encoding: 220 -1 222
+Width: 900
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+SplineSet
+150 549 m 29
+ 150 850 l 29
+ 750 850 l 1053
+450 1150 m 29
+ 450 850 l 1053
+EndSplineSet
+Fore
+SplineSet
+450 1200 m 1
+ 500 1200 l 1
+ 500 1150 l 1
+ 500 900 l 1
+ 750 900 l 1
+ 800 900 l 1
+ 800 850 l 1
+ 800 800 l 1
+ 750 800 l 1
+ 500 800 l 1
+ 450 800 l 1
+ 400 800 l 1
+ 200 800 l 1
+ 200 549 l 1
+ 200 499 l 1
+ 150 499 l 1
+ 100 499 l 1
+ 100 549 l 1
+ 100 850 l 2
+ 100 880.265075711 128.540191335 900 150 900 c 2
+ 400 900 l 1
+ 400 1150 l 1
+ 400 1200 l 1
+ 450 1200 l 1
+EndSplineSet
+Ligature2: "sv subtable" slakabu aibu
+EndChar
+
+StartChar: aubu.iso
+Encoding: 221 -1 223
+Width: 900
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+SplineSet
+150 850 m 29
+ 750 850 l 29
+ 750 550 l 1053
+450 1150 m 29
+ 450 850 l 1053
+EndSplineSet
+Fore
+SplineSet
+450 1200 m 1
+ 500 1200 l 1
+ 500 1150 l 1
+ 500 900 l 1
+ 750 900 l 2
+ 780.265075711 900 800 871.459808665 800 850 c 2
+ 800 550 l 1
+ 800 500 l 1
+ 750 500 l 1
+ 700 500 l 1
+ 700 550 l 1
+ 700 800 l 1
+ 500 800 l 1
+ 450 800 l 1
+ 400 800 l 1
+ 150 800 l 1
+ 100 800 l 1
+ 100 850 l 1
+ 100 900 l 1
+ 150 900 l 1
+ 400 900 l 1
+ 400 1150 l 1
+ 400 1200 l 1
+ 450 1200 l 1
+EndSplineSet
+LCarets2: 1 0
+Ligature2: "sv subtable" slakabu aubu
+EndChar
 EndChars
-BitmapFont: 12 215 10 2 1
+BitmapFont: 12 230 10 2 1
 BDFChar: 0 0 7 1 5 4 9
 pkXb$M"grM
 BDFChar: 1 1 7 1 5 4 9
@@ -9253,7 +9659,7 @@ po(.TW2K[r
 BDFChar: 203 260 12 1 5 4 9
 po(.dW42g-
 EndBitmapFont
-BitmapFont: 13 215 10 3 1
+BitmapFont: 13 230 10 3 1
 Resolution: 75
 BDFChar: 0 0 8 1 6 4 9
 r.P!$K_tfM
@@ -9664,7 +10070,7 @@ r1rDLUndtj
 BDFChar: 203 260 13 1 6 4 9
 r1s7dUq?[-
 EndBitmapFont
-BitmapFont: 14 215 11 3 1
+BitmapFont: 14 230 11 3 1
 Resolution: 100
 BDFChar: 0 0 8 1 6 5 10
 r.Kb$K_tfM
@@ -10075,7 +10481,7 @@ r03H<Pa%70
 BDFChar: 203 260 14 1 6 5 10
 r03HDPah^R
 EndBitmapFont
-BitmapFont: 15 215 12 3 1
+BitmapFont: 15 230 12 3 1
 BDFStartProperties: 33
 FONT 1 "-FontForge-Dreluhu Future-Regular-R-Normal--15-140-75-75-P-59-dreluhu-0"
 COMMENT 0 "Copyright (c) 2019, Jack"
@@ -10521,7 +10927,7 @@ rfWH8P*1t.
 BDFChar: 203 260 15 1 7 5 11
 rfWHDP*2C:
 EndBitmapFont
-BitmapFont: 16 215 13 3 1
+BitmapFont: 16 230 13 3 1
 Resolution: 75
 BDFChar: 0 0 10 1 7 5 12
 rdob$JqAUR
@@ -10932,7 +11338,7 @@ s-&Z<PEV11
 BDFChar: 203 260 16 1 8 5 12
 s-&ZHPEV3&
 EndBitmapFont
-BitmapFont: 17 215 14 3 1
+BitmapFont: 17 230 14 3 1
 Resolution: 100
 BDFChar: 0 0 10 2 8 6 13
 rdo`Rrdob$
