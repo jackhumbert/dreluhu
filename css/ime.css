@@ -14,6 +14,7 @@ body {
 	font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif, "Dreluhu Future";
 	padding-top: 50px;
     text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "mark" 1;
 }
 
 .system {
