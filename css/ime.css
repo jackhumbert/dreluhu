@@ -7,7 +7,7 @@
     --green-bg: rgba(41, 170, 34, 0.12);
 	--size: 100px;
 	--line-thickness: calc(var(--size)*0.02);
-	--selected-font: "Dreluhu Future";
+	--selected-font: "Dreluhu Gothic";
 }
 
 body { 
@@ -31,7 +31,7 @@ h1 {
 	min-width: 100%;
 	max-width: 100%;
 	min-height: 300px;
-	font-size: 15px;
+	font-size: var(--size);
 	background: transparent;
 	font-family: var(--selected-font);
 }
@@ -228,3 +228,24 @@ code, .zlm {
 .figure .dlh.grid cv.ccvcv {
     margin-left: calc(var(--size)*1.425);
 }
+
+#full-example {
+    font-size: calc(var(--size)/3 + 10px);
+    line-height: 115%;
+}
+
+#full-example.vertical-mode {
+    writing-mode: vertical-lr;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 100%;
+    height: 1000px;
+    column-count: 1;
+    line-height: 83%;
+}
+
+#full-example.alphabet-mode {
+    font-feature-settings: "kern" 1, "mark" 1, "ss01";
+    line-height: 83%;
+}
+

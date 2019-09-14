@@ -37,6 +37,19 @@ lookup diphthongs {
   sub abu ubu by aubu;
 } diphthongs;
 
+lookup v {
+  lookupflag 0;
+  sub abu by abu.iso;
+  sub ebu by ebu.iso;
+  sub ibu by ibu.iso;
+  sub obu by obu.iso;
+  sub ubu by ubu.iso;
+  sub ybu by ybu.iso;
+  sub aibu by aibu.iso;
+  sub eibu by eibu.iso;
+  sub oibu by oibu.iso;
+  sub aubu by aubu.iso;
+} v;
 
 lookup ccv_c2 {
   lookupflag 0;
@@ -141,8 +154,6 @@ lookup cv_v {
 
 lookup denpabuCV {
   lookupflag 0;
-  ignore sub denpabu iy';
-  ignore sub denpabu uy';
   sub denpabu @consonant' @v_cv by @c_ccv2; 
 } denpabuCV;
 
@@ -222,6 +233,19 @@ lookup sv {
   sub slakabu aubu by aubu.iso;
 } sv;
 
+feature ss01 {
+  script DFLT;
+    language dflt;
+    lookup semivowels;
+    lookup diphthongs;
+    lookup v;
+  script latn;
+    language dflt;
+    lookup semivowels;
+    lookup diphthongs;
+    lookup v;
+} ss01;
+
 feature liga {
   script DFLT;
     language dflt;
@@ -267,3 +291,15 @@ feature liga {
     lookup sv;
 } liga;
 
+feature vert {
+  script DFLT;
+    language dflt;
+    lookup semivowels;
+    lookup diphthongs;
+    lookup v;
+  script latn;
+    language dflt;
+    lookup semivowels;
+    lookup diphthongs;
+    lookup v;
+} vert;
