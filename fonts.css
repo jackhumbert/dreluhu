@@ -4,7 +4,12 @@
 	font-weight: 400;
 }
 @font-face { 
-	font-family: 'Dreluhu Serif';
-	src: local('Dreluhu Script'), url('script.otf');
+	font-family: 'Dreluhu Ming';
+	src: local('Dreluhu Ming'), url('ming.otf');
+	font-weight: 400;
+}
+@font-face { 
+	font-family: 'Dreluhu Gothic';
+	src: local('Dreluhu Gothic'), url('gothic.otf');
 	font-weight: 400;
 }

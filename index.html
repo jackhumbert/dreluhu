@@ -48,7 +48,11 @@
         </div>
         <div class="columns three">
           <label>Font</label>
-          <select id="font-selector" class="u-full-width"><option value="Dreluhu Serif">Dreluhu Serif</option><option value="Dreluhu Future" selected>Dreluhu Future</option></select>
+          <select id="font-selector" class="u-full-width">
+            <option value="Dreluhu Ming">Dreluhu Ming</option>
+            <option value="Dreluhu Gothic" selected>Dreluhu Gothic</option>
+            <option value="Dreluhu Future">Dreluhu Future</option>
+          </select>
         </div>
       </div>
 
@@ -59,7 +63,7 @@
 
       <h2>Alphabet</h2>
 
-      <p>Drelu'u (spelled <i>dreluhu</i> when an apostrophe is unavailable) has a full alphabet, with each letter representing a different sound. Hangul served as inspiration in how the alphabet shapes were assigned, keeping ㅁ as {my}, ㄹ as {ly}, ㅇ as a placeholder for vowels (denpa bu), and the rest were (like Hangul) determined based on the shapes associated with the sounds and how they're made. All letters are designed to be fit into a square (1:1), but each also has a skinnier (5:7 or 3:5) version - {iy}, {uy}, and {yhy} aren't used in this form, though.</p>
+      <p>Drelu'u (spelled <i>Dreluhu</i> when an apostrophe is unavailable) has a full alphabet, with each letter representing a different sound. Hangul served as inspiration in how the alphabet shapes were assigned, keeping ㅁ as {my}, ㄹ as {ly}, ㅇ as a placeholder for vowels (denpa bu), and the rest were (like Hangul) determined based on the shapes associated with the sounds and how they're made. All letters are designed to be fit into a square (1:1), but each also has a skinnier (5:7 or 3:5) version - {iy}, {uy}, and {yhy} aren't used in this form, though.</p>
 
       <h3>Consonants</h3>
 
@@ -178,7 +182,7 @@
       <div class="row">
         <div class="columns nine">
           <h4>Semivowels</h4>
-          <p>Semivowels take the {ibu} and {ubu} shapes from the sounds that they're derived from and add a vertical or diagonal line to them to represent the palatal or labial on-glide. In all cases, they're treated as consonants. These shapes are different from their related vowels to show that they represent different sounds - something the latin orthography lacks.</p>
+          <p>Semivowels take the {ibu} and {ubu} shapes from the sounds that they're derived from and add a vertical or diagonal line to them to represent the palatal or labial on-glide. In all cases, they're treated as consonants. These shapes are different from their related vowels to show that they represent different sounds - something the Latin orthography lacks.</p>
         </div>
         <div class="columns three">
           <table class="characters">      
@@ -209,7 +213,7 @@
         <div class="jbo">zva / cma / mla / xrusa / ternupcpe</div>
       </div>
 
-      <p>The {denpa bu} is treated just like a consonant, and is required when writing words that start with a vowel, and can be combined into CVC shapes like in {la .alvin.}. The final {denpa bu} is preferred to be omited in the Drelu'u text, as it could be inferred as another syllable.</p>
+      <p>The {denpa bu} is treated just like a consonant, and is required when writing words that start with a vowel, and can be combined into CVC shapes like in {la .alvin.}. The final {denpa bu} is preferred to be omitted in the Drelu'u text, as it could be inferred as another syllable.</p>
 
       <div class="figure">
         <div class="dlh"><upper></upper><lower></lower><cv></cv> <cv></cv> <ccv></ccv><cv class="ccv"></cv> <cv></cv> <ccv></ccv><ccv class="ccv"></ccv></div>
@@ -219,11 +223,59 @@
 
       <h3>Spacing</h3>
 
-      <p>Intial letters in the same word should all be spaced evenly, both horizontally with the previous/next syllables, and vertically with their lower counterparts. Because of this, standard Latin spaces can be used without causing confusion about where a word ends/begins. In general, no kerning or ligating is done between the initial letters of a CCV or CVC stack, but is acceptable provided all cases are accounted for. It may be possible to combine consonants so that they can be fitted to a square, but should be done with caution, especially with pairs {sy_ty} and {sy_ny}, as the vertical line of {sy} could be confused for the left side of {ny}.</p>
+      <p>Initial letters in the same word should all be spaced evenly, both horizontally with the previous/next syllables, and vertically with their lower counterparts. Because of this, standard Latin spaces can be used without causing confusion about where a word ends/begins. In general, no kerning or ligating is done between the initial letters of a CCV or CVC stack, but is acceptable provided all cases are accounted for. It may be possible to combine consonants so that they can be fitted to a square, but should be done with caution, especially with pairs {sy_ty} and {sy_ny}, as the vertical line of {sy} could be confused for the left side of {ny}.</p>
 
-      <p>You can enable the visual grid to display behind all of the examples via the checkbox at the top of this page, and below is an example of the spacing for a phase in the form of CVCV CV CVCCV - the lines of the characters should be drawn on these lines, not inside the boxes.</p>
+      <p>You can enable the visual grid to display behind all of the examples via the checkbox at the top of this page, and below is an example of the spacing for a phase in the form of CVCV CV CVCCV - the lines of the characters should be drawn on these lines, not inside the boxes. The line height of Drelu'u should be at least 107.5% to prevent characters interfering with each other - 115% may be ideal.</p>
 
       <img src="alignment.jpg" class="u-full-width" />
+
+      <h3>Alternate forms</h3>
+
+      <p>Aside from the normal syllable-stacking, there are other ways of writing the alphabet: an <b>alphabet mode</b>, which places the characters one-after-another horizontally, like Latin orthography, and a <b>vertical mode</b>, which does the same thing, but arranges them vertically. More complicated vertical arrangements are possible, but aren't implemented in the font at this time.</p>
+
+      <div class="row">
+        <div class="columns eight">
+          <p>Below is a transcript of <a href="http://foldr.moe/la-melbi-e-le-ractu/">la melbi e le ractu</a>, which you can convert to the two alternate modes using these checkboxes. The non-Lojban punctuation has been removed for this demo, but is still valid to be used with Drelu'u.</p>
+        </div>
+        <div class="columns two">
+          <label class="u-pull-right">Vertical Mode <input type="checkbox" id="vertical-mode" /></label>
+        </div>
+        <div class="columns two">
+          <label class="u-pull-right">Alphabet Mode <input type="checkbox" id="alphabet-mode" /></label>
+        </div>
+      </div>
+
+      <p class="dlh" id="full-example">    
+   
+    
+    
+        
+  
+        
+          
+        
+          
+             
+   
+        
+  
+         
+           
+      
+     
+   
+           
+            
+              
+             
+           
+       
+   
+               
+             
+              
+  
+         </p>
 
       <textarea id="textarea" class="reference"></textarea>
 
@@ -277,6 +329,24 @@
 
    var font_selector = document.getElementById('font-selector');
    font_selector.addEventListener('change', updateFont);
+
+   var vertical_mode = document.getElementById('vertical-mode');
+   vertical_mode.addEventListener('change', function(e) {
+      var p = document.getElementById("full-example");
+      if (this.checked)
+        addClass(p, "vertical-mode");
+      else
+        removeClass(p, "vertical-mode");
+   });
+
+   var vertical_mode = document.getElementById("alphabet-mode");
+   vertical_mode.addEventListener('change', function(e) {
+      var p = document.getElementById("full-example");
+      if (this.checked)
+        addClass(p, "alphabet-mode");
+      else
+        removeClass(p, "alphabet-mode");
+   });
 
    HTMLTextAreaElement.prototype.insertAtCaret = function (text) {
     if (this.selectionStart || this.selectionStart === 0) {

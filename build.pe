@@ -1,0 +1,4 @@
+#!/usr/local/bin/fontforge
+
+Open($1 + ".sfd")
+Generate($1 + ".otf")
