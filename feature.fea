@@ -14,6 +14,7 @@
 @c_ccv2 = [ py.ccv.2 ty.ccv.2 ky.ccv.2 fy.ccv.2 ly.ccv.2 sy.ccv.2 cy.ccv.2 my.ccv.2 xy.ccv.2 \by.ccv.2 dy.ccv.2 gy.ccv.2 vy.ccv.2 ry.ccv.2 zy.ccv.2 jy.ccv.2 ny.ccv.2 yhy.ccv.2 iy.ccv.2 uy.ccv.2 ];
 @singlevowel = [ abu ebu ibu obu ubu ybu ];
 @vowel = [ abu ebu ibu obu ubu ybu aibu eibu oibu aubu ];
+@vowel_vert = [ abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert ];
 @v_cv = [ abu.cv ebu.cv ibu.cv obu.cv ubu.cv ybu.cv aibu.cv eibu.cv oibu.cv aubu.cv ];
 @v_cvc = [ abu.cvc ebu.cvc ibu.cvc obu.cvc ubu.cvc ybu.cvc aibu.cvc eibu.cvc oibu.cvc aubu.cvc ];
 @v_ccv = [ abu.ccv ebu.ccv ibu.ccv obu.ccv ubu.ccv ybu.ccv aibu.ccv eibu.ccv oibu.ccv aubu.ccv ];
@@ -53,63 +54,63 @@ lookup v {
 
 lookup ccv_c2 {
   lookupflag 0;
-  ignore sub @consonant @vowel @consonant @consonant';
-  sub py ly' @vowel by ly.ccv.2;
-  sub py ry' @vowel by ry.ccv.2;
-  sub fy ly' @vowel by ly.ccv.2;
-  sub fy ry' @vowel by ry.ccv.2;
+  ignore sub @consonant @vowel_vert @consonant @consonant';
+  sub py ly' @vowel_vert by ly.ccv.2;
+  sub py ry' @vowel_vert by ry.ccv.2;
+  sub fy ly' @vowel_vert by ly.ccv.2;
+  sub fy ry' @vowel_vert by ry.ccv.2;
 
-  sub \by ly' @vowel by ly.ccv.2;
-  sub \by ry' @vowel by ry.ccv.2;
-  sub vy ly' @vowel by ly.ccv.2;
-  sub vy ry' @vowel by ry.ccv.2;
+  sub \by ly' @vowel_vert by ly.ccv.2;
+  sub \by ry' @vowel_vert by ry.ccv.2;
+  sub vy ly' @vowel_vert by ly.ccv.2;
+  sub vy ry' @vowel_vert by ry.ccv.2;
 
-  sub cy py' @vowel by py.ccv.2;
-  sub cy fy' @vowel by fy.ccv.2;
-  sub cy ty' @vowel by ty.ccv.2;
-  sub cy ky' @vowel by ky.ccv.2;
-  sub cy my' @vowel by my.ccv.2;
-  sub cy ny' @vowel by ny.ccv.2;
-  sub cy ly' @vowel by ly.ccv.2;
-  sub cy ry' @vowel by ry.ccv.2;
+  sub cy py' @vowel_vert by py.ccv.2;
+  sub cy fy' @vowel_vert by fy.ccv.2;
+  sub cy ty' @vowel_vert by ty.ccv.2;
+  sub cy ky' @vowel_vert by ky.ccv.2;
+  sub cy my' @vowel_vert by my.ccv.2;
+  sub cy ny' @vowel_vert by ny.ccv.2;
+  sub cy ly' @vowel_vert by ly.ccv.2;
+  sub cy ry' @vowel_vert by ry.ccv.2;
 
-  sub jy \by' @vowel by \by.ccv.2;
-  sub jy vy' @vowel by vy.ccv.2;
-  sub jy dy' @vowel by dy.ccv.2;
-  sub jy gy' @vowel by gy.ccv.2;
-  sub jy my' @vowel by my.ccv.2;
+  sub jy \by' @vowel_vert by \by.ccv.2;
+  sub jy vy' @vowel_vert by vy.ccv.2;
+  sub jy dy' @vowel_vert by dy.ccv.2;
+  sub jy gy' @vowel_vert by gy.ccv.2;
+  sub jy my' @vowel_vert by my.ccv.2;
 
-  sub sy py' @vowel by py.ccv.2;
-  sub sy fy' @vowel by fy.ccv.2;
-  sub sy ty' @vowel by ty.ccv.2;
-  sub sy ky' @vowel by ky.ccv.2;
-  sub sy my' @vowel by my.ccv.2;
-  sub sy ny' @vowel by ny.ccv.2;
-  sub sy ly' @vowel by ly.ccv.2;
-  sub sy ry' @vowel by ry.ccv.2;
+  sub sy py' @vowel_vert by py.ccv.2;
+  sub sy fy' @vowel_vert by fy.ccv.2;
+  sub sy ty' @vowel_vert by ty.ccv.2;
+  sub sy ky' @vowel_vert by ky.ccv.2;
+  sub sy my' @vowel_vert by my.ccv.2;
+  sub sy ny' @vowel_vert by ny.ccv.2;
+  sub sy ly' @vowel_vert by ly.ccv.2;
+  sub sy ry' @vowel_vert by ry.ccv.2;
 
-  sub zy \by' @vowel by \by.ccv.2;
-  sub zy vy' @vowel by vy.ccv.2;
-  sub zy dy' @vowel by dy.ccv.2;
-  sub zy gy' @vowel by gy.ccv.2;
-  sub zy my' @vowel by my.ccv.2;
+  sub zy \by' @vowel_vert by \by.ccv.2;
+  sub zy vy' @vowel_vert by vy.ccv.2;
+  sub zy dy' @vowel_vert by dy.ccv.2;
+  sub zy gy' @vowel_vert by gy.ccv.2;
+  sub zy my' @vowel_vert by my.ccv.2;
 
-  sub ty cy' @vowel by cy.ccv.2;
-  sub ty ry' @vowel by ry.ccv.2;
-  sub ty sy' @vowel by sy.ccv.2;
-  sub ky ly' @vowel by ly.ccv.2;
-  sub ky ry' @vowel by ry.ccv.2;
+  sub ty cy' @vowel_vert by cy.ccv.2;
+  sub ty ry' @vowel_vert by ry.ccv.2;
+  sub ty sy' @vowel_vert by sy.ccv.2;
+  sub ky ly' @vowel_vert by ly.ccv.2;
+  sub ky ry' @vowel_vert by ry.ccv.2;
 
-  sub dy jy' @vowel by jy.ccv.2;
-  sub dy ry' @vowel by ry.ccv.2;
-  sub dy zy' @vowel by zy.ccv.2;
-  sub gy ly' @vowel by ly.ccv.2;
-  sub gy ry' @vowel by ry.ccv.2;
+  sub dy jy' @vowel_vert by jy.ccv.2;
+  sub dy ry' @vowel_vert by ry.ccv.2;
+  sub dy zy' @vowel_vert by zy.ccv.2;
+  sub gy ly' @vowel_vert by ly.ccv.2;
+  sub gy ry' @vowel_vert by ry.ccv.2;
 
-  sub my ly' @vowel by ly.ccv.2;
-  sub my ry' @vowel by ry.ccv.2;
-  sub xy ly' @vowel by ly.ccv.2;
-  sub xy ry' @vowel by ry.ccv.2;
+  sub my ly' @vowel_vert by ly.ccv.2;
+  sub my ry' @vowel_vert by ry.ccv.2;
+  sub xy ly' @vowel_vert by ly.ccv.2;
+  sub xy ry' @vowel_vert by ry.ccv.2;
 } ccv_c2;
 
 
@@ -140,6 +141,21 @@ lookup cvc_c3 {
   sub @c_cvc1 @v_cvc @consonant' by @c_cvc3;
 } cvc_c3;
 
+
+
+lookup v_vert {
+  lookupflag 0;
+  sub abu by abu.vert;
+  sub ebu by ebu.vert;
+  sub ibu by ibu.vert;
+  sub obu by obu.vert;
+  sub ubu by ubu.vert;
+  sub ybu by ybu.vert;
+  sub aibu by aibu.vert;
+  sub eibu by eibu.vert;
+  sub oibu by oibu.vert;
+  sub aubu by aubu.vert;
+} v_vert;
 
 
 
@@ -246,6 +262,49 @@ feature ss01 {
     lookup v;
 } ss01;
 
+feature vert {
+  script DFLT;
+    language dflt;
+    lookup semivowels;
+    lookup diphthongs;
+    lookup ccv_c1;
+    lookup ccv_c2;
+    lookup cvc_c1;
+    lookup cvc_v;
+    lookup cvc_c3;
+    lookup v_vert;
+    lookup denpabuCV;
+    lookup denpabuC;
+    lookup cvd_c;
+    lookup cvd_v;
+    lookup cvd_d;
+    lookup dvc_d;
+    lookup dvc_v;
+    lookup dvc_c;
+    lookup Vdenpabu;
+    lookup sv;
+  script latn;
+    language dflt;
+    lookup semivowels;
+    lookup diphthongs;
+    lookup ccv_c1;
+    lookup ccv_c2;
+    lookup cvc_c1;
+    lookup cvc_v;
+    lookup cvc_c3;
+    lookup v_vert;
+    lookup denpabuCV;
+    lookup denpabuC;
+    lookup cvd_c;
+    lookup cvd_v;
+    lookup cvd_d;
+    lookup dvc_d;
+    lookup dvc_v;
+    lookup dvc_c;
+    lookup Vdenpabu;
+    lookup sv;
+} vert;
+
 feature liga {
   script DFLT;
     language dflt;
@@ -290,16 +349,3 @@ feature liga {
     lookup Vdenpabu;
     lookup sv;
 } liga;
-
-feature vert {
-  script DFLT;
-    language dflt;
-    lookup semivowels;
-    lookup diphthongs;
-    lookup v;
-  script latn;
-    language dflt;
-    lookup semivowels;
-    lookup diphthongs;
-    lookup v;
-} vert;

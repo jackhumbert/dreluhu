@@ -241,7 +241,7 @@ code, .zlm {
     width: 100%;
     height: 1000px;
     column-count: 1;
-    line-height: 83%;
+    line-height: 100%;
 }
 
 #full-example.alphabet-mode {

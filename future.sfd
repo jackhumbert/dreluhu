@@ -30,7 +30,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1566577596
-ModificationTime: 1568430910
+ModificationTime: 1568567605
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -53,12 +53,12 @@ HheadDOffset: 1
 OS2XHeight: 1200
 OS2Vendor: 'OLKB'
 OS2CodePages: 00020000.00000000
-Lookup: 6 0 0 "semivowels" { "semivowels contextual 0"  "semivowels contextual 1"  } ['vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'ss01' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "semivowels" { "semivowels contextual 0"  "semivowels contextual 1"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'ss01' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 1" { "Single Substitution lookup 1 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 2" { "Single Substitution lookup 2 subtable"  } []
-Lookup: 4 0 1 "diphthongs" { "diphthongs subtable"  } ['vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'ss01' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "v" { "v subtable"  } ['vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'ss01' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "ccv_c2" { "ccv_c2 contextual 0"  "ccv_c2 contextual 1"  "ccv_c2 contextual 2"  "ccv_c2 contextual 3"  "ccv_c2 contextual 4"  "ccv_c2 contextual 5"  "ccv_c2 contextual 6"  "ccv_c2 contextual 7"  "ccv_c2 contextual 8"  "ccv_c2 contextual 9"  "ccv_c2 contextual 10"  "ccv_c2 contextual 11"  "ccv_c2 contextual 12"  "ccv_c2 contextual 13"  "ccv_c2 contextual 14"  "ccv_c2 contextual 15"  "ccv_c2 contextual 16"  "ccv_c2 contextual 17"  "ccv_c2 contextual 18"  "ccv_c2 contextual 19"  "ccv_c2 contextual 20"  "ccv_c2 contextual 21"  "ccv_c2 contextual 22"  "ccv_c2 contextual 23"  "ccv_c2 contextual 24"  "ccv_c2 contextual 25"  "ccv_c2 contextual 26"  "ccv_c2 contextual 27"  "ccv_c2 contextual 28"  "ccv_c2 contextual 29"  "ccv_c2 contextual 30"  "ccv_c2 contextual 31"  "ccv_c2 contextual 32"  "ccv_c2 contextual 33"  "ccv_c2 contextual 34"  "ccv_c2 contextual 35"  "ccv_c2 contextual 36"  "ccv_c2 contextual 37"  "ccv_c2 contextual 38"  "ccv_c2 contextual 39"  "ccv_c2 contextual 40"  "ccv_c2 contextual 41"  "ccv_c2 contextual 42"  "ccv_c2 contextual 43"  "ccv_c2 contextual 44"  "ccv_c2 contextual 45"  "ccv_c2 contextual 46"  "ccv_c2 contextual 47"  "ccv_c2 contextual 48"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 1 "diphthongs" { "diphthongs subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'ss01' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "v" { "v subtable"  } ['ss01' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "ccv_c2" { "ccv_c2 contextual 0"  "ccv_c2 contextual 1"  "ccv_c2 contextual 2"  "ccv_c2 contextual 3"  "ccv_c2 contextual 4"  "ccv_c2 contextual 5"  "ccv_c2 contextual 6"  "ccv_c2 contextual 7"  "ccv_c2 contextual 8"  "ccv_c2 contextual 9"  "ccv_c2 contextual 10"  "ccv_c2 contextual 11"  "ccv_c2 contextual 12"  "ccv_c2 contextual 13"  "ccv_c2 contextual 14"  "ccv_c2 contextual 15"  "ccv_c2 contextual 16"  "ccv_c2 contextual 17"  "ccv_c2 contextual 18"  "ccv_c2 contextual 19"  "ccv_c2 contextual 20"  "ccv_c2 contextual 21"  "ccv_c2 contextual 22"  "ccv_c2 contextual 23"  "ccv_c2 contextual 24"  "ccv_c2 contextual 25"  "ccv_c2 contextual 26"  "ccv_c2 contextual 27"  "ccv_c2 contextual 28"  "ccv_c2 contextual 29"  "ccv_c2 contextual 30"  "ccv_c2 contextual 31"  "ccv_c2 contextual 32"  "ccv_c2 contextual 33"  "ccv_c2 contextual 34"  "ccv_c2 contextual 35"  "ccv_c2 contextual 36"  "ccv_c2 contextual 37"  "ccv_c2 contextual 38"  "ccv_c2 contextual 39"  "ccv_c2 contextual 40"  "ccv_c2 contextual 41"  "ccv_c2 contextual 42"  "ccv_c2 contextual 43"  "ccv_c2 contextual 44"  "ccv_c2 contextual 45"  "ccv_c2 contextual 46"  "ccv_c2 contextual 47"  "ccv_c2 contextual 48"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 8" { "Single Substitution lookup 8 subtable"  } []
@@ -107,38 +107,39 @@ Lookup: 1 0 0 "Single Substitution lookup 50" { "Single Substitution lookup 50 s
 Lookup: 1 0 0 "Single Substitution lookup 51" { "Single Substitution lookup 51 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 52" { "Single Substitution lookup 52 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 53" { "Single Substitution lookup 53 subtable"  } []
-Lookup: 6 0 0 "ccv_c1" { "ccv_c1 subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "ccv_c1" { "ccv_c1 subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 55" { "Single Substitution lookup 55 subtable"  } []
-Lookup: 6 0 0 "cvc_c1" { "cvc_c1 contextual 0"  "cvc_c1 contextual 1"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "cvc_c1" { "cvc_c1 contextual 0"  "cvc_c1 contextual 1"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 57" { "Single Substitution lookup 57 subtable"  } []
-Lookup: 6 0 0 "cvc_v" { "cvc_v subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "cvc_v" { "cvc_v subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 59" { "Single Substitution lookup 59 subtable"  } []
-Lookup: 6 0 0 "cvc_c3" { "cvc_c3 subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "cvc_c3" { "cvc_c3 subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 61" { "Single Substitution lookup 61 subtable"  } []
+Lookup: 1 0 0 "v_vert" { "v_vert subtable"  } ['vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "cv_v" { "cv_v subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 63" { "Single Substitution lookup 63 subtable"  } []
-Lookup: 6 0 0 "denpabuCV" { "denpabuCV subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 65" { "Single Substitution lookup 65 subtable"  } []
-Lookup: 6 0 0 "denpabuC" { "denpabuC subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 67" { "Single Substitution lookup 67 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 64" { "Single Substitution lookup 64 subtable"  } []
+Lookup: 6 0 0 "denpabuCV" { "denpabuCV subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 66" { "Single Substitution lookup 66 subtable"  } []
+Lookup: 6 0 0 "denpabuC" { "denpabuC subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 68" { "Single Substitution lookup 68 subtable"  } []
 Lookup: 6 0 0 "ccv_v" { "ccv_v contextual 0"  "ccv_v contextual 1"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 69" { "Single Substitution lookup 69 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 70" { "Single Substitution lookup 70 subtable"  } []
-Lookup: 6 0 0 "cvd_c" { "cvd_c subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 72" { "Single Substitution lookup 72 subtable"  } []
-Lookup: 6 0 0 "cvd_v" { "cvd_v subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 74" { "Single Substitution lookup 74 subtable"  } []
-Lookup: 6 0 0 "cvd_d" { "cvd_d subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 76" { "Single Substitution lookup 76 subtable"  } []
-Lookup: 6 0 0 "dvc_d" { "dvc_d contextual 0"  "dvc_d contextual 1"  "dvc_d contextual 2"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 78" { "Single Substitution lookup 78 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 71" { "Single Substitution lookup 71 subtable"  } []
+Lookup: 6 0 0 "cvd_c" { "cvd_c subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 73" { "Single Substitution lookup 73 subtable"  } []
+Lookup: 6 0 0 "cvd_v" { "cvd_v subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 75" { "Single Substitution lookup 75 subtable"  } []
+Lookup: 6 0 0 "cvd_d" { "cvd_d subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 77" { "Single Substitution lookup 77 subtable"  } []
+Lookup: 6 0 0 "dvc_d" { "dvc_d contextual 0"  "dvc_d contextual 1"  "dvc_d contextual 2"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 79" { "Single Substitution lookup 79 subtable"  } []
-Lookup: 6 0 0 "dvc_v" { "dvc_v contextual 0"  "dvc_v contextual 1"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 81" { "Single Substitution lookup 81 subtable"  } []
-Lookup: 6 0 0 "dvc_c" { "dvc_c subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 83" { "Single Substitution lookup 83 subtable"  } []
-Lookup: 4 0 1 "Vdenpabu" { "Vdenpabu subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 4 0 1 "sv" { "sv subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 80" { "Single Substitution lookup 80 subtable"  } []
+Lookup: 6 0 0 "dvc_v" { "dvc_v contextual 0"  "dvc_v contextual 1"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 82" { "Single Substitution lookup 82 subtable"  } []
+Lookup: 6 0 0 "dvc_c" { "dvc_c subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 84" { "Single Substitution lookup 84 subtable"  } []
+Lookup: 4 0 1 "Vdenpabu" { "Vdenpabu subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 1 "sv" { "sv subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) 'vert' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 257 0 0 "'valt' Alternate Vertical Metrics lookup 4" { "'valt' Alternate Vertical Metrics lookup 4-1"  } ['valt' ('DFLT' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'vkrn' Vertical Kerning lookup 2" { "'vkrn' Vertical Kerning lookup 2-1" (1)[225,0,0] } ['vkrn' ('DFLT' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 8 0 "'kern' Horizontal Kerning lookup 1" { "'kern' Horizontal Kerning lookup 1-1" [225,0,2] } ['kern' ('DFLT' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
@@ -158,14 +159,14 @@ ChainSub2: coverage "dvc_c subtable" 0 0 0 1
   Coverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
   BCoverage: 83 abu.cvc ebu.cvc ibu.cvc obu.cvc ubu.cvc ybu.cvc aibu.cvc eibu.cvc oibu.cvc aubu.cvc
  1
-  SeqLookup: 0 "Single Substitution lookup 83"
+  SeqLookup: 0 "Single Substitution lookup 84"
 EndFPST
 ChainSub2: coverage "dvc_v contextual 1" 0 0 0 1
  1 0 1
   Coverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
   FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 81"
+  SeqLookup: 0 "Single Substitution lookup 82"
 EndFPST
 ChainSub2: coverage "dvc_v contextual 0" 0 0 0 1
  1 0 2
@@ -180,7 +181,7 @@ ChainSub2: coverage "dvc_d contextual 2" 0 0 0 1
   FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
   FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 79"
+  SeqLookup: 0 "Single Substitution lookup 80"
 EndFPST
 ChainSub2: coverage "dvc_d contextual 1" 0 0 0 1
  1 0 2
@@ -188,7 +189,7 @@ ChainSub2: coverage "dvc_d contextual 1" 0 0 0 1
   FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
   FCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 78"
+  SeqLookup: 0 "Single Substitution lookup 79"
 EndFPST
 ChainSub2: coverage "dvc_d contextual 0" 0 0 0 1
  1 0 3
@@ -204,7 +205,7 @@ ChainSub2: coverage "cvd_d subtable" 0 0 0 1
   BCoverage: 83 abu.cvc ebu.cvc ibu.cvc obu.cvc ubu.cvc ybu.cvc aibu.cvc eibu.cvc oibu.cvc aubu.cvc
   BCoverage: 180 py.cvc.1 ty.cvc.1 ky.cvc.1 fy.cvc.1 ly.cvc.1 sy.cvc.1 cy.cvc.1 my.cvc.1 xy.cvc.1 by.cvc.1 dy.cvc.1 gy.cvc.1 vy.cvc.1 ry.cvc.1 zy.cvc.1 jy.cvc.1 ny.cvc.1 yhy.cvc.1 iy.cvc.1 uy.cvc.1
  1
-  SeqLookup: 0 "Single Substitution lookup 76"
+  SeqLookup: 0 "Single Substitution lookup 77"
 EndFPST
 ChainSub2: coverage "cvd_v subtable" 0 0 0 1
  1 1 1
@@ -212,7 +213,7 @@ ChainSub2: coverage "cvd_v subtable" 0 0 0 1
   BCoverage: 180 py.cvc.1 ty.cvc.1 ky.cvc.1 fy.cvc.1 ly.cvc.1 sy.cvc.1 cy.cvc.1 my.cvc.1 xy.cvc.1 by.cvc.1 dy.cvc.1 gy.cvc.1 vy.cvc.1 ry.cvc.1 zy.cvc.1 jy.cvc.1 ny.cvc.1 yhy.cvc.1 iy.cvc.1 uy.cvc.1
   FCoverage: 7 denpabu
  1
-  SeqLookup: 0 "Single Substitution lookup 74"
+  SeqLookup: 0 "Single Substitution lookup 75"
 EndFPST
 ChainSub2: coverage "cvd_c subtable" 0 0 0 1
  1 0 2
@@ -220,28 +221,28 @@ ChainSub2: coverage "cvd_c subtable" 0 0 0 1
   FCoverage: 73 abu.cv ebu.cv ibu.cv obu.cv ubu.cv ybu.cv aibu.cv eibu.cv oibu.cv aubu.cv
   FCoverage: 7 denpabu
  1
-  SeqLookup: 0 "Single Substitution lookup 72"
+  SeqLookup: 0 "Single Substitution lookup 73"
 EndFPST
 ChainSub2: coverage "ccv_v contextual 1" 0 0 0 1
  1 1 0
   Coverage: 73 abu.cv ebu.cv ibu.cv obu.cv ubu.cv ybu.cv aibu.cv eibu.cv oibu.cv aubu.cv
   BCoverage: 180 py.ccv.2 ty.ccv.2 ky.ccv.2 fy.ccv.2 ly.ccv.2 sy.ccv.2 cy.ccv.2 my.ccv.2 xy.ccv.2 by.ccv.2 dy.ccv.2 gy.ccv.2 vy.ccv.2 ry.ccv.2 zy.ccv.2 jy.ccv.2 ny.ccv.2 yhy.ccv.2 iy.ccv.2 uy.ccv.2
  1
-  SeqLookup: 0 "Single Substitution lookup 70"
+  SeqLookup: 0 "Single Substitution lookup 71"
 EndFPST
 ChainSub2: coverage "ccv_v contextual 0" 0 0 0 1
  1 1 0
   Coverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
   BCoverage: 180 py.ccv.2 ty.ccv.2 ky.ccv.2 fy.ccv.2 ly.ccv.2 sy.ccv.2 cy.ccv.2 my.ccv.2 xy.ccv.2 by.ccv.2 dy.ccv.2 gy.ccv.2 vy.ccv.2 ry.ccv.2 zy.ccv.2 jy.ccv.2 ny.ccv.2 yhy.ccv.2 iy.ccv.2 uy.ccv.2
  1
-  SeqLookup: 0 "Single Substitution lookup 69"
+  SeqLookup: 0 "Single Substitution lookup 70"
 EndFPST
 ChainSub2: coverage "denpabuC subtable" 0 0 0 1
  1 0 1
   Coverage: 7 denpabu
   FCoverage: 180 py.ccv.2 ty.ccv.2 ky.ccv.2 fy.ccv.2 ly.ccv.2 sy.ccv.2 cy.ccv.2 my.ccv.2 xy.ccv.2 by.ccv.2 dy.ccv.2 gy.ccv.2 vy.ccv.2 ry.ccv.2 zy.ccv.2 jy.ccv.2 ny.ccv.2 yhy.ccv.2 iy.ccv.2 uy.ccv.2
  1
-  SeqLookup: 0 "Single Substitution lookup 67"
+  SeqLookup: 0 "Single Substitution lookup 68"
 EndFPST
 ChainSub2: coverage "denpabuCV subtable" 0 0 0 1
  1 1 1
@@ -249,14 +250,14 @@ ChainSub2: coverage "denpabuCV subtable" 0 0 0 1
   BCoverage: 7 denpabu
   FCoverage: 73 abu.cv ebu.cv ibu.cv obu.cv ubu.cv ybu.cv aibu.cv eibu.cv oibu.cv aubu.cv
  1
-  SeqLookup: 0 "Single Substitution lookup 65"
+  SeqLookup: 0 "Single Substitution lookup 66"
 EndFPST
 ChainSub2: coverage "cv_v subtable" 0 0 0 1
  1 1 0
   Coverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  1
-  SeqLookup: 0 "Single Substitution lookup 63"
+  SeqLookup: 0 "Single Substitution lookup 64"
 EndFPST
 ChainSub2: coverage "cvc_c3 subtable" 0 0 0 1
  1 2 0
@@ -301,7 +302,7 @@ ChainSub2: coverage "ccv_c2 contextual 48" 0 0 0 1
  1 1 1
   Coverage: 2 ry
   BCoverage: 2 xy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 53"
 EndFPST
@@ -309,7 +310,7 @@ ChainSub2: coverage "ccv_c2 contextual 47" 0 0 0 1
  1 1 1
   Coverage: 2 ly
   BCoverage: 2 xy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 52"
 EndFPST
@@ -317,7 +318,7 @@ ChainSub2: coverage "ccv_c2 contextual 46" 0 0 0 1
  1 1 1
   Coverage: 2 ry
   BCoverage: 2 my
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 51"
 EndFPST
@@ -325,7 +326,7 @@ ChainSub2: coverage "ccv_c2 contextual 45" 0 0 0 1
  1 1 1
   Coverage: 2 ly
   BCoverage: 2 my
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 50"
 EndFPST
@@ -333,7 +334,7 @@ ChainSub2: coverage "ccv_c2 contextual 44" 0 0 0 1
  1 1 1
   Coverage: 2 ry
   BCoverage: 2 gy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 49"
 EndFPST
@@ -341,7 +342,7 @@ ChainSub2: coverage "ccv_c2 contextual 43" 0 0 0 1
  1 1 1
   Coverage: 2 ly
   BCoverage: 2 gy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 48"
 EndFPST
@@ -349,7 +350,7 @@ ChainSub2: coverage "ccv_c2 contextual 42" 0 0 0 1
  1 1 1
   Coverage: 2 zy
   BCoverage: 2 dy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 47"
 EndFPST
@@ -357,7 +358,7 @@ ChainSub2: coverage "ccv_c2 contextual 41" 0 0 0 1
  1 1 1
   Coverage: 2 ry
   BCoverage: 2 dy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 46"
 EndFPST
@@ -365,7 +366,7 @@ ChainSub2: coverage "ccv_c2 contextual 40" 0 0 0 1
  1 1 1
   Coverage: 2 jy
   BCoverage: 2 dy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 45"
 EndFPST
@@ -373,7 +374,7 @@ ChainSub2: coverage "ccv_c2 contextual 39" 0 0 0 1
  1 1 1
   Coverage: 2 ry
   BCoverage: 2 ky
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 44"
 EndFPST
@@ -381,7 +382,7 @@ ChainSub2: coverage "ccv_c2 contextual 38" 0 0 0 1
  1 1 1
   Coverage: 2 ly
   BCoverage: 2 ky
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 43"
 EndFPST
@@ -389,7 +390,7 @@ ChainSub2: coverage "ccv_c2 contextual 37" 0 0 0 1
  1 1 1
   Coverage: 2 sy
   BCoverage: 2 ty
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 42"
 EndFPST
@@ -397,7 +398,7 @@ ChainSub2: coverage "ccv_c2 contextual 36" 0 0 0 1
  1 1 1
   Coverage: 2 ry
   BCoverage: 2 ty
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 41"
 EndFPST
@@ -405,7 +406,7 @@ ChainSub2: coverage "ccv_c2 contextual 35" 0 0 0 1
  1 1 1
   Coverage: 2 cy
   BCoverage: 2 ty
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 40"
 EndFPST
@@ -413,7 +414,7 @@ ChainSub2: coverage "ccv_c2 contextual 34" 0 0 0 1
  1 1 1
   Coverage: 2 my
   BCoverage: 2 zy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 39"
 EndFPST
@@ -421,7 +422,7 @@ ChainSub2: coverage "ccv_c2 contextual 33" 0 0 0 1
  1 1 1
   Coverage: 2 gy
   BCoverage: 2 zy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 38"
 EndFPST
@@ -429,7 +430,7 @@ ChainSub2: coverage "ccv_c2 contextual 32" 0 0 0 1
  1 1 1
   Coverage: 2 dy
   BCoverage: 2 zy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 37"
 EndFPST
@@ -437,7 +438,7 @@ ChainSub2: coverage "ccv_c2 contextual 31" 0 0 0 1
  1 1 1
   Coverage: 2 vy
   BCoverage: 2 zy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 36"
 EndFPST
@@ -445,7 +446,7 @@ ChainSub2: coverage "ccv_c2 contextual 30" 0 0 0 1
  1 1 1
   Coverage: 2 by
   BCoverage: 2 zy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 35"
 EndFPST
@@ -453,7 +454,7 @@ ChainSub2: coverage "ccv_c2 contextual 29" 0 0 0 1
  1 1 1
   Coverage: 2 ry
   BCoverage: 2 sy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 34"
 EndFPST
@@ -461,7 +462,7 @@ ChainSub2: coverage "ccv_c2 contextual 28" 0 0 0 1
  1 1 1
   Coverage: 2 ly
   BCoverage: 2 sy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 33"
 EndFPST
@@ -469,7 +470,7 @@ ChainSub2: coverage "ccv_c2 contextual 27" 0 0 0 1
  1 1 1
   Coverage: 2 ny
   BCoverage: 2 sy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 32"
 EndFPST
@@ -477,7 +478,7 @@ ChainSub2: coverage "ccv_c2 contextual 26" 0 0 0 1
  1 1 1
   Coverage: 2 my
   BCoverage: 2 sy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 31"
 EndFPST
@@ -485,7 +486,7 @@ ChainSub2: coverage "ccv_c2 contextual 25" 0 0 0 1
  1 1 1
   Coverage: 2 ky
   BCoverage: 2 sy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 30"
 EndFPST
@@ -493,7 +494,7 @@ ChainSub2: coverage "ccv_c2 contextual 24" 0 0 0 1
  1 1 1
   Coverage: 2 ty
   BCoverage: 2 sy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 29"
 EndFPST
@@ -501,7 +502,7 @@ ChainSub2: coverage "ccv_c2 contextual 23" 0 0 0 1
  1 1 1
   Coverage: 2 fy
   BCoverage: 2 sy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 28"
 EndFPST
@@ -509,7 +510,7 @@ ChainSub2: coverage "ccv_c2 contextual 22" 0 0 0 1
  1 1 1
   Coverage: 2 py
   BCoverage: 2 sy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 27"
 EndFPST
@@ -517,7 +518,7 @@ ChainSub2: coverage "ccv_c2 contextual 21" 0 0 0 1
  1 1 1
   Coverage: 2 my
   BCoverage: 2 jy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 26"
 EndFPST
@@ -525,7 +526,7 @@ ChainSub2: coverage "ccv_c2 contextual 20" 0 0 0 1
  1 1 1
   Coverage: 2 gy
   BCoverage: 2 jy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 25"
 EndFPST
@@ -533,7 +534,7 @@ ChainSub2: coverage "ccv_c2 contextual 19" 0 0 0 1
  1 1 1
   Coverage: 2 dy
   BCoverage: 2 jy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 24"
 EndFPST
@@ -541,7 +542,7 @@ ChainSub2: coverage "ccv_c2 contextual 18" 0 0 0 1
  1 1 1
   Coverage: 2 vy
   BCoverage: 2 jy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 23"
 EndFPST
@@ -549,7 +550,7 @@ ChainSub2: coverage "ccv_c2 contextual 17" 0 0 0 1
  1 1 1
   Coverage: 2 by
   BCoverage: 2 jy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 22"
 EndFPST
@@ -557,7 +558,7 @@ ChainSub2: coverage "ccv_c2 contextual 16" 0 0 0 1
  1 1 1
   Coverage: 2 ry
   BCoverage: 2 cy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 21"
 EndFPST
@@ -565,7 +566,7 @@ ChainSub2: coverage "ccv_c2 contextual 15" 0 0 0 1
  1 1 1
   Coverage: 2 ly
   BCoverage: 2 cy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 20"
 EndFPST
@@ -573,7 +574,7 @@ ChainSub2: coverage "ccv_c2 contextual 14" 0 0 0 1
  1 1 1
   Coverage: 2 ny
   BCoverage: 2 cy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 19"
 EndFPST
@@ -581,7 +582,7 @@ ChainSub2: coverage "ccv_c2 contextual 13" 0 0 0 1
  1 1 1
   Coverage: 2 my
   BCoverage: 2 cy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 18"
 EndFPST
@@ -589,7 +590,7 @@ ChainSub2: coverage "ccv_c2 contextual 12" 0 0 0 1
  1 1 1
   Coverage: 2 ky
   BCoverage: 2 cy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 17"
 EndFPST
@@ -597,7 +598,7 @@ ChainSub2: coverage "ccv_c2 contextual 11" 0 0 0 1
  1 1 1
   Coverage: 2 ty
   BCoverage: 2 cy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 16"
 EndFPST
@@ -605,7 +606,7 @@ ChainSub2: coverage "ccv_c2 contextual 10" 0 0 0 1
  1 1 1
   Coverage: 2 fy
   BCoverage: 2 cy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
@@ -613,7 +614,7 @@ ChainSub2: coverage "ccv_c2 contextual 9" 0 0 0 1
  1 1 1
   Coverage: 2 py
   BCoverage: 2 cy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 14"
 EndFPST
@@ -621,7 +622,7 @@ ChainSub2: coverage "ccv_c2 contextual 8" 0 0 0 1
  1 1 1
   Coverage: 2 ry
   BCoverage: 2 vy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 13"
 EndFPST
@@ -629,7 +630,7 @@ ChainSub2: coverage "ccv_c2 contextual 7" 0 0 0 1
  1 1 1
   Coverage: 2 ly
   BCoverage: 2 vy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 12"
 EndFPST
@@ -637,7 +638,7 @@ ChainSub2: coverage "ccv_c2 contextual 6" 0 0 0 1
  1 1 1
   Coverage: 2 ry
   BCoverage: 2 by
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 11"
 EndFPST
@@ -645,7 +646,7 @@ ChainSub2: coverage "ccv_c2 contextual 5" 0 0 0 1
  1 1 1
   Coverage: 2 ly
   BCoverage: 2 by
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 10"
 EndFPST
@@ -653,7 +654,7 @@ ChainSub2: coverage "ccv_c2 contextual 4" 0 0 0 1
  1 1 1
   Coverage: 2 ry
   BCoverage: 2 fy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 9"
 EndFPST
@@ -661,7 +662,7 @@ ChainSub2: coverage "ccv_c2 contextual 3" 0 0 0 1
  1 1 1
   Coverage: 2 ly
   BCoverage: 2 fy
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 8"
 EndFPST
@@ -669,7 +670,7 @@ ChainSub2: coverage "ccv_c2 contextual 2" 0 0 0 1
  1 1 1
   Coverage: 2 ry
   BCoverage: 2 py
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 7"
 EndFPST
@@ -677,7 +678,7 @@ ChainSub2: coverage "ccv_c2 contextual 1" 0 0 0 1
  1 1 1
   Coverage: 2 ly
   BCoverage: 2 py
-  FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  FCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
  1
   SeqLookup: 0 "Single Substitution lookup 6"
 EndFPST
@@ -685,7 +686,7 @@ ChainSub2: coverage "ccv_c2 contextual 0" 0 0 0 1
  1 3 0
   Coverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
-  BCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  BCoverage: 137 abu ebu ibu obu ubu ybu aibu eibu oibu aubu abu.vert ebu.vert ibu.vert obu.vert ubu.vert ybu.vert aibu.vert eibu.vert oibu.vert aubu.vert
   BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  0
 EndFPST
@@ -1505,7 +1506,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 209715 104857 69905 0 1048576 69905 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Above" "Above-1"
-BeginChars: 471 224
+BeginChars: 471 229
 
 StartChar: ny
 Encoding: 0 60256 0
@@ -1557,9 +1558,9 @@ SplineSet
  166.166992188 1174.16699219 198.333007812 1185 239 1185 c 2
  661 1185 l 2
 EndSplineSet
-Substitution2: "Single Substitution lookup 83 subtable" ny.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" ny.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" ny.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" ny.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" ny.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" ny.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" ny.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" ny.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" ny.ccv.1
@@ -1609,9 +1610,9 @@ SplineSet
  194 608.333333333 214 586 254 586 c 2
  783 586 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 83 subtable" dy.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" dy.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" dy.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" dy.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" dy.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" dy.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" dy.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" dy.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" dy.ccv.1
@@ -1660,9 +1661,9 @@ SplineSet
  409.216216216 512 226.54954955 514 113 518 c 1
  117 586 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 83 subtable" ty.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" ty.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" ty.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" ty.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" ty.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" ty.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" ty.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" ty.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" ty.ccv.1
@@ -1711,9 +1712,9 @@ SplineSet
  106 1185 l 2
  194 1185 l 2
 EndSplineSet
-Substitution2: "Single Substitution lookup 83 subtable" zy.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" zy.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" zy.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" zy.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" zy.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" zy.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" zy.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" zy.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" zy.ccv.1
@@ -1761,9 +1762,9 @@ SplineSet
  194 814 l 1
  194 512 l 2
 EndSplineSet
-Substitution2: "Single Substitution lookup 83 subtable" sy.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" sy.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" sy.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" sy.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" sy.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" sy.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" sy.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" sy.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" sy.ccv.1
@@ -1801,9 +1802,9 @@ SplineSet
  787.400390625 589.623046875 l 5
  787.400390625 506.623046875 l 5
 EndSplineSet
-Substitution2: "Single Substitution lookup 83 subtable" gy.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" gy.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" gy.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" gy.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" gy.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" gy.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" gy.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" gy.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" gy.ccv.1
@@ -1816,7 +1817,8 @@ Encoding: 6 60262 6
 Width: 900
 VWidth: 800
 Flags: W
-HStem: 515.03 68<423.038 475.957> 1114.03 74<200.779 706.779>
+HStem: 515.03 68<423.038 475.957> 1114.03 74<222.077 679.284>
+DStem2: 222.077 1114.03 84.7793 1188.03 0.395458 -0.918484<0 570.208> 679.284 1114.03 812.779 1188.03 0.394262 0.918998<-570.854 0>
 AnchorPoint: "Above" 0 500 basechar 0
 LayerCount: 2
 Back
@@ -1831,10 +1833,29 @@ SplineSet
  574.75 1108.25 649.5 1150 748.5 1150 c 1024
 EndSplineSet
 Fore
-Refer: 22 60278 N -1 0 0 -1 898.779 1700.03 2
-Substitution2: "Single Substitution lookup 83 subtable" jy.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" jy.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" jy.ccv.2
+SplineSet
+812.779296875 1188.03027344 m 1
+ 534.779296875 540.030273438 l 2
+ 528.779296875 523.030273438 513.779296875 515.030273438 493.779296875 515.030273438 c 2
+ 404.779296875 515.030273438 l 2
+ 382.779296875 515.030273438 369.779296875 524.030273438 363.779296875 540.030273438 c 2
+ 84.779296875 1188.03027344 l 1
+ 188.779296875 1188.03027344 l 1
+ 191.779296875 1188.03027344 l 1
+ 709.779296875 1188.03027344 l 1
+ 710.779296875 1188.03027344 l 1
+ 812.779296875 1188.03027344 l 1
+679.284179688 1114.03027344 m 1
+ 222.077148438 1114.03027344 l 1
+ 408.779296875 658.030273438 l 2
+ 420.779296875 625.030273438 427.779296875 600.030273438 432.779296875 583.030273438 c 1
+ 465.779296875 583.030273438 l 1
+ 473.779296875 610.030273438 482.779296875 636.030273438 491.779296875 659.030273438 c 2
+ 679.284179688 1114.03027344 l 1
+EndSplineSet
+Substitution2: "Single Substitution lookup 84 subtable" jy.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" jy.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" jy.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" jy.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" jy.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" jy.ccv.1
@@ -1845,8 +1866,9 @@ StartChar: xy
 Encoding: 7 60263 7
 Width: 900
 VWidth: 800
-Flags: HW
-HStem: 1117 68<422.822 475.741>
+Flags: WO
+HStem: 512 21G<86 197.242 698.811 814> 1117 68<422.822 475.741>
+DStem2: 86 512 189 512 0.394262 0.918998<40.6089 691.492>
 AnchorPoint: "Above" 0 500 basechar 0
 LayerCount: 2
 Back
@@ -1878,9 +1900,9 @@ SplineSet
  189 512 l 1
  86 512 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 83 subtable" xy.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" xy.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" xy.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" xy.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" xy.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" xy.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" xy.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" xy.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" xy.ccv.1
@@ -1932,9 +1954,9 @@ SplineSet
  106.000976562 512 l 2
 793.081054688 1111 m 1025
 EndSplineSet
-Substitution2: "Single Substitution lookup 83 subtable" iy.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" iy.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" iy.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" iy.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" iy.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" iy.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" iy.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" iy.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" iy.ccv.1
@@ -1986,9 +2008,9 @@ SplineSet
  687 512 l 5
  462 802 l 5
 EndSplineSet
-Substitution2: "Single Substitution lookup 83 subtable" ry.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" ry.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" ry.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" ry.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" ry.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" ry.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" ry.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" ry.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" ry.ccv.1
@@ -2009,7 +2031,6 @@ EndChar
 StartChar: ebu
 Encoding: 10 60266 10
 Width: 900
-VWidth: 800
 Flags: W
 HStem: 13 75<200.35 788.08> 503 74<325.745 574.255> 772.5 155<386.776 513.224> 1123 74<325.745 574.255>
 VStem: 96 88<724.024 975.976> 106 88<92.9746 389> 372.5 155<786.776 913.224> 716 88<724.024 975.976>
@@ -2021,9 +2042,10 @@ Fore
 Refer: 32 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
 Ligature2: "Vdenpabu subtable" denpabu ebu
-Substitution2: "Single Substitution lookup 81 subtable" ebu.cvc
-Substitution2: "Single Substitution lookup 69 subtable" ebu.ccv
-Substitution2: "Single Substitution lookup 63 subtable" ebu.cv
+Substitution2: "Single Substitution lookup 82 subtable" ebu.cvc
+Substitution2: "Single Substitution lookup 70 subtable" ebu.ccv
+Substitution2: "Single Substitution lookup 64 subtable" ebu.cv
+Substitution2: "v_vert subtable" ebu.vert
 Substitution2: "Single Substitution lookup 59 subtable" ebu.cvc
 Substitution2: "v subtable" ebu.iso
 LCarets2: 1 0
@@ -2032,7 +2054,6 @@ EndChar
 StartChar: obu
 Encoding: 11 60267 11
 Width: 900
-VWidth: 800
 Flags: W
 HStem: 13 75<111.92 699.65> 503 74<325.745 574.255> 772.5 155<386.776 513.224> 1123 74<325.745 574.255>
 VStem: 96 88<724.024 975.976> 372.5 155<786.776 913.224> 706 88<92.9746 389> 716 88<724.024 975.976>
@@ -2044,9 +2065,10 @@ Fore
 Refer: 33 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
 Ligature2: "Vdenpabu subtable" denpabu obu
-Substitution2: "Single Substitution lookup 81 subtable" obu.cvc
-Substitution2: "Single Substitution lookup 69 subtable" obu.ccv
-Substitution2: "Single Substitution lookup 63 subtable" obu.cv
+Substitution2: "Single Substitution lookup 82 subtable" obu.cvc
+Substitution2: "Single Substitution lookup 70 subtable" obu.ccv
+Substitution2: "Single Substitution lookup 64 subtable" obu.cv
+Substitution2: "v_vert subtable" obu.vert
 Substitution2: "Single Substitution lookup 59 subtable" obu.cvc
 Substitution2: "v subtable" obu.iso
 LCarets2: 1 0
@@ -2055,7 +2077,6 @@ EndChar
 StartChar: ibu
 Encoding: 12 60268 12
 Width: 900
-VWidth: 800
 Flags: W
 HStem: 313 75<200.35 788.08> 503 74<325.745 574.255> 772.5 155<386.776 513.224> 1123 74<325.745 574.255>
 VStem: 96 88<724.024 975.976> 106 88<0 307.536> 372.5 155<786.776 913.224> 716 88<724.024 975.976>
@@ -2067,9 +2088,10 @@ Fore
 Refer: 34 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
 Ligature2: "Vdenpabu subtable" denpabu ibu
-Substitution2: "Single Substitution lookup 81 subtable" ibu.cvc
-Substitution2: "Single Substitution lookup 69 subtable" ibu.ccv
-Substitution2: "Single Substitution lookup 63 subtable" ibu.cv
+Substitution2: "Single Substitution lookup 82 subtable" ibu.cvc
+Substitution2: "Single Substitution lookup 70 subtable" ibu.ccv
+Substitution2: "Single Substitution lookup 64 subtable" ibu.cv
+Substitution2: "v_vert subtable" ibu.vert
 Substitution2: "Single Substitution lookup 59 subtable" ibu.cvc
 Substitution2: "v subtable" ibu.iso
 Substitution2: "Single Substitution lookup 1 subtable" iy
@@ -2079,7 +2101,6 @@ EndChar
 StartChar: ubu
 Encoding: 13 60269 13
 Width: 900
-VWidth: 800
 Flags: W
 HStem: 316 75<119 696.989> 503 74<325.745 574.255> 772.5 155<386.776 513.224> 1123 74<325.745 574.255>
 VStem: 96 88<724.024 975.976> 372.5 155<786.776 913.224> 706 87<0 308.449> 716 88<724.024 975.976>
@@ -2091,9 +2112,10 @@ Fore
 Refer: 84 -1 S 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
 Ligature2: "Vdenpabu subtable" denpabu ubu
-Substitution2: "Single Substitution lookup 81 subtable" ubu.cvc
-Substitution2: "Single Substitution lookup 69 subtable" ubu.ccv
-Substitution2: "Single Substitution lookup 63 subtable" ubu.cv
+Substitution2: "Single Substitution lookup 82 subtable" ubu.cvc
+Substitution2: "Single Substitution lookup 70 subtable" ubu.ccv
+Substitution2: "Single Substitution lookup 64 subtable" ubu.cv
+Substitution2: "v_vert subtable" ubu.vert
 Substitution2: "Single Substitution lookup 59 subtable" ubu.cvc
 Substitution2: "v subtable" ubu.iso
 Substitution2: "Single Substitution lookup 2 subtable" uy
@@ -2103,7 +2125,6 @@ EndChar
 StartChar: abu
 Encoding: 14 60270 14
 Width: 900
-VWidth: 800
 Flags: W
 HStem: 14 74<106 406 494 795> 503 74<325.745 574.255> 772.5 155<386.776 513.224> 1123 74<325.745 574.255>
 VStem: 96 88<724.024 975.976> 372.5 155<786.776 913.224> 406 88<89 389> 716 88<724.024 975.976>
@@ -2115,9 +2136,10 @@ Fore
 Refer: 85 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
 Ligature2: "Vdenpabu subtable" denpabu abu
-Substitution2: "Single Substitution lookup 81 subtable" abu.cvc
-Substitution2: "Single Substitution lookup 69 subtable" abu.ccv
-Substitution2: "Single Substitution lookup 63 subtable" abu.cv
+Substitution2: "Single Substitution lookup 82 subtable" abu.cvc
+Substitution2: "Single Substitution lookup 70 subtable" abu.ccv
+Substitution2: "Single Substitution lookup 64 subtable" abu.cv
+Substitution2: "v_vert subtable" abu.vert
 Substitution2: "Single Substitution lookup 59 subtable" abu.cvc
 Substitution2: "v subtable" abu.iso
 LCarets2: 1 0
@@ -2126,7 +2148,6 @@ EndChar
 StartChar: ybu
 Encoding: 15 60271 15
 Width: 900
-VWidth: 800
 Flags: W
 HStem: 0 100<100 400 500 800> 380 20G<400 500> 503 74<325.745 574.255> 772.5 155<386.776 513.224> 1123 74<325.745 574.255>
 VStem: 96 88<724.024 975.976> 372.5 155<786.776 913.224> 400 100<-200 0 100 400> 716 88<724.024 975.976>
@@ -2138,9 +2159,10 @@ Fore
 Refer: 79 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
 Ligature2: "Vdenpabu subtable" denpabu ybu
-Substitution2: "Single Substitution lookup 81 subtable" ybu.cvc
-Substitution2: "Single Substitution lookup 69 subtable" ybu.ccv
-Substitution2: "Single Substitution lookup 63 subtable" ybu.cv
+Substitution2: "Single Substitution lookup 82 subtable" ybu.cvc
+Substitution2: "Single Substitution lookup 70 subtable" ybu.ccv
+Substitution2: "Single Substitution lookup 64 subtable" ybu.cv
+Substitution2: "v_vert subtable" ybu.vert
 Substitution2: "Single Substitution lookup 59 subtable" ybu.cvc
 Substitution2: "v subtable" ybu.iso
 LCarets2: 1 0
@@ -2188,9 +2210,9 @@ SplineSet
  166.166992188 1174.16699219 198.333007812 1185 239 1185 c 6
  661 1185 l 6
 EndSplineSet
-Substitution2: "Single Substitution lookup 83 subtable" my.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" my.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" my.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" my.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" my.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" my.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" my.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" my.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" my.ccv.1
@@ -2234,9 +2256,9 @@ SplineSet
  194 608.333333333 214 586 254 586 c 6
  783 586 l 5
 EndSplineSet
-Substitution2: "Single Substitution lookup 83 subtable" by.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" by.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" by.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" by.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" by.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" by.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" by.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" by.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" by.ccv.1
@@ -2278,9 +2300,9 @@ SplineSet
  409.216216216 512 226.54954955 514 113 518 c 1
  117 586 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 83 subtable" py.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" py.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" py.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" py.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" py.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" py.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" py.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" py.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" py.ccv.1
@@ -2322,9 +2344,9 @@ SplineSet
  118.833007812 566.166992188 106.666992188 595.333007812 106 632 c 6
  106 1185 l 6
 EndSplineSet
-Substitution2: "Single Substitution lookup 83 subtable" vy.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" vy.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" vy.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" vy.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" vy.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" vy.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" vy.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" vy.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" vy.ccv.1
@@ -2366,9 +2388,9 @@ SplineSet
  194 512 l 0
  106 512 l 2
 EndSplineSet
-Substitution2: "Single Substitution lookup 83 subtable" fy.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" fy.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" fy.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" fy.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" fy.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" fy.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" fy.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" fy.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" fy.ccv.1
@@ -2381,8 +2403,8 @@ Encoding: 21 60277 21
 Width: 900
 VWidth: 800
 Flags: W
-HStem: 506.623 20G<114.4 164.439> 1173.62 21G<114.4 164.633>
-VStem: 719.4 68<823.312 878.884>
+HStem: 506.63 20G<114.401 164.439> 1173.63 21G<114.401 164.633>
+VStem: 719.401 68<823.316 878.888>
 AnchorPoint: "Above" 0 500 basechar 0
 LayerCount: 2
 Back
@@ -2393,9 +2415,9 @@ SplineSet
 EndSplineSet
 Fore
 Refer: 5 60261 N -1 0 0 -1 901.801 1701.25 2
-Substitution2: "Single Substitution lookup 83 subtable" ky.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" ky.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" ky.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" ky.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" ky.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" ky.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" ky.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" ky.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" ky.ccv.1
@@ -2407,8 +2429,9 @@ StartChar: cy
 Encoding: 22 60278 22
 Width: 900
 VWidth: 800
-Flags: HW
-HStem: 512 74<192 698> 1117 68<422.822 475.741>
+Flags: W
+HStem: 512 74<219.495 676.702> 1117 68<422.822 475.741>
+DStem2: 86 512 219.495 586 0.394262 0.918998<120.638 691.492> 535 1160 490 1042 0.395458 -0.918484<13.0387 583.247>
 AnchorPoint: "Above" 0 500 basechar 0
 LayerCount: 2
 Back
@@ -2424,16 +2447,28 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-710 512 m 1
- 188 512 l 1
- 219 586 l 1
- 680 586 l 1
+86 512 m 1
+ 364 1160 l 2
+ 370 1177 385 1185 405 1185 c 2
+ 494 1185 l 2
+ 516 1185 529 1176 535 1160 c 2
+ 814 512 l 1
  710 512 l 1
+ 707 512 l 1
+ 189 512 l 1
+ 188 512 l 1
+ 86 512 l 1
+219.495274102 586 m 1
+ 676.701886792 586 l 1
+ 490 1042 l 2
+ 478 1075 471 1100 466 1117 c 1
+ 433 1117 l 1
+ 425 1090 416 1064 407 1041 c 2
+ 219.495274102 586 l 1
 EndSplineSet
-Refer: 7 60263 N 1 0 0 1 0 0 2
-Substitution2: "Single Substitution lookup 83 subtable" cy.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" cy.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" cy.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" cy.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" cy.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" cy.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" cy.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" cy.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" cy.ccv.1
@@ -2480,9 +2515,9 @@ SplineSet
  121 509 106 521 106 544 c 2
  106 1189 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 83 subtable" yhy.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" yhy.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" yhy.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" yhy.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" yhy.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" yhy.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" yhy.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" yhy.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" yhy.ccv.1
@@ -2527,9 +2562,9 @@ SplineSet
  794.000976562 513 l 2
 106.920898438 1111 m 1025
 EndSplineSet
-Substitution2: "Single Substitution lookup 83 subtable" uy.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" uy.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" uy.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" uy.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" uy.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" uy.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" uy.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" uy.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" uy.ccv.1
@@ -2584,9 +2619,9 @@ SplineSet
  787 518 l 5
  673.45045045 514 490.784179688 512 239 512 c 4
 EndSplineSet
-Substitution2: "Single Substitution lookup 83 subtable" ly.cvc.3
-Substitution2: "Single Substitution lookup 72 subtable" ly.cvc.1
-Substitution2: "Single Substitution lookup 65 subtable" ly.ccv.2
+Substitution2: "Single Substitution lookup 84 subtable" ly.cvc.3
+Substitution2: "Single Substitution lookup 73 subtable" ly.cvc.1
+Substitution2: "Single Substitution lookup 66 subtable" ly.ccv.2
 Substitution2: "Single Substitution lookup 61 subtable" ly.cvc.3
 Substitution2: "Single Substitution lookup 57 subtable" ly.cvc.1
 Substitution2: "Single Substitution lookup 55 subtable" ly.ccv.1
@@ -2605,7 +2640,6 @@ EndChar
 StartChar: eibu
 Encoding: 26 60283 26
 Width: 900
-VWidth: 345
 Flags: W
 HStem: 14 72<194 492> 313 75<200.35 788.08> 503 74<325.745 574.255> 772.5 155<386.776 513.224> 1123 74<325.745 574.255>
 VStem: 96 88<724.024 975.976> 106 88<-200 14 86 307.536> 372.5 155<786.776 913.224> 716 88<724.024 975.976>
@@ -2617,9 +2651,10 @@ Fore
 Refer: 80 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
 Ligature2: "Vdenpabu subtable" denpabu eibu
-Substitution2: "Single Substitution lookup 81 subtable" eibu.cvc
-Substitution2: "Single Substitution lookup 69 subtable" eibu.ccv
-Substitution2: "Single Substitution lookup 63 subtable" eibu.cv
+Substitution2: "Single Substitution lookup 82 subtable" eibu.cvc
+Substitution2: "Single Substitution lookup 70 subtable" eibu.ccv
+Substitution2: "Single Substitution lookup 64 subtable" eibu.cv
+Substitution2: "v_vert subtable" eibu.vert
 Substitution2: "Single Substitution lookup 59 subtable" eibu.cvc
 Substitution2: "v subtable" eibu.iso
 Ligature2: "diphthongs subtable" ebu ibu
@@ -2629,7 +2664,6 @@ EndChar
 StartChar: oibu
 Encoding: 27 60284 27
 Width: 900
-VWidth: 345
 Flags: W
 HStem: 14 72<407 705> 313 75<110.92 698.65> 503 74<325.745 574.255> 772.5 155<386.776 513.224> 1123 74<325.745 574.255>
 VStem: 96 88<724.024 975.976> 372.5 155<786.776 913.224> 705 88<-200 14 86 307.536> 716 88<724.024 975.976>
@@ -2641,9 +2675,10 @@ Fore
 Refer: 81 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
 Ligature2: "Vdenpabu subtable" denpabu oibu
-Substitution2: "Single Substitution lookup 81 subtable" oibu.cvc
-Substitution2: "Single Substitution lookup 69 subtable" oibu.ccv
-Substitution2: "Single Substitution lookup 63 subtable" oibu.cv
+Substitution2: "Single Substitution lookup 82 subtable" oibu.cvc
+Substitution2: "Single Substitution lookup 70 subtable" oibu.ccv
+Substitution2: "Single Substitution lookup 64 subtable" oibu.cv
+Substitution2: "v_vert subtable" oibu.vert
 Substitution2: "Single Substitution lookup 59 subtable" oibu.cvc
 Substitution2: "v subtable" oibu.iso
 Ligature2: "diphthongs subtable" obu ibu
@@ -2653,7 +2688,6 @@ EndChar
 StartChar: aibu
 Encoding: 28 60282 28
 Width: 900
-VWidth: 345
 Flags: W
 HStem: 113 75<200.35 406 494 788.08> 371 20G<406 494> 503 74<325.745 574.255> 772.5 155<386.776 513.224> 1123 74<325.745 574.255>
 VStem: 96 88<724.024 975.976> 106 88<-100 107.536> 372.5 155<786.776 913.224> 406 88<187.498 391> 716 88<724.024 975.976>
@@ -2665,9 +2699,10 @@ Fore
 Refer: 82 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
 Ligature2: "Vdenpabu subtable" denpabu aibu
-Substitution2: "Single Substitution lookup 81 subtable" aibu.cvc
-Substitution2: "Single Substitution lookup 69 subtable" aibu.ccv
-Substitution2: "Single Substitution lookup 63 subtable" aibu.cv
+Substitution2: "Single Substitution lookup 82 subtable" aibu.cvc
+Substitution2: "Single Substitution lookup 70 subtable" aibu.ccv
+Substitution2: "Single Substitution lookup 64 subtable" aibu.cv
+Substitution2: "v_vert subtable" aibu.vert
 Substitution2: "Single Substitution lookup 59 subtable" aibu.cvc
 Substitution2: "v subtable" aibu.iso
 Ligature2: "diphthongs subtable" abu ibu
@@ -2677,7 +2712,6 @@ EndChar
 StartChar: aubu
 Encoding: 29 60285 29
 Width: 900
-VWidth: 345
 Flags: W
 HStem: 113 75<111.92 406 494 699.65> 371 20G<406 494> 503 74<325.745 574.255> 772.5 155<386.776 513.224> 1123 74<325.745 574.255>
 VStem: 96 88<724.024 975.976> 372.5 155<786.776 913.224> 406 88<187.498 391> 706 88<-100 107.536> 716 88<724.024 975.976>
@@ -2689,9 +2723,10 @@ Fore
 Refer: 83 -1 N 1 0 0 1 0 0 2
 Refer: 31 60287 N 1 0 0 1 0 0 2
 Ligature2: "Vdenpabu subtable" denpabu aubu
-Substitution2: "Single Substitution lookup 81 subtable" aubu.cvc
-Substitution2: "Single Substitution lookup 69 subtable" aubu.ccv
-Substitution2: "Single Substitution lookup 63 subtable" aubu.cv
+Substitution2: "Single Substitution lookup 82 subtable" aubu.cvc
+Substitution2: "Single Substitution lookup 70 subtable" aubu.ccv
+Substitution2: "Single Substitution lookup 64 subtable" aubu.cv
+Substitution2: "v_vert subtable" aubu.vert
 Substitution2: "Single Substitution lookup 59 subtable" aubu.cvc
 Substitution2: "v subtable" aubu.iso
 Ligature2: "diphthongs subtable" abu ubu
@@ -2701,10 +2736,10 @@ EndChar
 StartChar: slakabu
 Encoding: 30 60286 30
 Width: 0
-VWidth: 345
-Flags: W
+VWidth: 0
+Flags: HW
 LayerCount: 2
-Substitution2: "Single Substitution lookup 79 subtable" denpabu.cvc.1
+Substitution2: "Single Substitution lookup 80 subtable" denpabu.cvc.1
 EndChar
 
 StartChar: denpabu
@@ -2743,9 +2778,9 @@ SplineSet
  804 663.551757812 652.248046875 503 450 503 c 0
  247.751953125 503 96 663.551757812 96 850 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 78 subtable" denpabu.cvc.1
-Substitution2: "Single Substitution lookup 76 subtable" denpabu.cvc.3
-Substitution2: "Single Substitution lookup 67 subtable" denpabu.ccv.1
+Substitution2: "Single Substitution lookup 79 subtable" denpabu.cvc.1
+Substitution2: "Single Substitution lookup 77 subtable" denpabu.cvc.3
+Substitution2: "Single Substitution lookup 68 subtable" denpabu.ccv.1
 EndChar
 
 StartChar: ebu.cv
@@ -2780,8 +2815,8 @@ SplineSet
  106 389 l 6
 788.080078125 88 m 1029
 EndSplineSet
-Substitution2: "Single Substitution lookup 74 subtable" ebu.cvc
-Substitution2: "Single Substitution lookup 70 subtable" ebu.ccv
+Substitution2: "Single Substitution lookup 75 subtable" ebu.cvc
+Substitution2: "Single Substitution lookup 71 subtable" ebu.ccv
 EndChar
 
 StartChar: obu.cv
@@ -2816,8 +2851,8 @@ SplineSet
  794 389 l 2
 111.919921875 88 m 1025
 EndSplineSet
-Substitution2: "Single Substitution lookup 74 subtable" obu.cvc
-Substitution2: "Single Substitution lookup 70 subtable" obu.ccv
+Substitution2: "Single Substitution lookup 75 subtable" obu.cvc
+Substitution2: "Single Substitution lookup 71 subtable" obu.ccv
 EndChar
 
 StartChar: ibu.cv
@@ -2851,14 +2886,14 @@ SplineSet
  106 0 l 6
 788.080078125 313 m 1029
 EndSplineSet
-Substitution2: "Single Substitution lookup 74 subtable" ibu.cvc
-Substitution2: "Single Substitution lookup 70 subtable" ibu.ccv
+Substitution2: "Single Substitution lookup 75 subtable" ibu.cvc
+Substitution2: "Single Substitution lookup 71 subtable" ibu.ccv
 EndChar
 
 StartChar: ny.cvc.1
 Encoding: 32 -1 35
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: HW
 HStem: 512 74<200.076 499.924> 814 72<194 506> 1111 74<200.076 499.924>
 VStem: 106 88<591.026 814 886 1105.97> 506 88<591.026 814 886 1105.97>
@@ -2926,7 +2961,7 @@ EndChar
 StartChar: ny.ccv.2
 Encoding: 128 -1 37
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 512 74<800.076 1099.92> 814 72<794 1106> 1111 74<800.076 1099.92>
 VStem: 706 88<591.026 814 886 1105.97> 1106 88<591.026 814 886 1105.97>
@@ -2962,7 +2997,7 @@ EndChar
 StartChar: ry.ccv.2
 Encoding: 137 -1 39
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 802 98<934 964>
 VStem: 706 488
@@ -2977,7 +3012,7 @@ EndChar
 StartChar: dy.cvc.1
 Encoding: 33 -1 40
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: HW
 HStem: 512 74<200.076 587> 814 72<194 392> 1111 74<200.076 586>
 VStem: 106 88<591.026 814 886 1105.97>
@@ -3020,7 +3055,7 @@ EndChar
 StartChar: ty.cvc.1
 Encoding: 34 -1 41
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: HW
 HStem: 512 74<443 496.924> 1111 74<443 496.924>
 VStem: 503 88<591.026 653 1045 1105.97>
@@ -3062,7 +3097,7 @@ EndChar
 StartChar: zy.cvc.1
 Encoding: 35 -1 42
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: HW
 HStem: 512 74<200.076 499.924> 814 72<194 506>
 VStem: 106 88<591.026 814 886 1185> 506 88<591.026 814 886 1185>
@@ -3105,7 +3140,7 @@ EndChar
 StartChar: sy.cvc.1
 Encoding: 36 -1 43
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: HW
 HStem: 814 72<194 506> 1111 74<200.076 499.924>
 VStem: 106 88<512 814 886 1105.97> 506 88<512 814 886 1105.97>
@@ -3148,7 +3183,7 @@ EndChar
 StartChar: gy.cvc.1
 Encoding: 37 -1 44
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: HW
 HStem: 506.623 21G<543.447 577.4> 1174.62 20G<543.578 577.4>
 VStem: 114.4 68<815.215 883.756>
@@ -3181,10 +3216,10 @@ EndChar
 StartChar: jy.cvc.1
 Encoding: 38 -1 45
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: W
-HStem: 513 68<328.12 374.922> 1110 76<192 508>
-VStem: 106 488
+HStem: 513 68<328.12 374.922> 1110 76<203.646 496.893>
+DStem2: 203.646 1110 86 1186 0.266263 -0.963901<0 543.322> 367 581 436 538 0.26488 0.964281<0 153.772>
 AnchorPoint: "Above" 0 500 basechar 0
 LayerCount: 2
 Back
@@ -3197,16 +3232,36 @@ SplineSet
  348.3671875 816.206054688 314.138671875 1150 550 1150 c 1028
 EndSplineSet
 Fore
-Refer: 55 -1 N -1 0 0 -1 700 1698 2
+SplineSet
+614 1186 m 1
+ 436 538 l 2
+ 430 521 415 513 395 513 c 2
+ 306 513 l 2
+ 284 513 271 522 265 538 c 2
+ 86 1186 l 1
+ 168 1186 l 1
+ 184 1186 l 1
+ 516 1186 l 1
+ 532 1186 l 1
+ 614 1186 l 1
+496.892578125 1110 m 1
+ 203.645507812 1110 l 1
+ 321 656 l 2
+ 326.3359375 629.864257812 328 608 334 581 c 1
+ 367 581 l 1
+ 375 608 377.810546875 631.629882812 383 657 c 2
+ 496.892578125 1110 l 1
+EndSplineSet
 EndChar
 
 StartChar: xy.cvc.1
 Encoding: 39 -1 46
 Width: 1300
-VWidth: 800
-Flags: HW
-HStem: 1117 68<325.078 371.88>
-VStem: 106 488
+VWidth: 1600
+Flags: W
+HStem: 512 21G<86 189.028 510.83 614> 1117 68<325.078 371.88>
+VStem: 86 98<512 610> 516 98<512 610>
+DStem2: 86 512 184 512 0.26488 0.964281<25.9582 647.499> 435 1160 379 1042 0.266263 -0.963901<24.366 646.175>
 AnchorPoint: "Above" 0 500 basechar 0
 LayerCount: 2
 Back
@@ -3237,7 +3292,7 @@ EndChar
 StartChar: iy.cvc.1
 Encoding: 40 -1 47
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: HW
 HStem: 1111 74<200.351 360 413.5 590.081>
 VStem: 106.001 88<512 1105.97>
@@ -3285,7 +3340,7 @@ EndChar
 StartChar: ry.cvc.1
 Encoding: 41 -1 48
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: HW
 HStem: 802 98<334 364>
 VStem: 106 488
@@ -3321,7 +3376,7 @@ EndChar
 StartChar: my.cvc.1
 Encoding: 48 -1 49
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: HW
 HStem: 512 74<200.076 499.924> 1111 74<200.076 499.924>
 VStem: 106 88<591.026 1105.97> 506 88<591.026 1105.97>
@@ -3365,7 +3420,7 @@ EndChar
 StartChar: by.cvc.1
 Encoding: 49 -1 50
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: HW
 HStem: 512 74<200.076 593> 1111 74<200.076 592>
 VStem: 106 88<591.026 1105.97>
@@ -3401,7 +3456,7 @@ EndChar
 StartChar: py.cvc.1
 Encoding: 50 -1 51
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: HW
 HStem: 512 74<117 499.924> 1111 74<118 499.924>
 VStem: 506 88<591.026 1105.97>
@@ -3437,7 +3492,7 @@ EndChar
 StartChar: vy.cvc.1
 Encoding: 51 -1 52
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: HW
 HStem: 512 74<200.076 499.924>
 VStem: 106 88<591.026 1185> 506 88<591.026 1185>
@@ -3473,7 +3528,7 @@ EndChar
 StartChar: fy.cvc.1
 Encoding: 52 -1 53
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: HW
 HStem: 1111 74<200.076 499.924>
 VStem: 106 88<512 1105.97> 506 88<512 1105.97>
@@ -3509,7 +3564,7 @@ EndChar
 StartChar: ky.cvc.1
 Encoding: 53 -1 54
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: W
 HStem: 506.63 20G<114.401 148.223> 1173.63 21G<114.401 148.354>
 VStem: 509.401 68<817.494 886.035>
@@ -3528,10 +3583,10 @@ EndChar
 StartChar: cy.cvc.1
 Encoding: 54 -1 55
 Width: 1300
-VWidth: 800
-Flags: HW
-HStem: 512 76<192 508> 1117 68<325.078 371.88>
-VStem: 106 488
+VWidth: 1600
+Flags: W
+HStem: 512 76<203.108 496.355> 1117 68<325.078 371.88>
+DStem2: 86 512 203.108 588 0.26488 0.964281<104.305 648.816> 435 1160 379 1042 0.266263 -0.963901<24.366 567.688>
 AnchorPoint: "Above" 0 500 basechar 0
 LayerCount: 2
 Back
@@ -3545,19 +3600,31 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-532 512 m 1
- 168 512 l 1
- 192 588 l 1
- 508 588 l 1
+86 512 m 1
+ 264 1160 l 2
+ 270 1177 285 1185 305 1185 c 2
+ 394 1185 l 2
+ 416 1185 429 1176 435 1160 c 2
+ 614 512 l 1
  532 512 l 1
+ 516 512 l 1
+ 184 512 l 1
+ 168 512 l 1
+ 86 512 l 1
+203.107750473 588 m 1
+ 496.354716981 588 l 1
+ 379 1042 l 2
+ 373.6640625 1068.13574219 372 1090 366 1117 c 1
+ 333 1117 l 1
+ 325 1090 322.189453125 1066.37011719 317 1041 c 2
+ 203.107750473 588 l 1
 EndSplineSet
-Refer: 46 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: yhy.cvc.1
 Encoding: 55 -1 56
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: HW
 HStem: 500 21G<500 600> 1180 20G<100 200>
 VStem: 100 100<715.139 1200> 500 100<500 984.861>
@@ -3597,7 +3664,7 @@ EndChar
 StartChar: uy.cvc.1
 Encoding: 56 -1 57
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: HW
 HStem: 500 21G<500 600> 1100 100<100 500>
 VStem: 500 100<500 1100>
@@ -3631,7 +3698,7 @@ EndChar
 StartChar: ly.cvc.1
 Encoding: 57 -1 58
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: HW
 HStem: 512 74<200.076 582> 814 72<199.928 500.072> 1111 74<118 499.924>
 VStem: 106 88<591.026 808.402> 506 88<891.598 1105.97>
@@ -3758,8 +3825,8 @@ Encoding: 102 -1 64
 Width: 1300
 VWidth: 800
 Flags: W
-HStem: 513 68<328.12 374.922> 1110 76<192 508>
-VStem: 106 488
+HStem: 513 68<328.12 374.922> 1110 76<203.646 496.893>
+DStem2: 203.646 1110 86 1186 0.266263 -0.963901<0 543.322> 367 581 436 538 0.26488 0.964281<0 153.772>
 AnchorPoint: "Above" 0 500 basechar 0
 LayerCount: 2
 Back
@@ -3773,8 +3840,9 @@ Encoding: 103 -1 65
 Width: 1300
 VWidth: 800
 Flags: W
-HStem: 1117 68<325.078 371.88>
-VStem: 106 488
+HStem: 512 21G<86 189.028 510.83 614> 1117 68<325.078 371.88>
+VStem: 86 98<512 610> 516 98<512 610>
+DStem2: 86 512 184 512 0.26488 0.964281<25.9582 647.499> 435 1160 379 1042 0.266263 -0.963901<24.366 646.175>
 AnchorPoint: "Above" 0 500 basechar 0
 LayerCount: 2
 Back
@@ -3910,8 +3978,8 @@ Encoding: 118 -1 74
 Width: 1300
 VWidth: 800
 Flags: W
-HStem: 512 76<192 508> 1117 68<325.078 371.88>
-VStem: 106 488
+HStem: 512 76<203.108 496.355> 1117 68<325.078 371.88>
+DStem2: 86 512 203.108 588 0.26488 0.964281<104.305 648.816> 435 1160 379 1042 0.266263 -0.963901<24.366 567.688>
 AnchorPoint: "Above" 0 500 basechar 0
 LayerCount: 2
 Back
@@ -3969,7 +4037,7 @@ EndChar
 StartChar: denpabu.cvc.1
 Encoding: 63 -1 78
 Width: 1300
-VWidth: 800
+VWidth: 1600
 Flags: HW
 HStem: 483 74<273.894 426.106> 772.5 155<286.776 413.224> 1143 74<273.894 426.106>
 VStem: 80 88<690.575 1009.42> 272.5 155<786.776 913.224> 532 88<690.575 1009.42>
@@ -4048,8 +4116,8 @@ SplineSet
  400 400 l 1
  450 400 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 74 subtable" ybu.cvc
-Substitution2: "Single Substitution lookup 70 subtable" ybu.ccv
+Substitution2: "Single Substitution lookup 75 subtable" ybu.cvc
+Substitution2: "Single Substitution lookup 71 subtable" ybu.ccv
 EndChar
 
 StartChar: eibu.cv
@@ -4089,8 +4157,8 @@ SplineSet
  194 86 l 5
 788.080078125 313 m 1029
 EndSplineSet
-Substitution2: "Single Substitution lookup 74 subtable" eibu.cvc
-Substitution2: "Single Substitution lookup 70 subtable" eibu.ccv
+Substitution2: "Single Substitution lookup 75 subtable" eibu.cvc
+Substitution2: "Single Substitution lookup 71 subtable" eibu.ccv
 EndChar
 
 StartChar: oibu.cv
@@ -4130,8 +4198,8 @@ SplineSet
  705 86 l 5
 110.919921875 313 m 1029
 EndSplineSet
-Substitution2: "Single Substitution lookup 74 subtable" oibu.cvc
-Substitution2: "Single Substitution lookup 70 subtable" oibu.ccv
+Substitution2: "Single Substitution lookup 75 subtable" oibu.cvc
+Substitution2: "Single Substitution lookup 71 subtable" oibu.ccv
 EndChar
 
 StartChar: aibu.cv
@@ -4171,8 +4239,8 @@ SplineSet
  194 -100 l 1
  106 -100 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 74 subtable" aibu.cvc
-Substitution2: "Single Substitution lookup 70 subtable" aibu.ccv
+Substitution2: "Single Substitution lookup 75 subtable" aibu.cvc
+Substitution2: "Single Substitution lookup 71 subtable" aibu.ccv
 EndChar
 
 StartChar: aubu.cv
@@ -4212,8 +4280,8 @@ SplineSet
  781.166992188 133.833007812 794 104.666992188 794 68 c 2
  794 -100 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 74 subtable" aubu.cvc
-Substitution2: "Single Substitution lookup 70 subtable" aubu.ccv
+Substitution2: "Single Substitution lookup 75 subtable" aubu.cvc
+Substitution2: "Single Substitution lookup 71 subtable" aubu.ccv
 EndChar
 
 StartChar: ubu.cv
@@ -4243,8 +4311,8 @@ SplineSet
  793 0 l 1
  706 0 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 74 subtable" ubu.cvc
-Substitution2: "Single Substitution lookup 70 subtable" ubu.ccv
+Substitution2: "Single Substitution lookup 75 subtable" ubu.cvc
+Substitution2: "Single Substitution lookup 71 subtable" ubu.ccv
 EndChar
 
 StartChar: abu.cv
@@ -4284,14 +4352,14 @@ SplineSet
  406 389 l 5
  450 389 l 5
 EndSplineSet
-Substitution2: "Single Substitution lookup 74 subtable" abu.cvc
-Substitution2: "Single Substitution lookup 70 subtable" abu.ccv
+Substitution2: "Single Substitution lookup 75 subtable" abu.cvc
+Substitution2: "Single Substitution lookup 71 subtable" abu.ccv
 EndChar
 
 StartChar: dy.ccv.2
 Encoding: 129 -1 86
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 512 74<800.576 1187.5> 814 72<794.5 992.5> 1111 74<800.576 1186.5>
 VStem: 706.5 88<591.026 814 886 1105.97>
@@ -4307,7 +4375,7 @@ EndChar
 StartChar: ty.ccv.2
 Encoding: 130 -1 87
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 512 74<1043 1096.92> 1111 74<1043 1096.92>
 VStem: 1103 88<591.026 653 1045 1105.97>
@@ -4322,7 +4390,7 @@ EndChar
 StartChar: zy.ccv.2
 Encoding: 131 -1 88
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 511 74<799.576 1099.42> 813 72<793.5 1105.5>
 VStem: 705.5 88<590.026 813 885 1184> 1105.5 88<590.026 813 885 1184>
@@ -4337,7 +4405,7 @@ EndChar
 StartChar: sy.ccv.2
 Encoding: 132 -1 89
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 814 72<794 1106> 1111 74<800.076 1099.92>
 VStem: 706 88<512 814 886 1105.97> 1106 88<512 814 886 1105.97>
@@ -4359,7 +4427,7 @@ EndChar
 StartChar: gy.ccv.2
 Encoding: 133 -1 90
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 506.623 21G<1143.45 1177.4> 1174.62 20G<1143.58 1177.4>
 VStem: 714.4 68<815.215 883.756>
@@ -4374,10 +4442,10 @@ EndChar
 StartChar: jy.ccv.2
 Encoding: 134 -1 91
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
-HStem: 513 68<929.12 975.922> 1110 76<793 1109>
-VStem: 707 488
+HStem: 513 68<929.12 975.922> 1110 76<804.646 1097.89>
+DStem2: 804.646 1110 687 1186 0.266263 -0.963901<0 543.322> 968 581 1037 538 0.26488 0.964281<0 153.772>
 AnchorPoint: "Above" 0 500 mark 0
 LayerCount: 2
 Back
@@ -4389,10 +4457,11 @@ EndChar
 StartChar: xy.ccv.2
 Encoding: 135 -1 92
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
-HStem: 1117 68<925.078 971.88>
-VStem: 706 488
+HStem: 512 21G<686 789.028 1110.83 1214> 1117 68<925.078 971.88>
+VStem: 686 98<512 610> 1116 98<512 610>
+DStem2: 686 512 784 512 0.26488 0.964281<25.9582 647.499> 1035 1160 979 1042 0.266263 -0.963901<24.366 646.175>
 AnchorPoint: "Above" 0 500 mark 0
 LayerCount: 2
 Back
@@ -4404,7 +4473,7 @@ EndChar
 StartChar: iy.ccv.2
 Encoding: 136 -1 93
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 1109.5 74<800.851 960.5 1014 1190.58>
 VStem: 706.501 88<510.5 1104.47>
@@ -4419,7 +4488,7 @@ EndChar
 StartChar: my.ccv.2
 Encoding: 144 -1 94
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 512 74<800.076 1099.92> 1111 74<800.076 1099.92>
 VStem: 706 88<591.026 1105.97> 1106 88<591.026 1105.97>
@@ -4434,7 +4503,7 @@ EndChar
 StartChar: by.ccv.2
 Encoding: 145 -1 95
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 510.5 74<998.076 1391> 1109.5 74<998.076 1390>
 VStem: 904 88<589.526 1104.47>
@@ -4449,7 +4518,7 @@ EndChar
 StartChar: py.ccv.2
 Encoding: 146 -1 96
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 510.5 74<716 1098.92> 1109.5 74<717 1098.92>
 VStem: 1105 88<589.526 1104.47>
@@ -4464,7 +4533,7 @@ EndChar
 StartChar: vy.ccv.2
 Encoding: 147 -1 97
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 512 74<800.076 1099.92>
 VStem: 706 88<591.026 1185> 1106 88<591.026 1185>
@@ -4479,7 +4548,7 @@ EndChar
 StartChar: fy.ccv.2
 Encoding: 148 -1 98
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 1111 74<998.076 1297.92>
 VStem: 904 88<512 1105.97> 1304 88<512 1105.97>
@@ -4494,7 +4563,7 @@ EndChar
 StartChar: ky.ccv.2
 Encoding: 149 -1 99
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 506.63 20G<912.401 946.223> 1173.63 21G<912.401 946.354>
 VStem: 1307.4 68<817.494 886.035>
@@ -4509,10 +4578,10 @@ EndChar
 StartChar: cy.ccv.2
 Encoding: 150 -1 100
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
-HStem: 512 76<991.5 1307.5> 1117 68<1124.58 1171.38>
-VStem: 905.5 488
+HStem: 512 76<1002.61 1295.85> 1117 68<1124.58 1171.38>
+DStem2: 885.5 512 1002.61 588 0.26488 0.964281<104.305 648.816> 1234.5 1160 1178.5 1042 0.266263 -0.963901<24.366 567.688>
 AnchorPoint: "Above" 0 500 mark 0
 LayerCount: 2
 Back
@@ -4524,7 +4593,7 @@ EndChar
 StartChar: yhy.ccv.2
 Encoding: 151 -1 101
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 499.5 21G<1100.5 1200.5> 1179.5 20G<700.5 800.5>
 VStem: 700.5 100<714.639 1199.5> 1100.5 100<499.5 984.361>
@@ -4539,7 +4608,7 @@ EndChar
 StartChar: uy.ccv.2
 Encoding: 152 -1 102
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 499.5 21G<1100 1200> 1099.5 100<700 1100>
 VStem: 1100 100<499.5 1099.5>
@@ -4554,7 +4623,7 @@ EndChar
 StartChar: ly.ccv.2
 Encoding: 153 -1 103
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 512 74<799.076 1181> 814 72<798.928 1099.07> 1111 74<717 1098.92>
 VStem: 705 88<591.026 808.402> 1105 88<891.598 1105.97>
@@ -4652,7 +4721,7 @@ EndChar
 StartChar: ebu.cvc
 Encoding: 74 -1 108
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: HW
 HStem: 513 75<800.35 1189.08>
 VStem: 706 88<592.975 1185>
@@ -4686,7 +4755,7 @@ EndChar
 StartChar: obu.cvc
 Encoding: 75 -1 109
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: HW
 HStem: 513 75<711.92 1100.65>
 VStem: 1107 88<592.975 1185>
@@ -4720,7 +4789,7 @@ EndChar
 StartChar: ibu.cvc
 Encoding: 76 -1 110
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: HW
 HStem: 1112 75<800.313 1191>
 VStem: 706 88<512 1106.76>
@@ -4753,7 +4822,7 @@ EndChar
 StartChar: ubu.cvc
 Encoding: 77 -1 111
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: HW
 HStem: 1112 75<709 1099.69>
 VStem: 1106 88<512 1106.76>
@@ -4786,7 +4855,7 @@ EndChar
 StartChar: abu.cvc
 Encoding: 78 -1 112
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: HW
 HStem: 513 74<706 906 994 1195>
 VStem: 906 88<588 1188>
@@ -4825,7 +4894,7 @@ EndChar
 StartChar: ybu.cvc
 Encoding: 79 -1 113
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: HW
 HStem: 500 21G<900 1000> 800 100<700 900 1000 1200.5> 1180 20G<900 1000>
 VStem: 900 100<500 800 900 1200>
@@ -4871,7 +4940,7 @@ EndChar
 StartChar: eibu.cvc
 Encoding: 90 -1 114
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: HW
 HStem: 500 21G<700 800> 800 100<800 1200.5> 1100 100<800 1200.5>
 VStem: 700 100<500 800 900 1100>
@@ -4917,7 +4986,7 @@ EndChar
 StartChar: oibu.cvc
 Encoding: 91 -1 115
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: HW
 HStem: 500 21G<1100.5 1200.5> 800 100<700 1100.5> 1100 100<700 1100.5>
 VStem: 1100.5 100<500 800 900 1100>
@@ -4963,7 +5032,7 @@ EndChar
 StartChar: aibu.cvc
 Encoding: 92 -1 116
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: HW
 HStem: 500 21G<700 800> 800 100<800 900 1000 1200.5> 1180 20G<900 1000>
 VStem: 700 100<500 800> 900 100<900 1200>
@@ -5012,7 +5081,7 @@ EndChar
 StartChar: aubu.cvc
 Encoding: 93 -1 117
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: HW
 HStem: 500 21G<1100.5 1200.5> 800 100<700 900 1000 1100.5> 1180 20G<900 1000>
 VStem: 900 100<900 1200> 1100.5 100<500 800>
@@ -5058,7 +5127,7 @@ EndChar
 StartChar: ny.cvc.3
 Encoding: 64 -1 118
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: -288 74<400.076 899.924> 14 72<394 906> 311 74<400.076 899.924>
 VStem: 306 88<-208.974 14 86 305.97> 906 88<-208.974 14 86 305.97>
@@ -5174,7 +5243,7 @@ EndChar
 StartChar: sy.cvc.3
 Encoding: 68 -1 124
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 14 72<394 906> 311 74<400.076 899.924>
 VStem: 306 88<-288 14 86 305.97> 906 88<-288 14 86 305.97>
@@ -5189,7 +5258,7 @@ EndChar
 StartChar: dy.cvc.3
 Encoding: 65 -1 125
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: -288 74<400.076 983> 14 72<394 692> 311 74<400.076 982>
 VStem: 306 88<-208.974 14 86 305.97>
@@ -5205,7 +5274,7 @@ EndChar
 StartChar: ty.cvc.3
 Encoding: 66 -1 126
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: -288 74<317 899.924> 15 71<608 906> 311 74<318 899.924>
 VStem: 906 88<-208.974 15 86 305.97>
@@ -5221,7 +5290,7 @@ EndChar
 StartChar: zy.cvc.3
 Encoding: 67 -1 127
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: -288 74<400.076 899.924> 14 72<394 906>
 VStem: 306 88<-208.974 14 86 385> 906 88<-208.974 14 86 385>
@@ -5236,7 +5305,7 @@ EndChar
 StartChar: gy.cvc.3
 Encoding: 69 -1 128
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: -293.377 21G<937.168 987.4> 374.62 20G<937.362 987.4>
 VStem: 314.4 68<22.362 77.934>
@@ -5251,9 +5320,10 @@ EndChar
 StartChar: jy.cvc.3
 Encoding: 70 -1 129
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
-HStem: -284.97 68<623.038 675.957> 314.03 74<400.779 906.779>
+HStem: -284.97 68<623.038 675.957> 314.03 74<422.077 879.284>
+DStem2: 422.077 314.03 284.779 388.03 0.395458 -0.918484<0 570.208> 879.284 314.03 1012.78 388.03 0.394262 0.918998<-570.854 0>
 AnchorPoint: "Above" 0 500 mark 0
 LayerCount: 2
 Back
@@ -5265,9 +5335,10 @@ EndChar
 StartChar: xy.cvc.3
 Encoding: 71 -1 130
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
-HStem: 318 68<622.822 675.741>
+HStem: -287 21G<286 397.242 898.811 1014> 318 68<622.822 675.741>
+DStem2: 286 -287 389 -287 0.394262 0.918998<40.6089 691.492>
 AnchorPoint: "Above" 0 500 mark 0
 LayerCount: 2
 Back
@@ -5279,7 +5350,7 @@ EndChar
 StartChar: iy.cvc.3
 Encoding: 72 -1 131
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 311 74<400.351 680 738 993.081>
 VStem: 306.001 88<-288 305.97>
@@ -5294,7 +5365,7 @@ EndChar
 StartChar: ry.cvc.3
 Encoding: 73 -1 132
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 2 98<632 662>
 AnchorPoint: "Above" 0 500 mark 0
@@ -5308,7 +5379,7 @@ EndChar
 StartChar: my.cvc.3
 Encoding: 80 -1 133
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: -288 74<400.076 899.924> 311 74<400.076 899.924>
 VStem: 306 88<-208.974 305.97> 906 88<-208.974 305.97>
@@ -5323,7 +5394,7 @@ EndChar
 StartChar: by.cvc.3
 Encoding: 81 -1 134
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: -288 74<400.076 983> 311 74<400.076 982>
 VStem: 306 88<-208.974 305.97>
@@ -5338,7 +5409,7 @@ EndChar
 StartChar: py.cvc.3
 Encoding: 82 -1 135
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: -288 74<317 899.924> 311 74<318 899.924>
 VStem: 906 88<-208.974 305.97>
@@ -5353,7 +5424,7 @@ EndChar
 StartChar: vy.cvc.3
 Encoding: 83 -1 136
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: -288 74<400.076 899.924>
 VStem: 306 88<-208.974 385> 906 88<-208.974 385>
@@ -5368,7 +5439,7 @@ EndChar
 StartChar: fy.cvc.3
 Encoding: 84 -1 137
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 311 74<400.076 899.924>
 VStem: 306 88<-288 305.97> 906 88<-288 305.97>
@@ -5383,10 +5454,10 @@ EndChar
 StartChar: ky.cvc.3
 Encoding: 85 -1 138
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
-HStem: -293.377 20G<314.4 364.439> 373.62 21G<314.4 364.633>
-VStem: 919.4 68<23.312 78.884>
+HStem: -293.37 20G<314.401 364.439> 373.627 21G<314.401 364.633>
+VStem: 919.401 68<23.316 78.888>
 AnchorPoint: "Above" 0 500 mark 0
 LayerCount: 2
 Back
@@ -5398,9 +5469,10 @@ EndChar
 StartChar: cy.cvc.3
 Encoding: 86 -1 139
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
-HStem: -287 74<392 898> 318 68<622.822 675.741>
+HStem: -287 74<419.495 876.702> 318 68<622.822 675.741>
+DStem2: 286 -287 419.495 -213 0.394262 0.918998<120.638 691.492> 735 361 690 243 0.395458 -0.918484<13.0387 583.247>
 AnchorPoint: "Above" 0 500 mark 0
 LayerCount: 2
 Back
@@ -5412,7 +5484,7 @@ EndChar
 StartChar: yhy.cvc.3
 Encoding: 87 -1 140
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: -291 85<390 434.614> 307 82<868.324 911>
 VStem: 306 88<-206 389> 906 88<-291 307>
@@ -5427,7 +5499,7 @@ EndChar
 StartChar: uy.cvc.3
 Encoding: 88 -1 141
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 311 74<846.001 899.651>
 VStem: 607.002 85<-228.234 -108> 906.001 88<245 305.97>
@@ -5442,7 +5514,7 @@ EndChar
 StartChar: ly.cvc.3
 Encoding: 89 -1 142
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: -288 74<400.076 983> 14 72<399.928 900.072> 311 74<318 899.924>
 VStem: 306 88<-208.974 8.402> 906 88<91.598 305.97>
@@ -5474,7 +5546,7 @@ EndChar
 StartChar: denpabu.cvc.3
 Encoding: 95 -1 144
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: -299 74<525.745 774.255> -29.5 155<586.776 713.224> 321 74<525.745 774.255>
 VStem: 296 88<-77.976 173.976> 572.5 155<-15.224 111.224> 916 88<-77.976 173.976>
@@ -5864,7 +5936,7 @@ EndChar
 StartChar: space
 Encoding: 173 32 160
 Width: 500
-VWidth: 0
+VWidth: 400
 Flags: HW
 LayerCount: 2
 EndChar
@@ -5872,7 +5944,7 @@ EndChar
 StartChar: denpabu.ccv.2
 Encoding: 159 -1 161
 Width: 0
-VWidth: 800
+VWidth: 0
 Flags: W
 HStem: 483 74<872.894 1025.11> 772.5 155<885.776 1012.22> 1143 74<872.894 1025.11>
 VStem: 679 88<690.575 1009.42> 871.5 155<786.776 913.224> 1131 88<690.575 1009.42>
@@ -8213,14 +8285,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: NameMe.138
+StartChar: ebu.vert
 Encoding: 138 -1 204
-Width: 0
-VWidth: 800
-Flags: HW
-HStem: 150.011 99.9781<406.919 798.944> 379 20G<100 200>
-VStem: 100 100<-100 -4.90839 122.231 399>
-AnchorPoint: "Above" 0 500 mark 0
+Width: 900
+VWidth: 500
+Flags: W
+HStem: 810 75<200.35 788.08> 1166 20G<106 194>
+VStem: 106 88<889.975 1186>
 LayerCount: 2
 Back
 SplineSet
@@ -8230,20 +8301,19 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-150 399 m 1
- 200 399 l 1
- 200 349 l 1
- 200 122.230771454 l 1
- 320.449512554 245.241595114 516.701654379 254.889258591 751.045284451 249.98907261 c 2
- 801.034357061 248.943788159 l 1
- 799.98907261 198.954715549 l 1
- 798.943788159 148.965642939 l 1
- 748.954715549 150.01092739 l 2
- 408.114850171 157.137977224 237.013231506 124.781795295 199.358319807 -107.984752083 c 1
- 100 -100 l 1
- 100 349 l 1
- 100 399 l 1
- 150 399 l 1
+106 1186 m 2
+ 194 1186 l 2
+ 194 1180 l 1
+ 194 1109 l 1
+ 194 951 l 2
+ 194 907 214 885 254 885 c 0
+ 788.080078125 885 l 1
+ 791 817 l 1
+ 559.83830868 811.999864057 466.714806074 810 239 810 c 3
+ 198.950031211 810 166.166992188 820.833007812 142.5 842.5 c 0
+ 118.833007812 864.166992188 106 898.950703303 106 930 c 2
+ 106 1186 l 2
+788.080078125 885 m 1025
 EndSplineSet
 EndChar
 
@@ -8255,14 +8325,13 @@ Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: NameMe.142
+StartChar: abu.vert
 Encoding: 142 -1 206
-Width: 0
-VWidth: 800
-Flags: HW
-HStem: 7.57324 84.8529<164.142 183.141 183.142 343.577 382.009 735.857> 372.427 20G<444.142 484.142>
-VStem: 407.573 84.8535<187.821 335.858>
-AnchorPoint: "Above" 0 500 mark 0
+Width: 900
+VWidth: 500
+Flags: W
+HStem: 814 72<106 406 494 794> 1165 20G<406 494>
+VStem: 406 88<886 1185>
 LayerCount: 2
 Back
 SplineSet
@@ -8273,32 +8342,34 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-792.426757812 64.142578125 m 1
- 735.857421875 7.57421875 l 1
- 135.857421875 7.5732421875 l 1
- 107.573242188 35.857421875 l 1
- 164.141601562 92.42578125 l 1
- 183.140655923 92.4258121729 l 1
- 183.141601562 92.4267578125 l 1
- 262.321289062 92.4267578125 320.034179688 107.842773438 362.365234375 135.33203125 c 1
- 396.245117188 187.265625 407.573242188 257.716796875 407.573242188 335.858398438 c 1
- 464.141601562 392.426757812 l 1
- 492.426757812 364.142578125 l 1
- 492.426757812 269.54296875 476.401367188 186.732421875 421.803710938 132.220703125 c 2
- 382.009143664 92.4261358515 l 1
- 509.386955151 92.4261358515 636.764766638 92.4267578125 764.142578125 92.4267578125 c 1
- 792.426757812 64.142578125 l 1
+450 1185 m 1
+ 494 1185 l 1
+ 494 1137 l 1
+ 494 886 l 1
+ 745 886 l 1
+ 794 886 l 1
+ 794 850 l 1
+ 794 814 l 1
+ 745 814 l 1
+ 156 814 l 1
+ 106 814 l 1
+ 106 849 l 1
+ 106 886 l 1
+ 156 886 l 1
+ 406 886 l 1
+ 406 1137 l 1
+ 406 1185 l 1
+ 450 1185 l 1
 EndSplineSet
 EndChar
 
-StartChar: NameMe.139
+StartChar: obu.vert
 Encoding: 139 -1 207
-Width: 0
-VWidth: 800
-Flags: HW
-HStem: 150 100<100 453.099> 380 20G<700 800>
-VStem: 700 100<-100 0.872558 115.552 400>
-AnchorPoint: "Above" 0 500 mark 0
+Width: 900
+VWidth: 500
+Flags: W
+HStem: 824 75<111.921 699.651> 1180 20G<706.001 794.001>
+VStem: 706.001 88<903.975 1200>
 LayerCount: 2
 Back
 SplineSet
@@ -8308,32 +8379,29 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-100 200 m 1
- 100 250 l 1
- 150 250 l 2
- 355.773703305 250 572.056086199 223.869373998 700 115.552498189 c 1
- 700 350 l 1
- 700 400 l 1
- 750 400 l 1
- 800 400 l 1
- 800 350 l 1
- 800 8 l 1
- 800 -100 l 2
- 799 -100 700 -101 700 -100 c 0
- 700 -68.7784189936 693.805783933 -43.1066406809 682.917935773 -20.6041310771 c 0
- 625.486162876 98.0932462415 402.577486087 150 150 150 c 2
- 100 150 l 1
- 100 200 l 1
+794.000976562 1200 m 2
+ 794.000976562 944 l 2
+ 794.000976562 912.950703303 781.16796875 878.166992188 757.500976562 856.5 c 0
+ 733.833984375 834.833007812 701.050945351 824 661.000976562 824 c 3
+ 433.286170488 824 340.162667883 825.999864057 109.000976562 831 c 1
+ 111.920898438 899 l 1
+ 646.000976562 899 l 0
+ 686.000976562 899 706.000976562 921 706.000976562 965 c 2
+ 706.000976562 1123 l 1
+ 706.000976562 1194 l 1
+ 706.000976562 1200 l 2
+ 794.000976562 1200 l 2
+111.920898438 899 m 1025
 EndSplineSet
 EndChar
 
-StartChar: NameMe.140
+StartChar: ibu.vert
 Encoding: 140 -1 208
-Width: 0
-VWidth: 800
-Flags: HW
-HStem: 307.573 84.8525<284.643 735.857>
-AnchorPoint: "Above" 0 500 mark 0
+Width: 900
+VWidth: 500
+Flags: W
+HStem: 1110 75<200.319 788.05>
+VStem: 105.97 88<797 1104.54>
 LayerCount: 2
 Back
 SplineSet
@@ -8343,26 +8411,29 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-135.857421875 7.5732421875 m 1
- 107.573242188 35.857421875 l 1
- 158.899414062 102.09375 204.787109375 195.149414062 207.573242188 335.857421875 c 1
- 264.141601562 392.42578125 l 1
- 764.142578125 392.426757812 l 1
- 792.426757812 364.141601562 l 1
- 735.857421875 307.573242188 l 1
- 288.801757812 307.573242188 l 1
- 276.540039062 198.0390625 236.603515625 121.15234375 192.42578125 64.1416015625 c 1
- 135.857421875 7.5732421875 l 1
+105.969726562 797 m 2
+ 105.969726562 1065 l 2
+ 105.969726562 1101.66699219 118.802734374 1130.83300781 142.469726562 1152.5 c 0
+ 166.136718751 1174.16699219 198.919757773 1185 238.969726562 1185 c 3
+ 466.684532637 1185 559.808035242 1183.00013594 790.969726562 1178 c 1
+ 788.049804688 1110 l 1
+ 253.969726562 1110 l 0
+ 213.969726562 1110 193.969726562 1088 193.969726562 1044 c 2
+ 193.969726562 886 l 1
+ 193.969726562 815 l 1
+ 193.969726562 797 l 2
+ 105.969726562 797 l 2
+788.049804688 1110 m 1025
 EndSplineSet
 EndChar
 
-StartChar: NameMe.141
+StartChar: ubu.vert
 Encoding: 141 -1 209
-Width: 0
-VWidth: 800
-Flags: HW
-HStem: 306.574 84.8525<164.143 698.924>
-AnchorPoint: "Above" 0 500 mark 0
+Width: 900
+VWidth: 500
+Flags: W
+HStem: 1111 74<119 697.989>
+VStem: 707 87<794 1102.45>
 LayerCount: 2
 Back
 SplineSet
@@ -8372,16 +8443,15 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-107.57421875 334.858398438 m 1
- 164.142578125 391.426757812 l 1
- 764.142578125 392.426757812 l 1
- 792.426757812 364.141601562 l 1
- 758.505859375 262.837890625 757.020507812 162.780273438 792.426757812 64.142578125 c 1
- 735.857421875 7.57421875 l 1
- 707.573242188 35.8583984375 l 1
- 675.474609375 125.284179688 673.634765625 215.501953125 698.923828125 307.51171875 c 1
- 135.858398438 306.57421875 l 1
- 107.57421875 334.858398438 l 1
+707 794 m 1
+ 706 1045 l 2
+ 706 1089 683.666666667 1111 639 1111 c 2
+ 119 1111 l 1
+ 116 1178 l 1
+ 232.868913858 1182.66666667 412.202247191 1185 654 1185 c 0
+ 747.333333333 1185 794 1141.66666667 794 1055 c 2
+ 794 794 l 1
+ 707 794 l 1
 EndSplineSet
 EndChar
 
@@ -8846,8 +8916,166 @@ SplineSet
 EndSplineSet
 Ligature2: "sv subtable" slakabu aubu
 EndChar
+
+StartChar: ybu.vert
+Encoding: 143 -1 224
+Width: 900
+VWidth: 500
+Flags: W
+HStem: 914 72<106 406 494 794>
+VStem: 406 88<754 914 986 1150>
+LayerCount: 2
+Fore
+SplineSet
+450 1150 m 1
+ 494 1150 l 1
+ 494 1100 l 1
+ 494 986 l 1
+ 750 986 l 1
+ 794 986 l 1
+ 794 956 l 1
+ 794 914 l 1
+ 750 914 l 1
+ 494 914 l 1
+ 494 804 l 1
+ 494 754 l 1
+ 450 754 l 1
+ 406 754 l 1
+ 406 804 l 1
+ 406 914 l 1
+ 150 914 l 1
+ 106 914 l 1
+ 106 956 l 1
+ 106 986 l 1
+ 150 986 l 1
+ 406 986 l 1
+ 406 1100 l 1
+ 406 1150 l 1
+ 450 1150 l 1
+EndSplineSet
+EndChar
+
+StartChar: eibu.vert
+Encoding: 154 -1 225
+Width: 900
+VWidth: 800
+Flags: W
+HStem: 814 72<194 492> 1111 74<200.35 788.08>
+VStem: 106 88<597 814 886 1105.97>
+LayerCount: 2
+Fore
+SplineSet
+194 886 m 1
+ 492 886 l 1
+ 492 814 l 1
+ 194 814 l 1
+ 194 686 l 1
+ 194 615 l 1
+ 194 597 l 2
+ 106 597 l 2
+ 106 1065 l 2
+ 106 1101.66699219 118.833007812 1130.83300781 142.5 1152.5 c 0
+ 166.166992188 1174.16699219 198.950195312 1185 239 1185 c 3
+ 466.71484375 1185 559.837890625 1183 791 1178 c 1
+ 788.080078125 1111 l 1
+ 254 1111 l 0
+ 214 1111 194 1089 194 1045 c 2
+ 194 886 l 1
+788.080078125 1111 m 1025
+EndSplineSet
+EndChar
+
+StartChar: oibu.vert
+Encoding: 155 -1 226
+Width: 900
+VWidth: 800
+Flags: W
+HStem: 814 72<407 706> 1111 74<110.92 699.65>
+VStem: 706 88<597 814 886 1105.97>
+LayerCount: 2
+Fore
+SplineSet
+706 886 m 1
+ 706 1045 l 2
+ 706 1089 686 1111 646 1111 c 0
+ 110.919921875 1111 l 1
+ 108 1178 l 1
+ 339.580881312 1183 432.872629359 1185 661 1185 c 3
+ 701.049804688 1185 733.833007812 1174.16699219 757.5 1152.5 c 0
+ 781.166992188 1130.83300781 794 1101.66699219 794 1065 c 2
+ 794 597 l 2
+ 706 597 l 2
+ 706 615 l 1
+ 706 686 l 1
+ 706 814 l 1
+ 407 814 l 1
+ 407 886 l 1
+ 706 886 l 1
+110.919921875 1111 m 1025
+EndSplineSet
+EndChar
+
+StartChar: aibu.vert
+Encoding: 156 -1 227
+Width: 900
+VWidth: 800
+Flags: W
+HStem: 913 75<200.35 406 494 788.08> 1171 20G<406 494>
+VStem: 106 88<700 907.536> 406 88<987.498 1191>
+LayerCount: 2
+Fore
+SplineSet
+788.080078125 913 m 1025
+106 700 m 1
+ 106 868 l 2
+ 106 904.666992188 118.833007812 933.833007812 142.5 955.5 c 0
+ 166.166992188 977.166992188 198.950195312 988 239 988 c 0
+ 303.368164062 988 356.982421875 987.83984375 406 987.498046875 c 1
+ 406 1191 l 1
+ 494 1191 l 1
+ 494 986.637695312 l 1
+ 581.375 985.530273438 666.0078125 983.703125 791 981 c 1
+ 788.080078125 913 l 1
+ 254 913 l 2
+ 214 913 194 891 194 847 c 2
+ 194 789 l 1
+ 194 718 l 1
+ 194 700 l 1
+ 106 700 l 1
+EndSplineSet
+EndChar
+
+StartChar: aubu.vert
+Encoding: 157 -1 228
+Width: 900
+VWidth: 800
+Flags: W
+HStem: 913 75<111.92 406 494 699.65> 1171 20G<406 494>
+VStem: 406 88<987.498 1191> 706 88<700 907.536>
+LayerCount: 2
+Fore
+SplineSet
+111.919921875 913 m 1025
+794 700 m 1
+ 706 700 l 1
+ 706 718 l 1
+ 706 789 l 1
+ 706 847 l 2
+ 706 891 686 913 646 913 c 2
+ 111.919921875 913 l 1
+ 109 981 l 1
+ 233.9921875 983.703125 318.625 985.530273438 406 986.637695312 c 1
+ 406 1191 l 1
+ 494 1191 l 1
+ 494 987.498046875 l 1
+ 543.017578125 987.83984375 596.631835938 988 661 988 c 0
+ 701.049804688 988 733.833007812 977.166992188 757.5 955.5 c 0
+ 781.166992188 933.833007812 794 904.666992188 794 868 c 2
+ 794 700 l 1
+EndSplineSet
+EndChar
 EndChars
-BitmapFont: 12 225 10 2 1
+BitmapFont: 12 229 10 2 1
 BDFChar: 0 0 7 1 5 4 9 30
 pkXb$M"grM
 BDFChar: 1 1 7 1 5 4 9 8
@@ -9256,6 +9484,26 @@ BDFChar: 202 228 12 1 5 4 9 0
 po(.TW2K[r
 BDFChar: 203 260 12 1 5 4 9 0
 po(.dW42g-
+BDFChar: 204 138 7 1 5 -1 2 0
+JG=YF
+BDFChar: 206 142 7 1 5 0 2 0
++<^FZ
+BDFChar: 207 139 7 1 5 -1 2 0
+#l"Z2
+BDFChar: 208 140 7 1 5 0 2 0
+pjdkp
+BDFChar: 209 141 7 1 5 0 2 0
+p]q-*
+BDFChar: 224 143 7 1 5 -1 2 0
++S['%
+BDFChar: 225 154 7 1 5 6 9 0
+pji-i
+BDFChar: 226 155 7 1 5 6 9 0
+p^$X#
+BDFChar: 227 156 7 1 5 6 9 0
++<^H0
+BDFChar: 228 157 7 1 5 6 9 0
++<^Fb
 BDFRefChar: 38 32 0 0 N
 BDFRefChar: 104 80 0 0 N
 BDFRefChar: 105 33 0 0 N
@@ -9267,7 +9515,7 @@ BDFRefChar: 121 85 0 0 N
 BDFRefChar: 122 82 0 0 N
 BDFRefChar: 123 83 0 0 N
 EndBitmapFont
-BitmapFont: 13 225 10 3 1
+BitmapFont: 13 229 10 3 1
 Resolution: 75
 BDFChar: 0 0 8 1 6 4 9 32
 r.P!$K_tfM
@@ -9677,6 +9925,26 @@ BDFChar: 202 228 13 1 6 4 9 0
 r1rDLUndtj
 BDFChar: 203 260 13 1 6 4 9 0
 r1s7dUq?[-
+BDFChar: 204 138 8 1 6 -1 3 0
+J:RQJJ,fQL
+BDFChar: 206 142 8 1 6 0 2 0
++<^R^
+BDFChar: 207 139 8 1 6 -1 3 0
+"9eW*"98E%
+BDFChar: 208 140 8 1 6 0 3 0
+r.'<J
+BDFChar: 209 141 8 1 6 0 3 0
+qud-*
+BDFChar: 224 143 8 1 6 -1 3 0
++<^S)+92BA
+BDFChar: 225 154 8 1 6 7 10 0
+r.+]q
+BDFChar: 226 155 8 1 6 7 10 0
+qulp#
+BDFChar: 227 156 8 1 6 7 11 0
++<^T4J,fQL
+BDFChar: 228 157 8 1 6 7 11 0
++<^Rb"98E%
 BDFRefChar: 38 32 0 0 N
 BDFRefChar: 104 80 0 0 N
 BDFRefChar: 105 33 0 0 N
@@ -9688,7 +9956,7 @@ BDFRefChar: 121 85 0 0 N
 BDFRefChar: 122 82 0 0 N
 BDFRefChar: 123 83 0 0 N
 EndBitmapFont
-BitmapFont: 14 225 11 3 1
+BitmapFont: 14 229 11 3 1
 Resolution: 100
 BDFChar: 0 0 8 1 6 5 10 35
 r.Kb$K_tfM
@@ -10098,6 +10366,26 @@ BDFChar: 202 228 14 1 6 4 10 0
 r03H<Pa%70
 BDFChar: 203 260 14 1 6 5 10 0
 r03HDPah^R
+BDFChar: 204 138 8 1 6 -1 3 0
+J:RQJJ,fQL
+BDFChar: 206 142 8 1 6 0 3 0
+&.fEN
+BDFChar: 207 139 8 1 6 -1 2 0
+"T/B*
+BDFChar: 208 140 8 1 6 0 3 0
+r.'<J
+BDFChar: 209 141 8 1 6 0 3 0
+qud-*
+BDFChar: 224 143 8 1 6 -1 3 0
+&.naN&-)\1
+BDFChar: 225 154 8 1 6 7 10 0
+r.+]q
+BDFChar: 226 155 8 1 6 7 10 0
+qulp#
+BDFChar: 227 156 8 1 6 7 11 0
+&.nbiJ,fQL
+BDFChar: 228 157 8 1 6 7 11 0
+&.naB"98E%
 BDFRefChar: 38 32 0 0 N
 BDFRefChar: 104 80 0 0 N
 BDFRefChar: 105 33 0 0 N
@@ -10109,7 +10397,7 @@ BDFRefChar: 121 85 0 0 N
 BDFRefChar: 122 82 0 0 N
 BDFRefChar: 123 83 0 0 N
 EndBitmapFont
-BitmapFont: 15 225 12 3 1
+BitmapFont: 15 229 12 3 1
 BDFStartProperties: 33
 FONT 1 "-FontForge-Dreluhu Future-Regular-R-Normal--15-140-75-75-P-59-dreluhu-0"
 COMMENT 0 "Copyright (c) 2019, Jack"
@@ -10554,6 +10842,26 @@ BDFChar: 202 228 15 1 7 5 11 0
 rfWH8P*1t.
 BDFChar: 203 260 15 1 7 5 11 0
 rfWHDP*2C:
+BDFChar: 204 138 9 1 7 -1 3 0
+J:RWLJ,fQL
+BDFChar: 206 142 9 1 7 0 3 0
+&.fEP
+BDFChar: 207 139 9 1 7 -1 3 0
+!Wr?&!WW3#
+BDFChar: 208 140 9 1 7 0 3 0
+rd]NL
+BDFChar: 209 141 9 1 7 0 3 0
+rW3-&
+BDFChar: 224 143 9 1 7 -1 3 0
+&.ngP&-)\1
+BDFChar: 225 154 9 1 7 8 11 0
+rdauu
+BDFChar: 226 155 9 1 7 8 11 0
+rW<'#
+BDFChar: 227 156 9 1 7 8 12 0
+&.nhkJ,fQL
+BDFChar: 228 157 9 1 7 8 12 0
+&.ngB!WW3#
 BDFRefChar: 38 32 0 0 N
 BDFRefChar: 104 80 0 0 N
 BDFRefChar: 105 33 0 0 N
@@ -10565,7 +10873,7 @@ BDFRefChar: 121 85 0 0 N
 BDFRefChar: 122 82 0 0 N
 BDFRefChar: 123 83 0 0 N
 EndBitmapFont
-BitmapFont: 16 225 13 3 1
+BitmapFont: 16 229 13 3 1
 Resolution: 75
 BDFChar: 0 0 10 1 7 5 12 40
 rdob$JqAUR
@@ -10975,6 +11283,26 @@ BDFChar: 202 228 16 1 8 6 12 0
 s-&Z<PEV11
 BDFChar: 203 260 16 1 8 5 12 0
 s-&ZHPEV3&
+BDFChar: 204 138 10 1 8 -1 3 0
+J:RZMJ,fQL
+BDFChar: 206 142 10 1 8 0 3 0
+&.fEQ
+BDFChar: 207 139 10 1 7 -1 3 0
+!Wr?&!WW3#
+BDFChar: 208 140 10 1 8 0 3 0
+s+#WM
+BDFChar: 209 141 10 1 7 0 3 0
+rW3-&
+BDFChar: 224 143 10 1 7 -1 3 0
+&.ngP&-)\1
+BDFChar: 225 154 10 1 8 9 12 0
+s+(-"
+BDFChar: 226 155 10 1 8 9 12 0
+rr`9'
+BDFChar: 227 156 10 1 8 9 13 0
+&.nklJ,fQL
+BDFChar: 228 157 10 1 8 9 13 0
+&.njD!rr<$
 BDFRefChar: 38 32 0 0 N
 BDFRefChar: 104 80 0 0 N
 BDFRefChar: 105 33 0 0 N
@@ -10986,7 +11314,7 @@ BDFRefChar: 121 85 0 0 N
 BDFRefChar: 122 82 0 0 N
 BDFRefChar: 123 83 0 0 N
 EndBitmapFont
-BitmapFont: 17 225 14 3 1
+BitmapFont: 17 229 14 3 1
 Resolution: 100
 BDFChar: 0 0 10 2 8 6 13 42
 rdo`Rrdob$
@@ -11396,6 +11724,26 @@ BDFChar: 202 228 17 1 8 6 13 0
 s+uShq2'rb
 BDFChar: 203 260 17 1 8 6 13 0
 s+uShs+uSn
+BDFChar: 204 138 10 1 8 -1 3 0
+J:RZMJ,fQL
+BDFChar: 206 142 10 1 8 0 4 0
+#RC\Arr<$!
+BDFChar: 207 139 10 1 8 -1 3 0
+!<N3$!<<*"
+BDFChar: 208 140 10 1 8 0 3 0
+s+#WM
+BDFChar: 209 141 10 1 8 0 3 0
+rrE-$
+BDFChar: 224 143 10 1 8 -1 3 0
+#RLG9#QOi)
+BDFChar: 225 154 10 1 8 9 12 0
+s+(-"
+BDFChar: 226 155 10 1 8 9 12 0
+rrN-#
+BDFChar: 227 156 10 1 8 9 13 0
+#RLH\J,fQL
+BDFChar: 228 157 10 1 8 9 13 0
+#RLG2!<<*"
 BDFRefChar: 38 32 0 0 N
 BDFRefChar: 104 80 0 0 N
 BDFRefChar: 105 33 0 0 N
